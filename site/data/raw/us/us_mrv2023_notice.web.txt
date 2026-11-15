@@ -1,0 +1,260 @@
+Nonimmigrant Visa Fee Increases to Take Effect June 17, 2023 (https://travel.state.gov/content/travel/en/News/visas-news/niv-fee-increases-to-take-effect-june-17-2023.html ; rewritten summary of https://travel.state.gov/en/newsroom/visas/2023/niv-fee-increases-to-take-effect-june-17-2023.html)
+【turn433779view0】 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/News/visas-news/niv-fee-increases-to-take-effect-june-17-2023.html","lineno":null}); Redirected to URL: https://travel.state.gov/en/newsroom/visas/2023/niv-fee-increases-to-take-effect-june-17-2023.html; Total lines: 257
+L0: 【0†Skip to content】
+L1: 
+L2: Worldwide Caution:
+L3: 
+L4: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L5: 
+L6:   * U.S. Passports
+L7: 
+L8:     * Main Menu
+L9:     * 【2†U.S. Passports: Home】
+L10:     * Apply for a U.S. Passport
+L11: 
+L12:       * 【3†Apply for a U.S. Passport: Home】
+L13:       * 【4†Adult Passport】
+L14:       * Child's Passport (Under 18)
+L15:         * 【5†Child's Passport (Under 18): Home】
+L16:         * 【6†Prevent Parental Child Abduction】
+L17:         * 【7†Apply for a Child's Passport Under 16】
+L18:         * 【8†Apply for Your Passport as a 16-17 Year Old】
+L19: 
+L20:       * Get Your Passport Fast
+L21: 
+L22:         * 【9†Get Your Passport Fast: Home】
+L23:         * 【10†Make an Appointment at a Passport Agency】
+L24:         * 【11†Life-or-Death Emergencies】
+L25:         * 【12†Using a Courier Company】
+L26: 
+L27:       * Passport Application Help
+L28:         * 【13†Passport Application Help: Home】
+L29:         * 【14†Passport Photos】
+L30:         * 【15†Passport Forms】
+L31:         * 【16†Citizenship Evidence】
+L32:         * 【17†Photo ID Requirements】
+L33:         * 【18†Passport Fees】
+L34:         * 【19†Where to Apply】
+L35:         * 【20†Get Your Processing Time】
+L36:         * 【21†Compare a Passport Card and Book】
+L37:         * 【22†Design and Security】
+L38: 
+L39:       * Unique Passport Needs
+L40:         * 【23†Unique Passport Needs: Home】
+L41:         * 【24†Apply as a Person with a Disability】
+L42:         * 【25†Apply for a Second Passport Book】
+L43:         * 【26†Sex Markers in Passports】
+L44: 
+L45:     * Renew or Replace a Passport
+L46: 
+L47:       * 【27†Renew or Replace a Passport: Home】
+L48:       * Renew Online
+L49: 
+L50:         * 【28†Renew Online: Home】
+L51:         * 【29†Uploading a Digital Photo】
+L52:       * 【30†Renew by Mail】
+L53:       * 【31†Renew from Canada】
+L54:       * 【32†Report Your Passport Lost or Stolen】
+L55:       * 【33†Change or Correct a Passport】
+L56:       * 【34†Replace a Passport After a Disaster】
+L57:       * 【35†Replace a Limited-Validity Passport】
+L58: 
+L59:     * After You Apply for Your Passport
+L60:       * 【36†After You Apply for Your Passport: Home】
+L61:       * 【37†Check Your Application Status】
+L62:       * 【38†Respond to a Letter or Email】
+L63:       * 【39†After You Get Your New Passport】
+L64:       * 【40†Get Copies of Passport Records】
+L65:       * 【41†Expedited Service Fee Refund】
+L66: 
+L67:     * Contact and Support
+L68: 
+L69:       * 【42†Contact and Support: Home】
+L70:       * 【43†Frequently Asked Questions】
+L71:       * 【44†Passport Surveys and Renewal Reminders】
+L72:       * Legal Matters
+L73:         * 【45†Legal Matters: Home】
+L74:         * 【46†Child Support Debt】
+L75:         * 【47†Passports and International Megan's Law】
+L76:         * 【48†Get a Passport On or After Probation or Parole】
+L77:         * 【49†Passports and Unpaid Federal Taxes】
+L78:         * 【50†Passport Information for Judges and Lawyers】
+L79:         * 【51†Passport Information for Law Enforcement】
+L80: 
+L81:       * 【52†Contact U.S. Passports】
+L82:       * 【53†Share Your Feedback】
+L83:       * 【54†Passport Resources】
+L84: 
+L85:     * [Button: Back to Main Menu ]
+L86:   * International Travel
+L87: 
+L88:     * Main Menu
+L89:     * 【55†International Travel: Home】
+L90:     * Travel Advisories
+L91: 
+L92:       * 【56†Travel Advisories: Home】
+L93:       * 【57†STEP - Smart Traveler Enrollment Program】
+L94:       * Global Events Affecting International Travel
+L95: 
+L96:         * 【58†Global Events Affecting International Travel: Home】
+L97:         * 【59†Middle East】
+L98:         * 【60†Terrorism】
+L99:         * 【1†Worldwide Caution】
+L100: 
+L101:       * 【61†High-Risk Areas】
+L102:       * 【62†Crime】
+L103:       * 【63†Scams】
+L104: 
+L105:     * Planning Your Travel
+L106:       * 【64†Planning Your Travel: Home】
+L107:       * 【65†International Travel Checklist】
+L108:       * International Travel Guidance
+L109:         * 【66†International Travel Guidance: Home】
+L110:         * 【67†DHS Trusted Traveler Programs】
+L111:         * 【68†Driving and Transportation Safety Abroad】
+L112:         * 【69†Information for Travel Industry】
+L113:         * 【70†Laws Abroad】
+L114:         * 【71†Lodging Safety】
+L115:         * 【72†Medicine and Health】
+L116:         * 【73†Travel Insurance】
+L117:         * 【74†U.S. Travelers in Europe】
+L118:         * 【75†Communication Abroad】
+L119: 
+L120:       * Personal Travel Needs
+L121:         * 【76†Personal Travel Needs: Home】
+L122:         * 【77†Accessibility Needs】
+L123:         * 【78†Age 65+ Travelers】
+L124:         * 【79†Dual Nationality】
+L125:         * 【80†Gay and Lesbian Travelers】
+L126:         * 【81†Pets】
+L127:         * 【82†Race and Ethnicity Travel Safety】
+L128:         * 【83†Travel with Minors】
+L129:         * 【84†Women Travelers】
+L130:         * 【85†Mental Health】
+L131: 
+L132:       * Safety Tips for Activities
+L133:         * 【86†Safety Tips for Activities: Home】
+L134:         * 【87†Hajj and Umrah Pilgrimage Travelers】
+L135:         * 【88†Adventure Travelers】
+L136:         * 【89†Boating Safety and Piracy】
+L137:         * 【90†Business Travel and Work Abroad】
+L138:         * 【91†Cruise Ships】
+L139:         * 【92†Faith-Based Travel】
+L140:         * 【93†Firearms】
+L141:         * 【94†Journalists】
+L142:         * 【95†Studying Abroad】
+L143:         * 【96†Volunteering Abroad】
+L144:         * 【97†Kora Pilgrimage to Mount Kailash】
+L145:         * 【98†Mountain Safety】
+L146: 
+L147:     * Living Abroad Resources
+L148:       * 【99†Living Abroad Resources: Home】
+L149:       * 【100†American Citizens Services Abroad】
+L150:       * 【101†Birth】
+L151:       * 【102†Marriage】
+L152:       * 【103†Divorce】
+L153:       * 【104†Death】
+L154:       * 【105†Retirement】
+L155:       * 【106†Federal Benefits and Obligations】
+L156:       * 【107†Criminal Records Checks】
+L157:       * 【108†Voting from Abroad】
+L158: 
+L159:     * Help Abroad
+L160:       * 【109†Help Abroad: Home】
+L161:       * 【110†Crisis Response and Evacuations】
+L162:       * 【111†Lost or Stolen Passport Abroad】
+L163:       * 【112†Victims of Crime】
+L164:       * 【113†Arrest or Detention Abroad】
+L165:       * 【114†Missing U.S. Citizens Abroad】
+L166:       * 【115†Emergency Financial Assistance】
+L167:       * 【116†Suicide Prevention】
+L168: 
+L169:     * [Button: Back to Main Menu ]
+L170: 
+L171:   * 【117†U.S. Visas】
+L172:   * 【118†Intercountry Adoption】
+L173:   * 【119†International Parental Child Abduction】
+L174:   * Replace and Certify Documents
+L175:     * Main Menu
+L176:     * 【120†Replace and Certify Documents: Home】
+L177:     * Authenticate Your Document
+L178: 
+L179:       * 【121†Authenticate Your Document: Home】
+L180:       * 【122†Request Authentication Services】
+L181:       * 【123†Notarial and Authentication Services at U.S. Embassies and Consulates】
+L182:       * 【124†Prepare Document for an Authentication Certificate】
+L183:       * 【125†Prepare Document for an Apostille Certificate】
+L184:       * 【126†Contact Authentications】
+L185: 
+L186:     * Request a Life Event Record as a U.S. Citizen
+L187:       * 【127†Request a Life Event Record as a U.S. Citizen: Home】
+L188:       * 【128†Replace or Amend a Consular Report of Birth Abroad】
+L189:       * 【129†Request a Copy of a Consular Report of Death Abroad】
+L190:       * 【130†Request a Copy of a Certificate of Witness to Marriage Abroad】
+L191:       * 【131†Request a Copy of a Panama Canal Zone Record】
+L192:       * 【132†Frequently Asked Questions about Life Event Records】
+L193:       * 【133†Contact Vital Records】
+L194: 
+L195:     * [Button: Back to Main Menu ]
+L196:   * 【134†Careers†careers.state.gov】
+L197:   * 【135†About】
+L198:   * 【136†Contacts】
+L199:   * 【137†Login】
+L200: [Button: Close Nav ]
+L201: # Nonimmigrant Visa Fee Increases to Take Effect June 17, 2023
+L202: 
+L203: Published: June 2, 2023
+L204: 
+L205: Visas
+L206: On June 17, 2023, the nonimmigrant visa (NIV) application processing fee for visitor visas for business or tourism (B1/B2s and BCCs), and other non-petition based NIVs such as student and exchange visitor visas (F, M, and J visas), will increase from $160 to $185. The fee for certain petition-based NIVs for temporary workers (H, L, O, P, Q, and R categories) will increase from $190 to $205.
+L207: The fee for a treaty trader, treaty investor, and treaty applicants in a specialty occupation (nonimmigrant E category) visa will increase from $205 to $315. NIV fees paid prior to June 17, 2023, will remain valid through the expiration date of the fee receipt.
+L208: NIV fees are set based on the actual cost of providing NIV services and are determined after conducting a study of the cost of these services. The Department uses an Activity-Based Costing (ABC) methodology to calculate, annually, the cost of providing consular services, including visa services. The fees for most non-petition based NIVs were last updated in 2012, and certain other visa fees were last updated in 2014.
+L209: This rule does not change any other fees, including the fee to apply for a waiver of the two-year residency requirement for certain exchange visitors, which remains at $120.
+L210: 
+L211: Fee information can be found on the Bureau of Consular Affairs website, 【138†https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html】, and on the websites of U.S. embassies and consulates.
+L212: 
+L213: 【139†Return to top】
+L214: 
+L215: Last Updated: June 02, 2023
+L216: 
+L217: Owned by Visa Services Office
+L218: ## Travel.State.Gov Services
+L219: 
+L220:   * 【2†U.S. Passports】
+L221:   * 【117†U.S. Visas】
+L222:   * 【55†International Travel】
+L223:   * 【118†Intercountry Adoption】
+L224:   * 【119†International Parental Child Abduction】
+L225:   * 【140†Replace or Certify Documents】
+L226: 
+L227: ## Organization
+L228: 
+L229:   * 【135†About】
+L230:   * 【134†Careers(opens in a new tab)†careers.state.gov】
+L231:   * 【141†Newsroom】
+L232:   * 【56†Travel Advisories】
+L233:   * 【142†Find U.S. Embassies and Consulates(opens in a new tab)†www.usembassy.gov】
+L234:   * 【143†Glossary】
+L235: ## Legal Resources
+L236: 
+L237:   * 【144†Legal Information】
+L238:   * 【145†Info for U.S. Law Enforcement】
+L239:   * 【146†Reports and Statistics】
+L240: 
+L241: The State Department provides external links solely for our readers' information and convenience. 【147†Disclaimer Details】
+L242: 
+L243: An official website of the 【148†Department of State - Bureau of Consular Affairs†www.state.gov】
+L244:   * 【149†About Department of State(opens in a new tab)†www.state.gov】
+L245:   * 【150†Accessibility Support†www.state.gov】
+L246:   * 【147†Copyright and Disclaimer】
+L247:   * 【151†Freedom of Information Act Requests†foia.state.gov】
+L248:   * 【152†No FEAR Act Data†www.state.gov】
+L249:   * 【153†Office of the Inspector General†www.stateoig.gov】
+L250:   * 【154†Performance reports†www.state.gov】
+L251:   * 【155†Privacy Policy†www.state.gov】
+L252: 
+L253: Looking for U.S. government information and services?
+L254:   * 【156†USA.gov(opens in a new tab)†www.usa.gov】
+L255:   * 【157†USA.gov/espanol(opens in a new tab)†www.usa.gov】
+L256:   * 【158†GSA.gov(opens in a new tab)†www.gsa.gov】
+

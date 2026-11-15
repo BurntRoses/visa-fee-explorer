@@ -1,0 +1,183 @@
+ (https://travel.state.gov/content/dam/visas/Statistics/AnnualReports/FY2024AnnualReport/Table%20XVB.pdf)
+【turn135417view0】 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 3; Source: open({"ref_id":"https://travel.state.gov/content/dam/visas/Statistics/AnnualReports/FY2024AnnualReport/Table%20XVB.pdf","lineno":null}); Total lines: 180
+L0@P0: 2020 2021 2022 2023 2024
+L1@P0: A1 Ambassador, public minister, career diplomat, consul, and
+L2@P0: immediate family
+L3@P0: 7,106 9,171 9,395 9,448 9,469
+L4@P0: A2 Other foreign government official or employee, and
+L5@P0: immediate family
+L6@P0: 48,358 47,027 85,752 98,550 96,693
+L7@P0: A3 Attendant, servant, or personal employee of A1 and A2, and
+L8@P0: immediate family
+L9@P0: 415 696 808 680 884
+L10@P0: B1 Temporary visitor for business 17,919 13,449 21,943 29,286 31,544
+L11@P0: B1/B2 Temporary visitor for business and pleasure 2,164,021 814,957 3,228,199 5,902,426 6,498,006
+L12@P0: B1/B2/BCC Combination B1/B2 and Border Crossing Card 625,726 470,501 1,182,329 1,776,152 1,871,765
+L13@P0: B1/B2/BCV Combination B1/B2 and Border Crossing Card (Lincoln Foil) 36,810 42,388 62,153 44,878 39,987
+L14@P0: B2 Temporary visitor for pleasure 5,276 2,492 5,905 8,085 12,072
+L15@P0: C1 Person in transit 5,228 3,790 8,643 15,420 11,451
+L16@P0: C1/D Combination transit/crew member 161,076 158,018 253,424 353,164 324,098
+L17@P0: C2 Person in transit to United Nations Headquarters 1 4 32 239 364
+L18@P0: C3 Foreign government official, immediate family, attendant,
+L19@P0: servant, or personal employee in transit
+L20@P0: 2,355 2,507 3,337 4,044 3,746
+L21@P0: C4 Transit for lightering crewmember - - - - 1
+L22@P0: C4/D3 Combination lightering and transit - - - - 4
+L23@P0: CW1 Commonwealth of Northern Mariana Islands transitional
+L24@P0: worker
+L25@P0: 975 400 1,041 1,845 2,517
+L26@P0: CW2 Spouse or child of CW1 140 129 244 464 651
+L27@P0: D Crew member 6,597 2,497 7,381 10,038 6,342
+L28@P0: D3 Lightering - - - - 0
+L29@P0: E1 Treaty trader, spouse and children 3,278 4,851 5,383 5,806 5,639
+L30@P0: E2 Treaty investor, spouse and children 23,493 33,129 45,878 54,812 55,324
+L31@P0: E2C Commonwealth of the Northern Mariana Islands investor,
+L32@P0: spouse and children
+L33@P0: 27 20 34 42 28
+L34@P0: E3 Australian specialty occupation professional 3,144 2,309 4,731 4,434 3,933
+L35@P0: E3D Spouse or child of Australian specialty occupation
+L36@P0: professional
+L37@P0: 2,267 1,623 3,292 3,759 3,574
+L38@P0: E3R Returning Australian specialty occupation professional 1,775 1,092 2,631 2,410 3,100
+L39@P0: F1 Student (academic or language training program) 111,387 357,839 411,131 445,418 400,737
+L40@P0: F2 Spouse or child of student 9,818 19,820 25,887 26,844 24,055
+L41@P0: F3 Border commuter academic or language student 0 0 0 0 0
+L42@P0: G1 Principal resident representive of recognized foreign
+L43@P0: member government to international organization, staff, and
+L44@P0: immediate family
+L45@P0: 3,754 5,028 4,382 4,935 4,786
+L46@P0: G2 Other representative of recognized foreign member
+L47@P0: government to international organization, and immediate
+L48@P0: family
+L49@P0: 5,026 3,772 13,092 16,657 16,553
+L50@P0: G3 Representative of nonrecognized or nonmember foreign
+L51@P0: government to international organization, and immediate
+L52@P0: family
+L53@P0: 162 171 357 375 422
+L54@P0: Visa Symbol/Class
+L55@P0: Table XV(B)
+L56@P0: Nonimmigrant Visas Issued by Classification
+L57@P0: (Including Border Crossing Cards)
+L58@P0: Fiscal Years 2020-2024*
+L59@P0: *Due to the COVID-19 pandemic, posts were instructed to suspend routine visa services and provide only mission critical and emergency services in late
+L60@P0: March 2020. This had a significant impact on the provision of Immigrant and Nonimmigrant Visa-related services. Posts were only able to resume
+L61@P0-1: limited services on a post-by-post basis beginning in July 2020, as local conditions allowed.Visa Symbol/Class 2020 2021 2022 2023 2024
+L62@P1: Table XV(B)
+L63@P1: Nonimmigrant Visas Issued by Classification
+L64@P1: (Including Border Crossing Cards)
+L65@P1: Fiscal Years 2020-2024*
+L66@P1: *Due to the COVID-19 pandemic, posts were instructed to suspend routine visa services and provide only mission critical and emergency services in late
+L67@P1: March 2020. This had a significant impact on the provision of Immigrant and Nonimmigrant Visa-related services. Posts were only able to resume
+L68@P1: limited services on a post-by-post basis beginning in July 2020, as local conditions allowed.
+L69@P1: G4 International organization officer or employee, and
+L70@P1: immediate family
+L71@P1: 13,749 15,016 19,944 25,809 22,365
+L72@P1: G5 Attendant, servant, or personal employee of G1 through G4,
+L73@P1: and immediate family
+L74@P1: 149 83 281 200 236
+L75@P1: H1B Temporary worker of distinguished merit and ability
+L76@P1: performing services other than as a registered nurse
+L77@P1: 124,983 61,569 206,002 265,777 219,659
+L78@P1: H1B1 Free Trade Agreement Professional 1,083 1,586 2,376 3,039 3,070
+L79@P1: H1C Shortage area nurse 0 0 0 0 0
+L80@P1: H2A Temporary worker performing agricultural services 213,394 257,898 298,336 310,676 315,328
+L81@P1: H2B Temporary worker performing other services 61,865 95,053 124,644 131,704 139,541
+L82@P1: H3 Trainee 475 382 695 882 924
+L83@P1: H4 Spouse or child of H1B/B1/C, H2A/B, or H3 66,323 55,444 137,246 186,748 139,874
+L84@P1: I Representative of foreign information media, spouse and
+L85@P1: children
+L86@P1: 4,888 4,550 9,917 10,796 12,924
+L87@P1: J1 Exchange visitor 108,510 129,662 284,486 316,693 322,820
+L88@P1: J2 Spouse or child of exchange visitor 15,232 18,961 30,579 32,028 32,512
+L89@P1: K1 Fiance(e) of U.S. citizen 16,849 19,218 21,351 19,825 47,579
+L90@P1: K2 Child of K1 2,460 2,699 3,441 3,178 7,306
+L91@P1: K3 Certain spouse of U.S. citizen 2 2 5 6 3
+L92@P1: K4 Child of K3 4 0 1 0 0
+L93@P1: L1 Intracompany transferee (executive, managerial, and
+L94@P1: specialized personnel continuing employment with
+L95@P1: international firm or corporation)
+L96@P1: 35,942 24,863 72,958 76,671 71,799
+L97@P1: L2 Spouse or child of intracompany transferee 35,710 30,354 78,448 83,277 73,317
+L98@P1: M1 Vocational and other nonacademic student 3,928 4,554 5,271 6,052 6,322
+L99@P1: M2 Spouse or child of vocational student 119 219 242 195 169
+L100@P1: M3 Border commuter vocational or nonacademic student 0 0 0 0 0
+L101@P1: N8 Parent of SK3 or SN3 special immigrant 8 10 13 7 10
+L102@P1: N9 Child of N8 or of SK1, SK2, SK4, SN1, SN2, or SN4
+L103@P1: special immigrant
+L104@P1: 2 1 1 1 0
+L105@P1: NATO1 Principal permanent representative of member state to
+L106@P1: NATO (including any of its subsidiary bodies) resident in
+L107@P1: the U.S.,and resident members of official staff; principal
+L108@P1: NATO officers; and immediate family
+L109@P1: 6 26 15 5 28
+L110@P1: NATO2 Other representatives of member states to NATO (including
+L111@P1: any of its subsidiary bodies), and immediate family;
+L112@P1: dependents of member of a force entering in accordance with
+L113@P1: provisions of NATO agreements; members of such force if
+L114@P1: issued visas
+L115@P1: 5,199 6,977 7,370 7,058 8,630
+L116@P1: NATO3 Official clerical staff accompanying a representative of
+L117@P1: member state to NATO, and immediate family
+L118@P1: 0 1 3 0 3
+L119@P1: NATO4 Officials of NATO (other than those classifiable as
+L120@P1: NATO1), and immediate family
+L121@P1-2: 110 70 163 208 333Visa Symbol/Class 2020 2021 2022 2023 2024
+L122@P2: Table XV(B)
+L123@P2: Nonimmigrant Visas Issued by Classification
+L124@P2: (Including Border Crossing Cards)
+L125@P2: Fiscal Years 2020-2024*
+L126@P2: *Due to the COVID-19 pandemic, posts were instructed to suspend routine visa services and provide only mission critical and emergency services in late
+L127@P2: March 2020. This had a significant impact on the provision of Immigrant and Nonimmigrant Visa-related services. Posts were only able to resume
+L128@P2: limited services on a post-by-post basis beginning in July 2020, as local conditions allowed.
+L129@P2: NATO5 Experts, other than NATO4 officials, employed in missions
+L130@P2: on behalf of NATO, and their dependents
+L131@P2: 14 10 62 80 70
+L132@P2: NATO6 Members of a civilian component accompanying a force
+L133@P2: entering in accordance with the provisions of NATO
+L134@P2: agreements, and their dependents
+L135@P2: 437 496 863 856 1,914
+L136@P2: NATO7 Attendant, servant, or personal employee of NATO1 through
+L137@P2: NATO6, and immediate family
+L138@P2: 1 2 0 0 1
+L139@P2: O1 Person with extraordinary ability in the sciences, art,
+L140@P2: education, business, or athletics
+L141@P2: 8,838 7,294 19,102 18,994 19,457
+L142@P2: O2 Person accompanying and assisting in the artistic or athletic
+L143@P2: performance by O1
+L144@P2: 3,919 2,870 11,586 13,335 13,922
+L145@P2: O3 Spouse or child of O1 or O2 2,658 2,838 6,234 6,453 6,035
+L146@P2: P1 Internationally recognized athlete or member of an
+L147@P2: internationally recognized entertainment group
+L148@P2: 11,710 8,825 20,287 24,165 24,494
+L149@P2: P2 Artist or entertainer in a reciprocal exchange program 48 13 59 65 79
+L150@P2: P3 Artist or entertainer in a culturally unique program 3,585 743 5,294 8,806 10,213
+L151@P2: P4 Spouse or child of P1, P2, or P3 968 972 1,717 1,994 1,886
+L152@P2: Q1 Participant in an International Cultural Exchange Program 755 98 1,057 1,677 1,781
+L153@P2: R1 Person in a religious occupation 1,732 1,942 4,098 5,330 5,186
+L154@P2: R2 Spouse or child of R1 667 835 1,806 2,679 2,709
+L155@P2: S5 Informant possessing critical reliable information concerning
+L156@P2: criminal organization or enterprise
+L157@P2: 0 0 0 0 0
+L158@P2: S6 Informant possessing critical reliable information concerning
+L159@P2: terrorist organization, enterprise, or operation
+L160@P2: 0 0 0 0 0
+L161@P2: S7 Spouse, married or unmarried son or daughter, or parent of
+L162@P2: S5 or S6
+L163@P2: 0 0 0 0 0
+L164@P2: T1 Victim of a severe form of trafficking in persons 0 0 0 0 0
+L165@P2: T2 Spouse of T1 33 32 32 95 72
+L166@P2: T3 Child of T1 131 173 208 340 291
+L167@P2: T4 Parent of T1 under 21 years of age 18 28 27 58 56
+L168@P2: T5 Unmarried sibling under age 18 of T1 under 21 years of age 14 29 18 50 36
+L169@P2: T6 Adult/minor child of derivative beneficiary of T1 24 17 21 11 24
+L170@P2: TN United States-Mexico-Canada Agreement (USMCA)
+L171@P2: professional
+L172@P2: 13,771 24,903 33,361 32,904 15,672
+L173@P2: TD Spouse or child of TN 6,055 11,920 16,575 17,600 12,199
+L174@P2: U1 Victim of criminal activity 79 138 178 225 155
+L175@P2: U2 Spouse of U1 71 96 114 216 148
+L176@P2: U3 Child of U1 544 894 1,191 1,306 999
+L177@P2: U4 Parent of U1 under 21 years of age 6 17 18 18 23
+L178@P2: U5 Unmarried sibling under age 18 of U1 under 21 years of age 8 20 40 24 17
+L179@P2: Grand Total 4,013,210 2,792,083 6,815,120 10,438,327 10,969,936
+

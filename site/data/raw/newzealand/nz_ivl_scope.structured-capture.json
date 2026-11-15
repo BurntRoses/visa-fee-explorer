@@ -1,0 +1,18 @@
+{
+  "source_id": "nz_ivl_scope",
+  "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/fees-processing-times-and-refunds/paying-the-international-visitor-levy/",
+  "title": "Paying the International Visitor Levy",
+  "institution": "Immigration New Zealand",
+  "published_at": null,
+  "retrieved_at": "2026-11-14T17:56:47.929648+00:00",
+  "research_cutoff": "2026-11-15",
+  "capture_method": "web_reader_structured_factual_capture",
+  "source_locator": "Who must pay / who does not / when to pay; web reader lines 10–65",
+  "facts": {
+    "IVL_NZD_per_eligible_person": 100,
+    "payment_stage": "visa application or NZeTA request; charged each eligible application/request, not each entry",
+    "refusal_refund": false,
+    "examples_exempt": "Australian/NZ passports, many Pacific passports, transit, NZ residents, Australian residents, business visitor/APEC; partner/dependent categories exclusions."
+  },
+  "note": "Paraphrased factual capture from official page read through web tool; not raw HTML. Direct HTTP 403 where recorded in search_log."
+}

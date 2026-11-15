@@ -1,0 +1,1001 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	
+
+<meta charset="UTF-8">
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge"/>호환성보기 제거 -->
+<meta name="title" content="KOREA VISA PORTAL"/>
+<meta name="author" content="KOREA VISA PORTAL"/>
+<meta name="keywords" content="KOREA VISA PORTAL"/>
+<meta name="robots" content="noindex, follow"/>
+<title>KOREA VISA PORTAL</title>
+  
+  
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="/images/favicon_m.ico" type="image/x-icon"/>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" /><![endif]-->
+
+<!-- calendar css -->
+<link href="/css/jquery-ui-1.10.4.custom.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	//<![CDATA[
+	// 세션 관련 스크립트 변수 설정
+	var gfv_seLang = 'KO';
+	var gfv_flagYn = "";
+	
+	// 날짜 관련 스크립트 변수 설정
+	var gfv_time = new Date("2026","10","15");	
+	var gfv_month = gfv_time.getMonth()+1;	
+	gfv_month = (gfv_month.toString().length == 1) ? "0" + gfv_month : gfv_month;	
+	var gfv_date = (gfv_time.getDate().toString().length == 1) ? "0" + gfv_time.getDate() : gfv_time.getDate();
+	var gfv_currentDate = gfv_time.getFullYear() + "-" + gfv_month + "-" + gfv_date;
+	// ]]>
+</script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="/js/jquery/jquery-1.10.2.js" ></script>
+<script type="text/javascript" src="/js/jquery/jquery.form.js" ></script>
+<script type="text/javascript" src="/js/json/json2.js" ></script> 
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.10.4.custom.js" ></script>
+
+<!-- 공통 -->    
+<script type="text/javascript" src="/js/common.js" ></script>  
+<script type="text/javascript" src="/js/dateUtils.js" ></script>
+<script type="text/javascript" src="/js/etcUtils.js" ></script>
+<script type="text/javascript" src="/js/numberUtils.js" ></script>
+<script type="text/javascript" src="/js/stringUtils.js" ></script>
+<script type="text/javascript" src="/js/validationUtils.js" ></script>
+<script type="text/javascript" src="/js/fileUtils.js" ></script>
+
+<!-- rexpert -->    
+
+
+<!-- 마스크 -->
+<script type="text/javascript" src="/js/mask/public.js" ></script>
+<script type="text/javascript" src="/js/mask/contact.js" ></script>
+<script type="text/javascript" src="/js/mask/ibmaskedit.js" ></script>
+<script type="text/javascript" src="/js/mask/ibmaskeditinfo.js" ></script>
+<script type="text/javascript" src="/js/mask/iepngfix_tilebg.js" ></script>
+<script type="text/javascript" src="/js/mask/jquery.cookie.js" ></script>
+<script type="text/javascript" src="/js/mask/jquery.easing.1.3.js" ></script>
+	<!-- IBSheet 개발시에만 include -->
+	
+
+<!-- ibsheet include-->
+<script type="text/javascript" src="/Sheet/ibleaders.js"></script>
+<script type="text/javascript" src="/Sheet/ibsheet.js" ></script>
+<script type="text/javascript" src="/Sheet/ibsheetinfo.js" ></script>
+<script type="text/javascript" src="/Sheet/debounce.js" ></script>
+
+<script type="text/javascript" src="/js/ibsheetUtils.js" ></script>
+	<script type="text/javaScript" language="javascript" >
+	// <![CDATA[
+	var arrTran = [];	// 트랜젝션 배열을 세팅할 트랜젝션 관리 배열
+	
+	// 주의점 : 트랜젝션명은 고유해야 한다.
+	var arrTranNamesA = [];	// 트랜젝션명 A 을 설정할 배열 
+	arrTranNamesA[0] = "masterTran";
+	arrTran[0] = arrTranNamesA;
+	
+	$(document).ready(function(){
+		gfn_setTran(arrTran);
+		
+		if(""!=""){
+			$("#IN_NAT_CD").val("");
+		}	
+		
+		$("#btnSearch").on("click",function(){ //조회 버튼 클릭
+			//if(fn_isValidParams()==true){
+				fn_search();
+			//}
+		});
+		$("a[name='noAmtPop']").on("click", function(){
+		 
+			fn_informationPop();
+		});
+		$("a[name='amtAdjNatPop']").on("click", function(){ 
+			fn_amtAdjustNatPop();
+		});
+		
+		
+	});
+	
+	
+	function fn_search(){
+		
+		//gfn_beginLoad(arrTranNamesA[0]);
+		
+		var searchAjax = new ComAjax();
+		searchAjax.setCallBack("fn_searchCallback");
+		searchAjax.addParam("IN_NAT_CD", $('#IN_NAT_CD').val());
+		//searchAjax.addParam("IN_VISA_KIND", $('#IN_VISA_KIND').val());
+		searchAjax.setUrl("/biz/vg/sq/ch/selectVisaAmtList.do");
+		searchAjax.tran();
+			 
+	}
+	
+	
+	function fn_searchCallback(data){
+		
+		gfn_endLoad(arrTranNamesA[0]);
+		
+		$("#result tbody").empty();
+		$("#result thead").empty();
+	
+		var result = "";
+		var result1 = "";
+		
+		var count = 0;
+			
+			$.each(data, function(key, value){
+				
+				if(gfn_isNull(value) == false){
+					result +=   "<tr>"+
+									"<th scope='col' ><span>적용체류자격</span></th>"+
+									"<th scope='col'  class='non_bg'>체류기간</th>"+
+									"<th scope='col'   class='non_bg'><span>비자종류</span></th>"+
+									"<th scope='col'  class='non_bg'>수수료</th>"+
+									"<th scope='col'  class='non_bg'>비고</th>"+
+								"</tr>";
+				
+								
+						$.each(value, function(key, value){
+							count++;
+							result1 += 
+										"<tr>"+										
+											"<td>"+value.SOJ_QUAL_GRP+"</td>"+
+											"<td>"+value.SOJ_DUR+"</td>"+
+											"<td>"+value.VISA_KIND+"</td>"+
+											"<td>"+value.AMT+"</td>"+
+											"<td class='align_l'>"+value.RMK+"</td>"+						
+										"</tr>";
+									
+						});
+				}
+				
+				else{
+					result1=
+						"<tr>" +
+							"<td class='align_c' colspan='4'>조회된 데이터가 없습니다.<!-- 조회된 데이터가 없습니다. --></th>"+
+						"</tr>";
+				}  
+
+			});
+		
+		totalCount="<p class='total'>총 <span class='red_txt bold'>"+count+"</span>건이 조회되었습니다.</p>";
+		
+		$("#result").find('thead').append(result);
+		$("#result").find('tbody').append(result1);
+	}
+			
+	
+	
+	function fn_setNatCombo(){
+		var openAjax = new ComAjax();
+		openAjax.setUrl("/biz/vg/sq/ch/selectNatList.do");
+		openAjax.setCallBack("fn_natComboCallback");
+		openAjax.addParam("IN_CONT_CD", $('#IN_CONT_CD').val());
+		openAjax.tran(); 
+		
+	};
+	
+	
+	function fn_natComboCallback(data){
+		$("#IN_NAT_CD option").remove();
+		result = "<option value=''>전체</option>";
+		$.each(data, function(key, value){
+			$.each(value, function(key, value){
+				
+				result += "<option value='"+value.NAT_CD+"'>"+value.NAT_ENG_NM+"</option>";
+			});
+		});
+		
+		$("#IN_NAT_CD").append(result);
+	}       
+	            
+	
+	function fn_informationPop(){
+		var objParams = {
+			INDEX : "#information1"	
+		}; 
+		var strFile = "/biz/vg/sq/ch/VGSQCH01P01S"; //팝업창 호출
+		//var strFile = "redirect:/sample/selectOfficeList.do"; //팝업창 호출과 동시에 
+		var strPopName="information"; //팝업 명 설정
+	 	gfn_openPopUp(strFile,strPopName,objParams,"760","700"); //공통 팝업 호출
+	}		
+	
+	
+	function fn_amtAdjustNatPop(){
+		var objParams = {
+			INDEX : "#information1"	
+		}; 
+		var strFile = "/biz/vg/sq/ch/VGSQCH01P02S"; //팝업창 호출
+		//var strFile = "redirect:/sample/selectOfficeList.do"; //팝업창 호출과 동시에 
+		var strPopName="information"; //팝업 명 설정
+	 	gfn_openPopUp(strFile,strPopName,objParams,"820","740"); //공통 팝업 호출
+	}		
+	// ]]>
+</script>
+</head>
+
+<body class="ko">
+<!-- 로딩 사용시 -->
+	
+
+
+<div class="loading_bar">
+	<div class="loading_bg">
+		<p><img src="/images/ico/ico_loading.gif" alt="" /></p>
+		<p>로딩중입니다. 잠시만 기다려주세요.</p>
+	</div>		
+</div>
+
+	<div id="wrap">
+		<div id="header">
+			<div class="gnbwrap">
+				
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+	var gfv_strLnbJson = '{"PARENT_MENU110":{"MENU_CNT":4,"INDEX":59},"PARENT_MENU111":{"MENU_CNT":3,"INDEX":63},"PARENT_MENU101":{"MENU_CNT":9,"INDEX":0},"PARENT_MENU112":{"MENU_CNT":14,"INDEX":66},"PARENT_MENU102":{"MENU_CNT":8,"INDEX":9},"PARENT_MENU113":{"MENU_CNT":5,"INDEX":80},"INFO":[{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":101,"CH_USE_YN":"Y","RN":1,"MENU_NAME":"비자안내","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10101,"CH_USE_YN":"Y","RN":2,"MENU_NAME":"비자 내비게이터","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10102,"CH_USE_YN":"Y","RN":3,"MENU_NAME":"입국목적별 비자 종류","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10105,"CH_USE_YN":"Y","RN":4,"MENU_NAME":"신청절차","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10109,"CH_USE_YN":"Y","RN":5,"MENU_NAME":"사증신청 서류 안내","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10108,"CH_USE_YN":"Y","RN":6,"MENU_NAME":"각종 신청 서식","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10103,"CH_USE_YN":"Y","RN":7,"MENU_NAME":"수수료","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10107,"CH_USE_YN":"Y","RN":8,"MENU_NAME":"입국 및 체류","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":101,"MENU_CNT":9,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10106,"CH_USE_YN":"Y","RN":9,"MENU_NAME":"재외공관 안내","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":102,"CH_USE_YN":"Y","RN":10,"MENU_NAME":"신청","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10205,"CH_USE_YN":"Y","RN":11,"MENU_NAME":"비자발급인정서","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10201,"CH_USE_YN":"Y","RN":12,"MENU_NAME":"전자비자(개인)","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10203,"CH_USE_YN":"Y","RN":13,"MENU_NAME":"전자비자(단체)","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10204,"CH_USE_YN":"Y","RN":14,"MENU_NAME":"전자서식(비자신청서)","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10206,"CH_USE_YN":"Y","RN":15,"MENU_NAME":"무비자","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10207,"CH_USE_YN":"Y","RN":16,"MENU_NAME":"방문취업 사전신청","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":102,"MENU_CNT":8,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10208,"CH_USE_YN":"Y","RN":17,"MENU_NAME":"비자여권정보변경","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":103,"CH_USE_YN":"Y","RN":18,"MENU_NAME":"조회\/발급","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10301,"CH_USE_YN":"Y","RN":19,"MENU_NAME":"진행현황 조회 및 출력","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10306,"CH_USE_YN":"Y","RN":20,"MENU_NAME":"비자발급인정서","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10303,"CH_USE_YN":"Y","RN":21,"MENU_NAME":"전자비자(개인)","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10304,"CH_USE_YN":"Y","RN":22,"MENU_NAME":"전자비자(단체)\/유치확인","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10305,"CH_USE_YN":"Y","RN":23,"MENU_NAME":"초청확인","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10309,"CH_USE_YN":"Y","RN":24,"MENU_NAME":"무비자","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10302,"CH_USE_YN":"Y","RN":25,"MENU_NAME":"방문취업당첨확인","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10308,"CH_USE_YN":"Y","RN":26,"MENU_NAME":"의료관광 유치기관 조회","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":103,"MENU_CNT":10,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10311,"CH_USE_YN":"Y","RN":27,"MENU_NAME":"고용추천","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":104,"CH_USE_YN":"Y","RN":28,"MENU_NAME":"투자이민","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10401,"CH_USE_YN":"Y","RN":29,"MENU_NAME":"공익사업 투자이민제","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10402,"CH_USE_YN":"Y","RN":30,"MENU_NAME":"관광·휴양시설 투자이민제","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10403,"CH_USE_YN":"Y","RN":31,"MENU_NAME":"글로벌인재비자센터","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10404,"CH_USE_YN":"Y","RN":32,"MENU_NAME":"전담은행","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10406,"CH_USE_YN":"Y","RN":33,"MENU_NAME":"공지사항","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":104,"MENU_CNT":7,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10407,"CH_USE_YN":"Y","RN":34,"MENU_NAME":"자주묻는질문","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":105,"CH_USE_YN":"Y","RN":35,"MENU_NAME":"고객센터","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10501,"CH_USE_YN":"Y","RN":36,"MENU_NAME":"공지사항","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10502,"CH_USE_YN":"Y","RN":37,"MENU_NAME":"자주묻는질문","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10503,"CH_USE_YN":"Y","RN":38,"MENU_NAME":"자료실","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10504,"CH_USE_YN":"Y","RN":39,"MENU_NAME":"사이트이용방법","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":105,"MENU_CNT":6,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10509,"CH_USE_YN":"Y","RN":40,"MENU_NAME":"설문조사","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":106,"MENU_CNT":4,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":106,"CH_USE_YN":"Y","RN":41,"MENU_NAME":"회원","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":106,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10601,"CH_USE_YN":"Y","RN":42,"MENU_NAME":"회원가입","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":106,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10602,"CH_USE_YN":"Y","RN":43,"MENU_NAME":"로그인","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":106,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10603,"CH_USE_YN":"Y","RN":44,"MENU_NAME":"아이디\/비밀번호 찾기","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":107,"MENU_CNT":5,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":107,"CH_USE_YN":"Y","RN":45,"MENU_NAME":"마이페이지","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":107,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10701,"CH_USE_YN":"Y","RN":46,"MENU_NAME":"회원정보","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":107,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10702,"CH_USE_YN":"Y","RN":47,"MENU_NAME":"비밀번호 변경","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":107,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10704,"CH_USE_YN":"Y","RN":48,"MENU_NAME":"결제현황","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":107,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":10705,"CH_USE_YN":"N","RN":49,"MENU_NAME":"회원탈퇴","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":108,"MENU_CNT":5,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":108,"CH_USE_YN":"Y","RN":50,"MENU_NAME":"기타","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":108,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10801,"CH_USE_YN":"Y","RN":51,"MENU_NAME":"사이트맵","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":108,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10802,"CH_USE_YN":"Y","RN":52,"MENU_NAME":"이용약관","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":108,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10803,"CH_USE_YN":"Y","RN":53,"MENU_NAME":"개인정보 처리방침","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":108,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10804,"CH_USE_YN":"Y","RN":54,"MENU_NAME":"저작권 보호정책","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":109,"MENU_CNT":5,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":109,"CH_USE_YN":"Y","RN":55,"MENU_NAME":"비자신청센터","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":109,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10901,"CH_USE_YN":"Y","RN":56,"MENU_NAME":"비밀번호변경","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":109,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10902,"CH_USE_YN":"Y","RN":57,"MENU_NAME":"사용자관리","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":109,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10903,"CH_USE_YN":"Y","RN":58,"MENU_NAME":"비자신청목록조회","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":109,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":10904,"CH_USE_YN":"Y","RN":59,"MENU_NAME":"비자신청","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":110,"MENU_CNT":4,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":110,"CH_USE_YN":"Y","RN":60,"MENU_NAME":"계절근로자","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":110,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11001,"CH_USE_YN":"N","RN":61,"MENU_NAME":"계절근로자 도입 계획서 조회","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":110,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11003,"CH_USE_YN":"N","RN":62,"MENU_NAME":"계절근로자 도입 계획서 등록","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":110,"MENU_CNT":4,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11009,"CH_USE_YN":"N","RN":63,"MENU_NAME":"MOU 지자체 관리","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":111,"MENU_CNT":3,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":111,"CH_USE_YN":"Y","RN":64,"MENU_NAME":"고용추천","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":111,"MENU_CNT":3,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11101,"CH_USE_YN":"Y","RN":65,"MENU_NAME":"고용추천 신청","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":111,"MENU_CNT":3,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11102,"CH_USE_YN":"N","RN":66,"MENU_NAME":"고용추천 심사","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"1","EN_USE_YN":"Y","MENU_ID":112,"CH_USE_YN":"Y","RN":67,"MENU_NAME":"비자신청센터","MENU_TARGET_NULL_YN":"Y","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11200,"CH_USE_YN":"N","RN":68,"MENU_NAME":"비자신청센터","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11201,"CH_USE_YN":"Y","RN":69,"MENU_NAME":"중국","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11202,"CH_USE_YN":"Y","RN":70,"MENU_NAME":"베트남","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11203,"CH_USE_YN":"Y","RN":71,"MENU_NAME":"인도네시아","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11204,"CH_USE_YN":"Y","RN":72,"MENU_NAME":"몽골","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11205,"CH_USE_YN":"Y","RN":73,"MENU_NAME":"독일","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11206,"CH_USE_YN":"Y","RN":74,"MENU_NAME":"프랑스","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11207,"CH_USE_YN":"Y","RN":75,"MENU_NAME":"영국","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11208,"CH_USE_YN":"Y","RN":76,"MENU_NAME":"네덜란드","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":11209,"CH_USE_YN":"Y","RN":77,"MENU_NAME":"필리핀","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":112010,"CH_USE_YN":"Y","RN":78,"MENU_NAME":"인도","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":112011,"CH_USE_YN":"Y","RN":79,"MENU_NAME":"나이지리아","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"Y","MENU_CNT_SOURCE":112,"MENU_CNT":14,"MENU_LEVEL":"2","EN_USE_YN":"Y","MENU_ID":112012,"CH_USE_YN":"Y","RN":80,"MENU_NAME":"리비아","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":113,"MENU_CNT":5,"MENU_LEVEL":"1","EN_USE_YN":"N","MENU_ID":113,"CH_USE_YN":"N","RN":81,"MENU_NAME":"비자추천","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":113,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11301,"CH_USE_YN":"N","RN":82,"MENU_NAME":"지역기반 이민정책 비자추천","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":113,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11302,"CH_USE_YN":"N","RN":83,"MENU_NAME":"추천자 현황 및 업무처리 확인","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":113,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11303,"CH_USE_YN":"N","RN":84,"MENU_NAME":"숙련기능인력 추천","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"},{"PERMISSION_YN":"N","MENU_CNT_SOURCE":113,"MENU_CNT":5,"MENU_LEVEL":"2","EN_USE_YN":"N","MENU_ID":11304,"CH_USE_YN":"N","RN":85,"MENU_NAME":"숙련기능인력 추천 리스트","MENU_TARGET_NULL_YN":"N","KO_USE_YN":"Y"}],"PARENT_MENU107":{"MENU_CNT":5,"INDEX":44},"PARENT_MENU108":{"MENU_CNT":5,"INDEX":49},"PARENT_MENU109":{"MENU_CNT":5,"INDEX":54},"PARENT_MENU103":{"MENU_CNT":10,"INDEX":17},"PARENT_MENU104":{"MENU_CNT":7,"INDEX":27},"PARENT_MENU105":{"MENU_CNT":6,"INDEX":34},"PARENT_MENU106":{"MENU_CNT":4,"INDEX":40}}';					// LNB JSON STRING  
+	var gfv_objLnbJson = JSON.parse(gfv_strLnbJson);	// JSON OBJ로 변환
+	
+	var gfv_strAttrMenuId = '10103';			// 현재 메뉴 아이디
+	var gfv_strAttrGnbMenuId = '101';	// GNB 메뉴 아이디
+	var gfv_strAttrLnbMenuId = '10103';	// LNB 메뉴 아이디
+	var gfv_strAttrMenuName = '수수료';		// 메뉴명
+	var gfv_strAttrPathName = '비자안내>수수료';		// 네비게이터
+	var gfv_strAttrKoUseYn = 'Y';		// 국문 사용 여부
+	var gfv_strAttrEnUseYn = 'Y';		// 영문 사용 여부
+	var gfv_strAttrChUseYn = 'Y';		// 중문 사용 여부
+	
+	$(document).ready(function(){
+		
+		// 타이틀 설정
+		$(document).attr('title', "KOREA VISA PORTAL | " + gfv_strAttrPathName.replace(/[>]/gi," > "));
+		
+		if(gfv_strAttrMenuId=="10101"){
+			$("#lnb_a_link_visa").hide();
+		}
+		
+		// skip navi 삽입
+		var skip_navi = '<a href="#contents" id="u_skip_c"><span>본문 바로가기</span></a>' 
+					  //+ '<a href="#header" id="u_skip_a"><span>대메뉴바로가기</span></a>'
+					  //+ '<a href="#lnb" id="u_skip_b"><span>왼쪽메뉴바로가기</span></a>'
+					  //+ '<a href="#footer" id="u_skip_d"><span>하단메뉴바로가기</span></a>';
+		
+		
+    	$("body").prepend($('<div id="u_skip">' + skip_navi + '</div>'));
+		
+		// SKIP NAVI 이벤트 설정
+		$("#u_skip_a, #u_skip_b, #u_skip_c, #u_skip_d").on("focusin",function(){
+			$(this).addClass('on');
+		}).on("focusout",function(){
+			$(this).removeClass('on');
+		});
+		
+		//SiteMap 파이프라인 dispaly:none 처리
+		if($(".change_lang").size() > 1){
+			$("#user_map_span").removeClass('dis_none');
+		}       
+		
+		//브라우저 버전 체크
+		/* var browserType=gfn_getBrowserType();
+		
+		if(gfv_strAttrMenuId=="10601" || gfv_strAttrMenuId=="10603"){			
+			//IE가 아닐경우 ERROR
+			if((browserType.indexOf("ie") != -1)==false){
+				
+				gfn_alert("ERROR_WRONG_GPKI", null, function(){
+					var url ="/";
+					$(location).prop("href",url);	
+				});		
+			}
+		} */
+		
+		// 상단 메뉴 기 선택 설정
+		$("#gnb_a_menu_" + gfv_strAttrGnbMenuId).addClass('on');
+		
+		gfn_setLnb();
+			
+		// LNB 메뉴 선택 클래스 설정
+		$('#lnb_a_menu_' + gfv_strAttrLnbMenuId).addClass('on').attr('aria-current', 'true');
+		
+		// lnb 클릭 event 
+		$("a[id^='lnb_a_menu_']").on("click", function(e){
+			var tagLnbId = $(this).attr("id");		// 우측 메뉴 태그 아이디
+			var menuLnbId = tagLnbId.replace("lnb_a_menu_", "");	// 우측 메뉴아이디 추출
+			var permissionYn = $("#lnb_span_permission_" + menuLnbId).text(); 
+			var sememid = "TEMPUSER";
+			
+			if(permissionYn == 'N'){	// 접근 여부
+				if("99" == 99){
+					var strConfirmMsgCode = '';
+					if(gfv_strAttrGnbMenuId == '103'){
+						strConfirmMsgCode = "LOGIN_ENTER_SEARCH";
+					}
+					else { 
+						strConfirmMsgCode = "LOGIN_ENTER";
+					}
+					
+					gfn_confirm(strConfirmMsgCode, null, function(){
+						var menuSubmit = new ComSubmit();
+						if(menuLnbId=='10203'){
+							menuSubmit.addParam("VIEW_GB", "loginID");
+							menuSubmit.addParam("FORWARD_URL", "10203");
+						}
+						menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10602");
+						menuSubmit.tran();
+					}, function(){
+						
+					});
+				}
+				else {
+					gfn_alert("LOGIN_ENTER_TEMP");
+				}
+			}
+			else if(permissionYn == 'Y'){
+				var menuSubmit = new ComSubmit();
+				if(menuLnbId=='10407' || menuLnbId=='10406'){					
+					menuSubmit.addParam("FAQ_GB", "6");
+					menuSubmit.addParam("P_MENU", "104");
+				}
+				
+				// SR2610-00236 하이코리아 링크 추가 Start
+				if("lnb_a_menu_10108" == tagLnbId){
+					var url ='https://www.hikorea.go.kr/board/BoardApplicationListR.pt'; //하이코리아 민원서식 페이지.
+					window.open(url,"_blank");
+					return;
+				}
+				
+				if("lnb_a_menu_10109" == tagLnbId){
+					var url ='https://www.hikorea.go.kr/board/BoardNtcDetailR.pt?BBS_SEQ=1&BBS_GB_CD=BS10&NTCCTT_SEQ=1062&page=1'; 
+					window.open(url,"_blank");
+					return;
+				}
+				// SR2610-00236 하이코리아 링크 추가 End
+				
+				if("lnb_a_menu_10601" == tagLnbId){/* 회원가입에 대한 메뉴버튼 클릭시  */
+					if('KO' != 'KO' ){
+						gfn_alert("MSG_JOIN_TARGET_NOTICE");
+					}else{
+						menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + menuLnbId);
+						menuSubmit.tran();
+					}
+				}else{//그외 메뉴 버튼 클릭시
+					menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + menuLnbId);
+					menuSubmit.tran();
+				}
+			}
+		});
+		
+		// 로고 페이지 이벤트 적용
+		$("#mainLogoImg, #top_a_home").on("click", function(){
+			var mainSubmit = new ComSubmit();
+			mainSubmit.addParam("LANG_TYPE", gfv_seLang);
+			mainSubmit.setUrl("/");
+			mainSubmit.tran();
+		});
+		
+		// 상단 메뉴 클릭 이벤트 적용
+		$("a[id^='gnb_a_menu_']").on("click", function(e){
+			
+			var tagId = $(this).attr("id");					// 상단 메뉴 태그 아이디
+			var menuId = tagId.replace("gnb_a_menu_", "");	// 메뉴아이디 추출
+			
+			var objJsonLnbInfo = eval("gfv_objLnbJson.PARENT_MENU" + menuId);	// 상단 메뉴에 해당하는 우측 메뉴 설정 정보 JSON 호출
+			
+			var nTargetLnbMenuId = objJsonLnbInfo.INDEX + 1;
+			
+			if(menuId == "111" && '99' == '7' && '' == 'EMP'){	//고용추천 심사의 경우 2단계 호출
+				nTargetLnbMenuId = objJsonLnbInfo.INDEX + 2;
+			}
+			
+			var targetMenuId = gfv_objLnbJson.INFO[nTargetLnbMenuId].MENU_ID;
+			var targetPermissionYn = gfv_objLnbJson.INFO[nTargetLnbMenuId].PERMISSION_YN;
+			
+			if(targetPermissionYn == 'N'){	// 접근 여부
+				gfn_alert("SITEMAP_LOGIN_AUTH", null, function(){
+					// 추가 코딩	
+				});
+			}else if(targetPermissionYn == 'Y'){
+				var menuSubmit = new ComSubmit();
+				menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + targetMenuId);
+				menuSubmit.tran();
+			}
+		});
+		
+		// 네비게이터 & 타이틀 설정
+		$("#contents").prepend($('<p class="page_navi">' + gfv_strAttrPathName.replace(/[>]/gi,"<span>&gt;</span>") + '</p><h3>' + gfv_strAttrMenuName + '</h3>'));
+		
+		// 로그인
+		$("#top_a_login").on("click", function(){
+			var menuSubmit = new ComSubmit();
+			if(gfv_strAttrGnbMenuId != '106'){
+				menuSubmit.addParam("FORWARD_URL", gfv_strAttrLnbMenuId);
+			}
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + "10602");
+			menuSubmit.tran();
+		});
+		
+		// 로그아웃
+		// 20150116 - 임사무관 요청으로 로그아웃시 confirm 제거
+		$("#top_a_logout").on("click", function(e){
+			var logoutSubmit = new ComSubmit();
+			logoutSubmit.setUrl("/logout.do"); 
+			logoutSubmit.tran();
+		});
+				
+		// MyPage 이벤트 
+		$("#top_a_mypage, #top_a_user").on('click', function(){
+			var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + "10701");
+			menuSubmit.tran();
+		});
+		
+		// 회원가입 
+		$("#top_a_member").on('click', function(){
+			if('KO' != 'KO' ){
+				gfn_alert("MSG_JOIN_TARGET_NOTICE");
+			}else{
+				var menuSubmit = new ComSubmit();
+				menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + "10601");
+				menuSubmit.tran();
+			}
+		});
+		
+		// 계절근로자 이벤트 
+		$("#top_a_season").on('click', function(){
+			var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + "11001");
+			menuSubmit.tran();
+		});
+		
+		// 지역기반 비자추천 
+		$("#top_a_recomvisa").on('click', function(){
+			var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=" + "11301");
+			menuSubmit.tran();
+		});
+		
+		// 사이트맵
+    	$("#top_a_sitemap").on("click", function(){
+	    	var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10801");
+			menuSubmit.tran();
+    	});
+		
+		// 한국어 언어 변경
+		$("#top_a_lang_ko").on('click', function(){
+			gfn_changeLang("KO", "ko");
+		});
+		
+		// 영문 언어 변경
+		$("#top_a_lang_en").on('click', function(){
+			gfn_changeLang("EN", "en");
+		});
+		
+		// 중문 언어 변경
+		$("#top_a_lang_ch").on('click', function(){
+			gfn_changeLang("CH", "zh");
+		});
+		
+		 // 우클릭 막기		 
+		 document.oncontextmenu = function(e){
+			if(e){
+				e.preventDefault();	
+			}
+			else{
+				event.keyCode = 0;
+				event.returnValue = false;
+			}
+		};
+		
+		// 키다운 방지
+		$(document).bind("keydown", function(e){
+			ctrl = (document.all) ? event.ctrlKey:e.modifiers & Event.CONTROL_MASK;
+			var key = (e) ? e.keyCode : event.keyCode;
+			if(key == 8 && $("input:focus").size() == 1) {	// input tag 에서는 backspace가 되도록
+				return;
+			}
+			else if(key == 8 && $("textarea:focus").size() == 1) {	// textarea tag 에서는 backspace가 되도록
+				return;
+			
+			}
+			else if(key == 8 || key == 116  || key == 123 ){
+				if(e){
+					e.preventDefault();
+				}else{
+					event.keycode = 0;
+					event.returnValue = false;
+				}
+			}else if(ctrl && key == 83){
+				//alert("저장기능은 사용할 수 없습니다.");
+				if(e){
+					e.preventDefault();
+				}else{
+					event.keycode = 0;
+					event.returnValue = false;
+				}
+			}else if(ctrl && key == 80){
+				//alert("인쇄기능은 사용하실 수 없습니다.");
+				if(e){
+					e.preventDefault();
+				}else{
+					event.keycode = 0;
+					event.returnValue = false;
+				}
+			}
+		});
+		
+		//psy
+		var cnt = 6;
+		if('99' == '7' && ("" == "" || '' == 'REV')){ // 202507 지역기반비자추천 추가
+			cnt = cnt - 1;
+			$(".main_m10").addClass("dis_none");
+		}
+		if(cnt > 5){
+			$("#header .main_menu li").css("padding", "3px 0 0 42px");
+		}
+		//
+		
+	});
+	
+	function gfn_changeLang(lang, lowLang){
+		var langSubmit = new ComSubmit();
+		langSubmit.setUrl("/cmm/openLang.do");
+		langSubmit.addParam("LANG", lang);
+		langSubmit.addParam("LOW_LANG", lowLang);
+		langSubmit.addParam("MENU_ID", gfv_strAttrMenuId);
+		langSubmit.tran();
+	}
+	
+	function gfn_setLnb(){
+		// LNB 세팅 변수 선언
+		var objJsonLnbInfo = eval("gfv_objLnbJson.PARENT_MENU" + gfv_strAttrGnbMenuId);	// 상단 메뉴에 해당하는 우측 메뉴 설정 정보 JSON 호출
+		
+		var nBeginIndex = objJsonLnbInfo.INDEX + 1;	// 1레벨 포함한 메뉴시작 index (1레벨 넘기기 위해 +1)
+		var nEndCnt = objJsonLnbInfo.MENU_CNT - 1;	// 1레벨 포함한 메뉴 갯수(1레벨 빼기 위해 +1)
+		
+		// LNB 세팅 구현부
+		$("#lnb_h2_title").text(gfv_objLnbJson.INFO[nBeginIndex-1].MENU_NAME);	// title 세팅
+		$("#lnb_ul_sub_menu").empty();				// 메뉴리스트 ul 하위 li 태그 비움
+		
+		var strLnbBuff = ''; 
+		for(var i=nBeginIndex; i<nBeginIndex+nEndCnt; i++){
+			if(gfv_objLnbJson.INFO[i].PERMISSION_YN == 'Y'){
+				strLnbBuff = '';
+				strLnbBuff += '<li>';
+				strLnbBuff += '	<a href="javascript:void(0)" id="lnb_a_menu_' + gfv_objLnbJson.INFO[i].MENU_ID + '">';
+				strLnbBuff +=  		gfv_objLnbJson.INFO[i].MENU_NAME; 
+				strLnbBuff += '	</a>';
+				strLnbBuff += '	<span id="lnb_span_permission_' + gfv_objLnbJson.INFO[i].MENU_ID + '" class="dis_none">' + gfv_objLnbJson.INFO[i].PERMISSION_YN + '</span>';
+				strLnbBuff += '	<span id="lnb_span_ko_use_yn_' + gfv_objLnbJson.INFO[i].MENU_ID + '" class="dis_none">' + gfv_objLnbJson.INFO[i].KO_USE_YN + '</span>';
+				strLnbBuff += '	<span id="lnb_span_en_use_yn_' + gfv_objLnbJson.INFO[i].MENU_ID + '" class="dis_none">' + gfv_objLnbJson.INFO[i].EN_USE_YN + '</span>';
+				strLnbBuff += '	<span id="lnb_span_ch_use_yn_' + gfv_objLnbJson.INFO[i].MENU_ID + '" class="dis_none">' + gfv_objLnbJson.INFO[i].CH_USE_YN + '</span>';
+				strLnbBuff += '</li>';
+				$("#lnb_ul_sub_menu").append($(strLnbBuff));
+			};
+		}
+		
+	}
+	
+//]]>
+</script>
+<h1 class="m_logo">
+	<a href="javascript:void(0)" id="mainLogoImg"><img src="/images/common/m_logo_KO.png" alt="대한민국 비자포털(비자포털 방문을 환영합니다.)" /></a>
+</h1>
+<!-- 탑메뉴 -->
+<ul class="top_m">
+									
+		
+			
+				<li><a href="javascript:void(0)" id="top_a_home" class="user_home">홈</a></li>
+				<li><a href="javascript:void(0)" id="top_a_login">로그인</a><span></span></li>
+				<li><a href="javascript:void(0)" id="top_a_member">회원가입</a><span></span></li>
+			
+			
+			
+		
+		
+	
+	
+		<li id="top_a_sitemap"><a href="javascript:void(0)">사이트맵<span id="user_map_span" class="user_map dis_none"></span></a></li>
+	
+	
+	
+	
+	
+		
+			<li><a href="javascript:void(0)" id="top_a_lang_en" class="change_lang">ENGLISH</a></li>
+		
+		
+			<li><a href="javascript:void(0)" id="top_a_lang_ch" class="change_lang">中文</a></li>
+		
+	
+	
+	
+</ul>
+<!-- // 탑메뉴 -->
+<!-- gnb -->
+<ul class="main_menu group">
+	
+		
+			<li class="main_m0"><a href="javascript:void(0)" id="gnb_a_menu_101">비자안내</a></li>
+		
+		
+	
+		
+			<li class="main_m1"><a href="javascript:void(0)" id="gnb_a_menu_102">신청</a></li>
+		
+		
+	
+		
+			<li class="main_m2"><a href="javascript:void(0)" id="gnb_a_menu_103">조회/발급</a></li>
+		
+		
+	
+		
+			<li class="main_m3"><a href="javascript:void(0)" id="gnb_a_menu_104">투자이민</a></li>
+		
+		
+	
+		
+			<li class="main_m4"><a href="javascript:void(0)" id="gnb_a_menu_105">고객센터</a></li>
+		
+		
+	
+		
+		
+			<li class="dis_none main_m5"><a href="javascript:void(0)" id="gnb_a_menu_106">회원</a></li>
+		
+	
+		
+		
+	
+		
+		
+			<li class="dis_none main_m7"><a href="javascript:void(0)" id="gnb_a_menu_108">기타</a></li>
+		
+	
+		
+		
+			<li class="dis_none main_m8"><a href="javascript:void(0)" id="gnb_a_menu_109">비자신청센터</a></li>
+		
+	
+		
+		
+			<li class="dis_none main_m9"><a href="javascript:void(0)" id="gnb_a_menu_110">계절근로자</a></li>
+		
+	
+		
+		
+	
+		
+			<li class="main_m11"><a href="javascript:void(0)" id="gnb_a_menu_112">비자신청센터</a></li>
+		
+		
+	
+		
+		
+			<li class="dis_none main_m12"><a href="javascript:void(0)" id="gnb_a_menu_113">비자추천</a></li>
+		
+	
+</ul>
+<!-- // gnb -->							
+
+			</div>
+		</div>
+		
+		<div id="container" class="group">
+			<div id="lnb">
+				
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() {	
+		
+		
+		$("#lnb_a_link_visa").on("click",function(){//비자네비게이터 링크
+			var menuSubmit = new ComSubmit();
+			menuSubmit.menuTran("10101");
+		});
+		
+		if("10103" == "10107"){
+			$("#hikorea_link_visa").show();
+		} else {
+			$("#hikorea_link_visa").hide();
+		}
+		
+		$("#hikorea_link_visa").on("click", function(){
+    		var url = "http://www.hikorea.go.kr";
+    		
+    		if("KO" == 'EN'){
+    			url = url+"/pt/main_en.pt";
+    		}else if("KO" == 'CH'){
+    			url = url+"/pt/main_zh.pt";
+    		}
+    		
+    		window.open(url,"_blank");
+    		
+    	});
+		
+		if("10103" == "10107" || "10103" == "10205"){
+			$("#eArrivalCard_link_visa").show();
+		} else {
+			$("#eArrivalCard_link_visa").hide();
+		}
+		
+		$("#eArrivalCard_link_visa").on("click", function(){
+    		var url = "https://www.e-arrivalcard.go.kr";
+    		
+    		if("KO" == 'EN'){
+    			url = url+"/portal/main/index.do?locale=EN";
+    		}else if("KO" == 'CH'){
+    			url = url+"/portal/main/index.do?locale=CH";
+    		}
+    		
+    		window.open(url,"_blank");
+    		
+    	});
+		
+		
+	});
+//]]>
+</script>
+<div>
+	<h2 id="lnb_h2_title"></h2>
+	<ul id="lnb_ul_sub_menu" class="sub_menu">
+		<li><a href="javascript:void(0)"></a></li>
+	</ul>
+	<a href="javascript:void(0)" id="lnb_a_link_visa" class="link_visa"><img src="/images/common/link_visa_KO.png" alt="Visa Navigator 나에게 맞는 비자 찾아보기 go" /></a>
+	<a href="javascript:void(0)" id="eArrivalCard_link_visa" class="link_visa" style="margin-top: 10px;"><img src="/images/common/eArrivalCard.gif" alt="대한민국 전자입국신고 이동" /></a>
+	<a href="javascript:void(0)" id="hikorea_link_visa" class="link_visa" style="margin-top: 10px;"><img src="/images/common/hikorea_KO.gif" alt="HI KOREA 이동" /></a>
+</div>
+			</div>
+			<!-- 콘텐츠 시작 -->
+			<div id="contents">			
+						
+											
+				<!-- 국가별 수수료 안내 검색 영역 -->
+				
+				<!-- // 국가별 수수료 정보 -->
+			
+			<!--  영문부분 끝 -->
+			
+			<div id= "feeGuide_ko">
+				
+				<h4><span class="h4_ico"></span>비자발급신청에 따른 기본 수수료<span class="h4_info">(미국달러 기준)</span></h4>
+				<div class="srch_m">
+					<a href="javascript:void(0)" name="amtAdjNatPop" class="btn_menual" title="새창으로 열림" ><span>수수료 조정국가  보기</span></a>
+					<a href="javascript:void(0)" name="noAmtPop" class="btn_menual mgl_15" title="새창으로 열림" ><span>협정에 의한 수수료면제 국가보기</span></a>
+				</div>
+				
+				
+				<!-- 비자발급신청에 따른 기본 수수료 테이블 -->
+				<table class="board_file02 mgb_10">				
+				<caption>비자구분에 따른 기본수수료 안내<span>비자발급신청에 따른 기본 수수료 목록으로 비자구분, 금액으로 구성되어 있습니다.</span></caption>
+				<colgroup>
+					<col style="width:50%"/>
+					<col style="width:auto"/>
+				</colgroup>
+					<thead>
+						<tr>
+							<th scope="col"><span>비자구분</span></th>
+							<th scope="col">금액</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="align_c no_pad">체류기간 90일 이하의 단수비자</td>
+							<td class="align_c no_pad">40 달러</td>
+						</tr>
+						<tr>
+							<td class="align_c no_pad">체류기간 91일 이상의 단수비자</td>
+							<td class="align_c no_pad">60 달러</td>
+						</tr>
+						<tr>
+							<td class="align_c no_pad">2회까지 입국할 수 있는 더블비자</td>
+							<td class="align_c no_pad">70 달러</td>
+						</tr>		
+						<tr>
+							<td class="align_c no_pad">입국횟수에 제한이 없는 복수비자</td>
+							<td class="align_c no_pad">90 달러</td>
+						</tr>						
+					</tbody>
+				</table>
+				<!-- // 비자발급신청에 따른 기본 수수료 테이블 -->				
+				
+				<!-- 심사기준 안내사항 -->
+				<div class="search_style02 mgb_54">
+					<div>
+						<ul>
+							<li class="bg_dot addr_lh">기본 심사 수수료 규정에도 불구하고 국제관례 또는 상호주의 원칙 그 밖에 <span class="red_txt_l">법무부령이 정하는 사유에 의하여</span> 필요하다고 인정할 때에는 수수료를 면제하거나 다르게 정할 수 있습니다.</li>
+							<li class="bg_dot addr_lh">또한 <span class="red_txt_l">국가 간 협정에 따라 비자 수수료에 관한 규정이 별도로 있는 경우</span>에는 협정내용에 따라 수수료가 부과됩니다.</li>
+							<li class="bg_dot addr_lh">지정여행사에서 인솔하는 중국인 단체관광객에 대한 비자 심사수수료 : 1인당 15달러 상당</li>
+							<li class="bg_dot addr_lh">베트남 국민에 대한 C-3 계열 단수비자 : 20달러 상당</li>
+							<li class="bg_dot addr_lh">비자수수료는 비자심사 업무처리에 소요되는 비용을 부과하는 것이므로 <span class="red_txt_l">비자발급 결과와 관계없이 비자신청 시에 수수료가 징수</span>됩니다. 따라서 비자발급이 불허되는 경우에도 수수료는 반환되지 않습니다.</li>							
+						</ul>
+					</div>					
+				</div>
+				<!-- // 심사기준 안내사항 -->
+				
+				<h4><span class="h4_ico"></span>전자민원 수수료</h4>
+				
+				<p class="charge_info mgb_30">비자 포털 상에서 처리되는 비자 심사 <span class="red_txt_l">수수료는 미국달러로 부과됩니다.</span> 신용카드로 결제할 경우 결제일과 청구일의 미국 달러화 환율에 따라 청구금액이 달라질 수 있으니 이점 유의하시기 바랍니다.</p>
+				
+				<h5 class="h5_style01">추가 수수료</h5>
+				
+				<p class="charge_info mgb_30">
+					비자 포탈에서 전자비자  신청 시 비자 심사 수수료 이외에 카드사용 및 전자결제 대행서비스 이용에 따른 추가 수수료가 부과됩니다.  
+				</p>
+				
+				<h5 class="h5_style01">사용가능한 결제수단</h5>
+				
+				<!-- 카드 이미지들 영역 -->
+				<p class="charge_info mgb_12">국제적으로 통용되는 신용카드</p>
+				
+				<div class="card_img_box mgb_20">
+					<img src="/images/contents/credit_card01.gif" alt="VISA card, Master card, JCB card, American Express card, Unionpay card" />
+				</div>
+				<!-- // 카드 이미지들 영역 -->
+				
+				</div>	
+				
+				<!--  국문부분 끝 -->
+				
+				<!--  영문부분 시작 -->
+				
+				<!-- 영문 끝 -->
+				
+				<!-- 중문 시작 -->
+				
+				<!--  중문부분 끝 -->
+																	
+			</div>
+			<!-- 콘텐츠 끝 -->
+		</div>
+			
+		<div id="footer">
+			
+
+
+
+<script type="text/javaScript">
+// <![CDATA[
+    $(document).ready(function(){
+    	
+    	$("#" + "ko" + "_foot_list").removeClass("dis_none");
+    	
+    	// 이용약관
+    	$("a[id$='foot_a_use']").on("click", function(){
+    		var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10802");
+			menuSubmit.tran();
+    	});
+    	
+    	// 개인정보처리방침
+    	$("a[id$='foot_a_person']").on("click", function(){
+    		var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10803");
+			menuSubmit.tran();
+    	});
+    	
+    	// 저작권보호정책
+    	$("a[id$='foot_a_protect']").on("click", function(){
+    		var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10804");
+			menuSubmit.tran();
+    	});
+    	
+    	// 이메일무단수집거부
+    	$("a[id$='foot_a_email']").on("click", function(){
+   			var strFile = "/biz/au/AU03S";
+   			var strPopName="emailPopup"; //팝업 명 설정
+   			gfn_openPopUp(strFile, strPopName, null, "500", "280");  
+    	});
+    	
+    	// 고객센터
+    	$("a[id$='foot_a_custom']").on("click", function(){
+	    	var menuSubmit = new ComSubmit();
+			menuSubmit.setUrl("/openPage.do" + "?MENU_ID=10501");
+			menuSubmit.tran();
+    	});
+    	
+    	//패밀리사이트 이동
+    	$("#move_family_site").on("click", function(){
+    		var goUrl = $("#select_family_site").val();
+    		if(goUrl == 'http://www.hikorea.go.kr'){
+    			if("KO" == 'EN'){
+    				goUrl = goUrl+"/pt/main_en.pt";
+    			}else if("KO" == 'CH'){
+    				goUrl = goUrl+"/pt/main_zh.pt";
+    			}
+    		}
+    		if(gfn_isNull(goUrl)==false){
+    			window.open(goUrl,"_blank");
+    		}
+    	});
+    });
+    
+// ]]>
+</script>
+<div class="foot_con01">
+	<ul id="ko_foot_list" class="foot_list dis_none">
+		<li><a href="javascript:void(0)" id="ko_foot_a_use">이용약관</a></li>
+		<li class="foot_privacy"><a href="javascript:void(0)" id="ko_foot_a_person">개인정보 처리방침</a></li>
+		<li><a href="javascript:void(0)" id="ko_foot_a_protect">저작권 보호정책</a></li>
+		<li><a href="javascript:void(0)" id="ko_foot_a_email" title="새창 열림">이메일 무단수집거부</a></li>
+		<li><a href="javascript:void(0)" id="ko_foot_a_custom">고객센터</a></li>
+	</ul>
+	<ul id="en_foot_list" class="foot_list dis_none">
+		<li><a href="javascript:void(0)" id="en_foot_a_use">Terms and Conditions</a></li>
+		<li class="foot_privacy"><a href="javascript:void(0)" id="en_foot_a_person">Privacy Policy</a></li>
+		<li><a href="javascript:void(0)" id="en_foot_a_protect">Copyright Protection Policy</a></li>
+		<li><a href="javascript:void(0)" id="en_foot_a_email" target="_blank">Prohibition of Unauthorized Collection of E-mail Address</a></li>
+		<li><a href="javascript:void(0)" id="en_foot_a_custom">Help Center</a></li>
+	</ul>
+	<ul id="zh_foot_list" class="foot_list dis_none">
+		<li><a href="javascript:void(0)" id="zh_foot_a_use">使用条款</a></li>
+		<li class="foot_privacy"><a href="javascript:void(0)" id="zh_foot_a_person">个人信息处理方针</a></li>
+		<li><a href="javascript:void(0)" id="zh_foot_a_protect">版权保护政策</a></li>
+		<li><a href="javascript:void(0)" id="zh_foot_a_email" target="_blank">拒绝自动接收邮件</a></li>
+		<li><a href="javascript:void(0)" id="zh_foot_a_custom">客服中心</a></li>
+	</ul>
+	<address>
+		<p class="address_txt">주소 : 경기도 과천시 관문로 47 정부과천청사 1동 ( 외국인종합안내센터 : 국번없이 1345 )</p>
+		<p>COPYRIGHT&copy;MINISTRY OF JUSTICE. REPUBLIC OF KOREA. ALL RIGHT RESERVED.</p>
+	</address>
+	<p class="foot_notice">※ 비자포털은 IE 7 이상, 크롬, 파이어폭스, 사파리, 오페라 브라우저와 1024*768 화면에 최적화 되어 있습니다.</p>
+</div>
+<div class="foot_con02">
+	<select id="select_family_site" name="select_family_site"  title="관련사이트 선택" >
+<option value=""  >관련 사이트</option>
+<option value="http://www.moj.go.kr"  >법무부</option>
+<option value="http://www.motie.go.kr"  >산업통상자원부</option>
+<option value="http://global.seoul.go.kr/"  >서울글로벌센터</option>
+<option value="http://www.moel.go.kr"  >고용노동부</option>
+<option value="http://www.investkorea.org/ikwork/iko/kor/main/index.jsp"  >인베스트 코리아</option>
+<option value="http://www.immigration.go.kr"  >출입국외국인정책본부</option>
+<option value="http://www.kotra.or.kr"  >KOTRA</option>
+<option value="http://www.hrdkorea.or.kr/"  >한국산업인력공단</option>
+<option value="http://www.keis.or.kr"  >한국고용정보원</option>
+<option value="http://www.korea.net"  >KOREA.NET</option>
+<option value="http://world.kbs.co.kr/korean/"  >KBS WORLD</option>
+<option value="http://www.hikorea.go.kr"  >하이 코리아</option>
+<option value="http://www.e-arrivalcard.go.kr"  >대한민국 전자입국신고</option>
+</select>
+
+	<a href="javascript:void(0)" class="btn_family" id="move_family_site" title="새창 이동">
+		<span class="btn_start"></span>이동<span class="btn_end"></span>
+	</a>
+</div>
+
+		</div>
+	</div>
+	
+	<form name="frmCmmAuth" id="frmCmmAuth" method="post">
+	<input type="hidden" name="CMM_TEST_VAL" id="CMM_TEST_VAL" value="test"  />
+</form>
+
+<form style="display: none" name="formFile" id="formFile" method="post" enctype="multipart/form-data"></form>
+</body>
+</html>

@@ -1,0 +1,356 @@
+Federal Register, Volume 91 Issue 189 (Thursday, October 1, 2026) (https://www.govinfo.gov/content/pkg/FR-2026-10-01/html/2026-20185.htm)
+【turn503251view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.govinfo.gov/content/pkg/FR-2026-10-01/html/2026-20185.htm","lineno":null}); Total lines: 353
+L0: [Federal Register Volume 91, Number 189 (Thursday, October 1, 2026)]
+L1:     [Notices]
+L2:     [Pages 62534-62537]
+L3:     From the Federal Register Online via the Government Publishing Office [【0†www.gpo.gov†www.gpo.gov】]
+L4:     [FR Doc No: 2026-20185]
+L5: 
+L6: 
+L7:     =======================================================================
+L8:     -----------------------------------------------------------------------
+L9: 
+L10:     DEPARTMENT OF HOMELAND SECURITY
+L11: 
+L12:     U.S. Customs and Border Protection
+L13:     Certain DHS Immigration-Related Fees Required by HR-1: Fiscal
+L14:     Year 2027 Adjustments for Inflation
+L15: 
+L16:     AGENCY: U.S. Customs and Border Protection, U.S. Department of Homeland
+L17:     Security.
+L18: 
+L19:     ACTION: Notice of Fee Adjustment for Inflation.
+L20: 
+L21:     -----------------------------------------------------------------------
+L22: 
+L23:     SUMMARY: The Department of Homeland Security (DHS) is announcing Fiscal
+L24:     Year (FY) 2027 inflation adjustments to certain immigration-related
+L25:     fees required by the One Big Beautiful Bill Act (HR-1). HR-1 requires
+L26:     that DHS annually adjust certain immigration-related fees for
+L27:     inflation. This notice sets the inflation-adjusted FY 2027 fee amounts
+L28:     for the following immigration fees required by HR-1: the fee for parole
+L29:     of an alien into the United States, the Electronic System for Travel
+L30:     Authorization (ESTA) fees, and the fee for enrollment in the Electronic
+L31:     Visa Update System (EVUS). In accordance with the inflation adjustment
+L32:     rounding requirement in HR-1, the existing fee for Form I-94 Arrival/
+L33:     Departure Record applications will not change for FY 2027.
+L34: 
+L35:     DATES: HR-1 Parole Fee: U.S. Customs and Border Protection (CBP), U.S.
+L36:     Citizenship and Immigration Services (USCIS), and U.S. Immigration and
+L37:     Customs Enforcement (ICE) will begin assessing the FY 2027 amount for
+L38:     the HR-1 parole fee described in this notice on October 16, 2026.
+L39:         HR-1 I-94, ESTA, and EVUS Fees: CBP will begin assessing the FY
+L40:     2027 amounts for the HR-1 I-94, ESTA, and EVUS fees described in this
+L41:     notice on October 16, 2026.
+L42: 
+L43:     FOR FURTHER INFORMATION CONTACT:
+L44:         For questions regarding the HR-1 parole fee, by component:
+L45:         CBP: Office of Field Operations, U.S. Customs and Border
+L46:     Protection, Department of Homeland Security, 1300 Pennsylvania Avenue
+L47:     NW, Suite 1500N, Washington, DC 20229, email address:
+L48:     【1†[email protected]】.
+L49:         USCIS: Office of Chief Financial Officer, U.S. Citizenship and
+L50:     Immigration Services, Department of Homeland Security, 5900 Capital
+L51:     Gateway Drive, Camp Springs, MD 20746, telephone (240) 721-3000 (not a
+L52:     toll-free number).
+L53:         ICE: Office of Regulatory Affairs and Policy, U.S. Immigration and
+L54:     Customs Enforcement, Department of Homeland Security, 500 12th Street
+L55:     SW, Washington, DC 20536; telephone (202) 732-6960 (not a toll-free
+L56:     number).
+L57:         For questions regarding the HR-1 I-94, ESTA, and EVUS fees:
+L58:         Melanie Mataxas, Director, Electronic Systems Travel Authorization,
+L59:     Office of Field Operations, U.S. Customs and Border Protection, at 202-
+L60:     325-1372 or at 【2†[email protected]】.
+L61: 
+L62:     SUPPLEMENTARY INFORMATION:
+L63: 
+L64:     I. Background and Legal Authority
+L65: 
+L66:         On July 4, 2025, the President signed into law the One Big
+L67:     Beautiful Bill Act,
+L68: 
+L69:     [[Page 62535]]
+L70: 
+L71:     Public Law 119-21, 139 Stat. 72 (HR-1). HR-1 was a comprehensive
+L72:     legislative package that changed many laws and added new laws that
+L73:     touch many areas of the United States Government. Among those changes,
+L74:     the law established new immigration fees and increased existing fees
+L75:     for certain immigration-related actions. The statute established
+L76:     minimum fees for Fiscal Year (FY) 2025 and required annual adjustments
+L77:     to the fees in subsequent fiscal years based on the Consumer Price
+L78:     Index for All Urban Consumers (CPI-U).\1\
+L79:     ---------------------------------------------------------------------------
+L80: 
+L81:         \1\ See Public Law 119-21 secs. 100004(d), 100008(b)(2),
+L82:     100014(3), 100015(b)(2), codified as 8 U.S.C. 1804(d), 8 U.S.C.
+L83:     1807(b)(2), 8 U.S.C. 1187(h)(3)(B)(iv), and 8 U.S.C. 1813(b)(2).
+L84:     ---------------------------------------------------------------------------
+L85:         Among other immigration fees specified in HR-1, the Secretary of
+L86:     Homeland Security must require the payment of a fee by any alien who is
+L87:     paroled into the United States, unless an exception in Public Law 119-
+L88:     21 section 100004(b) applies (the HR-1 parole fee). See Public Law 119-
+L89:     21 sec. 100004. Several Department of Homeland Security (DHS)
+L90:     components, including U.S. Immigration and Customs Enforcement (ICE),
+L91:     U.S. Citizenship and Immigration Services (USCIS), and U.S. Customs and
+L92:     Border Protection (CBP), are responsible for assessing and collecting
+L93:     the HR-1 parole fee.
+L94:         CBP also administers several other fees specified in HR-1,\2\
+L95:     including requiring fees for submitting an application for a CBP Form
+L96:     I-94 Arrival/Departure Record, for using the Electronic System for
+L97:     Travel Authorization (ESTA) and receiving ESTA travel authorizations,
+L98:     and for enrolling in the Electronic Visa Update System (EVUS). See
+L99:     Public Law 119-21 secs. 100008, 100014, 100015.
+L100:     ---------------------------------------------------------------------------
+L101: 
+L102:         \2\ The Secretary of Homeland Security has delegated the
+L103:     authority to enforce and administer the immigration laws to the
+L104:     Commissioner of U.S. Customs and Border Protection. See DHS
+L105:     Delegation No. 07010.3, Delegation of Authority to the Commissioner
+L106:     of U.S. Customs and Border Protection, (Rev. No. 03.2, Incorporating
+L107:     Change 2) at II.B.1 (Dec. 11, 2024).
+L108:     ---------------------------------------------------------------------------
+L109: 
+L110:         The following table lists the notices which implemented the
+L111:     immigration parole, Form I-94, ESTA, and EVUS fees and adjusted those
+L112:     fees for inflation.
+L113: 
+L114:                       Table 1--Summary of Immigration Parole, Form I-94, ESTA, and EVUS Fee Notices
+L115:     ----------------------------------------------------------------------------------------------------------------
+L116:                                                Federal Register
+L117:                    Subject                         citation              Date published       Date fees took effect
+L118:     ----------------------------------------------------------------------------------------------------------------
+L119:     Implementation of HR-1 Form I-94,      90 FR 42025............  Aug. 28, 2025..........  Sept. 30, 2025
+L120:      ESTA, and EVUS Fees.
+L121:     Implementation of HR-1 Immigration     90 FR 48317............  Oct. 16, 2025..........  Oct. 16, 2025
+L122:      Parole Fee.
+L123:     FY 2026 Inflation Adjustments for      90 FR 52085............  Nov. 19, 2025..........  Jan. 1, 2026
+L124:      Immigration Parole, Form I-94, ESTA,
+L125:      and EVUS Fees.
+L126:     ----------------------------------------------------------------------------------------------------------------
+L127: 
+L128:     II. FY 2027 Inflation Adjustments to Certain Immigration Fees Required
+L129:     by HR-1
+L130: 
+L131:         In accordance with HR-1, most immigration-related fees required by
+L132:     HR-1 are subject to annual inflation adjustments. This notice provides
+L133:     the FY 2027 rates for the HR-1 parole, I-94, ESTA, and EVUS fees
+L134:     (collectively, the HR-1 fees).
+L135:         Generally, HR-1 requires the multiplication of an HR-1 fee or a
+L136:     portion of an HR-1 fee from the prior fiscal year by the percentage, if
+L137:     any, by which the CPI-U for the month of July preceding the date on
+L138:     which the adjustment takes effect exceeds the CPI-U for the July of the
+L139:     preceding calendar year (the inflation adjustment). In July 2025, the
+L140:     CPI-U was 323.048, and in July 2026, the CPI-U was 333.918. Therefore,
+L141:     between July 2025 and July 2026, the CPI-U increased by 3.36
+L142:     percent.\3\ To determine the total HR-1 fee for each fiscal year, the
+L143:     inflation adjustment is added to the HR-1 fee or portion of the HR-1
+L144:     fee used in the calculation of the inflation adjustment, pursuant to
+L145:     the statutorily prescribed formula. The specifics of the statutory
+L146:     inflation adjustment formulas differ for each HR-1 fee. The following
+L147:     table provides a summary of the inflation-adjusted FY 2027 HR-1 fees
+L148:     described in this notice, and the following subsections further detail
+L149:     the HR-1 inflation adjustment requirements.
+L150:     ---------------------------------------------------------------------------
+L151: 
+L152:         \3\ Bureau of Labor Statistics, Consumer Price Index--July 2026,
+L153:     August 12, 2026, 【3†https://www.bls.gov/news.release/archives/cpi_08122026.htm†www.bls.gov】 (last visited Aug. 13, 2026).
+L154:         \4\ Section II.B. explains the inflation adjustment formula for
+L155:     the HR-1 I-94 fee and details that upon applying the inflation
+L156:     adjustment formula and rounding down to the nearest dollar, the fee
+L157:     amount will not increase in FY 2027.
+L158:         \5\ This $30 total includes the $6 land border fee. Payment of
+L159:     the $6 land border fee is required pursuant to 8 CFR 103.7(d)(4),
+L160:     235.1(h)(1), and 286.9(b)(1), and is not a fee that is required by
+L161:     HR-1. Therefore, the inflation adjustment is not calculated based on
+L162:     the total $30 fee, and instead, only the $24 portion of the Form I-
+L163:     94 fee, required by HR-1, is adjusted for inflation.
+L164:         \6\ Section II.C. explains the inflation adjustment formula
+L165:     found in Public Law 119-21 sec. 100014(3) (8 U.S.C.
+L166:     1187(h)(3)(B)(iv)) and the resulting FY 2027 ESTA fee calculations
+L167:     for CBP processing of ESTA applications and travel authorizations.
+L168:     In the event an ESTA application is denied, the fee is $10.62 for FY
+L169:     2027.
+L170:                                    Table 2--Certain FY 2027 Fees, as Required by HR-1
+L171:     ----------------------------------------------------------------------------------------------------------------
+L172:                                                                               Total FY                     Total FY
+L173:     HR-1, Public Law 119-21 (139 Stat. 72)                                    2026 fee       FY 2027       2027 fee
+L174:                     Section                             Action               (existing      inflation      (revised
+L175:                                                                                 fee)       adjustment        fee)
+L176:     ----------------------------------------------------------------------------------------------------------------
+L177:     100004................................  Parole into the United States.       $1,020            +$30       $1,050
+L178:     100008................................  Application for CBP Form I-94            30         \4\ +$0       \5\ 30
+L179:                                              at land border ports of entry.
+L180:     100014................................  ESTA authorization............        40.27          +$0.35    \6\ 40.62
+L181:     100015................................  EVUS enrollment...............        30.75             +$1       $31.75
+L182:     ----------------------------------------------------------------------------------------------------------------
+L183: 
+L184: 
+L185:     [[Page 62536]]
+L186: 
+L187:     A. DHS HR-1 Parole Fee
+L188: 
+L189:         Pursuant to HR-1, the Secretary of Homeland Security must require
+L190:     the payment of a fee by any alien who is paroled into the United
+L191:     States, unless an exception in Public Law 119-21 section 100004(b)
+L192:     applies. See Public Law 119-21 sec. 100004 (8 U.S.C. 1804).
+L193:     Specifically, this fee is required each time an alien is granted parole
+L194:     under sec. 212(d)(5)(A) of the Immigration and Nationality Act (INA), 8
+L195:     U.S.C. 1182(d)(5)(A), including initial parole from outside the United
+L196:     States, parole in place, re-parole, or parole from DHS custody. See 90
+L197:     FR 48317, 48318.
+L198:         DHS is required to adjust the HR-1 parole fee for inflation in each
+L199:     fiscal year. See Public Law 119-21 sec. 100004(d). This notice
+L200:     announces the FY 2027 inflation-adjusted HR-1 parole fee for all DHS
+L201:     components, including ICE, USCIS, and CBP.
+L202:         Pursuant to HR-1, DHS is required to adjust the HR-1 parole fee by
+L203:     adding an inflation adjustment amount, rounded to the next lowest
+L204:     multiple of $10, to the amount of the fee for the most recently
+L205:     concluded fiscal year. Id. The FY 2026 inflation-adjusted HR-1 parole
+L206:     fee is $1,020. See 90 FR 52085 (Nov. 19, 2025). The FY 2027 inflation
+L207:     adjustment amount is $34.32 rounded to the next lowest multiple of $10,
+L208:     which is $30.
+L209:         Accordingly, the inflation-adjusted HR-1 parole fee for FY 2027
+L210:     will be $1,050 ($1,020 + $30). The HR-1 parole fee will not be assessed
+L211:     if the alien establishes, to the satisfaction of DHS, on an individual,
+L212:     case-by-case basis, that the circumstances of the alien's parole align
+L213:     with at least 1 of the 10 exceptions found in HR-1. See Public Law 119-
+L214:     21 sec. 100004(b). The operative event that triggers the statutory
+L215:     obligation to pay the HR-1 parole fee is the actual grant and
+L216:     effectuation of parole into the United States--not the filing of an
+L217:     application or request. Thus, unless statutorily excepted, the FY 2027
+L218:     inflation-adjusted HR-1 parole fee will be collected from any alien who
+L219:     is granted parole on or after October 16, 2026, regardless of when the
+L220:     underlying application or request was submitted.
+L221:         The $1,050 HR-1 parole fee is required in addition to any other fee
+L222:     authorized by law. See Public Law 119-21 sec. 100004(a).
+L223: 
+L224:     B. CBP Form I-94 Arrival/Departure Record
+L225: 
+L226:         CBP issues an electronic CBP Form I-94 Arrival/Departure Record to
+L227:     all arriving aliens who are legally required to submit that form
+L228:     (unless otherwise exempted). See parts 1.4 and 235.1(h) of title 8 of
+L229:     the Code of Federal Regulations (8 CFR 1.4, 235.1(h)). CBP Form I-94
+L230:     serves as evidence of the terms of the alien's admission or parole and
+L231:     is generally issued at the time the alien is admitted or paroled at a
+L232:     U.S. port of entry. See 8 CFR 235.1(h). Aliens arriving at a land
+L233:     border port of entry who are legally required to submit a CBP Form I-94
+L234:     must apply for that form.
+L235:         Pursuant to HR-1, the Secretary of Homeland Security must require
+L236:     the payment of a fee for any alien who submits an application for a
+L237:     Form I-94 Arrival/Departure Record (the HR-1 I-94 fee). See Public Law
+L238:     119-21 sec. 100008 (8 U.S.C. 1807). CBP is required to adjust the HR-1
+L239:     I-94 fee for inflation in each fiscal year. See Public Law 119-21 sec.
+L240:     100008(b)(2). The statutory formula requires adding an inflation
+L241:     adjustment amount, rounded down to the nearest dollar, to the amount of
+L242:     the fee required under Public Law 119-21 sec. 100008(b) for the most
+L243:     recently concluded fiscal year. Id. The FY 2026 HR-1 I-94 fee is $24.
+L244:     See 90 FR 52085, 52086. For FY 2027, the inflation adjustment required
+L245:     by Public Law 119-21 sec. 100008(b)(2)(B) is $0.81 rounded down to the
+L246:     nearest dollar, which is $0. Thus, the HR-1 I-94 fee for FY 2026 will
+L247:     remain at $24 ($24 + $0).
+L248:         The HR-1 I-94 fee is required in addition to any other fee
+L249:     authorized by law. See Public Law 119-21 sec. 100008(a). Currently, CBP
+L250:     imposes a $6 fee for aliens who are legally required to be issued, or
+L251:     request to be issued, CBP Form I-94 and who intend to arrive at a land
+L252:     border port of entry. See 8 CFR 103.7(d)(4), 235.1(h)(1), and
+L253:     286.9(b)(1). Accordingly, the total fee to apply for a CBP Form I-94 at
+L254:     a land border port of entry for FY 2027 will continue to be $30,
+L255:     consisting of the $6 land border fee and the $24 HR-1 fee. CBP will not
+L256:     assess a fee for aliens arriving at an air or sea port of entry because
+L257:     such aliens are not required to submit an application for a CBP Form I-
+L258:     94.
+L259: 
+L260:     C. Electronic System for Travel Authorization (ESTA)
+L261: 
+L262:         ESTA is the online system through which aliens intending to enter
+L263:     the United States under the Visa Waiver Program (VWP) must obtain an
+L264:     electronic travel authorization in advance of travel to the United
+L265:     States.\7\ Each alien intending to travel by air, sea, or land to the
+L266:     United States under the VWP must receive a travel authorization via
+L267:     ESTA prior to travel. See INA sec. 217 (8 U.S.C. 1187) and 8 CFR part
+L268:     217. Pursuant to section 217(h)(3)(B) of the INA (8 U.S.C.
+L269:     1187(h)(3)(B)), as amended by section 100014 of HR-1, two fees are
+L270:     required for each ESTA authorization, and one fee is required for each
+L271:     use of the ESTA system.
+L272:     ---------------------------------------------------------------------------
+L273: 
+L274:         \7\ For additional information on the Visa Waiver Program, see 8
+L275:     U.S.C. 1187 and 8 CFR part 217.
+L276:     ---------------------------------------------------------------------------
+L277: 
+L278:         The FY 2026 ESTA authorization fee of $40.27, as required by HR-1,
+L279:     is the sum of three fees, including: $17 per travel authorization as
+L280:     provided for in 8 U.S.C. 1187(h)(3)(B)(i)(I), $10.27 as provided for in
+L281:     8 U.S.C. 1187(h)(3)(B)(i)(II) to ensure recovery of the full costs of
+L282:     providing and administering the ESTA system, and $13 per travel
+L283:     authorization as provided for in 8 U.S.C. 1187(h)(3)(B)(i)(III). See 90
+L284:     FR 52085, 52087. The 8 U.S.C. 1187(h)(3)(B)(i)(II) cost recovery fee is
+L285:     required for all applications, regardless of authorization or denial;
+L286:     thus, in the event the ESTA application is denied, HR-1 set a $10.27
+L287:     fee for FY 2026. See 8 U.S.C. 1187(h)(3)(B).
+L288:         CBP is required to adjust the 8 U.S.C. 1187(h)(3)(B)(i)(II) cost
+L289:     recovery fee for inflation in each fiscal year. See 8 U.S.C.
+L290:     1187(h)(3)(B)(iv). Under HR-1, the adjusted 8 U.S.C.
+L291:     1187(h)(3)(B)(i)(II) cost recovery fee is calculated by adding the
+L292:     amount required under 8 U.S.C. 1187(h)(3)(B)(i)(II) for the previous
+L293:     fiscal year to the inflation adjustment amount. See 8 U.S.C.
+L294:     1187(h)(3)(B)(iv). For FY 2026, the amount required under 8 U.S.C.
+L295:     1187(h)(3)(B)(i)(II) is $10.27. The inflation adjustment for FY 2027 is
+L296:     $0.35. HR-1 does not direct CBP to round the HR-1 ESTA inflation
+L297:     adjustment. Thus, for FY 2027, the 8 U.S.C. 1187(h)(3)(B)(i)(II) cost
+L298:     recovery fee will be $10.62 ($10.27 + $0.35).
+L299:         As noted previously, the 8 U.S.C. 1187(h)(3)(B)(i)(II) cost
+L300:     recovery fee is one of three fees that, when combined, comprise the
+L301:     total ESTA authorization fee for each fiscal year. This notice does not
+L302:     alter the $17 or $13 fees required under 8 U.S.C. 1187(h)(3)(B)(i)(I)
+L303:     and 8 U.S.C. 1187(h)(3)(B)(i)(III), respectively. Thus, as required by
+L304:     HR-1, the inflation-adjusted FY 2027 ESTA fee will be $40.62 ($17 +
+L305:     $10.62 + $13) per travel authorization. In the event the ESTA
+L306:     application is denied, the FY 2027 fee is $10.62 to ensure recovery of
+L307:     the costs of providing and administering the ESTA System.
+L308: 
+L309:     D. Electronic Visa Update System (EVUS)
+L310:         EVUS is an online system currently used by nationals of the
+L311:     People's Republic of China (PRC) holding a 10-year B-1, B-2, or B-1/B-2
+L312:     (visitor) visa to provide required information to DHS prior to travel
+L313:     to the United States. See
+L314: 
+L315:     [[Page 62537]]
+L316: 
+L317:     8 CFR part 215, subpart B.\8\ PRC nationals with an approved U.S.-
+L318:     issued visa of a designated category must enroll in EVUS and provide or
+L319:     update personal and travel information to receive a determination of
+L320:     travel eligibility. See 8 CFR 215.24.
+L321:     ---------------------------------------------------------------------------
+L322: 
+L323:         \8\ In a Federal Register notice published on October 20, 2016
+L324:     (81 FR 72600), DHS identified the PRC as an EVUS country and
+L325:     designated B-1, B-2, and B-1/B-2 visas issued without restriction
+L326:     for the maximum validity period and contained in a passport issued
+L327:     by the PRC as designated visa categories for purposes of EVUS.
+L328:     ---------------------------------------------------------------------------
+L329: 
+L330:         Pursuant to HR-1, the Secretary of Homeland Security must require
+L331:     any alien enrolling in EVUS to pay a fee. Public Law 119-21 sec. 100015
+L332:     (8 U.S.C. 1813). The alien must pay the fee at the time of enrollment.
+L333:     Id. For FY 2025, the statute set a minimum fee amount of $30. See
+L334:     Public Law 119-21 sec. 100015(b)(1).
+L335:         During FY 2026 and each subsequent FY, CBP is required to adjust
+L336:     the HR-1 EVUS fee for inflation. See Public Law 119-21 sec.
+L337:     100015(b)(2). The statutory formula requires adding an inflation
+L338:     adjustment amount, rounded down to the next lowest multiple of $0.25,
+L339:     to the amount of the fee required under Public Law 119-21 sec.
+L340:     100015(b) for the most recently concluded fiscal year. Id. The
+L341:     inflation-adjusted HR-1 EVUS fee for FY 2026 is $30.75. For FY 2027,
+L342:     the inflation adjustment under Public Law 119-21 sec. 100015(b)(2)(B)
+L343:     is $1.03 rounded down to the next lowest multiple of $0.25, which is
+L344:     $1.00. Thus, the inflation-adjusted HR-1 EVUS fee for FY 2027 is $31.75
+L345:     ($30.75 + $1.00).
+L346:         This $31.75 HR-1 EVUS fee is required in addition to any other fee
+L347:     applicable by law. See Public Law 119-21 sec. 100015(a).
+L348: 
+L349:     Markwayne Mullin,
+L350:     Secretary, U.S. Department of Homeland Security.
+L351:     [FR Doc. 2026-20185 Filed 9-30-26; 8:45 am]
+L352:     BILLING CODE 9111-14-P
+

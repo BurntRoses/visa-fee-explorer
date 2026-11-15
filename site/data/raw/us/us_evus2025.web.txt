@@ -1,0 +1,202 @@
+Federal Register, Volume 90 Issue 165 (Thursday, August 28, 2025) (https://www.govinfo.gov/content/pkg/FR-2025-08-28/html/2025-16453.htm)
+【turn429673view0】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://www.govinfo.gov/content/pkg/FR-2025-08-28/html/2025-16453.htm","lineno":null}); Total lines: 199
+L0: [Federal Register Volume 90, Number 165 (Thursday, August 28, 2025)]
+L1:     [Notices]
+L2:     [Pages 42025-42026]
+L3:     From the Federal Register Online via the Government Publishing Office [【0†www.gpo.gov†www.gpo.gov】]
+L4:     [FR Doc No: 2025-16453]
+L5: 
+L6: 
+L7:     -----------------------------------------------------------------------
+L8: 
+L9:     DEPARTMENT OF HOMELAND SECURITY
+L10: 
+L11:     U.S. Customs and Border Protection
+L12: 
+L13: 
+L14:     CBP Immigration Fees Required by HR-1 for Fiscal Year 2025
+L15:     AGENCY: U.S. Customs and Border Protection, Department of Homeland
+L16:     Security.
+L17: 
+L18:     ACTION: General notice.
+L19: 
+L20:     -----------------------------------------------------------------------
+L21: 
+L22:     SUMMARY: This notice advises the public that, pursuant to HR-1, U.S.
+L23:     Customs and Border Protection (CBP) will require aliens to pay a new
+L24:     fee to apply for a CBP Form I-94 Arrival/Departure Record, and to
+L25:     enroll in the Electronic Visa Update System. Additionally, pursuant to
+L26:     HR-1, the Electronic System for Travel Authorization (ESTA) fee for
+L27:     authorizations has increased. This notice advises the public of the HR-
+L28:     1 applicable fees for Fiscal Year (FY) 2025.
+L29: 
+L30:     DATES: CBP will begin assessing the new HR-1 fees described in this
+L31:     notice on September 30, 2025.
+L32: 
+L33:     FOR FURTHER INFORMATION CONTACT: Melanie Mataxas, Director, Electronic
+L34:     Systems Travel Authorization, Office of Field Operations, U.S. Customs
+L35:     and Border Protection, at 202-325-1372 or at
+L36:     【1†[email protected]】.
+L37: 
+L38:     SUPPLEMENTARY INFORMATION:
+L39: 
+L40:     I. Background and Legal Authority
+L41: 
+L42:         On July 4, 2025, the President signed into law the One Big
+L43:     Beautiful Bill Act, Public Law 119-21, 139 Stat. 72 (``HR-1''). HR-1
+L44:     was a comprehensive legislative package that changed many laws and
+L45:     added new laws that touch many areas of the United States
+L46:     Government.\1\ Among those changes, the law established new immigration
+L47:     enforcement fees and increased existing fees for certain immigration-
+L48:     related actions. The statute establishes minimum fees for Fiscal Year
+L49:     (FY) 2025 and requires annual increases to the fees based on the
+L50:     Consumer Price Index for All Urban Consumers.\2\
+L51:     ---------------------------------------------------------------------------
+L52: 
+L53:         \1\ See HR-1, Title X, Subtitle A, Part I, sections 100001
+L54:     through 100018.
+L55:         \2\ See Public Law 119-21 secs. 100008(b)(2), 100014(3),
+L56:     100015(b)(2).
+L57:     ---------------------------------------------------------------------------
+L58: 
+L59:         This notice states the FY 2025 rates for three fees specified in
+L60:     HR-1 that are generally administered by U.S. Customs and Border
+L61:     Protection (CBP).\3\ Specifically, this notice states the fees
+L62:     applicable for the application of CBP Form I-94 Arrival/Departure
+L63:     Record, for travel authorizations via the Electronic System for Travel
+L64:     Authorization (ESTA), and for enrollment in the Electronic Visa Update
+L65:     System (EVUS). See Public Law 119-21 secs. 100008, 100014, 100015. The
+L66:     funds collected from these fees will be distributed to the appropriate
+L67:     agency or the U.S. Treasury as mandated by statute.\4\ The following
+L68:     table provides a summary of the FY 2025 fees described in this notice
+L69:     and required by HR-1.
+L70:     ---------------------------------------------------------------------------
+L71: 
+L72:         \3\ The Secretary of Homeland Security has delegated the
+L73:     authority to enforce and administer the immigration laws to the
+L74:     Commissioner of U.S. Customs and Border Protection (CBP). See DHS,
+L75:     Delegation No. 07010.3, Delegation of Authority to the Commissioner
+L76:     of U.S. Customs and Border Protection, No. 07010.3, II.B.11 (Rev.
+L77:     No. 03.2, Incorporating Change 2) (Dec. 11, 2024).
+L78:         \4\ See 8 U.S.C. 1187(h)(3)(B)(ii); 8 U.S.C. 1356; Public Law
+L79:     119-21 secs. 100008(c), 100015(c).
+L80: 
+L81:                                             FY 2025 Fees, as Required by HR-1
+L82:     ----------------------------------------------------------------------------------------------------------------
+L83:      HR-1, Public Law 119-21 (139 Stat.                                                                    Total FY
+L84:                  72) section                       Action           Current fee      FY 2025 HR-1 fee      2025 fee
+L85:     ----------------------------------------------------------------------------------------------------------------
+L86:     100008..............................  Application for CBP                $6  $24 \5\ (added to               $30
+L87:                                            Form I-94 at land                      existing fee).
+L88:                                            border ports of entry.
+L89:     100014..............................  ESTA authorization.....            21  $40 (replaces existing           40
+L90:                                                                                   fee).
+L91:     100015..............................  EVUS enrollment........           N/A  $30....................          30
+L92:     ----------------------------------------------------------------------------------------------------------------
+L93:     II. FY 2025 Immigration Fees Required by HR-1
+L94:     ---------------------------------------------------------------------------
+L95: 
+L96:         \5\ As described above in section II.B, the total fee for aliens
+L97:     who apply for a CBP Form I-94 (i.e., aliens arriving at a land
+L98:     border port of entry) will be $30, consisting of the $6 fee required
+L99:     by 8 CFR 103.7(d)(4), 235.1(h)(1) and 286.9(b)(1), and the $24 fee
+L100:     required by HR-1.
+L101:     ---------------------------------------------------------------------------
+L102: 
+L103:     A. CBP Form I-94 Arrival/Departure Record
+L104: 
+L105:         CBP issues an electronic CBP Form I-94 Arrival/Departure Record to
+L106:     all arriving aliens who are legally required to submit that form
+L107:     (unless otherwise exempted). See 8 CFR 1.4, 235.1(h). CBP Form I-94
+L108:     serves as evidence of the terms of the alien's admission or parole and
+L109:     is generally issued at the time the alien is admitted or paroled at a
+L110:     U.S. port of entry. See 8 CFR 235.1(h). Aliens arriving at a land
+L111:     border port of entry must apply for a CBP Form I-94.
+L112:         Pursuant to HR-1, the Secretary of Homeland Security must require
+L113:     the payment of a fee for any alien who submits an application for a
+L114:     Form I-94 Arrival/Departure Record. See Public Law 119-21 sec. 100008.
+L115:     For FY 2025, the statute sets a minimum fee of $24. See Public Law 119-
+L116:     21 sec. 100008(b)(1). Accordingly, for FY 2025, the minimum HR-1 fee to
+L117:     apply for a CBP Form I-94 is $24.
+L118:         The $24 fee is in addition to any other fee applicable by law. See
+L119:     Public Law 119-21 sec. 100008(a). Currently, CBP imposes a $6 fee for
+L120:     aliens who are required to be issued, or request to be issued, CBP Form
+L121:     I-94 and who intend to arrive at a land border port of entry. See 8 CFR
+L122:     103.7(d)(4), 235.1(h)(1) and 286.9(b)(1). Accordingly, the total fee to
+L123:     apply for a CBP Form I-94 at a land border port of entry for FY 2025 is
+L124:     $30, consisting of the $6 land border fee and the HR-1 $24 fee. CBP
+L125:     will not assess a fee for aliens arriving at an air or sea port of
+L126:     entry because such aliens are not required to submit an application for
+L127:     a CBP Form I-94.
+L128: 
+L129:     B. Electronic System for Travel Authorization (ESTA)
+L130: 
+L131:         ESTA is the online system through which aliens intending to enter
+L132:     the United States under the Visa Waiver Program (VWP) must obtain an
+L133:     electronic travel authorization in advance of travel to the United
+L134:     States.\6\ Each alien intending to travel by air, sea, or land to the
+L135:     United States under the VWP must receive a travel authorization via
+L136:     ESTA prior to travel. See sec. 217 of the Immigration and Nationality
+L137:     Act (INA) (8 U.S.C. 1187) and 8 CFR part 217. Prior to the enactment of
+L138:     HR-1, CBP required a fee of $21 for an ESTA.
+L139:     ---------------------------------------------------------------------------
+L140:         \6\ For additional information on the Visa Waiver Program, see 8
+L141:     U.S.C. 1187 and 8 CFR part 217.
+L142: 
+L143:     ---------------------------------------------------------------------------
+L144: 
+L145:     [[Page 42026]]
+L146: 
+L147:         Section 100014 of Public Law 119-21 amended section 217(h)(3)(B) of
+L148:     the INA (8 U.S.C. 1187(h)(3)(B)) to increase the fee for the use of
+L149:     ESTA to $40. The minimum ESTA fee for FY 2025 is now $40.\7\
+L150:     ---------------------------------------------------------------------------
+L151: 
+L152:         \7\ The ESTA fee is now the sum of three amounts: (1) $17 per
+L153:     travel authorization fee, pre-existing in (B)(i)(I); (2) an amount
+L154:     not less than $10, set now in (B)(i)(II); and (3) the new $13 per
+L155:     travel authorization fee in (B)(i)(III), for a total minimum of $40.
+L156:     See INA section 217(h)(3)(B), as amended by sec. 100014, Public Law
+L157:     119-21.
+L158:     ---------------------------------------------------------------------------
+L159: 
+L160:     C. Electronic Visa Update System (EVUS)
+L161: 
+L162:         EVUS is an online system currently used by nationals of the
+L163:     People's Republic of China (PRC) holding a 10-year B1/B2, B1 or B2
+L164:     (visitor) visa to provide required information to the Department of
+L165:     Homeland Security (DHS) prior to travel to the United States. See 8 CFR
+L166:     part 215, subpart B.\8\ PRC nationals with an approved U.S.-issued visa
+L167:     of a designated category must enroll in EVUS and provide or update
+L168:     personal and travel information to receive a determination of travel
+L169:     eligibility. See 8 CFR 214.24.
+L170:     ---------------------------------------------------------------------------
+L171: 
+L172:         \8\ In a Federal Register notice published on Oct. 20, 2016 (81
+L173:     FR 72600), DHS identified the PRC as an EVUS country and designated
+L174:     B-1, B-2, and B-1/B-2 visas issued without restriction for the
+L175:     maximum validity period and contained in a passport issued by the
+L176:     PRC as designated visa categories for purposes of EVUS.
+L177:     ---------------------------------------------------------------------------
+L178: 
+L179:         Pursuant to HR-1, the Secretary of Homeland Security must require
+L180:     the payment of a fee by any alien enrolling in EVUS. Public Law 119-21
+L181:     sec. 100015. The alien must pay the fee at the time of enrollment. Id.
+L182:     For FY 2025, the statute sets a minimum fee of $30. See Public Law 119-
+L183:     21 sec. 100015(b)(1). This $30 fee is in addition to any other fee
+L184:     applicable by law. See Public Law 119-21 sec. 100015(a).
+L185: 
+L186:     III. Signing Authority
+L187: 
+L188:         Rodney S. Scott, Commissioner, having reviewed and approved this
+L189:     document, has delegated the authority to electronically sign this
+L190:     document to the Director (or Acting Director, if applicable) of the
+L191:     Regulations and Disclosure Law Division for CBP, for purposes of
+L192:     publication in the Federal Register.
+L193: 
+L194:     Robert F. Altneu,
+L195:     Director, Regulations and Disclosure Law Division, Regulations and
+L196:     Rulings, Office of Trade, U.S. Customs and Border Protection.
+L197:     [FR Doc. 2025-16453 Filed 8-27-25; 8:45 am]
+L198:     BILLING CODE 9111-14-P
+

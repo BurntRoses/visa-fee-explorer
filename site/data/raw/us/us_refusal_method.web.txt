@@ -1,0 +1,258 @@
+Calculation of the Adjusted Visa Refusal Rate for Tourist and Business Travelers Under the Guidelines of the Visa Waiver Program (https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics/nonimmigrant-b-visa-adjusted-refusal-rates-by-nationality.html)
+【turn482255view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics/nonimmigrant-b-visa-adjusted-refusal-rates-by-nationality.html","lineno":null}); Total lines: 255
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: ### Worldwide Caution: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L3: 
+L4: 【2†Skip to main content】
+L5: 
+L6: [Input: Search]
+L7: 
+L8:   * 【3†Home】
+L9: 
+L10: |
+L11: 
+L12:   * 【4†Travel Advisories】
+L13: 
+L14: |
+L15: 
+L16:   * 【5†Newsroom】
+L17: 
+L18: |
+L19: 
+L20:   * 【6†About Us|】
+L21:   * 【7†Contact Us】
+L22: 
+L23: |
+L24: 
+L25:   * 【8†Careers†careers.state.gov】
+L26: 
+L27: |
+L28: 
+L29:   * 【9†MyTravelGov】
+L30: 
+L31: |
+L32: 
+L33:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L34: 
+L35: ### Travel.State.Gov
+L36: 
+L37:   * #### 【3†Travel.State.Gov】
+L38: 
+L39:   * 【11†Image】
+L40: #### 【12†Congressional Liaison】
+L41: 
+L42:   * 【13†Image】
+L43: 
+L44: #### 【14†Special Issuance Agency】
+L45: 
+L46:   * #### 【15†U.S. Passports】
+L47: 
+L48:   * #### 【16†International Travel】
+L49: 
+L50:   * #### 【17†U.S. Visas】
+L51: 
+L52:   * #### 【18†Intercountry Adoption】
+L53: 
+L54:   * #### 【19†International Parental Child Abduction】
+L55: 
+L56:   * #### 【20†Records and Authentications】
+L57: ### Popular Links
+L58: 
+L59:   * #### 【3†Home】
+L60: 
+L61:   * #### 【4†Travel Advisories】
+L62: 
+L63:   * 【5†Newsroom】
+L64:   * 【6†About Us】
+L65:   * 【7†Contact Us】
+L66:   * 【8†Careers†careers.state.gov】
+L67:   * 【9†MyTravelGov】
+L68:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L69: ### Legal Resources
+L70: 
+L71:   * #### 【21†Legal Information】
+L72: 
+L73:   * #### 【22†Info for U.S. Law Enforcement】
+L74: 
+L75: [Input: Search]
+L76: 
+L77:   * 【11†Image: Congressional Liaison】 【23†Congressional Liaison】
+L78:   * 【13†Image: Department of State】 【14†Special Issuance Agency】
+L79:   * 【24†Probe2】
+L80:   * 【21†Legal Resources】
+L81:   * 【15†U.S. Passports】
+L82:   * 【16†International Travel】
+L83:   * 【17†U.S. Visas】
+L84:   * 【18†Intercountry Adoption】
+L85:   * 【19†International Parental Child Abduction】
+L86:   * 【25†Replace or Certify Documents】
+L87: 
+L88: # Legal Resources
+L89: # English
+L90: 
+L91:   * 【26†Legal Resources】
+L92: 
+L93:   * 【27†U.S. Visa Law & Policy】
+L94: 
+L95:   * 【28†Judicial Assistance Destination Information】
+L96: # U.S. Visa Law & Policy
+L97: 
+L98:   * A
+L99:   * B
+L100:   * C
+L101:   * D
+L102:   * E
+L103:   * F
+L104: 
+L105:   * G
+L106:   * H
+L107:   * I
+L108:   * J
+L109:   * K
+L110:   * L
+L111: 
+L112:   * M
+L113:   * N
+L114:   * O
+L115:   * P
+L116:   * Q
+L117:   * R
+L118: 
+L119:   * S
+L120:   * T
+L121:   * U
+L122:   * V
+L123:   * W
+L124:   * X
+L125: 
+L126:   * Y
+L127:   * Z
+L128:   * All
+L129: 
+L130: Filter Countries
+L131: 
+L132:   * 【29†The Visa Bulletin】
+L133: 
+L134:   * 【30†Visa Statistics】
+L135: 
+L136:   * 【31†Laws & Regulations】
+L137: 
+L138:   * 【32†Accepting, Serving in, or Performing Duties of a Position with the Government of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(4)】
+L139:   * 【33†Loss of U.S. Nationality and Service in the Armed Forces of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(3)】
+L140: # Calculation of the Adjusted Visa Refusal Rate for Tourist and Business Travelers Under the Guidelines of the Visa Waiver Program
+L141: 
+L142: What is the Visa Waiver Program?
+L143: The Visa Waiver Program enables nationals of certain countries to travel without a visa to the U.S., when the intended travel is for "B" visa purposes (tourism or business) for stays of 90 days or less, if the traveler meets certain requirements. For more information, see 【34†Visa Waiver Program section】. The Visa Waiver Program is administered by the Department of Homeland Security.
+L144: 
+L145: What is a Visa Refusal?
+L146: Under U.S. immigration law, a visa must be denied if the applicant cannot establish his or her eligibility, either because the application does not meet the requirements of an established visa category, or because there are grounds for ineligibility based on other aspects of the visa case. A visa refusal is the formal denial of a nonimmigrant visa application by a U.S. consular officer acting pursuant to the Immigration and Nationality Act.
+L147: (More about visa refusals may be found in the 【35†Visa Denials section】).
+L148: What is a Refusal Overcome?
+L149: 
+L150: Some visa refusals can be overcome by the presentation of additional information. "Overcomes" are cases in which an initial decision to deny a visa or suspend processing in a visa case is overcome by the new information or changed circumstances that establishes an applicant's eligibility for the visa (and the visa is then issued).
+L151: 
+L152: What is a Waiver of Ineligibility?
+L153: Some visa refusals require a waiver of ineligibility which must be approved by the Department of Homeland Security before a visa may be issued.
+L154: 
+L155: How is the Visa Waiver Program Adjusted Visa Refusal Rate Calculated?
+L156: The Visa Waiver Program nonimmigrant visitor visa refusal rate is based on the worldwide number of applicants for visitor (B) visas who are nationals of that country. B visas are issued for short term business or pleasure travel to the United States. For information about qualifying for a B visa for business or tourism, please see the 【36†Visitor Visa page】.
+L157: The Department identifies multiple applications from a unique applicant and omits all but the last action from the calculation. Thus, an applicant is counted only once each year and is assigned the status in which he or she ended the year. For example, if an applicant who was refused in April re-applies and is issued in July, he or she will count only as an issuance. Similarly, if an applicant who was refused in April re-applies and is refused again in July, he or she will be counted as only one refusal.
+L158: Rarely, an applicant may end the year in a third category, “overcome.” This happens when an officer has the information he needs to overcome a refusal but has not processed the case to completion.
+L159: The adjusted refusal rate equals: [Refusals minus Overcomes] divided by [Issuances plus Refusals minus Overcomes].
+L160: 
+L161: Example:
+L162: 
+L163: Determination of B Visa Adjusted Refusal Rate for Country X:
+L164: 
+L165: Country X, worldwide, had 305,024 B visa applicants end the fiscal year in the “issuance” status;
+L166: 
+L167: 20,548 end in “refused” status; and 88 end in “overcome” status.
+L168: 
+L169: Refusals minus Overcomes = 20,548 - 88 = 20,460
+L170: 
+L171: Issuances plus Refusals minus Overcomes = 305,024 + 20,548 - 88 = 325,484
+L172: 20,460 divided by 325,484 = 6.3 percent (Adjusted Refusal Rate)
+L173: The number of visa applicants who receive waivers of ineligibility is not considered when calculating Visa Waiver Program adjusted refusal rates. This is because a visa applicant requiring a waiver of ineligibility must apply for that waiver and receive approval before obtaining a visa with the waiver annotated.
+L174: Therefore, applicants requiring such a determination would not be eligible to participate in the Visa Waiver Program, because the decision regarding the application for waiver of ineligibility could not be made at a port of entry.
+L175: Other Considerations Regarding the Visa Waiver Program Adjusted Refusal Rate
+L176: A country's visa refusal rate is just one of the criteria considered when determining a country's eligibility for Visa Waiver Program status. For more information, see "How a Country Qualifies for the Visa Waiver Program," in the 【34†Visa Waiver Program section】. It is important to note that the Visa Waiver Program is administered by the Department of Homeland Security. Adjusted visa refusal rates for nationals of Visa Waiver Program countries reflect only visa applications submitted at U.S.
+L177: embassies and consulates abroad. They do not take into account persons who, under the Visa Waiver Program, travel to the U.S. without visas. Visa Waiver Program country refusal rates therefore tend to be higher than they would be if the Visa Waiver Program travelers were included in the calculation, since such travelers would in all likelihood have been issued visas had they applied.
+L178: #### Visa Waiver Program Refusal Rate Data
+L179:   * 【37†FY2025 NIV B Adjusted Refusals by Nationality】
+L180:   * 【38†FY2024 NIV B Adjusted Refusals by Nationality】
+L181:   * 【39†FY2023 NIV B Adjusted Refusals by Nationality】
+L182:   * 【40†FY2022 NIV B Adjusted Refusals by Nationality】
+L183:   * 【41†FY2021 NIV B Adjusted Refusals by Nationality】
+L184:   * 【42†FY2020 NIV B Adjusted Refusals by Nationality】
+L185:   * 【43†FY2019 NIV B Adjusted Refusals by Nationality】
+L186:   * 【44†FY2018 NIV B Adjusted Refusals by Nationality】
+L187:   * 【45†FY2017 NIV B Adjusted Refusals by Nationality】
+L188:   * 【46†FY2016 NIV B Adjusted Refusals by Nationality】
+L189:   * 【47†FY2015 NIV B Adjusted Refusals by Nationality】
+L190:   * 【48†FY2014 NIV B Adjusted Refusals by Nationality】
+L191:   * 【49†FY2013 NIV B Adjusted Refusals by Nationality】
+L192:   * 【50†FY2012 NIV B Adjusted Refusals by Nationality】
+L193:   * 【51†FY2011 NIV B Adjusted Refusals by Nationality】
+L194:   * 【52†FY2010 NIV B Adjusted Refusals by Nationality】
+L195:   * 【53†FY2009 NIV B Adjusted Refusals by Nationality】
+L196:   * 【54†FY2008 NIV B Adjusted Refusals by Nationality】
+L197:   * 【55†FY2007 NIV B Adjusted Refusals by Nationality】
+L198:   * 【56†FY2006 NIV B Adjusted Refusals by Nationality】
+L199: ### Law & Policy - In This Section
+L200: 
+L201: 【29†Visa Bulletin】
+L202: 【30†Visa Statistics】
+L203:         【57†Annual Reports】
+L204:         【58†Immigrant Visa Statistics】
+L205:         【59†Nonimmigrant Visa Statistics】
+L206:         【60†Graphs】
+L207: 【31†Laws and Regulations】
+L208: ### External Link
+L209: 
+L210: You are about to leave travel.state.gov for an external website that is not maintained by the U.S. Department of State.
+L211: 
+L212: Links to external websites are provided as a convenience and should not be construed as an endorsement by the U.S. Department of State of the views or products contained therein. If you wish to remain on travel.state.gov, click the "cancel" message.
+L213: 
+L214: You are about to visit:
+L215: 
+L216: [Button: Cancel] GO
+L217: 
+L218: Travel.State.Gov
+L219: 
+L220:   * #### 【3†Travel.State.Gov】
+L221:   * #### 【11†Image】【23†Congressional Liaison】
+L222: 
+L223:   * #### 【13†Image】【14†Special Issuance Agency】
+L224: 
+L225:   * #### 【15†U.S. Passports】
+L226: 
+L227:   * #### 【61†International Travel】
+L228: 
+L229:   * #### 【17†U.S. Visas】
+L230: 
+L231:   * #### 【18†Intercountry Adoption】
+L232: 
+L233:   * #### 【19†International Parental Child Abduction】
+L234: 
+L235:   * #### 【20†Records and Authentications】
+L236: 
+L237: Popular Links
+L238:   * 【3†Home】
+L239:   * 【4†Travel Advisories】
+L240:   * 【5†Newsroom】
+L241:   * 【6†About Us】
+L242:   * 【7†Contact Us】
+L243:   * 【8†Careers†careers.state.gov】
+L244:   * 【9†MyTravelGov】
+L245:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L246: ### Stay Connected
+L247: ### Legal Resources
+L248: 
+L249:   * #### 【21†Legal Information】
+L250: 
+L251:   * #### 【22†Info for U.S. Law Enforcement】
+L252: 【62†Privacy†www.state.gov】 | 【63†Accessibility†www.state.gov】 | 【64†Copyright & Disclaimer】 | 【65†FOIA†foia.state.gov】 | 【66†GSA†www.gsa.gov】 | 【67†No FEAR Act Data†www.state.gov】 | 【68†Office of the Inspector General†www.stateoig.gov】 | 【69†USA.gov†www.usa.gov】 | 【70†USA.gov/espanol†www.usa.gov】 |
+L253: This site is managed by the U.S. Department of State. External links to other Internet sites and listings of private entities on this page are provided as a convenience and should not be construed as the U.S. Department of State or U.S. government endorsement of the entity, its views, the products or services it provides, or the accuracy of information contained therein.
+L254: The order in which names appear has no significance, and the listings or links may be removed at any time at the discretion of the Department.
+

@@ -1,0 +1,623 @@
+Fees for Visa Services (https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html)
+【turn829522view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html","lineno":null}); Total lines: 620
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: ### Worldwide Caution: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L3: 
+L4: 【2†Skip to main content】
+L5: 
+L6: [Input: Search]
+L7: 
+L8:   * 【3†Home】
+L9: 
+L10: |
+L11: 
+L12:   * 【4†Travel Advisories】
+L13: 
+L14: |
+L15: 
+L16:   * 【5†Newsroom】
+L17: 
+L18: |
+L19: 
+L20:   * 【6†About Us|】
+L21:   * 【7†Contact Us】
+L22: 
+L23: |
+L24: 
+L25:   * 【8†Careers†careers.state.gov】
+L26: 
+L27: |
+L28: 
+L29:   * 【9†MyTravelGov】
+L30: 
+L31: |
+L32: 
+L33:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L34: 
+L35: ### Travel.State.Gov
+L36: 
+L37:   * #### 【3†Travel.State.Gov】
+L38: 
+L39:   * 【11†Image】
+L40: #### 【12†Congressional Liaison】
+L41: 
+L42:   * 【13†Image】
+L43: 
+L44: #### 【14†Special Issuance Agency】
+L45: 
+L46:   * #### 【15†U.S. Passports】
+L47: 
+L48:   * #### 【16†International Travel】
+L49: 
+L50:   * #### 【17†U.S. Visas】
+L51: 
+L52:   * #### 【18†Intercountry Adoption】
+L53: 
+L54:   * #### 【19†International Parental Child Abduction】
+L55: 
+L56:   * #### 【20†Records and Authentications】
+L57: ### Popular Links
+L58: 
+L59:   * #### 【3†Home】
+L60: 
+L61:   * #### 【4†Travel Advisories】
+L62: 
+L63:   * 【5†Newsroom】
+L64:   * 【6†About Us】
+L65:   * 【7†Contact Us】
+L66:   * 【8†Careers†careers.state.gov】
+L67:   * 【9†MyTravelGov】
+L68:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L69: ### Legal Resources
+L70: 
+L71:   * #### 【21†Legal Information】
+L72: 
+L73:   * #### 【22†Info for U.S. Law Enforcement】
+L74: 
+L75: [Input: Search]
+L76: 
+L77:   * 【11†Image: Congressional Liaison】 【23†Congressional Liaison】
+L78:   * 【13†Image: Department of State】 【14†Special Issuance Agency】
+L79:   * 【21†Legal Resources】
+L80:   * 【15†U.S. Passports】
+L81:   * 【16†International Travel】
+L82:   * 【17†U.S. Visas】
+L83:   * 【18†Intercountry Adoption】
+L84:   * 【19†International Parental Child Abduction】
+L85:   * 【24†Replace or Certify Documents】
+L86: 
+L87: # U.S. Visas
+L88: # English
+L89: 
+L90:   * 【25†Tourism & Visit】
+L91: 
+L92:   * 【26†Business】
+L93: 
+L94:   * 【27†Employment】
+L95: 
+L96:   * 【28†Study & Exchange】
+L97: 
+L98:   * 【29†Immigrate】
+L99: 
+L100:   * 【30†Other Visa Categories】
+L101: 
+L102:   * 【31†U.S. Visa: Reciprocity and Civil Documents by Country】
+L103: # Visa Information & Resources
+L104: 
+L105:   * A
+L106:   * B
+L107:   * C
+L108:   * D
+L109:   * E
+L110:   * F
+L111: 
+L112:   * G
+L113:   * H
+L114:   * I
+L115:   * J
+L116:   * K
+L117:   * L
+L118: 
+L119:   * M
+L120:   * N
+L121:   * O
+L122:   * P
+L123:   * Q
+L124:   * R
+L125: 
+L126:   * S
+L127:   * T
+L128:   * U
+L129:   * V
+L130:   * W
+L131:   * X
+L132: 
+L133:   * Y
+L134:   * Z
+L135:   * All
+L136: 
+L137: Filter Countries
+L138: 
+L139:   * 【32†IV Scheduling Status Tool】
+L140: 
+L141:   * 【33†Rights and Protections for Temporary Workers - Albanian】
+L142: 
+L143:   * 【34†Rights and Protections for Temporary Workers - Algerian Arabic】
+L144: 
+L145:   * 【35†Rights and Protections for Temporary Workers - Arabic】
+L146:   * 【36†Rights and Protections for Temporary Workers - Armenian】
+L147: 
+L148:   * 【37†Rights and Protections for Temporary Workers - Azerbaijani】
+L149: 
+L150:   * 【38†Rights and Protections for Temporary Workers - Bengali】
+L151: 
+L152:   * 【39†Rights and Protections for Temporary Workers - Bulgarian】
+L153: 
+L154:   * 【40†Rights and Protections for Temporary Workers - Creole】
+L155: 
+L156:   * 【41†Rights and Protections for Temporary Workers - Croatian】
+L157: 
+L158:   * 【42†Rights and Protections for Temporary Workers - Czech】
+L159:   * 【43†Rights and Protections for Temporary Workers - English】
+L160: 
+L161:   * 【44†Rights and Protections for Temporary Workers - Farsi】
+L162: 
+L163:   * 【45†Rights and Protections for Temporary Workers - French】
+L164: 
+L165:   * 【46†Rights and Protections for Temporary Workers - Greek】
+L166: 
+L167:   * 【47†Rights and Protections for Temporary Workers - Hebrew】
+L168: 
+L169:   * 【48†Rights and Protections for Temporary Workers - Hindi】
+L170: 
+L171:   * 【49†Rights and Protections for Temporary Workers - Hungarian】
+L172:   * 【50†Rights and Protections for Temporary Workers - Indonesian】
+L173: 
+L174:   * 【51†Rights and Protections for Temporary Workers - Japanese】
+L175: 
+L176:   * 【52†Rights and Protections for Temporary Workers - Korean】
+L177: 
+L178:   * 【53†Rights and Protections for Temporary Workers - Latvian】
+L179: 
+L180:   * 【54†Rights and Protections for Temporary Workers - Macedonian】
+L181: 
+L182:   * 【55†Rights and Protections for Temporary Workers - Mandarin】
+L183: 
+L184:   * 【56†Rights and Protections for Temporary Workers - Mongolian】
+L185:   * 【57†Rights and Protections for Temporary Workers - Polish】
+L186: 
+L187:   * 【58†Rights and Protections for Temporary Workers - Brazilian Portuguese】
+L188: 
+L189:   * 【59†Rights and Protections for Temporary Workers - Portuguese】
+L190: 
+L191:   * 【60†Rights and Protections for Temporary Workers - Romanian】
+L192: 
+L193:   * 【61†Rights and Protections for Temporary Workers - Russian】
+L194: 
+L195:   * 【62†Rights and Protections for Temporary Workers - Spanish】
+L196: 
+L197:   * 【63†Rights and Protections for Temporary Workers - Tagalog】
+L198:   * 【64†Rights and Protections for Temporary Workers - Thai】
+L199: 
+L200:   * 【65†Rights and Protections for Temporary Workers - Turkish】
+L201: 
+L202:   * 【66†Rights and Protections for Temporary Workers - Urdu】
+L203: 
+L204:   * 【67†Rights and Protections for Temporary Workers - Uzbek】
+L205: 
+L206:   * 【68†Rights and Protections for Temporary Workers - Vietnamese】
+L207: 
+L208:   * 【69†Rights and Protections for Foreign-Citizen Fiancé(e)s and Spouses of U.S. Citizens and Spouses of Lawful Permanent Residents】
+L209:   * 【70†Wilberforce Guidance - Rights and Protections for Temporary Workers】
+L210: 
+L211:   * 【71†Visa Wizard】
+L212: 
+L213:   * 【72†Visa Denials】
+L214: 
+L215:   * 【73†Fraud Warning】
+L216: 
+L217:   * 【74†What the Visa Expiration Date Means】
+L218: 
+L219:   * 【75†Automatic Revalidation】
+L220: 
+L221:   * 【76†Lost and Stolen Passports, Visas, and Arrival/Departure Records (Form I-94)】
+L222: 
+L223:   * 【77†A-Z Index】
+L224: 
+L225:   * 【78†Glossary】
+L226: 
+L227:   * 【79†Directory of Visa Categories】
+L228: 
+L229:   * 【80†Customer Service Statement】
+L230: 
+L231:   * 【81†Photo Requirements】
+L232: 
+L233:   * 【82†Photo Examples】
+L234:   * 【83†Digital Image Requirements】
+L235: 
+L236:   * 【84†Photo Frequently Asked Questions】
+L237: 
+L238:   * 【85†Photo Composition Template】
+L239: 
+L240:   * 【86†Forms】
+L241: 
+L242:   * 【87†Online Immigrant Visa Forms】
+L243: 
+L244:   * 【88†DS-260 Immigrant Visa Electronic Application - Frequently Asked Questions (FAQs)】
+L245: 
+L246:   * 【89†DS-160: Online Nonimmigrant Visa Application】
+L247: 
+L248:   * 【90†DS-160: Frequently Asked Questions】
+L249: 
+L250:   * 【91†Administrative Processing Information】
+L251: 
+L252:   * 【92†Visa Appointment Wait Times】
+L253: 
+L254:   * 【93†Frequently Asked Questions】
+L255:   * 【94†Visa Applicants - State Sponsors of Terrorism Countries】
+L256: 
+L257:   * 【95†What is a U.S. Visa?】
+L258: 
+L259:   * 【96†About Visas - The Basics】
+L260: 
+L261:   * 【97†Your Rights and Protections】
+L262: 
+L263:   * 【98†Ineligibilities and Waivers: Laws】
+L264: 
+L265:   * 【99†Advisory Opinions】
+L266: 
+L267:   * 【100†Fees for Visa Services】
+L268: 
+L269:   * 【101†Treaty Countries】
+L270: 
+L271:   * 【102†Fees and Reciprocity Tables】
+L272: 
+L273:   * 【103†Temporary Reciprocity Schedule】
+L274: 
+L275:   * 【104†Country Acronyms】
+L276: 
+L277:   * 【105†Reciprocity: What's New?】
+L278: 
+L279:   * 【106†Reciprocity: What's New? 2024 Archive】
+L280:   * 【107†Reciprocity: What's New? 2023 Archive】
+L281: 
+L282:   * 【108†Reciprocity: What's New? 2022 Archive】
+L283: 
+L284:   * 【109†Reciprocity: What's New? 2021 Archive】
+L285: 
+L286:   * 【110†Reciprocity: What's New? 2020 Archive】
+L287: 
+L288:   * 【111†Reciprocity: What's New? 2019 Archive】
+L289: 
+L290:   * 【112†Safety & Security of U.S. Borders: Biometrics】
+L291: 
+L292:   * 【113†National Visa Center Customer Service Pledge】
+L293: 
+L294:   * 【114†Americans Traveling Abroad】
+L295:   * 【115†The United States and China Agree to Extending Visas for Short-term Business Travelers, Tourists, and Students】
+L296: 
+L297:   * 【116†Special Visa Processing Procedures Pursuant to Section 306】
+L298: 
+L299:   * 【117†U.S. Government Fact Sheet on Female Genital Mutilation or Cutting (FGM/C)】
+L300: 
+L301:   * 【118†Skill List by Country】
+L302: 
+L303:   * 【119†Presidential Proclamation 9645 and the January 2020 Presidential Proclamation】
+L304: 
+L305:   * 【120†Public Inquiry Form】
+L306: 
+L307:   * 【121†List of U.S. Embassies and Consulates - K1-K3 Visas】
+L308:   * 【122†List of U.S. Embassies and Consulates that Process Immigrant Visas】
+L309: 
+L310:   * 【123†List of U.S. Embassies and Consulates that Process Nonimmigrant Visas】
+L311: 
+L312:   * 【124†Affidavit of Support Fee Refund】
+L313: 
+L314:   * 【125†Immigrant Visa Prioritization】
+L315: 
+L316:   * 【126†USCIS Extends Suspension of Premium Processing Service for Religious Workers (R-1) Nonimmigrant Visa Classification】
+L317: 
+L318:   * 【127†Record Numbers of U.S. Students Are Studying Abroad】
+L319: 
+L320:   * 【128†U.S. Student Visas Reach Record Numbers in 2007】
+L321:   * 【129†U.S. security officials will begin scanning all 10 fingerprints of most non-Americans traveling to the United States】
+L322: 
+L323:   * 【130†Electronic Submission of Diversity Visa Lottery Applications】
+L324: 
+L325:   * 【131†USCIS Centralizes Filing for H-2A Petitions】
+L326: # Fees for Visa Services
+L327: 
+L328: 【132†Coming to the United States Temporarily - Nonimmigrant Visa Services】
+L329: 【133†Coming to the United States Permanently - Immigrant Services】
+L330: 【134†Special Visa Services】
+L331: This webpage lists visa application fees and other visa related fees collected by Department of State. Note that many immigration-related forms are submitted to the Department of Homeland Security’s United States Citizenship and Immigration Services (USCIS), and not to the Department of State. If the type of information or form you are seeking is not shown here, select 【135†USCIS Forms and Fees†www.uscis.gov】 to go to the USCIS Website to review more.
+L332: ## Coming to the United States Temporarily - Nonimmigrant Visa Services
+L333: 
+L334: Nonimmigrant visa application processing fees are tiered, as shown below, based on the visa category for which you are applying.
+L335: 
+L336: Notice: Every visa applicant must pay the visa application processing fee for the visa category being applied for, unless the application fee is not required, as listed 【136†below】.
+L337: ### Description of Service and Fee Amount (All fees = $ in US currency)
+L338: 
+L339: Nonimmigrant visa application processing fee (non-refundable) for all categories below
+L340: 
+L341:   * Non-petition-based nonimmigrant visa (except E): $185.00
+L342: 
+L343: Includes (but not limited to), the following visa categories:
+L344: B  | Visitor Visa: Business, Tourism, Medical treatment
+L345: C-1  | Transiting the United States
+L346: D  | Crewmembers - Airline, Ship
+L347: F  | Student, Academic
+L348: I  | Media and Journalists
+L349: J  | Exchange Visitors *Applicants for J visas participating in official U.S. Government-sponsored educational and cultural exchanges: No Fee (See 【137†Exchange Visitor Visas】 for further detailed fee information.)
+L350: M  | Students, Vocational
+L351: TN/TD  | NAFTA Professionals
+L352: S  | Witness or Informant*
+L353: T  | Victim of Trafficking in Persons*
+L354: U  | Victim of Criminal Activity*
+L355: _{*Though petition-based nonimmigrant visas, the processing fee for these visas is $185.00}
+L356: 
+L357:   * Petition based visa categories: $205.00
+L358: 
+L359: Includes these visa categories:
+L360: 
+L361: H  | Temporary Workers/Employment or Trainees
+L362: L  | Intracompany Transferees
+L363: O  | Persons with Extraordinary Ability
+L364: P  | Athletes. Artists & Entertainers
+L365: Q  | International Cultural Exchange
+L366: R  | Religious Worker
+L367:   * E - Treaty Trader/Investor, Australian Professional Specialty category visa: $315.00
+L368:   * K – Fiancé(e) or Spouse of U.S. citizen category visa: $265.00
+L369: ### Border crossing card fees
+L370: 
+L371:   * Border crossing card - age 15 and over (Valid 10 years): $185.00
+L372:   * Border crossing card - under age 15; for Mexican citizens if parent or guardian has or is applying for a border crossing card (valid 10 years or until the applicant reaches age 15, whichever is sooner): $15.00
+L373: ### Other Fees
+L374:   * L visa fraud prevention and detection fee - for visa applicant included in L blanket petition  (principal applicant only): $500.00
+L375:   * The Consolidated Appropriations Act of 2016 (Public Law 114-113) increases fees for certain H-1B and L-1 petitioners.  Consular sections collect this fee for blanket L-1 visa applications (principal applicant only) filed by petitioners who employ 50 or more individuals in the United States if more than 50 percent of those individuals are in H-1B or L-1 nonimmigrant status: $4,500.00
+L376: ### When the nonimmigrant visa application processing fee is not required:
+L377:   * Applicants for A, G, C-2, C-3, NATO, and diplomatic visas (defined in 22 CFR 41.26): No Fee
+L378:   * Applicants for J visas participating in official U.S. Government-sponsored educational and cultural exchanges: No Fee (See 【137†Exchange Visitor Visas】 for further detailed fee information.)
+L379:   * Replacement of machine-readable visa when the original visa was not properly affixed or needs to be reissued through no fault of the applicant: No Fee
+L380:   * Applicants exempted by international agreement as determined by Visa Services, including members and staff of an observer mission to United Nations Headquarters recognized by the UN General Assembly, and their immediate families: No Fee
+L381:   * Applicants travelling to provide charitable services as determined by
+L382: Visa Services: No Fee
+L383:   * U.S. government employees travelling on official business: No Fee
+L384:   * A parent, sibling, spouse or child of a U.S. government employee killed in the line of duty who is traveling to attend the employee’s funeral and/or burial; or a parent, sibling, spouse, son or daughter of a U.S. government employee critically injured in the line of duty for visitation during emergency treatment and convalescence: No Fee
+L385: ### Nonimmigrant visa issuance fee, including border-crossing cards.
+L386: 
+L387:   * See the 【31†Visa Reciprocity Tables】 to find out the visa issuance fee amount, if applicable:  Fee varies (Reciprocal)
+L388: ### When the nonimmigrant visa issuance fee is not required:
+L389:   * An official representative of a foreign government or an international or regional organization of which the United States is a member; members and staff of an observer mission to United Nations Headquarters recognized by the UN General Assembly; and applicants for diplomatic visas as defined under item 22(a); and their immediate families: No Fee
+L390:   * An applicant transiting to and from the United Nations Headquarters: No Fee
+L391:   * An applicant participating in a U.S. government sponsored program which may include applicant’s dependent spouse and children: No Fee
+L392:   * An applicant travelling to provide charitable services as determined by Visa Services: No Fee
+L393: ### Other - When a Visa is Not Required - Visa Waiver Program
+L394: 
+L395:   * Citizens of Visa Waiver Program participating countries, and meeting requirements pay a small fee. Select 【138†USCIS fees†www.uscis.gov】 to learn more.
+L396: ## Coming to the United States Permanently - Immigrant Services
+L397: 
+L398: Immigrant visa application processing fees are tiered, as shown below, based on the visa category you apply for.
+L399: 
+L400: Notice: Every visa applicant must pay the visa application processing fee for the visa category being applied for.
+L401: 
+L402: Description of Service and Fee Amount (All fees = $ in US currency)
+L403: 
+L404: Filing an Immigrant Visa Petition (When collected by U.S. Embassies and Consulates for USCIS. Fees subject to change.)
+L405: Immigrant petition for relative (I-130)  | $675.00
+L406: 【139†Orphan (intercountry adoption)】 immediate relative petition  (I-600, I-800)  | $775.00
+L407: 
+L408: Immigrant Visa Application Processing Fees (non-refundable, per person)
+L409: 【140†Immediate relative and family preference applications】 (processed on the basis of an approved I-130, I-600 or I-800 petition)  | $325.00
+L410: 【27†Employment-based applications】 (processed on the basis of an approved I-140 or I-526 petition)  | $345.00
+L411: 【29†Other immigrant visa applications】 (including approved I-360 self-petitioners, special immigrant visa applicants, returning resident (SB-1) applicants, and all others, except DV program selectees)  | $205.00
+L412: Certain Iraqi and Afghan special immigrant visa applications  | No Fee
+L413: 
+L414: 
+L415: Other Fees
+L416: 
+L417: Diversity Visa Registration Fee (paid at time of registration only by the principal applicant)  | $1.00
+L418: Diversity Visa Application Fee (per person applying as a DV program selectee for a 【141†DV category immigrant visa】)  | $330.00
+L419: Affidavit of Support Review (only when reviewed domestically)  | $120.00
+L420: Note: Forms and fee amounts are listed for immigration petitions which are submitted to Department of State, either accepted at a U.S. Embassy or Consulate abroad, or within the United States to the National Visa Center or Kentucky Consular Center. Other immigration related forms can only be approved by the Department of Homeland Security's United States Citizenship and Immigration Services (USCIS).
+L421: For other fees (relating to forms starting with an "I" select 【135†USCIS Forms and Fees†www.uscis.gov】 for additional information.
+L422: ## Special Visa Services
+L423: ### Description of Service and Fee Amount (All fees = $ in US currency)
+L424: Application for Determining Returning Resident Status, 【86†Form DS-117】  | $180.00
+L425: Transportation letter for Legal Permanent Residents of the United States  | $575.00
+L426: 【142†Application for Waiver】 of two-year residency requirement, J Waiver, 【143†Form DS-3035】  | $120.00
+L427: Application for Waiver of visa ineligibility, 【144†Form I-601†www.uscis.gov】 (Collected for USCIS and subject to change)  | $930.00
+L428: Refugee or significant public benefit parole case processing  | No Fee
+L429: Note:  These fee charts are based on the Code of Federal Regulations - Title 22, Part 22, Sections 22.1 through 22.7.)
+L430: 
+L431: 【145†Español】
+L432: ### More Information
+L433: 
+L434: 【77†A-Z Index】
+L435: 【146†Latest News】
+L436: 【95†What is a U.S. Visa?】
+L437: 【141†Diversity Visa Program】
+L438: 【147†Visa Waiver Program】
+L439: 【73†Fraud Warning】
+L440: 【148†Find a U.S. Embassy or Consulate†www.usembassy.gov】
+L441: 
+L442: 【149†In the United States:Visit the USA†www.visittheusa.com】
+L443: 
+L444: 【96†FAQs: About Visas - The Basics】
+L445: 
+L446:   * 【32†IV Scheduling Status Tool】
+L447: 
+L448:   * 【33†Rights and Protections for Temporary Workers - Albanian】
+L449: 
+L450:   * 【34†Rights and Protections for Temporary Workers - Algerian Arabic】
+L451:   * 【35†Rights and Protections for Temporary Workers - Arabic】
+L452: 
+L453:   * 【36†Rights and Protections for Temporary Workers - Armenian】
+L454: 
+L455:   * 【37†Rights and Protections for Temporary Workers - Azerbaijani】
+L456: 
+L457:   * 【38†Rights and Protections for Temporary Workers - Bengali】
+L458: 
+L459:   * 【39†Rights and Protections for Temporary Workers - Bulgarian】
+L460: 
+L461:   * 【40†Rights and Protections for Temporary Workers - Creole】
+L462: 
+L463:   * 【41†Rights and Protections for Temporary Workers - Croatian】
+L464:   * 【42†Rights and Protections for Temporary Workers - Czech】
+L465: 
+L466:   * 【43†Rights and Protections for Temporary Workers - English】
+L467: 
+L468:   * 【44†Rights and Protections for Temporary Workers - Farsi】
+L469: 
+L470:   * 【45†Rights and Protections for Temporary Workers - French】
+L471: 
+L472:   * 【46†Rights and Protections for Temporary Workers - Greek】
+L473: 
+L474:   * 【47†Rights and Protections for Temporary Workers - Hebrew】
+L475: 
+L476:   * 【48†Rights and Protections for Temporary Workers - Hindi】
+L477: 
+L478:   * 【49†Rights and Protections for Temporary Workers - Hungarian】
+L479:   * 【50†Rights and Protections for Temporary Workers - Indonesian】
+L480: 
+L481:   * 【51†Rights and Protections for Temporary Workers - Japanese】
+L482: 
+L483:   * 【52†Rights and Protections for Temporary Workers - Korean】
+L484: 
+L485:   * 【53†Rights and Protections for Temporary Workers - Latvian】
+L486: 
+L487:   * 【54†Rights and Protections for Temporary Workers - Macedonian】
+L488: 
+L489:   * 【55†Rights and Protections for Temporary Workers - Mandarin】
+L490: 
+L491:   * 【56†Rights and Protections for Temporary Workers - Mongolian】
+L492:   * 【57†Rights and Protections for Temporary Workers - Polish】
+L493: 
+L494:   * 【58†Rights and Protections for Temporary Workers - Brazilian Portuguese】
+L495: 
+L496:   * 【59†Rights and Protections for Temporary Workers - Portuguese】
+L497: 
+L498:   * 【60†Rights and Protections for Temporary Workers - Romanian】
+L499: 
+L500:   * 【61†Rights and Protections for Temporary Workers - Russian】
+L501: 
+L502:   * 【62†Rights and Protections for Temporary Workers - Spanish】
+L503: 
+L504:   * 【63†Rights and Protections for Temporary Workers - Tagalog】
+L505:   * 【64†Rights and Protections for Temporary Workers - Thai】
+L506: 
+L507:   * 【65†Rights and Protections for Temporary Workers - Turkish】
+L508: 
+L509:   * 【66†Rights and Protections for Temporary Workers - Urdu】
+L510: 
+L511:   * 【67†Rights and Protections for Temporary Workers - Uzbek】
+L512: 
+L513:   * 【68†Rights and Protections for Temporary Workers - Vietnamese】
+L514: 
+L515:   * 【69†Rights and Protections for Foreign-Citizen Fiancé(e)s and Spouses of U.S. Citizens and Spouses of Lawful Permanent Residents】
+L516:   * 【70†Wilberforce Guidance - Rights and Protections for Temporary Workers】
+L517: 
+L518:   * 【71†Visa Wizard】
+L519: 
+L520:   * 【72†Visa Denials】
+L521: 
+L522:   * 【73†Fraud Warning】
+L523: 
+L524:   * 【74†What the Visa Expiration Date Means】
+L525: 
+L526:   * 【76†Lost and Stolen Passports, Visas, and Arrival/Departure Records (Form I-94)】
+L527: 
+L528:   * 【77†A-Z Index】
+L529: 
+L530:   * 【78†Glossary】
+L531: 
+L532:   * 【79†Directory of Visa Categories】
+L533: 
+L534:   * 【80†Customer Service Statement】
+L535: 
+L536:   * 【81†Photo Requirements】
+L537: 
+L538:   * 【86†Forms】
+L539: 
+L540:   * 【91†Administrative Processing Information】
+L541:   * 【92†Visa Appointment Wait Times】
+L542: 
+L543:   * 【93†Frequently Asked Questions】
+L544: 
+L545:   * 【97†Your Rights and Protections】
+L546: 
+L547:   * 【98†Ineligibilities and Waivers: Laws】
+L548: 
+L549:   * 【99†Advisory Opinions】
+L550: 
+L551:   * 【112†Safety & Security of U.S. Borders: Biometrics】
+L552: 
+L553:   * 【113†National Visa Center Customer Service Pledge】
+L554: 
+L555:   * 【114†Americans Traveling Abroad】
+L556: 
+L557:   * 【115†The United States and China Agree to Extending Visas for Short-term Business Travelers, Tourists, and Students】
+L558:   * 【116†Special Visa Processing Procedures Pursuant to Section 306】
+L559: 
+L560:   * 【117†U.S. Government Fact Sheet on Female Genital Mutilation or Cutting (FGM/C)】
+L561: 
+L562:   * 【118†Skill List by Country】
+L563: 
+L564:   * 【120†Public Inquiry Form】
+L565: 
+L566:   * 【121†List of U.S. Embassies and Consulates - K1-K3 Visas】
+L567: 
+L568:   * 【122†List of U.S. Embassies and Consulates that Process Immigrant Visas】
+L569: 
+L570:   * 【123†List of U.S. Embassies and Consulates that Process Nonimmigrant Visas】
+L571: 
+L572:   * 【150†Global Visa Wait Times】
+L573: ### External Link
+L574: 
+L575: You are about to leave travel.state.gov for an external website that is not maintained by the U.S. Department of State.
+L576: 
+L577: Links to external websites are provided as a convenience and should not be construed as an endorsement by the U.S. Department of State of the views or products contained therein. If you wish to remain on travel.state.gov, click the "cancel" message.
+L578: 
+L579: You are about to visit:
+L580: 
+L581: [Button: Cancel] GO
+L582: 
+L583: Travel.State.Gov
+L584: 
+L585:   * #### 【3†Travel.State.Gov】
+L586:   * #### 【11†Image】【23†Congressional Liaison】
+L587: 
+L588:   * #### 【13†Image】【14†Special Issuance Agency】
+L589: 
+L590:   * #### 【15†U.S. Passports】
+L591: 
+L592:   * #### 【151†International Travel】
+L593: 
+L594:   * #### 【17†U.S. Visas】
+L595: 
+L596:   * #### 【18†Intercountry Adoption】
+L597: 
+L598:   * #### 【19†International Parental Child Abduction】
+L599: 
+L600:   * #### 【20†Records and Authentications】
+L601: 
+L602: Popular Links
+L603:   * 【3†Home】
+L604:   * 【4†Travel Advisories】
+L605:   * 【5†Newsroom】
+L606:   * 【6†About Us】
+L607:   * 【7†Contact Us】
+L608:   * 【8†Careers†careers.state.gov】
+L609:   * 【9†MyTravelGov】
+L610:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L611: ### Stay Connected
+L612: ### Legal Resources
+L613: 
+L614:   * #### 【21†Legal Information】
+L615: 
+L616:   * #### 【22†Info for U.S. Law Enforcement】
+L617: 【152†Privacy†www.state.gov】 | 【153†Accessibility†www.state.gov】 | 【154†Copyright & Disclaimer】 | 【155†FOIA†foia.state.gov】 | 【156†GSA†www.gsa.gov】 | 【157†No FEAR Act Data†www.state.gov】 | 【158†Office of the Inspector General†www.stateoig.gov】 | 【159†USA.gov†www.usa.gov】 | 【160†USA.gov/espanol†www.usa.gov】 |
+L618: This site is managed by the U.S. Department of State. External links to other Internet sites and listings of private entities on this page are provided as a convenience and should not be construed as the U.S. Department of State or U.S. government endorsement of the entity, its views, the products or services it provides, or the accuracy of information contained therein.
+L619: The order in which names appear has no significance, and the listings or links may be removed at any time at the discretion of the Department.
+

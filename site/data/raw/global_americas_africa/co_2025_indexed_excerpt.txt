@@ -1,0 +1,10 @@
+Official URL: https://santiagodechile.consulado.gov.co/sites/default/files/FOTOS2025/TABLA%20TARIFAS%20PESOS%20CHILENOS%20VISAS%20%28SEP-DIC%29%202025.pdf
+Capture method: search_service indexed extract, 2026-11-15. Original HTTP download returned 403.
+Locator: TARIFAS POR VISAS, 01/SEP/2025-31/DIC/2025, USD columns.
+ESTUDIO / EXPEDICION TOTAL (fondo rotatorio + timbre):
+TURISMO: 54 / 82
+INTERCAMBIO ACADEMICO: 16 / 51
+ESTUDIANTES PRIMARIA, SECUNDARIA, MEDIA Y PREGRADO: 16 / 51
+TRABAJADOR: 54 / 270
+CONYUGE O COMPANERO PERMANENTE DE NACIONAL COLOMBIANO: 54 / 270
+No se reproducen todas las exenciones. These are fee-only research records, not total revenue.

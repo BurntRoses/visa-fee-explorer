@@ -1,0 +1,428 @@
+Monthly Nonimmigrant Visa Issuance Statistics (https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics/monthly-nonimmigrant-visa-issuances.html)
+【turn996703view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics/monthly-nonimmigrant-visa-issuances.html","lineno":null}); Total lines: 431
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: ### Worldwide Caution: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L3: 
+L4: 【2†Skip to main content】
+L5: 
+L6: [Input: Search]
+L7: 
+L8:   * 【3†Home】
+L9: 
+L10: |
+L11: 
+L12:   * 【4†Travel Advisories】
+L13: 
+L14: |
+L15: 
+L16:   * 【5†Newsroom】
+L17: 
+L18: |
+L19: 
+L20:   * 【6†About Us|】
+L21:   * 【7†Contact Us】
+L22: 
+L23: |
+L24: 
+L25:   * 【8†Careers†careers.state.gov】
+L26: 
+L27: |
+L28: 
+L29:   * 【9†MyTravelGov】
+L30: 
+L31: |
+L32: 
+L33:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L34: 
+L35: ### Travel.State.Gov
+L36: 
+L37:   * #### 【3†Travel.State.Gov】
+L38: 
+L39:   * 【11†Image】
+L40: #### 【12†Congressional Liaison】
+L41: 
+L42:   * 【13†Image】
+L43: 
+L44: #### 【14†Special Issuance Agency】
+L45: 
+L46:   * #### 【15†U.S. Passports】
+L47: 
+L48:   * #### 【16†International Travel】
+L49: 
+L50:   * #### 【17†U.S. Visas】
+L51: 
+L52:   * #### 【18†Intercountry Adoption】
+L53: 
+L54:   * #### 【19†International Parental Child Abduction】
+L55: 
+L56:   * #### 【20†Records and Authentications】
+L57: ### Popular Links
+L58: 
+L59:   * #### 【3†Home】
+L60: 
+L61:   * #### 【4†Travel Advisories】
+L62: 
+L63:   * 【5†Newsroom】
+L64:   * 【6†About Us】
+L65:   * 【7†Contact Us】
+L66:   * 【8†Careers†careers.state.gov】
+L67:   * 【9†MyTravelGov】
+L68:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L69: ### Legal Resources
+L70: 
+L71:   * #### 【21†Legal Information】
+L72: 
+L73:   * #### 【22†Info for U.S. Law Enforcement】
+L74: 
+L75: [Input: Search]
+L76: 
+L77:   * 【11†Image: Congressional Liaison】 【23†Congressional Liaison】
+L78:   * 【13†Image: Department of State】 【14†Special Issuance Agency】
+L79:   * 【21†Legal Resources】
+L80:   * 【15†U.S. Passports】
+L81:   * 【16†International Travel】
+L82:   * 【17†U.S. Visas】
+L83:   * 【18†Intercountry Adoption】
+L84:   * 【19†International Parental Child Abduction】
+L85:   * 【24†Replace or Certify Documents】
+L86: 
+L87: # Legal Resources
+L88: # English
+L89: 
+L90:   * 【25†Legal Resources】
+L91: 
+L92:   * 【26†U.S. Visa Law & Policy】
+L93: 
+L94:   * 【27†Judicial Assistance Destination Information】
+L95: # U.S. Visa Law & Policy
+L96: 
+L97:   * A
+L98:   * B
+L99:   * C
+L100:   * D
+L101:   * E
+L102:   * F
+L103: 
+L104:   * G
+L105:   * H
+L106:   * I
+L107:   * J
+L108:   * K
+L109:   * L
+L110: 
+L111:   * M
+L112:   * N
+L113:   * O
+L114:   * P
+L115:   * Q
+L116:   * R
+L117: 
+L118:   * S
+L119:   * T
+L120:   * U
+L121:   * V
+L122:   * W
+L123:   * X
+L124: 
+L125:   * Y
+L126:   * Z
+L127:   * All
+L128: 
+L129: Filter Countries
+L130: 
+L131:   * 【28†The Visa Bulletin】
+L132: 
+L133:   * 【29†Visa Statistics】
+L134: 
+L135:   * 【30†Laws & Regulations】
+L136: 
+L137:   * 【31†Accepting, Serving in, or Performing Duties of a Position with the Government of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(4)】
+L138:   * 【32†Loss of U.S. Nationality and Service in the Armed Forces of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(3)】
+L139: # Monthly Nonimmigrant Visa Issuance Statistics
+L140: 
+L141: The reports below contain preliminary data which are subject to change.
+L142: The Visa Office has changed its methodology for calculating visa data beginning with the Fiscal Year (FY) 2019 annual Report of the Visa Office and continuing with FY 2020 data, to reflect the greater access to application-level data attained during FY 2019. Our previous methodology was based on a count of workload actions, which were not linked by application.
+L143: The new methodology more accurately reflects final outcomes from the visa application process during a specified reporting period.  The new methodology follows visa applications, including updates to their status (i.e., issued or refused), which could change as the fiscal year progresses, or result in slight changes in data for earlier years.  Therefore, beginning with FY 2020, individual monthly issuance reports should not be aggregated, as this will not provide an accurate issuance total for the fiscal year to date.  Instead, refer to our annual Report of the Visa Office for final full Fiscal Year statistics.
+L144: While the new methodology is more accurate, it does not mean that our prior methodology was flawed.  The two are simply not comparable.  However, based on our analysis, the discrepancies between the methodologies are minor.  For example, the difference between reported issuances of NIVs and IVs in FY 2018 (legacy methodology) and those in FY 2019 (new methodology) is less than one percent worldwide.
+L145: Please note that the new methodology is only being applied to the monthly NIV issuance reports below, beginning with the October 2019 reports.
+L146: 
+L147: Fiscal Year 2017
+L148:   * 【33†March 2017 - NIV Issuances by Nationality and Visa Class】
+L149:   * 【34†March 2017 - NIV Issuances by Post and Visa Class】
+L150:   * 【35†April 2017 - NIV Issuances by Nationality and Visa Class】
+L151:   * 【36†April 2017 - NIV Issuances by Post and Visa Class】
+L152:   * 【37†May 2017 - NIV Issuances by Nationality and Visa Class】
+L153:   * 【38†May 2017 - NIV Issuances by Post and Visa Class】
+L154:   * 【39†June 2017 - NIV Issuances by Nationality and Visa Class】
+L155:   * 【40†June 2017 - NIV Issuances by Post and Visa Class】
+L156:   * 【41†July 2017 - NIV Issuances by Nationality and Visa Class】
+L157:   * 【42†July 2017 - NIV Issuances by Post and Visa Class】
+L158:   * 【43†August 2017 - NIV Issuances by Nationality and Visa Class】
+L159:   * 【44†August 2017 - NIV Issuances by Post and Visa Class】
+L160:   * 【45†September 2017 - NIV Issuances by Nationality and Visa Class】
+L161:   * 【46†September 2017 - NIV Issuances by Post and Visa Class】
+L162: Fiscal Year 2018
+L163:   * 【47†October 2017 - NIV Issuances by Nationality and Visa Class】
+L164:   * 【48†October 2017 - NIV Issuances by Post and Visa Class】
+L165:   * 【49†November 2017 - NIV Issuances by Nationality and Visa Class】
+L166:   * 【50†November 2017 - NIV Issuances by Post and Visa Class】
+L167:   * 【51†December 2017 - NIV Issuances by Nationality and Visa Class】
+L168:   * 【52†December 2017 - NIV Issuances by Post and Visa Class】
+L169:   * 【53†January 2018 - NIV Issuances by Nationality and Visa Class】
+L170:   * 【54†January 2018 - NIV Issuances by Post and Visa Class】
+L171:   * 【55†February 2018 - NIV Issuances by Nationality and Visa Class】
+L172:   * 【56†February 2018 - NIV Issuances by Post and Visa Class】
+L173:   * 【57†March 2018 - NIV Issuances by Nationality and Visa Class】
+L174:   * 【58†March 2018 - NIV Issuances by Post and Visa Class】
+L175:   * 【59†April 2018 - NIV Issuances by Nationality and Visa Class】
+L176:   * 【60†April 2018 - NIV Issuances by Post and Visa Class】
+L177:   * 【61†May 2018 - NIV Issuances by Nationality and Visa Class】
+L178:   * 【62†May 2018 - NIV Issuances by Post and Visa Cass】
+L179:   * 【63†June 2018 - NIV Issuances by Nationality and Visa Class】
+L180:   * 【64†June 2018 - NIV Issuances by Post and Visa Cass】
+L181:   * 【65†July 2018 - NIV Issuances by Nationality and Visa Class】
+L182:   * 【66†July 2018 - NIV Issuances by Post and Visa Cass】
+L183:   * 【67†August 2018 - NIV Issuances by Nationality and Visa Class】
+L184:   * 【68†August 2018 - NIV Issuances by Post and Visa Cass】
+L185:   * 【69†September 2018 - NIV Issuances by Nationality and Visa Class】
+L186:   * 【70†September 2018 - NIV Issuances by Post and Visa Cass】
+L187: Fiscal Year 2019
+L188:   * 【71†October 2018 - NIV Issuances by Nationality and Visa Class】
+L189:   * 【72†October 2018 - NIV Issuances by Post and Visa Class】
+L190:   * 【73†November 2018 - NIV Issuances by Nationality and Visa Class】
+L191:   * 【74†November 2018 - NIV Issuances by Post and Visa Class】
+L192:   * 【75†December 2018 - NIV Issuances by Nationality and Visa Class】
+L193:   * 【76†December 2018 - NIV Issuances by Post and Visa Class】
+L194:   * 【77†January 2019 - NIV Issuances by Nationality and Visa Class】
+L195:   * 【78†January 2019 - NIV Issuances by Post and Visa Class】
+L196:   * 【79†February 2019 - NIV Issuances by Nationality and Visa Class】
+L197:   * 【80†February 2019 - NIV Issuances by Post and Visa Class】
+L198:   * 【81†March 2019 - NIV Issuances by Nationality and Visa Class】
+L199:   * 【82†March 2019 - NIV Issuances by Post and Visa Class】
+L200:   * 【83†April 2019 - NIV Issuances by Nationality and Visa Class】
+L201:   * 【84†April 2019 - NIV Issuances by Post and Visa Class】
+L202:   * 【85†May 2019 - NIV Issuances by Nationality and Visa Class】
+L203:   * 【86†May 2019 - NIV Issuances by Post and Visa Class】
+L204:   * 【87†June 2019 - NIV Issuances by Nationality and Visa Class】
+L205:   * 【88†June 2019 - NIV Issuances by Post and Visa Class】
+L206:   * 【89†July 2019 - NIV Issuances by Nationality and Visa Class】
+L207:   * 【90†July 2019 - NIV Issuances by Post and Visa Class】
+L208:   * 【91†August 2019 - NIV Issuances by Nationality and Visa Class】
+L209:   * 【92†August 2019 - NIV Issuances by Post and Visa Class】
+L210:   * 【93†September 2019 - NIV Issuances by Nationality and Visa Class】
+L211:   * 【94†September 2019 - NIV Issuances by Post and Visa Class】
+L212: Fiscal Year 2020
+L213:   * 【95†October 2019 - NIV Issuances by Nationality and Visa Class】
+L214:   * 【96†October 2019 - NIV Issuances by Post and Visa Class】
+L215:   * 【97†November 2019 - NIV Issuances by Nationality and Visa Class】
+L216:   * 【98†November 2019 - NIV Issuances by Post and Visa Class】
+L217:   * 【99†December 2019 - NIV Issuances by Nationality and Visa Class】
+L218:   * 【100†December 2019 - NIV Issuances by Post and Visa Class】
+L219:   * 【101†January 2020 - NIV Issuances by Nationality and Visa Class】
+L220:   * 【102†January 2020 - NIV Issuances by Post and Visa Class】
+L221:   * 【103†February 2020 - NIV Issuances by Nationality and Visa Class】
+L222:   * 【104†February 2020 - NIV Issuances by Post and Visa Class】
+L223:   * 【105†March 2020 - NIV Issuances by Nationality and Visa Class】
+L224:   * 【106†March 2020 - NIV Issuances by Post and Visa Class】
+L225:   * 【107†April 2020 - NIV Issuances by Nationality and Visa Class】
+L226:   * 【108†April 2020 - NIV Issuances by Post and Visa Class】
+L227:   * 【109†May 2020 - NIV Issuances by Nationality and Visa Class】
+L228:   * 【110†May 2020 - NIV Issuances by Post and Visa Class】
+L229:   * 【111†June 2020 - NIV Issuances by Nationality and Visa Class】
+L230:   * 【112†June 2020 - NIV Issuances by Post and Visa Class】
+L231:   * 【113†July 2020 - NIV Issuances by Nationality and Visa Class】
+L232:   * 【114†July 2020 - NIV Issuances by Post and Visa Class】
+L233:   * 【115†August 2020 - NIV Issuances by Nationality and Visa Class】
+L234:   * 【116†August 2020 - NIV Issuances by Post and Visa Class】
+L235:   * 【117†September 2020 - NIV Issuances by Nationality and Visa Class】
+L236:   * 【118†September 2020 - NIV Issuances by Post and Visa Class】
+L237: Fiscal Year 2021
+L238:   * 【119†October 2020 - NIV Issuances by Nationality and Visa Class】
+L239:   * 【120†October 2020 - NIV Issuances by Post and Visa Class】
+L240:   * 【121†November 2020 - NIV Issuances by Nationality and Visa Class】
+L241:   * 【122†November 2020 - NIV Issuances by Post and Visa Class】
+L242:   * 【123†December 2020 - NIV Issuances by Nationality and Visa Class】
+L243:   * 【124†December 2020 - NIV Issuances by Post and Visa Class】
+L244:   * 【125†January 2021 - NIV Issuances by Nationality and Visa Class】
+L245:   * 【126†January 2021 - NIV Issuances by Post and Visa Class】
+L246:   * 【127†February 2021 – NIV Issuances by Nationality and Visa Class】
+L247:   * 【128†February 2021 – NIV Issuances by Post and Visa Class】
+L248:   * 【129†March 2021 – NIV Issuances by Nationality and Visa Class】
+L249:   * 【130†March 2021 – NIV Issuances by Post and Visa Class】
+L250:   * 【131†April 2021 – NIV Issuances by Nationality and Visa Class】
+L251:   * 【132†April 2021 – NIV Issuances by Post and Visa Class】
+L252:   * 【133†May 2021 - NIV Issuances by Nationality and Visa Class】
+L253:   * 【134†May 2021 - NIV Issuances by Post and Visa Class】
+L254:   * 【135†June 2021 - NIV Issuances by Nationality and Visa Class】
+L255:   * 【136†June 2021 - NIV Issuances by Post and Visa Class】
+L256:   * 【137†July 2021 - NIV Issuances by Nationality and Visa Class】
+L257:   * 【138†July 2021 - NIV Issuances by Post and Visa Class】
+L258:   * 【139†August 2021 - NIV Issuances by Nationality and Visa Class】
+L259:   * 【140†August 2021 - NIV Issuances by Post and Visa Class】
+L260:   * 【141†September 2021 - NIV Issuances by Nationality and Visa Class】
+L261:   * 【142†September 2021 - NIV Issuances by Post and Visa Class】
+L262: Fiscal Year 2022
+L263:   * 【143†October 2021 - NIV Issuances by Nationality and Visa Class】
+L264:   * 【144†October 2021 - NIV Issuances by Post and Visa Class】
+L265:   * 【145†November 2021 - NIV Issuances by Nationality and Visa Class】
+L266:   * 【146†November 2021 - NIV Issuances by Post and Visa Class】
+L267:   * 【147†December 2021 - NIV Issuances by Nationality and Visa Class】
+L268:   * 【148†December 2021 - NIV Issuances by Post and Visa Class】
+L269:   * 【149†January 2022 - NIV Issuances by Nationality and Visa Class】
+L270:   * 【150†January 2022 - NIV Issuances by Post and Visa Class】
+L271:   * 【151†February 2022 - NIV Issuances by Nationality and Visa Class】
+L272:   * 【152†February 2022 - NIV Issuances by Post and Visa Class】
+L273:   * 【153†March 2022 - NIV Issuances by Nationality and Visa Class】
+L274:   * 【154†March 2022 - NIV Issuances by Post and Visa Class】
+L275:   * 【155†April 2022 - NIV Issuances by Nationality and Visa Class】
+L276:   * 【156†April 2022 - NIV Issuances by Post and Visa Class】
+L277:   * 【157†May 2022 - NIV Issuances by Nationality and Visa Class】
+L278:   * 【158†May 2022 - NIV Issuances by Post and Visa Class】
+L279:   * 【159†June 2022 - NIV Issuances by Nationality and Visa Class】
+L280:   * 【160†June 2022 - NIV Issuances by Post and Visa Class】
+L281:   * 【161†July 2022 - NIV Issuances by Nationality and Visa Class】
+L282:   * 【162†July 2022 - NIV Issuances by Post and Visa Class】
+L283:   * 【163†August 2022 - NIV Issuances by Nationality and Visa Class】
+L284:   * 【164†August 2022 - NIV Issuances by Post and Visa Class】
+L285:   * 【165†September 2022 - NIV Issuances by Nationality and Visa Class】
+L286:   * 【166†September 2022 - NIV Issuances by Post and Visa Class】
+L287: Fiscal Year 2023
+L288:   * 【167†October 2022 - NIV Issuances by Nationality and Visa Class】 - 【168†(Excel)】
+L289:   * 【169†October 2022 - NIV Issuances by Post and Visa Class】 - 【170†(Excel)】
+L290:   * 【171†November 2022 - NIV Issuances by Nationality and Visa Class】 - 【172†(Excel)】
+L291:   * 【173†November 2022 - NIV Issuances by Post and Visa Class】 - 【174†(Excel)】
+L292:   * 【175†December 2022 - NIV Issuances by Nationality and Visa Class】 - 【176†(Excel)】
+L293:   * 【177†December 2022 - NIV Issuances by Post and Visa Class】 - 【178†(Excel)】
+L294:   * 【179†January 2023 - NIV Issuances by Nationality and Visa Class】 - 【180†(Excel)】
+L295:   * 【181†January 2023 - NIV Issuances by Post and Visa Class】 - 【182†(Excel)】
+L296:   * 【183†February 2023 - NIV Issuances by Nationality and Visa Class】 - 【184†(Excel)】
+L297:   * 【185†February 2023 - NIV Issuances by Post and Visa Class】 - 【186†(Excel)】
+L298:   * 【187†March 2023 - NIV Issuances by Nationality and Visa Class】 - 【188†(Excel)】
+L299:   * 【189†March 2023 - NIV Issuances by Post and Visa Class】 - 【190†(Excel)】
+L300:   * 【191†April 2023 - NIV Issuances by Nationality and Visa Class】 - 【192†(Excel)】
+L301:   * 【193†April 2023 - NIV Issuances by Post and Visa Class】 - 【194†(Excel)】
+L302:   * 【195†May 2023 - NIV Issuances by Nationality and Visa Class】 - 【196†(Excel)】
+L303:   * 【197†May 2023 - NIV Issuances by Post and Visa Class】 - 【198†(Excel)】
+L304:   * 【199†June 2023 - NIV Issuances by Nationality and Visa Class】 - 【200†(Excel)】
+L305:   * 【201†June 2023 - NIV Issuances by Post and Visa Class】 - 【202†(Excel)】
+L306:   * 【203†July 2023 - NIV Issuances by Nationality and Visa Class】 - 【204†(Excel)】
+L307:   * 【205†July 2023 - NIV Issuances by Post and Visa Class】 - 【206†(Excel)】
+L308:   * 【207†August 2023 - NIV Issuances by Nationality and Visa Class】 - 【208†(Excel)】
+L309:   * 【209†August 2023 - NIV Issuances by Post and Visa Class】 - 【210†(Excel)】
+L310:   * 【211†September 2023 - NIV Issuances by Nationality and Visa Class】 - 【212†(Excel)】
+L311:   * 【213†September 2023 - NIV Issuances by Post and Visa Class】 - 【214†(Excel)】
+L312: Fiscal Year 2024*
+L313:   * 【215†October 2023 - NIV Issuances by Nationality and Visa Class】 - (【216†Excel】)
+L314:   * 【217†October 2023 - NIV Issuances by Post and Visa Class】 - (【218†Excel】)
+L315:   * 【219†November 2023 - NIV Issuances by Nationality and Visa Class】 - (【220†Excel】)
+L316:   * 【221†November 2023 - NIV Issuances by Post and Visa Class】 - (【222†Excel】)
+L317:   * 【223†December 2023 - NIV Issuances by Nationality and Visa Class】 - (【224†Excel】)
+L318:   * 【225†December 2023 - NIV Issuances by Post and Visa Class】 - (【226†Excel】)
+L319:   * 【227†January 2024 - NIV Issuances by Nationality and Visa Class】 - (【228†Excel】)
+L320:   * 【229†January 2024 - NIV Issuances by Post and Visa Class】 - (【230†Excel】)
+L321:   * 【231†February 2024 - NIV Issuances by Nationality and Visa Class】 - (【232†Excel】)
+L322:   * 【233†February 2024 - NIV Issuances by Post and Visa Class】 - (【234†Excel】)
+L323:   * 【235†March 2024 - NIV Issuances by Nationality and Visa Class】 - (【236†Excel】)
+L324:   * 【237†March 2024 - NIV Issuances by Post and Visa Class】 - (【238†Excel】)
+L325:   * 【239†April 2024 - NIV Issuances by Nationality and Visa Class】 - (【240†Excel】)
+L326:   * 【241†April 2024 - NIV Issuances by Post and Visa Class】 - (【242†Excel】)
+L327:   * 【243†May 2024 - NIV Issuances by Nationality and Visa Class】 - (【244†Excel】)
+L328:   * 【245†May 2024 - NIV Issuances by Post and Visa Class】 - (【246†Excel】)
+L329:   * 【247†June 2024 - NIV Issuances by Nationality and Visa Class】 - (【248†Excel】)
+L330:   * 【249†June 2024 - NIV Issuances by Post and Visa Class】 - (【250†Excel】)
+L331:   * 【251†July 2024 - NIV Issuances by Nationality and Visa Class】 - (【252†Excel】)
+L332:   * 【253†July 2024 - NIV Issuances by Post and Visa Class】 - (【254†Excel】)
+L333:   * 【255†August 2024 - NIV Issuances by Nationality and Visa Class】 - (【256†Excel】)
+L334:   * 【257†August 2024 - NIV Issuances by Post and Visa Class】 - (【258†Excel】)
+L335:   * 【259†September 2024 - NIV Issuances by Nationality and Visa Class】 - (【260†Excel】)
+L336:   * 【261†September 2024 - NIV Issuances by Post and Visa Class】 - (【262†Excel】)
+L337: *March-September reports updated in December 2024
+L338: Fiscal Year 2025
+L339:   * 【263†October 2024 - NIV Issuances by Nationality and Visa Class】 - (【264†Excel】)
+L340:   * 【265†October 2024 - NIV Issuances by Post and Visa Class】 - (【266†Excel】)
+L341:   * 【267†November 2024 - NIV Issuances by Nationality and Visa Class】 - (【268†Excel】)
+L342:   * 【269†November 2024 - NIV Issuances by Post and Visa Class】 - (【270†Excel】)
+L343:   * 【271†December 2024 - NIV Issuances by Nationality and Visa Class】 - (【272†Excel】)
+L344:   * 【273†December 2024 - NIV Issuances by Post and Visa Class】 - (【274†Excel】)
+L345:   * 【275†January 2025 - NIV Issuances by Nationality and Visa Class】 - (【276†Excel】)
+L346:   * 【277†January 2025 - NIV Issuances by Post and Visa Class】 - (【278†Excel】)
+L347:   * 【279†February 2025 - NIV Issuances by Nationality and Visa Class】 - (【280†Excel】)
+L348:   * 【281†February 2025 - NIV Issuances by Post and Visa Class】 - (【282†Excel】)
+L349:   * 【283†March 2025 - NIV Issuances by Nationality and Visa Class】 - (【284†Excel】)
+L350:   * 【285†March 2025 - NIV Issuances by Post and Visa Class】 - (【286†Excel】)
+L351:   * 【287†April 2025 - NIV Issuances by Nationality and Visa Class】 - (【288†Excel】)
+L352:   * 【289†April 2025 - NIV Issuances by Post and Visa Class】 - (【290†Excel】)
+L353:   * 【291†May 2025 - NIV Issuances by Nationality and Visa Class】 - (【292†Excel】)
+L354:   * 【293†May 2025 - NIV Issuances by Post and Visa Class】 - (【294†Excel】)
+L355:   * 【295†June 2025 - NIV Issuances by Nationality and Visa Class】 - (【296†Excel】)
+L356:   * 【297†June 2025 - NIV Issuances by Post and Visa Class】 - (【298†Excel】)
+L357:   * 【299†July 2025 - NIV Issuances by Nationality and Visa Class】 - (【300†Excel】)
+L358:   * 【301†July 2025 - NIV Issuances by Post and Visa Class】 - (【302†Excel】)
+L359:   * 【303†August 2025 - NIV Issuances by Nationality and Visa Class】 - (【304†Excel】)
+L360:   * 【305†August 2025 - NIV Issuances by Post and Visa Class】 - (【306†Excel】)
+L361:   * 【307†September 2025 - NIV Issuances by Nationality and Visa Class】 - (【308†Excel】)
+L362:   * 【309†September 2025 - NIV Issuances by Post and Visa Class】 - (【310†Excel】)
+L363: Fiscal Year 2026
+L364:   * 【311†October 2025 - NIV Issuances by Nationality and Visa Class】 - (【312†Excel】)
+L365:   * 【313†October 2025 - NIV Issuances by Post and Visa Class】 - (【314†Excel】)
+L366:   * 【315†November 2025 - NIV Issuances by Nationality and Visa Class】 - (【316†Excel】)
+L367:   * 【317†November 2025 - NIV Issuances by Post and Visa Class】 - (【318†Excel】)
+L368:   * 【319†December 2025 - NIV Issuances by Nationality and Visa Class】 - (【320†Excel】)
+L369:   * 【321†December 2025 - NIV Issuances by Post and Visa Class】 - (【322†Excel】)
+L370:   * 【323†January 2026 - NIV Issuances by Nationality and Visa Class】 - (【324†Excel】)
+L371:   * 【325†January 2026 - NIV Issuances by Post and Visa Class】 - (【326†Excel】)
+L372:   * 【327†February 2026 - NIV Issuances by Nationality and Visa Class】 - (【328†Excel】)
+L373:   * 【329†February 2026 - NIV Issuances by Post and Visa Class】 - (【330†Excel】)
+L374: For definitions of nonimmigrant visa classification symbols, please 【331†click here】.
+L375: ### Law & Policy - In This Section
+L376: 
+L377: 【28†Visa Bulletin】
+L378: 【29†Visa Statistics】
+L379:         【332†Annual Reports】
+L380:         【333†Immigrant Visa Statistics】
+L381:         【334†Nonimmigrant Visa Statistics】
+L382:         【335†Graphs】
+L383: 【30†Laws and Regulations】
+L384: ### External Link
+L385: 
+L386: You are about to leave travel.state.gov for an external website that is not maintained by the U.S. Department of State.
+L387: 
+L388: Links to external websites are provided as a convenience and should not be construed as an endorsement by the U.S. Department of State of the views or products contained therein. If you wish to remain on travel.state.gov, click the "cancel" message.
+L389: 
+L390: You are about to visit:
+L391: 
+L392: [Button: Cancel] GO
+L393: 
+L394: Travel.State.Gov
+L395: 
+L396:   * #### 【3†Travel.State.Gov】
+L397:   * #### 【11†Image】【23†Congressional Liaison】
+L398: 
+L399:   * #### 【13†Image】【14†Special Issuance Agency】
+L400: 
+L401:   * #### 【15†U.S. Passports】
+L402: 
+L403:   * #### 【336†International Travel】
+L404: 
+L405:   * #### 【17†U.S. Visas】
+L406: 
+L407:   * #### 【18†Intercountry Adoption】
+L408: 
+L409:   * #### 【19†International Parental Child Abduction】
+L410: 
+L411:   * #### 【20†Records and Authentications】
+L412: 
+L413: Popular Links
+L414:   * 【3†Home】
+L415:   * 【4†Travel Advisories】
+L416:   * 【5†Newsroom】
+L417:   * 【6†About Us】
+L418:   * 【7†Contact Us】
+L419:   * 【8†Careers†careers.state.gov】
+L420:   * 【9†MyTravelGov】
+L421:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L422: ### Stay Connected
+L423: ### Legal Resources
+L424: 
+

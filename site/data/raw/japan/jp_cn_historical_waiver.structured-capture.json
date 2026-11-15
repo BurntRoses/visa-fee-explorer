@@ -1,0 +1,17 @@
+{
+  "source_id": "jp_cn_historical_waiver",
+  "url": "https://www.cn.emb-japan.go.jp/itpr_zh/20190101.html",
+  "title": "关于旅游签证申请所需资料和签证费等",
+  "institution": "Embassy of Japan in China",
+  "published_at": "2019-01-01",
+  "retrieved_at": "2026-11-14T17:56:47.929648+00:00",
+  "research_cutoff": "2026-11-15",
+  "capture_method": "web_reader_structured_factual_capture",
+  "source_locator": "签证手续费 footnotes; web reader lines 112–126",
+  "facts": {
+    "historical_waiver": "Tourist single: Okinawa or Iwate/Fukushima/Miyagi visit; multiple: overnight Okinawa or visit one of the three specified Tohoku prefectures.",
+    "evidence_status": "Historical official page; lists obsolete CNY200/400, so not adopted as a current price table or as proof of 2024/25 exemption counts.",
+    "agency_handling": "additional"
+  },
+  "note": "Paraphrased factual capture from official page read through web tool; not raw HTML. Direct HTTP 403 where recorded in search_log."
+}

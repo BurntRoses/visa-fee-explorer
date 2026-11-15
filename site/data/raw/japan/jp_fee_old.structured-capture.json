@@ -1,0 +1,20 @@
+{
+  "source_id": "jp_fee_old",
+  "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/fee.html",
+  "title": "Visa Fees (applications accepted by 30 June 2026)",
+  "institution": "Ministry of Foreign Affairs Japan",
+  "published_at": "2026-06-29",
+  "retrieved_at": "2026-11-14T17:56:47.929648+00:00",
+  "research_cutoff": "2026-11-15",
+  "capture_method": "web_reader_structured_factual_capture",
+  "source_locator": "main body, paragraphs 1–3; web reader lines 29–34",
+  "facts": {
+    "single_JPY": 3000,
+    "double_or_multiple_JPY": 6000,
+    "transit_JPY": 700,
+    "collection_currency": "mission local currency",
+    "fee_stage": "issuance; no issuance means no government fee",
+    "exceptions": "Nationality/purpose may change or waive fees; approved agency handling extra."
+  },
+  "note": "Paraphrased factual capture from official page read through web tool; not raw HTML. Direct HTTP 403 where recorded in search_log."
+}

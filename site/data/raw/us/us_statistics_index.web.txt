@@ -1,0 +1,293 @@
+Nonimmigrant Visa Statistics (https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics.html)
+【turn367262view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics.html","lineno":null}); Total lines: 290
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: ### Worldwide Caution: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L3: 
+L4: 【2†Skip to main content】
+L5: 
+L6: [Input: Search]
+L7: 
+L8:   * 【3†Home】
+L9: 
+L10: |
+L11: 
+L12:   * 【4†Travel Advisories】
+L13: 
+L14: |
+L15: 
+L16:   * 【5†Newsroom】
+L17: 
+L18: |
+L19: 
+L20:   * 【6†About Us|】
+L21:   * 【7†Contact Us】
+L22: 
+L23: |
+L24: 
+L25:   * 【8†Careers†careers.state.gov】
+L26: 
+L27: |
+L28: 
+L29:   * 【9†MyTravelGov】
+L30: 
+L31: |
+L32: 
+L33:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L34: 
+L35: ### Travel.State.Gov
+L36: 
+L37:   * #### 【3†Travel.State.Gov】
+L38: 
+L39:   * 【11†Image】
+L40: #### 【12†Congressional Liaison】
+L41: 
+L42:   * 【13†Image】
+L43: 
+L44: #### 【14†Special Issuance Agency】
+L45: 
+L46:   * #### 【15†U.S. Passports】
+L47: 
+L48:   * #### 【16†International Travel】
+L49: 
+L50:   * #### 【17†U.S. Visas】
+L51: 
+L52:   * #### 【18†Intercountry Adoption】
+L53: 
+L54:   * #### 【19†International Parental Child Abduction】
+L55: 
+L56:   * #### 【20†Records and Authentications】
+L57: ### Popular Links
+L58: 
+L59:   * #### 【3†Home】
+L60: 
+L61:   * #### 【4†Travel Advisories】
+L62: 
+L63:   * 【5†Newsroom】
+L64:   * 【6†About Us】
+L65:   * 【7†Contact Us】
+L66:   * 【8†Careers†careers.state.gov】
+L67:   * 【9†MyTravelGov】
+L68:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L69: ### Legal Resources
+L70: 
+L71:   * #### 【21†Legal Information】
+L72: 
+L73:   * #### 【22†Info for U.S. Law Enforcement】
+L74: 
+L75: [Input: Search]
+L76: 
+L77:   * 【11†Image: Congressional Liaison】 【23†Congressional Liaison】
+L78:   * 【13†Image: Department of State】 【14†Special Issuance Agency】
+L79:   * 【21†Legal Resources】
+L80:   * 【15†U.S. Passports】
+L81:   * 【16†International Travel】
+L82:   * 【17†U.S. Visas】
+L83:   * 【18†Intercountry Adoption】
+L84:   * 【19†International Parental Child Abduction】
+L85:   * 【24†Replace or Certify Documents】
+L86: 
+L87: # Legal Resources
+L88: # English
+L89: 
+L90:   * 【25†Legal Resources】
+L91: 
+L92:   * 【26†U.S. Visa Law & Policy】
+L93: 
+L94:   * 【27†Judicial Assistance Destination Information】
+L95: # U.S. Visa Law & Policy
+L96: 
+L97:   * A
+L98:   * B
+L99:   * C
+L100:   * D
+L101:   * E
+L102:   * F
+L103: 
+L104:   * G
+L105:   * H
+L106:   * I
+L107:   * J
+L108:   * K
+L109:   * L
+L110: 
+L111:   * M
+L112:   * N
+L113:   * O
+L114:   * P
+L115:   * Q
+L116:   * R
+L117: 
+L118:   * S
+L119:   * T
+L120:   * U
+L121:   * V
+L122:   * W
+L123:   * X
+L124: 
+L125:   * Y
+L126:   * Z
+L127:   * All
+L128: 
+L129: Filter Countries
+L130: 
+L131:   * 【28†The Visa Bulletin】
+L132: 
+L133:   * 【29†Visa Statistics】
+L134: 
+L135:   * 【30†Laws & Regulations】
+L136: 
+L137:   * 【31†Accepting, Serving in, or Performing Duties of a Position with the Government of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(4)】
+L138:   * 【32†Loss of U.S. Nationality and Service in the Armed Forces of a Foreign State - Immigration and Nationality Act (INA) Section 349(a)(3)】
+L139: # Nonimmigrant Visa Statistics
+L140: 
+L141: ## Hot Topics
+L142: 
+L143:   * 【33†Monthly Nonimmigrant Visa (NIV) Issuances】
+L144: ## Multi-Year Reports
+L145: 
+L146:   * 【34†Classes of Nonimmigrants Issued Visas (Including Border Crossing Cards): Fiscal Years 2020 - 2024】
+L147:   * 【35†Nonimmigrant Visas Issued by Classification (Including Border Crossing Cards): Fiscal Years 2020 - 2024】
+L148:   * 【36†Nonimmigrant Visas Issued by Issuing Office (Including Border Crossing Cards): Fiscal Years 2015 - 2024】
+L149: 
+L150: For multi-year reports, please select a 【29†Report of the Visa Office】.
+L151: ## Nonimmigrant Worldwide Issuance and Refusal Data by Visa Category
+L152:   * 【37†FY2024 NIV Workload by Visa Category】
+L153:   * 【38†FY2023 NIV Workload by Visa Category】
+L154:   * 【39†FY2022 NIV Workload by Visa Category】
+L155:   * 【40†FY2021 NIV Workload by Visa Category】
+L156:   * 【41†FY2020 NIV Workload by Visa Category】
+L157:   * 【42†FY2019 NIV Workload by Visa Category】
+L158:   * 【43†FY2018 NIV Workload by Visa Category】
+L159:   * 【44†FY2017 NIV Workload by Visa Category】
+L160:   * 【45†FY2016 NIV Workload by Visa Category】
+L161:   * 【46†FY2015 NIV Workload by Visa Category】
+L162:   * 【47†FY2014 NIV Workload by Visa Category】
+L163:   * 【48†FY2013 NIV Workload by Visa Category】
+L164: ## Nonimmigrant B Visa Adjusted Refusal Rates by Nationality
+L165: 
+L166: * 【49†Multi-Year B Visa Adjusted Refusal Rates by Nationality (FY2006-FY2025)】
+L167: ## Nonimmigrant Visa Issuances by Visa Class and by Nationality
+L168:   * FY1997-2024 NIV Detail Table   【50†(Excel spreadsheet)】
+L169:   * FY2024 NIV Detail Table 【51†(PDF)】  【52†(Excel spreadsheet)】
+L170:   * FY2023 NIV Detail Table 【53†(PDF)】  【54†(Excel Spreadsheet)】
+L171:   * FY2022 NIV Detail Table 【55†(PDF)】  【56†(Excel Spreadsheet)】
+L172:   * FY2021 NIV Detail Table (【57†PDF)】  【58†(Excel spreadsheet)】
+L173:   * FY2020 NIV Detail Table 【59†(PDF)】  【60†(Excel spreadsheet)】
+L174:   * FY2019 NIV Detail Table 【61†(PDF)】  【62†(Excel spreadsheet)】
+L175:   * FY2018 NIV Detail Table 【63†(PDF)】  【64†(Excel spreadsheet)】
+L176:   * FY2017 NIV Detail Table 【65†(PDF)】  【66†(Excel spreadsheet)】
+L177:   * FY2016 NIV Detail Table 【67†(PDF)】  【68†(Excel spreadsheet)】
+L178:   * FY2015 NIV Detail Table 【69†(PDF)】  【70†(Excel spreadsheet)】
+L179:   * FY2014 NIV Detail Table 【71†(PDF)】  【72†(Excel spreadsheet)】
+L180:   * FY2013 NIV Detail Table 【73†(PDF)】  【74†(Excel spreadsheet)】
+L181:   * FY2012 NIV Detail Table 【75†(PDF)】  【76†(Excel spreadsheet)】
+L182:   * FY2011 NIV Detail Table 【77†(PDF)】  【78†(Excel spreadsheet)】
+L183:   * FY2010 NIV Detail Table 【79†(PDF)】  【80†(Excel spreadsheet)】
+L184:   * FY2009 NIV Detail Table 【81†(PDF)】  【82†(Excel spreadsheet)】
+L185:   * FY2008 NIV Detail Table 【83†(PDF)】  【84†(Excel spreadsheet)】
+L186:   * FY2007 NIV Detail Table 【85†(PDF)】  【86†(Excel spreadsheet)】
+L187:   * FY2006 NIV Detail Table 【87†(PDF)】  【88†(Excel spreadsheet)】
+L188:   * FY2005 NIV Detail Table 【89†(PDF)】
+L189:   * FY2004 NIV Detail Table 【90†(PDF)】
+L190:   * FY2003 NIV Detail Table 【91†(PDF)】
+L191:   * FY2002 NIV Detail Table 【92†(PDF)】
+L192:   * FY2001 NIV Detail Table 【93†(PDF)】
+L193:   * FY2000 NIV Detail Table 【94†(PDF)】
+L194:   * FY1999 NIV Detail Table 【95†(PDF)】
+L195:   * FY1998 NIV Detail Table 【96†(PDF)】
+L196:   * FY1997 NIV Detail Table 【97†(PDF)】
+L197: ## Nonimmigrant Visas by Individual Class of Admission (e.g. A1, A2, etc.)*
+L198:   * 【98†FY1987-1991 Detail Table (PDF)】
+L199:   * 【99†FY1992-1996 Detail Table (PDF)】
+L200:   * 【100†FY1997-2001 Detail Table (PDF)】
+L201:   * 【101†FY2002-2006 Detail Table (PDF)】
+L202:   * 【102†FY2003-2007 Detail Table (PDF)】
+L203:   * 【103†FY2004-2008 Detail Table (PDF)】
+L204:   * 【104†FY2005-2009 Detail Table (PDF)】
+L205:   * 【105†FY2006-2010 Detail Table (PDF)】
+L206:   * 【106†FY2007-2011 Detail Table (PDF)】
+L207:   * 【107†FY2008-2012 Detail Table (PDF)】
+L208:   * 【108†FY2009-2013 Detail Table (PDF)】
+L209:   * 【109†FY2010-2014 Detail Table (PDF)】
+L210:   * 【110†FY2011-2015 Detail Table (PDF)】
+L211:   * 【111†FY2012-2016 Detail Table (PDF)】
+L212:   * 【112†FY2013-2017 Detail Table (PDF)】
+L213:   * 【113†FY2014-2018 Detail Table (PDF)】
+L214:   * 【114†FY2015-2019 Detail Table (PDF)】
+L215:   * 【115†FY2016-2020 Detail Table (PDF)】
+L216:   * 【116†FY2017-2021 Detail Table (PDF)】
+L217:   * 【117†FY2018-2022 Detail Table (PDF)】
+L218:   * 【118†FY2019-2023 Detail Table (PDF)】
+L219:   * 【35†FY2020-2024 Detail Table (PDF)】
+L220: *The general table for classes of non-immigrants issued visas is provided in the annual 【29†Report of the Visa Office】. It is listed as Table XVI (A) “Classes of Nonimmigrants Issued Visas (Including Crewlist Visas and Border Crossing Cards).
+L221: ## INA 212(e) Waiver Statistics
+L222:   * 【119†INA 212(e) Waiver Recommendations - Fiscal Year 2010】
+L223:   * 【120†INA 212(e) Waiver Recommendations - Fiscal Year 2011】
+L224:   * 【121†INA 212(e) Waiver Recommendations - Fiscal Year 2012】
+L225:   * 【122†INA 212(e) Waiver Recommendations - Fiscal Year 2013】
+L226:   * 【123†INA 212(e) Waiver Recommendations - Fiscal Year 2014】
+L227:   * 【124†INA 212(e) Waiver Recommendations - Fiscal Year 2015】
+L228:   * 【125†INA 212(e) Waiver Recommendations - Fiscal Year 2016】
+L229:   * 【126†INA 212(e) Waiver Recommendations - Fiscal Year 2017】
+L230:   * 【127†INA 212(e) Waiver Recommendations - Fiscal Year 2018】
+L231:   * 【128†INA 212(e) Waiver Recommendations - Fiscal Year 2019】
+L232:   * 【129†INA 212(e) Waiver Recommendations - Fiscal Year 2020】
+L233:   * 【130†INA 212(e) Waiver Recommendations - Fiscal Year 2021】
+L234: ### Law & Policy - In This Section
+L235: 
+L236: 【28†Visa Bulletin】
+L237: 【29†Visa Statistics】
+L238:         【131†Annual Reports】
+L239:         【132†Immigrant Visa Statistics】
+L240:         【133†Nonimmigrant Visa Statistics】
+L241:         【134†Graphs】
+L242: 【30†Laws and Regulations】
+L243: ### External Link
+L244: 
+L245: You are about to leave travel.state.gov for an external website that is not maintained by the U.S. Department of State.
+L246: 
+L247: Links to external websites are provided as a convenience and should not be construed as an endorsement by the U.S. Department of State of the views or products contained therein. If you wish to remain on travel.state.gov, click the "cancel" message.
+L248: 
+L249: You are about to visit:
+L250: 
+L251: [Button: Cancel] GO
+L252: 
+L253: Travel.State.Gov
+L254: 
+L255:   * #### 【3†Travel.State.Gov】
+L256:   * #### 【11†Image】【23†Congressional Liaison】
+L257: 
+L258:   * #### 【13†Image】【14†Special Issuance Agency】
+L259: 
+L260:   * #### 【15†U.S. Passports】
+L261: 
+L262:   * #### 【135†International Travel】
+L263: 
+L264:   * #### 【17†U.S. Visas】
+L265: 
+L266:   * #### 【18†Intercountry Adoption】
+L267: 
+L268:   * #### 【19†International Parental Child Abduction】
+L269: 
+L270:   * #### 【20†Records and Authentications】
+L271: 
+L272: Popular Links
+L273:   * 【3†Home】
+L274:   * 【4†Travel Advisories】
+L275:   * 【5†Newsroom】
+L276:   * 【6†About Us】
+L277:   * 【7†Contact Us】
+L278:   * 【8†Careers†careers.state.gov】
+L279:   * 【9†MyTravelGov】
+L280:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L281: ### Stay Connected
+L282: ### Legal Resources
+L283: 
+L284:   * #### 【21†Legal Information】
+L285: 
+L286:   * #### 【22†Info for U.S. Law Enforcement】
+L287: 【136†Privacy†www.state.gov】 | 【137†Accessibility†www.state.gov】 | 【138†Copyright & Disclaimer】 | 【139†FOIA†foia.state.gov】 | 【140†GSA†www.gsa.gov】 | 【141†No FEAR Act Data†www.state.gov】 | 【142†Office of the Inspector General†www.stateoig.gov】 | 【143†USA.gov†www.usa.gov】 | 【144†USA.gov/espanol†www.usa.gov】 |
+L288: This site is managed by the U.S. Department of State. External links to other Internet sites and listings of private entities on this page are provided as a convenience and should not be construed as the U.S. Department of State or U.S. government endorsement of the entity, its views, the products or services it provides, or the accuracy of information contained therein.
+L289: The order in which names appear has no significance, and the listings or links may be removed at any time at the discretion of the Department.
+

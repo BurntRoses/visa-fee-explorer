@@ -1,0 +1,4 @@
+Official URL: https://immigration.gov.ng/wp-content/uploads/2025/10/SERVICE_LEVEL_AGREEMENT_2025_.pdf
+Capture method: search_service indexed extract, 2026-11-15. Original HTTP download returned 403.
+Locator: pp.2-3 foreword/version history, pp.6-25 services, appendices visa fees.
+Nigeria Immigration Service SERVICE LEVEL AGREEMENT, second edition, August 2025. Foreword dated 25 August 2025. Previous edition May 2024. The agreement covers visa services, visa categories, processing timelines and fees. Its appendices include nationality-dependent STR and other visa fee schedules. No complete fee table or annual nationality-by-category issuance table was obtained for this package; no fee number or monetary model is inferred from the index.

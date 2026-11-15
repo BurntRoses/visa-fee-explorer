@@ -1,0 +1,470 @@
+China (https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/China.html)
+【turn167695view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/China.html","lineno":null}); Total lines: 1186
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: ### Worldwide Caution: 【1†The Department of State advises Americans worldwide to exercise increased caution.】
+L3: 
+L4: 【2†Skip to main content】
+L5: 
+L6: [Input: Search]
+L7: 
+L8:   * 【3†Home】
+L9: 
+L10: |
+L11: 
+L12:   * 【4†Travel Advisories】
+L13: 
+L14: |
+L15: 
+L16:   * 【5†Newsroom】
+L17: 
+L18: |
+L19: 
+L20:   * 【6†About Us|】
+L21:   * 【7†Contact Us】
+L22: 
+L23: |
+L24: 
+L25:   * 【8†Careers†careers.state.gov】
+L26: 
+L27: |
+L28: 
+L29:   * 【9†MyTravelGov】
+L30: 
+L31: |
+L32: 
+L33:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L34: 
+L35: ### Travel.State.Gov
+L36: 
+L37:   * #### 【3†Travel.State.Gov】
+L38: 
+L39:   * 【11†Image】
+L40: #### 【12†Congressional Liaison】
+L41: 
+L42:   * 【13†Image】
+L43: 
+L44: #### 【14†Special Issuance Agency】
+L45: 
+L46:   * #### 【15†U.S. Passports】
+L47: 
+L48:   * #### 【16†International Travel】
+L49: 
+L50:   * #### 【17†U.S. Visas】
+L51: 
+L52:   * #### 【18†Intercountry Adoption】
+L53: 
+L54:   * #### 【19†International Parental Child Abduction】
+L55: 
+L56:   * #### 【20†Records and Authentications】
+L57: ### Popular Links
+L58: 
+L59:   * #### 【3†Home】
+L60: 
+L61:   * #### 【4†Travel Advisories】
+L62: 
+L63:   * 【5†Newsroom】
+L64:   * 【6†About Us】
+L65:   * 【7†Contact Us】
+L66:   * 【8†Careers†careers.state.gov】
+L67:   * 【9†MyTravelGov】
+L68:   * 【10†Find U.S. Embassies & Consulates†www.usembassy.gov】
+L69: ### Legal Resources
+L70: 
+L71:   * #### 【21†Legal Information】
+L72: 
+L73:   * #### 【22†Info for U.S. Law Enforcement】
+L74: 
+L75: [Input: Search]
+L76: 
+L77:   * 【11†Image: Congressional Liaison】 【23†Congressional Liaison】
+L78:   * 【13†Image: Department of State】 【14†Special Issuance Agency】
+L79:   * 【24†Probe2】
+L80:   * 【21†Legal Resources】
+L81:   * 【15†U.S. Passports】
+L82:   * 【16†International Travel】
+L83:   * 【17†U.S. Visas】
+L84:   * 【18†Intercountry Adoption】
+L85:   * 【19†International Parental Child Abduction】
+L86:   * 【25†Replace or Certify Documents】
+L87: 
+L88: # U.S. Visas
+L89: # English
+L90: 
+L91:   * 【26†Tourism & Visit】
+L92: 
+L93:   * 【27†Business】
+L94: 
+L95:   * 【28†Employment】
+L96: 
+L97:   * 【29†Study & Exchange】
+L98: 
+L99:   * 【30†Immigrate】
+L100: 
+L101:   * 【31†Other Visa Categories】
+L102: 
+L103:   * 【32†U.S. Visa: Reciprocity and Civil Documents by Country】
+L104: 
+L105: # U.S. Visa: Reciprocity and Civil Documents by Country
+L106: 
+L107: # China
+L108: 
+L109: China
+L110: 
+L111: China
+L112: 
+L113: ## Reciprocity Schedule
+L114: 
+L115: Select a visa category below to find the visa issuance fee, number of entries, and validity period for visas issued to applicants from this country*/area of authority.
+L116: ### Explanation of Terms
+L117: 
+L118: Visa Classification: The type of nonimmigrant visa you are applying for.
+L119: 
+L120: Fee: The reciprocity fee, also known as the visa issuance fee, you must pay. This fee is in addition to the nonimmigrant visa application fee (MRV fee).
+L121: 
+L122: Number of Entries: The number of times you may seek entry into the United States with that visa. "M" means multiple times. If there is a number, such as "One", you may apply for entry one time with that visa.
+L123: Validity Period: This generally means the visa is valid, or can be used, from the date it is issued until the date it expires, for travel with that visa. If your Validity Period is 60 months, your visa will be valid for 60 months from the date it is issued.
+L124: ### Visa Classifications
+L125: 
+L126: A B C D E F G H I J K L M N O P Q R S T U V Y
+L127: Visa
+L128: Classification  | Fee  | Number
+L129: of Entries  | Validity
+L130: Period
+L131: --- | --- | --- | ---
+L132: A-1  | None  | Multiple  | 60 Months
+L133: A-2  | None  | Multiple  | 60 Months 【33†▲】
+L134: A-2 (TDY)  | None  | Two  | 6 Months
+L135: A-3 【34†1】  | None  | Multiple  | 12 Months
+L136: B-1  | None  | Multiple  | 120 Months 【35†■】 【36†★】
+L137: B-2  | None  | Multiple  | 120 Months 【35†■】 【36†★】
+L138: B-1/B-2  | None  | Multiple  | 120 Months 【35†■】 【36†★】
+L139: C-1  | None  | Multiple  | 60 Months
+L140: C-1/D  | None  | Multiple  | 60 Months
+L141: C-2  | None  | Multiple  | 24 Months
+L142: C-3  | None  | Multiple  | 24 Months 【33†▲】
+L143: C-3 (TDY)  | None  | Two  | 6 Months
+L144: C-W-1 【37†11】  | None  | Multiple  | 12 Months
+L145: C-W-2 【37†11】  | None  | Multiple  | 12 Months
+L146: D  | None  | Multiple  | 60 Months
+L147: E-1 【38†2】  | No Treaty  | N/A  | N/A
+L148: E-2 【38†2】  | No Treaty  | N/A  | N/A
+L149: E-2C 【39†12】  | None  | Multiple  | 24 Months
+L150: F-1  | None  | Multiple  | 60 Months
+L151: F-2  | None  | Multiple  | 60 Months
+L152: G-1  | None  | Multiple  | 36 Months
+L153: G-2  | None  | Two  | 6 Months
+L154: G-3  | None  | Multiple  | 36 Months
+L155: G-4  | None  | Multiple  | 36 Months
+L156: G-5 【34†1】  | None  | Multiple  | 6 Months
+L157: H-1B  | None  | Multiple  | 12 Months 【40†3】
+L158: H-1C  | None  | Multiple  | 12 Months 【40†3】
+L159: H-2A  | None  | N/A  | N/A【40†3】
+L160: H-2B  | None  | N/A  | N/A【40†3】
+L161: H-2R  | None  | Multiple  | 12 Months 【40†3】
+L162: H-3  | None  | Multiple  | 12 Months 【40†3】
+L163: H-4  | None  | Multiple  | 12 Months 【40†3】
+L164: I  | $397.00  | Multiple  | 12 Months
+L165: J-1 【41†4】  | None  | Multiple  | 60 Months
+L166: J-2 【41†4】  | None  | Multiple  | 60 Months
+L167: K-1  | None  | One  | 6 Months
+L168: K-2  | None  | One  | 6 Months
+L169: K-3  | None  | Multiple  | 24 Months
+L170: K-4  | None  | Multiple  | 24 Months
+L171: L-1  | $105.00 【42†◉】  | Multiple  | 24 Months
+L172: L-2  | $105.00 【42†◉】  | Multiple  | 24 Months
+L173: M-1  | None  | Multiple  | 60 Months
+L174: M-2  | None  | Multiple  | 60 Months
+L175: N-8  | None  | Two  | 6 Months
+L176: N-9  | None  | Two  | 6 Months
+L177: NATO 1-7  | N/A  | N/A  | N/A
+L178: O-1  | None  | One  | 3 Months 【40†3】
+L179: O-2  | None  | One  | 3 Months 【40†3】
+L180: O-3  | None  | One  | 3 Months 【40†3】
+L181: P-1  | None  | One  | 3 Months 【40†3】
+L182: P-2  | None  | One  | 3 Months 【40†3】
+L183: P-3  | None  | One  | 3 Months 【40†3】
+L184: P-4  | None  | One  | 3 Months 【40†3】
+L185: Q-1 【43†6】  | None  | One  | 3 Months 【40†3】
+L186: R-1  | None  | One  | 3 Months
+L187: R-2  | None  | One  | 3 Months
+L188: S-5 【44†7】  | None  | One  | 1 Month
+L189: S-6 【44†7】  | None  | One  | 1 Month
+L190: S-7 【44†7】  | None  | One  | 1 Month
+L191: T-1 【45†9】  | N/A  | N/A  | N/A
+L192: T-2  | None  | One  | 6 Months
+L193: T-3  | None  | One  | 6 Months
+L194: T-4  | None  | One  | 6 Months
+L195: T-5  | None  | One  | 6 Months
+L196: T-6  | None  | One  | 6 Months
+L197: T-D 【46†5】  | N/A  | N/A  | N/A
+L198: U-1  | None  | Multiple  | 48 Months
+L199: U-2  | None  | Multiple  | 48 Months
+L200: U-3  | None  | Multiple  | 48 Months
+L201: U-4  | None  | Multiple  | 48 Months
+L202: U-5  | None  | Multiple  | 48 Months
+L203: V-1  | None  | Multiple  | 120 Months
+L204: V-2  | None  | Multiple  | 120 Months 【47†8】
+L205: V-3  | None  | Multiple  | 120 Months 【47†8】
+L206: ALL / ALL /
+L207: #### Country Specific Footnotes
+L208: 
+L209: ▲.
+L210: 
+L211: Type  | Duration
+L212: --- | ---
+L213: Assigned personnel receive full validity. Temporary duty personnel receive limited validity.
+L214:    | Two entries/6 months
+L215: Professional diplomatic couriers  | Multiple entries/36 months
+L216: 
+L217: ◉.【48†Image】【48†Image】
+L218: 
+L219: Type  | Fee  | Duration
+L220: --- | --- | ---
+L221: Single entry     |   No fee     | 3 months
+L222: 
+L223: ■.【48†Image】
+L224: All NIV adjudicating posts worldwide must annotate each 10-year, multiple-entry, B-1/B-2, B-1, or B-2 visa issued in a People's Republic of China passport starting November 29, 2016.
+L225: 
+L226: Visa annotation must read:
+L227: 
+L228: EVUS enrollment required
+L229: Enroll at 【49†www.EVUS.gov†gcc02.safelinks.protection.outlook.com】
+L230: 
+L231: ★.
+L232: 
+L233: B1, B2, and B1/B2 visas for Chinese Communist Party members, their spouses, and children under the age of 21 will be limited to one month, single entry.
+L234: Although care has been taken to ensure the accuracy, completeness and reliability of the information provided, 【50†please contact the U.S. Embassy or Consulate where you plan to apply†www.usembassy.gov】 if you believe this information is in error or if you have further questions.
+L235: 
+L236: ALL /
+L237: #### Visa Category Footnotes
+L238: 
+L239:   1. The validity of A-3, G-5, and NATO 7 visas may not exceed the validity of the visa issued to the person who is employing the applicant. The "employer" would have one of the following visa classifications:
+L240:      * A-1
+L241:      * A-2
+L242:      * G-1 through G-4
+L243:      * NATO 1 through NATO 6
+L244:   2. An E-1 and E-2 visa may be issued only to a principal alien who is a national of a country having a treaty, or its equivalent, with the United States. E-1 and E-2 visas may not be issued to a principal alien if he/she is a stateless resident or national of a country without a treaty.
+L245:  *When the spouse and children of an E-1 or E-2 principal alien are accorded derivative E-1 or E-2 status and are themselves a national of a country that does not have a treaty with the United States – the reciprocity schedule, including any reciprocity fees, of the principal alien’s country of nationality should be used.  **Spouse and children of an E-1 or E-2 visa principal applicant, where the spouse and children are also nationals of a country that has a treaty with the United States – the reciprocity schedule, including any reciprocity fees, of the spouse and children’s country of nationality should be used.
+L246: *Example 1: John Doe is a national of Country A that has an E-1/E-2 treaty with the U.S. however his wife and child are nationals of Country B which has no treaty with the U.S. The wife and child would, therefore, be entitled to derivative status and receive the same reciprocity as John Doe, the principal visa holder.
+L247: **Example 2:  Mike Doe is a national of Country Y that has an E-1/E-2 treaty with the U.S. however his wife and child are nationals of Country Z that also has a treaty with the U.S. The wife and child would, therefore, be entitled to derivative status and receive the reciprocity issued to nationals of Country Z.
+L248:   3. The validity of H-1 through H-3, O-1 and O-2, P-1 through P-3, and Q visas may not exceed the period of validity of the approved petition or the number of months shown, whichever is less.
+L249: Under 8 CFR §214.2, H-2A and H-2B petitions may generally only be approved for nationals of countries that the Secretary of Homeland Security has designated as participating countries. The current list of eligible countries is available on USCIS's website for both 【51†H-2A†www.uscis.gov】 and 【52†H-2B†www.uscis.gov】 visas.
+L250: Nationals of countries not on this list may be the beneficiary of an approved H-2A or H2-B petition in limited circumstances at the discretion of the Department of Homeland Security if specifically named on the petition.
+L251: Derivative H-4, L-2, O-3, and P-4 visas, issued to accompanying or following-to-join spouses and children, may not exceed the validity of the visa issued to the principal alien.
+L252: 
+L253:   4. There is no reciprocity fee for the issuance of a J visa if the alien is a United States Government grantee or a participant in an exchange program sponsored by the United States Government.
+L254: Also, there is no reciprocity fee for visa issuance to an accompanying or following-to-join spouse or child (J-2) of an exchange visitor grantee or participant.
+L255: 
+L256: In addition, an applicant is eligible for an exemption from the MRV fee if he or she is participating in a State Department, USAID, or other federally funded educational and cultural exchange program (program serial numbers G-1, G-2, G-3 and G-7).
+L257: However, all other applicants with U.S. Government sponsorships, including other J-visa applicants, are subject to the MRV processing fee.
+L258:   5. Under the North American Free Trade Agreement (NAFTA), Canadian and Mexican nationals coming to engage in certain types of professional employment in the United States may be admitted in a special nonimmigrant category known as the "trade NAFTA" or "TN" category. Their dependents (spouse and children) accompanying or following to join them may be admitted in the "trade dependent" or "TD" category whether or not they possess Canadian or Mexican nationality.
+L259: Except as noted below, the number of entries, fees and validity for non-Canadian or non-Mexican family members of a TN status holder seeking TD visas should be based on the reciprocity schedule of the TN principal alien.
+L260: ##### Canadian Nationals
+L261: Since Canadian nationals generally are exempt from visa requirement, a Canadian "TN' or "TD" alien does not require a visa to enter the United States. However, the non-Canadian national dependent of a Canadian "TN", unless otherwise exempt from the visa requirement, must obtain a "TD" visa before attempting to enter the United States.
+L262: The standard reciprocity fee and validity period for all non-Canadian "TD"s is no fee, issued for multiple entries for a period of 36 months, or for the duration of the principal alien's visa and/or authorized period of stay, whichever is less. See 'NOTE' under Canadian reciprocity schedule regarding applicants of Iranian, Iraqi or Libyan nationality.
+L263: ##### Mexican Nationals
+L264: 
+L265: Mexican nationals are not visa-exempt. Therefore, all Mexican "TN"s and both Mexican and non-Mexican national "TD"s accompanying or following to join them who are not otherwise exempt from the visa requirement (e.g., the Canadian spouse of a Mexican national "TN") must obtain nonimmigrant visas.
+L266: Applicants of Iranian, Iraqi, Libyan, Somalian, Sudanese, Syrian or Yemeni nationality, who have a permanent resident or refugee status in Canada/Mexico, may not be accorded Canadian/Mexican reciprocity, even when applying in Canada/Mexico. The reciprocity fee and period for "TD" applicants from Libya is $10.00 for one entry over a period of 3 months. The Iranian and Iraqi "TD" is no fee with one entry over a period of 3 months.
+L267:   6. Q-2 (principal) and Q-3 (dependent) visa categories are in existence as a result of the 'Irish Peace Process Cultural and Training Program Act of 1998'. However, because the Department anticipates that virtually all applicants for this special program will be either Irish or U.K. nationals, the Q-2 and Q-3 categories have been placed only in the reciprocity schedules for those two countries. Q-2 and Q-3 visas are available only at the Embassy in Dublin and the Consulate General in Belfast.
+L268:   7. No S visa may be issued without first obtaining the Department's authorization.
+L269: 
+L270:   8. V-2 and V-3 status is limited to persons who have not yet attained their 21st birthday. Accordingly, the period of validity of a V-2 or V-3 visa must be limited to expire on or before the applicant's twenty-first birthday.
+L271:   9. Posts may not issue a T-1 visa. A T-1 applicant must be physically present in the United States, American Samoa, the Commonwealth of the Northern Mariana Islands or a U.S. port of entry, where he/she will apply for an adjustment of status to that of a T-1. The following dependents of a T-1 visa holder, however, may be issued a T visa at a U.S. consular office abroad:
+L272:      * T-2 (spouse)
+L273:      * T-3 (child)
+L274:      * T-4 (parent)
+L275:   10. The validity of NATO-5 visas may not exceed the period of validity of the employment contract or 12 months, whichever is less.
+L276: 
+L277:   11. The validity of CW-1 and CW-2 visas shall not exceed the maximum initial period of admission allowed by DHS (12 months) or the duration of the transition period ending December 31, 2014, whichever is shortest.
+L278:   12. The validity of E-2C visas shall not exceed the maximum initial period of admission allowed by DHS (24 months) or the duration of the transition period ending December 31, 2014, whichever is shortest.
+L279: 
+L280: 
+L281: 
+L282: 
+L283: 
+L284: ALL / ALL /
+L285: #### General Documents
+L286: 
+L287: You may get the documents below from one of China's Notarial Offices (Gong Zheng Chu). All Chinese documents for use abroad are processed through notary offices and issued in the form of notarial certificates.
+L288: Notaries in China work differently than notaries in the United States. In China, notaries use their signature and official seal to confirm that the information provided by the applicant is true. They are only allowed to issue certificates after they verify the applicant’s claims.
+L289: If you no longer live in China, you may still get notarial certificates. Ask the office responsible for the county you lived in. Family members or friends in China can request these certificates for you, but they must have your written permission. This authorization must be in Chinese, or in English with a Chinese translation.
+L290: 
+L291: General Issuing Authority Information
+L292: 
+L293: Notarial offices are in all major Chinese cities and rural county seats. These offices are part of the Ministry of Justice structure.
+L294: #### Birth, Death, Burial Certificates
+L295: ### Birth Certificates
+L296: 
+L297: Available
+L298: 
+L299: Fees: Varies. Normally RMB 300 – 500, including translation fee.
+L300: 
+L301: Document Name: Notarial certificate (Gong Zheng Shu)
+L302: 
+L303: Issuing Authority: Local Notary Public Office (Gong Zheng Chu)
+L304: 
+L305: Format: All notarial documents must have an English translation, and be attached with a certificate stating that the English translation conforms with the Chinese original.
+L306: 
+L307: Issuing Authority Personnel Title: Notary Public (Gong Zheng Yuan)
+L308: 
+L309: Registration Criteria:
+L310:   1. A National ID and household registration (Hu Kou Bu). If the applicant lives abroad, he or she will need a copy of his or her passport.
+L311:   2. One of the following three documents:
+L312:      * Birth certificate (Chu Sheng Zheng Ming Shu) or medical certificate of birth (Chu Sheng Yi Xue Zheng Ming) issued by the hospital
+L313:      * Initial Birth Record issued by the Household Registration Department of the local Public Security Bureau
+L314:      * Proof of birth issued by the sub-district office or the Personnel Department of Work Unit
+L315:   3. Photographs - at least two.
+L316:   4. A signed affidavit or authorization certificate from the applicant if someone other than the applicant applies for the certificate on his or her behalf. The authorized person also needs to provide his/her national ID.
+L317:   5. Documentation of both parents’ identification. If deceased, a death certificate is required.
+L318:   6. Other documents requested by the Notary Public (Gong Zheng Yuan).
+L319: Procedure for Obtaining:
+L320: 
+L321:   1. Complete an application and submit all relevant documents to the Notary Public Office (Gong Zheng Chu).
+L322:   2. The Notary Public examines the documents. If the application is accepted, the applicant pays all related notary fees.
+L323:   3. Once the Notary Public finishes his or her review, he or she issues the notarial birth certificate.
+L324: 
+L325: Certified Copies: Certified copies are not available.
+L326: 
+L327: Alternate Documents: There are no alternate documents.
+L328: Exceptions: There are no exceptions.
+L329: 
+L330: Comments: Applicants should check the website or contact their local Notary Public Office to obtain specific information regarding required fees and supporting documents.
+L331: ### Death/Burial Certificates
+L332: 
+L333: Available
+L334: 
+L335: Fees: Varies. Normally RMB 300 – 500, including translation fee.
+L336: 
+L337: Document Name: Notarial certificate (Gong Zheng Shu)
+L338: 
+L339: Issuing Authority: Local Notary Public Office (Gong Zheng Chu)
+L340: 
+L341: Format: All notarized documents must have an English translation and be attached to a certificate stating that the English translation conforms with the Chinese original.
+L342: 
+L343: Issuing Authority Personnel Title: Notary Public (Gong Zheng Yuan)
+L344: 
+L345: Registration Criteria:
+L346:   1. A National ID card or passport.
+L347:   2. A household registration (Hu Kou Bu).
+L348:   3. Decedent’s household registration (Hu Kou Bu), or residence certificate issued by the local Public Security Bureau.
+L349:   4. One of the following four documents:
+L350:      * Medical certificate of death (Si Wang Yi Xue Zheng Ming) issued by the hospital
+L351:      * Death certificate or cancellation of the household registration (Hu Ji Zhu Xiao Zheng Ming) indicating the date of death, issued by the local Public Security Bureau
+L352:      * Proof of cremation (Huo Hua Zheng Ming)
+L353:      * Written judgement of declaration of death (Xuan Gao Si Wang Pan Jue Shu)
+L354:   5. Proof of relationship between the decedent and the applicant – for example: birth certificate, marriage certificate, or household registration.
+L355:   6. A signed affidavit or authorization certificate from the applicant if someone other than the applicant applies for the certificate on his or her behalf. The authorized person also needs to provide his/her national ID card.
+L356:   7. Other documents requested by the Notary Public (Gong Zheng Yuan).
+L357: Procedure for Obtaining:
+L358: 
+L359:   1. Complete and submit all relevant documents to the Notary Public Office (Gong Zheng Chu).
+L360:   2. The Notary Public examines the documents. If the application is accepted, the applicant pays all related notary fees.
+L361:   3. Once the Notary Public finishes his or her review, he or she issues the notarial death certificate.
+L362: 
+L363: Certified Copies: Certified copies are not available.
+L364: 
+L365: Alternate Documents: There are no alternate documents.
+L366: 
+L367: Exceptions: There are no exceptions.
+L368: Comments: Applicants should check the website or contact their local Notary Public Office to obtain specific information regarding required fees and supporting documents. Medical certificates of death are issued by the hospital.
+L369: #### Marriage, Divorce Certificates
+L370: ### Marriage Certificates
+L371: 
+L372: Available
+L373: 
+L374: Fees: Varies. Normally RMB 300 – 500, including translation fee.
+L375: 
+L376: Document Name: Notarial certificate (Gong Zheng Shu)
+L377: 
+L378: Issuing Authority: Local Notary Public Office (Gong Zheng Chu)
+L379: 
+L380: Format:
+L381:   1. There are two types of notarial marriage certificates: Notarial Certificate for Marriage and Notarial Marriage Certificate. Both are acceptable.
+L382:      * Notarial Certificate for Marriage: Certifies the authenticity and legality of the marriage.
+L383:      * Notarial Marriage Certificate: Certifies the authenticity of the original marriage certificate, and that the photocopy of the marriage certificate is in accordance with the original.
+L384:   2. All notarial documents must have an English translation and be attached to a certificate stating that the English translation conforms with the Chinese original.
+L385: Issuing Authority Personnel Title: Notary Public (Gong Zheng Yuan)
+L386: 
+L387: Registration Criteria:
+L388:   1. A National ID card and household registration (Hu Kou Bu). If the applicant lives abroad, he or she will need a copy of his or her passport.
+L389:   2. If the applicant is a foreign passport holder, or a Taiwan/Hong Kong/Macau resident; the passport or the mainland travel permit is required.
+L390:   3. Original marriage certificate.
+L391:   4. Photographs - at least two.
+L392:   5. A signed affidavit or authorization certificate from the applicant if someone other than the applicant applies for the certificate on his or her behalf. The authorized person also needs to provide his/her national ID card.
+L393:   6. Other documents requested by the Notary Public (Gong Zheng Yuan).
+L394: Procedure for Obtaining:
+L395: 
+L396:   1. Complete an application and submit all relevant documents to the Notary Public Office (Gong Zheng Chu).
+L397:   2. The Notary Public examines the documents. If the application is accepted, the applicant pays all related notary fees.
+L398:   3. Once the Notary Public finishes his or her review, he or she issues the notarial marriage certificate.
+L399: 
+L400: Certified Copies: Certified Copies are not available.
+L401: 
+L402: Alternate Documents: There are no alternate documents.
+L403: Exceptions: There are no exceptions.
+L404: 
+L405: Comments: Applicants should check the website or contact their local Notary Public Office for details about fees and supporting documents. Same-sex marriage is not recognized in China.
+L406: ### Divorce Certificates
+L407: 
+L408: Available
+L409: 
+L410: Fees: Varies. Normally RMB 300 – 500, including translation fee.
+L411: 
+L412: Document Name: Notarial certificate (Gong Zheng Shu)
+L413: 
+L414: Issuing Authority: Local Notary Public Office (Gong Zheng Chu)
+L415: 
+L416: Format:
+L417:   1. There are two types of notarial divorce certificates: Notarial Certificate for Divorce and Notarial Divorce Certificate. Both are acceptable.
+L418:      * Notarial Certificate for Divorce: Certifies the authenticity and legality of the divorce
+L419:      * Notarial Divorce Certificate: Certifies the authenticity of the original divorce certificate, and that the photocopy of the divorce certificate is in accordance with the original
+L420:   2. All notarial documents must have an English translation and be attached with a certificate stating that the English translation is in conformity with the Chinese original.
+L421: Issuing Authority Personnel Title: Notary Public (Gong Zheng Yuan)
+L422: 
+L423: Registration Criteria:
+L424:   1. A National ID card and household registration (Hu Kou Bu). If the applicant lives abroad, he or she will need a copy of his or her  passport.
+L425:   2. If the applicant is a foreign passport holder, or a Taiwan/Hong Kong/Macau resident; the passport or the mainland travel permit is required.
+L426:   3. One of the following two documents:
+L427:      * Original divorce certificate
+L428:      * Original divorce decree or mediation agreement
+L429:   4. Photographs - at least two.
+L430:   5. A signed affidavit or authorization certificate from the applicant if someone other than the applicant applies for the certificate on his or her behalf. The authorized person also needs to provide his/her national ID card.
+L431:   6. Other documents requested by the Notary Public (Gong Zheng Yuan).
+L432: Procedure for Obtaining:
+L433: 
+L434:   1. Complete an application and submit all relevant documents to the Notary Public Office (Gong Zheng Chu).
+L435:   2. The Notary Public examines the documents. If the application is accepted, the applicant pays all related notary fees.
+L436:   3. Once the Notary Public finishes his or her review, he or she issues the notarial divorce certificate.
+L437: 
+L438: Certified Copies: Certified copies are not available.
+L439: 
+L440: Alternate Documents: There are no alternate documents.
+L441: Exceptions: There are no exceptions.
+L442: 
+L443: Comments: Applicants should check the website or contact their local Notary Public Office for details about fees and supporting documents.
+L444: #### Adoption Certificates
+L445: 
+L446: Available
+L447: 
+L448: Fees: Varies. Normally RMB 300 – 500, including translation fee.
+L449: 
+L450: Document Name: Notarial certificate (Gong Zheng Shu)
+L451: 
+L452: Issuing Authority: Local Notary Public Office (Gong Zheng Chu)
+L453: 
+L454: Format:
+L455:   1. A notarial adoption certificate must:
+L456:      * Certify authenticity of the original adoption; certificate/adoption registration certificate;
+L457:      * Certify that the photocopy of the certificate matches the original.
+L458:   2. All notarial documents must have an English translation and be attached to a certificate stating that the English translation is in conformity with the Chinese original.
+L459: 
+L460: Issuing Authority Personnel Title: Notary Public (Gong Zheng Yuan)
+L461: 
+L462: Registration Criteria:
+L463:   1. A National ID card and household registration (Hu Kou Bu). If the applicant lives abroad, he or she will need a copy of his or her passport.
+L464:   2. If the applicant is a Taiwan/Hong Kong/Macau resident, the mainland travel permit is required.
+L465:   3. Original adoption certificate/adoption registration certificate.
+L466:   4. A signed affidavit or authorization certificate from the applicant if someone other than the applicant applies for the certificate on his or her behalf. The authorized person also needs to provide his/he national ID card.
+

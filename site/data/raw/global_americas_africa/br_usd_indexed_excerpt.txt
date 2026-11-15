@@ -1,0 +1,5 @@
+Official URL: https://www.gov.br/mre/pt-br/consulado-sao-francisco/servicos-consulares-e-informacoes-uteis/visto-para-o-brasil
+Capture method: search_service indexed extract, 2026-11-15. Original HTTP download returned 403 / WAF challenge.
+Locator: Visa fees table (page published 14 June 2022); all other countries visitor 80, temporary 100, payable in USPS money order; consular fee payment does not guarantee visa grant.
+Supporting official URL: https://www.gov.br/mre/pt-br/consulado-chicago/Visas/types-of-visa-1/vivis-visitor-visa
+Locator: visitor visa notice; nationals of Australia, Canada and USA require visas as of 10 April 2025; online fee US$80.90 (government tariff 80, separate processing element 0.90). Detailed consular reciprocity charges are recorded from archived Portaria MRE 602/2025 legal reproduction. R$-ouro is not BRL. Historical tariff continuity and payment mix remain model assumptions.

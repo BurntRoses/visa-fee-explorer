@@ -1,0 +1,6 @@
+Official URL: https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf
+Capture method: search_service indexed extract, 2026-11-15. Original HTTP download returned 520 / TLS failure.
+Locator: Guide d'utilisation, paiement de la demande, page 5 screenshot.
+STANDARD: 770 MAD, delai moyen de 3 jours ouvrables.
+EXPRESS: 1100 MAD, delai moyen de 1 jour ouvrable.
+The guide distinguishes consular visa, AEVM and eVisa eligibility, and directs payment to Tresorerie Generale du Royaume du Maroc. No historical effective date or issued quantity matched to this tariff was obtained. Fee records are excluded from 2024/2025 money models.
