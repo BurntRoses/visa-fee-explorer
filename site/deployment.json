@@ -1,8 +1,8 @@
 {
   "version": "2026.11.16-r6",
-  "ui_version": "4.2.0",
-  "offline_sha256": "69467ec6646180d90ec711b247b00c9249d3c983fbfc6e26be3a76b2a114860a",
-  "index_sha256": "91cf6f5b99cfb330d46c785a6b802d022d219ebe42b6fad5e93e7087904ffddc",
+  "ui_version": "4.2.1",
+  "offline_sha256": "fc76899d37c83dd579b712074a1a5dfc29ac66959e0fcb9ab44d6e1c2cd33561",
+  "index_sha256": "f185e63ceade102a1e277682e46ab067cb52f22353ea68b3f60b0679e77a3384",
   "source_archives": 306,
   "site_files": 755
 }
