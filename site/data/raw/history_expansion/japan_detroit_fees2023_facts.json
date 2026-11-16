@@ -1,0 +1,104 @@
+{
+  "year": 2023,
+  "url": "https://www.detroit.us.emb-japan.go.jp/itpr_ja/11_000001_00328.html",
+  "publisher": "Consulate-General of Japan in Detroit / MOFA Japan",
+  "effective_from": "2023-04-01",
+  "effective_to": "2024-03-31",
+  "full_fee_exempt_iso3": [
+    "ARM",
+    "COL",
+    "LSO",
+    "NZL",
+    "SUR",
+    "AUS",
+    "CRI",
+    "HUN",
+    "LTU",
+    "PAK",
+    "SWE",
+    "AUT",
+    "HRV",
+    "ISL",
+    "LUX",
+    "TJK",
+    "AZE",
+    "CYP",
+    "IRL",
+    "MKD",
+    "POL",
+    "TKM",
+    "BHS",
+    "CZE",
+    "ISR",
+    "MYS",
+    "PRT",
+    "UKR",
+    "BGD",
+    "DNK",
+    "ITA",
+    "MLT",
+    "USA",
+    "BRB",
+    "SLV",
+    "JOR",
+    "MUS",
+    "RUS",
+    "UZB",
+    "BLR",
+    "EST",
+    "KAZ",
+    "MEX",
+    "SMR",
+    "BEL",
+    "GEO",
+    "KOR",
+    "MDA",
+    "SVK",
+    "BGR",
+    "DEU",
+    "KGZ",
+    "MCO",
+    "SVN",
+    "CAN",
+    "HND",
+    "LVA",
+    "NLD",
+    "ESP",
+    "MAC"
+  ],
+  "conditional_exemptions": [
+    {
+      "iso3": "HKG",
+      "condition": "Only specified BNO passport documents; not all China Hong Kong applicants"
+    },
+    {
+      "iso3": "PHL",
+      "condition": "Fee exemption for stay not exceeding90days; standard fee beyond90days"
+    },
+    {
+      "iso3": "ROU",
+      "condition": "Scope requires inquiry with consulate; do not presume all purposes free"
+    }
+  ],
+  "mission_local_fees_USD": {
+    "IND": [
+      6,
+      6,
+      1
+    ],
+    "standard": [
+      22,
+      44,
+      5
+    ]
+  },
+  "fee_order": [
+    "single",
+    "multiple",
+    "transit"
+  ],
+  "archive_kind": "structured_factual_capture",
+  "retrieved_at": "2026-11-16",
+  "capture_method": "Official source opened and extracted through web search service; direct byte download returned403. This file is a factual extract, not the original PDF/HTML.",
+  "source_locator": "fee-exemption table and standard-fee table"
+}

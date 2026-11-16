@@ -1,0 +1,17 @@
+{
+  "url": "https://www.mofa.go.jp/press/kaiken/kaikenwe_000001_00263.html",
+  "publisher": "Ministry of Foreign Affairs of Japan",
+  "published_at": "2026-06-19",
+  "source_locator": "Opening Remarks(2) and question Revision of Visa Fees",
+  "facts": {
+    "prior_single_JPY": 3000,
+    "prior_multiple_JPY": 6000,
+    "new_single_JPY": 15000,
+    "new_multiple_JPY": 30000,
+    "change_effective_from": "2026-07-01",
+    "prior_schedule_established_year": 1978
+  },
+  "archive_kind": "structured_factual_capture",
+  "retrieved_at": "2026-11-16",
+  "capture_method": "Official press conference opened through web search service; direct HTTP blocked. Facts only, no original HTML claimed."
+}

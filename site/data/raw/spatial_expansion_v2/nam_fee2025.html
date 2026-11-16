@@ -1,0 +1,2420 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+	<title>Visa Fees and Exemptions</title>
+<style>
+	
+	body {
+				
+	}
+	
+	.inner{ /*background-color:#FFFFFF;*/ padding-left:30px; padding-right:30px;}
+	.banner .inner, .top-menu .inner, .footer .inner{ background-color: transparent;}
+	.section{ padding-bottom: 0!important; margin-bottom: 0!important; }
+	.section .inner:last-child{ padding-bottom: 80px;}
+	/* .banner-triangle{ display: none; }
+	*/
+	
+	.top-menu .inner{ padding: 0;}
+	.col-container{ display:inline-block; }
+
+</style>
+
+
+
+<style>
+	/* GENERAL STYLES */
+	*{
+		box-sizing: border-box;
+	}
+	
+	body{ padding:0; margin:0; font-family: Arial; font-size: 12px; color:#363935; }
+	
+	.outer{
+		position:relative; float:left;
+		width:100%;
+		overflow:hidden;
+		z-index: 100;
+	}
+	
+	.inner{
+		position:relative;
+		margin:auto;
+		width:1200px;
+		/*display:table;*/
+		/*padding:16px;
+		border: 1px dashed #aaaaaa;*/
+	}
+	
+	.overflow-visible{ overflow:visible; }
+	.overflow-hidden{ overflow:hidden; }
+	
+	.no-padding{ padding:0!important; }	
+	
+	a { float:left; text-decoration:none; color:inherit; cursor:pointer; pointer-events: all!important;}
+	p a{ float:none; }
+	a img { border:0; }
+	
+	.all_middle{
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+	}
+	
+	.v_middle{
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		-webkit-transform: translate(0, -50%);
+	}
+	
+	.h_center{
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
+	}
+	
+	p { line-height: 140%; margin:8px auto; }
+	input[type=submit]{ cursor:pointer; }
+	input[type=image]{ padding:0;}
+	select, select option, .select, .select .option { 
+		font-family:Roboto Condensed; font-size:14px; color:#727572!important; 
+	}
+	
+	/*
+	.custom-select{
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border:1px solid #727572;
+		border-radius: 0;
+		background-repeat:no-repeat;
+		background-position:center right;
+		background-size: 21px auto;
+		background-image:url(/img/drop_down.png);
+	}
+	*/
+	
+	.underline{ text-decoration: underline; }
+	.uppercase{ text-transform:uppercase; }
+	
+	.full-width{ width:100%; }
+	.full-height{ height:100%; min-height: inherit; }
+	.float-left{ float:left; }
+	.float-right{ float:right; }
+	
+	.pointer-events-all{ pointer-events: all; }
+	.pointer-events-none{ pointer-events:none; }
+	
+	.fixed{ position:fixed; }
+	
+	*:focus {
+		outline:none;
+	}
+
+	.transition{
+		-webkit-transition: all .5s;
+    	transition: all .5s;
+	}
+	
+	.clearfix:after{
+		content: "";
+		display:table;
+		clear:both;
+	}
+	
+	
+	
+	/* READ MOMRE */
+	.read-more{
+		float:left;
+		width:100%;
+		/*font-style:italic;
+		font-size:12px;*/
+	
+	}
+	
+	.read-more.show{ width: 100%; }
+	.read-more .read-more-text{ 
+		float:left;
+		display:none;
+		width:100%;
+		margin: 10px 0;
+		/*-ms-transform: scale(0, 0);
+		-webkit-transform: scale(0, 0);
+		transform: scale(0, 0);*/
+	}
+	.read-more .more{ display: block; float:left; padding:0 10px; margin-top: 18px; }
+	.read-more .less{ display: none; }
+	
+	
+	.read-more.show .read-more-text{ 
+		display:block;
+		/*-ms-transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);*/
+	}
+	.read-more.show .more{ display:none; }
+	.read-more.show .less{ display: block; }
+
+	.read-more p{
+		width:auto;
+	}
+	
+	.read-more .read-more-text ul{
+		margin: 0;
+	} 
+	
+	
+	/* BLOCKS */
+	
+	.block{
+		float:left;
+	}
+
+
+	.scale-50{
+		transform:scale(.5, .5);
+	}
+
+.span1 { width: 8.3333333333333%; }
+.span2 { width: 16.666666666667%; }
+.span3 { width: 25%; }
+.span4 { width: 33.333333333333%; }
+.span5 { width: 41.666666666667%; }
+.span6 { width: 50%; }
+.span7 { width: 58.333333333333%; }
+.span8 { width: 66.666666666667%; }
+.span9 { width: 75%; }
+.span10 { width: 83.333333333333%; }
+.span11 { width: 91.666666666667%; }
+.span12 { width: 100%; }
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{ 
+	position:relative; float:left; 
+	/*border:1px dashed #ff8000; */
+}
+
+
+
+/*
+	----------------------------
+	BREAK-POINTS
+	----------------------------
+	
+		1200
+		980
+		768
+		480
+*/
+
+	.mobile-only{ display:none; }
+	.tablet-only{ display:none; }
+	.desktop-only{ display:block; }
+	
+	@media only screen and (min-width: 1200px) {
+		.mobile-only{ display:none; }
+		.tablet-only{ display:none; }
+		.desktop-only{ display:block; }
+				
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.mobile-only{ display:none; }
+		.tablet-only{ display:none; }
+		.desktop-only{ display:block; }
+	}
+	
+	
+	@media only screen and (max-width: 980px) {
+		.mobile-only{ display:none; }
+		.tablet-only{ display:none; }
+		.desktop-only{ display:block; }
+		
+	}
+	
+	@media only screen and (max-width: 768px) {		
+		.mobile-only{ display:none; }
+		.tablet-only{ display:block; }
+		.desktop-only{ display:none; }
+		
+	}
+	
+	@media only screen and (max-width: 480px) {		
+		.mobile-only{ display:block; }
+		.tablet-only{ display:none; }
+		.desktop-only{ display:none; }
+		
+		
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12		{ 
+			width:100%;
+		}
+		
+	}
+
+	
+</style><link rel="stylesheet" type="text/css" href="css/app_styles.css">
+
+<style media="print">
+	.inner{ width:100%!important; }
+	
+	/* 
+	.top-menu{ display:none; }
+	*/
+	.top-menu a{ font-size:7pt!important; }
+	.banner .blog .content{ width:100%;}
+	.banner.odd .banner-heading{ position:relative; float:left; right:auto;}
+</style>
+
+<meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1"></head>
+
+<body>
+<script src="js/JS.js"></script>
+<style>
+	#light-box-container, #light-box-container *{box-sizing: border-box;}
+	#light-box-container{
+		position: fixed;
+		top:0; left:0;
+		width: 100%;
+		height: 100%;
+		z-index: 100000;
+		background-color: rgba(0,0,0, 0.7);
+		display: none;
+		z-index:10000000000;
+	}
+	
+	#light-box-inner {
+		position: fixed;
+		/*background-color:#ffffff;*/
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		/*
+		transition: all 2s;
+		-webkit-transition: all 2s; 
+		-mozilla-transition: all 2s;
+		*/
+		max-height:80%;
+		overflow: hidden;
+		overflow-y: auto;
+	}
+	
+	.light-box-style-default{  }
+	.light-box-style-message-box{ padding: 20px; max-width: 60%; background-color:#ffffff;/* border-radius:10px*/}
+	.light-box-style-padding20{ padding: 20px; max-width: 60%; background-color:#ffffff; }
+	.light-box-style-rounded10{ padding: 0; max-width: 60%; background-color:#ffffff; border-radius:10px }
+	.light-box-style-rounded20{ padding: 0; max-width: 60%; background-color:#ffffff; border-radius:20px }
+	
+	#light-box-outer-click{
+		position:absolute;
+		width:100%; height:100%;
+	}
+	
+</style>
+
+<div id="light-box-container" >
+	<div id="light-box-outer-click" onClick="LightBox.onContainerClick()"></div>
+	<div id="light-box-inner"></div>
+</div>
+
+
+
+<script>
+	var LightBox = {
+		close_on_outerclick: true,
+		loading_html: '<div style="padding: 20px 40px">Loading...</div>',
+		window_style: 'default',
+		
+		showText: function(str) {
+				this.showHTML(str, 'message-box');
+				this.show()
+			},
+		showHTML: function(html, window_style) { 
+				if(!window_style) window_style=this.window_style
+				_$('#light-box-inner').setClass('light-box-style-' + window_style)
+				trace(this.window_style)
+				$$('light-box-inner').innerHTML = html;
+				this.show()
+			},
+		showURL: function(url){
+				var html = Ajax.get(url,this.showHTML.bind(this) );
+				this.showText(this.loading_html)
+			},
+		show: function(url){
+				if(url!=undefined) {
+					this.showURL(url)
+				} else { 
+					_$('#light-box-container').show(); 
+				}
+			},
+		hide: function(){ _$('#light-box-container').hide(); },
+		onContainerClick: function(){
+				if(this.close_on_outerclick) this.hide();
+			}
+	}
+	
+	
+	//var str = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum hendrerit quam at blandit. Etiam scelerisque dui eget dui rutrum venenatis. Nullam sed accumsan neque. Sed nulla nisi, maximus sed fringilla sagittis, ultrices nec ante. Donec vel magna erat. Donec augue velit, tempor id nibh id, congue interdum leo. Vivamus a ligula ipsum.</p><p>Ut hendrerit magna non nibh blandit elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean metus est, posuere quis commodo at, blandit et risus. Nunc volutpat velit turpis, a mattis velit sagittis in. Fusce dictum ultricies ipsum at aliquam.</p>'
+</script><style>
+	.slide-show { position: relative; height: 100%; overflow:hidden; }
+	.slide-container { position:absolute; }
+	.slide { 
+		position: absolute; 
+		width: 100%;
+		opacity: 0; 
+		
+		top:0; left:0;
+		
+		transition: opacity 2s;
+		-webkit-transition: opacity 2s; /* Safari */
+		-mozilla-transition: opacity 2s; /* Moz */
+		
+		transition: left .5s;
+		-webkit-transition: left .5s; /* Safari */
+		-mozilla-transition: left .5s; /* Moz */
+		
+		background-position: 50% 50%; background-repeat: no-repeat no-repeat;
+		/*background-size: cover;*/
+		height: 100%;
+	}
+	.slide-show.fade .slide { height: 100%; }
+	.slide-show.h-slide .slide { }
+	.slide div{ /*margin: 10px;*/ } 
+	
+	
+	.slide-show-buttons { 
+		position:absolute; 
+		left: 50%;
+		transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
+		z-index: 100;
+		display: inline-flex;
+	}
+	.slide-show-buttons a { float: left; display:block; text-decoration:none;
+							/*padding: 10px; background-color:#EE3439; color:#FFFFFF;*/  
+							margin-right: 10px; }
+	.slide-show-buttons .active-slide-button { /*padding: 20px; margin-top: -10px;*/ }
+	
+	.slide-show.static .buttons{ display:none;}
+	.slide-show.static .number-container{ display:none;}
+</style>
+
+
+
+<script>
+	//-----------------------
+	// DEFAULTS
+	//-----------------------
+	var default_fade_out_time	= .2; 		// fade out time 	- sec
+	var	default_fade_in_time	= 2;		// fade in time	 	- sec
+	var default_interval 		= 4000; 	// slide interval 	- ms
+	
+	//-----------------------
+	
+	// CLASS: SlideShow Manager
+	var SlideShowManager = {
+		slide_shows: [],
+		add: function(obj) { this.slide_shows.push(obj); },
+		getSlideShowById: function(id) {
+				for(var i=0; i<this.slide_shows.length; i++){
+					if(this.slide_shows[i].main_container.id==id) return this.slide_shows[i];
+				}
+			},
+		resize: function() {
+				for(var i=0; i<this.slide_shows.length; i++){
+					if(this.slide_shows[i].reset_on_resize) this.slide_shows[i].resize();
+				}
+			},
+		scroll: function() {
+				for(var i=0; i<this.slide_shows.length; i++){
+					if(this.slide_shows[i].timer){
+						var y = JS.getOffsetTop(this.slide_shows[i].main_container) + this.slide_shows[i].main_container.offsetHeight 
+						//trace(JS.getScrollPosition().y + ', ' +  y)
+						if(JS.getScrollPosition().y >= y ) {
+							this.slide_shows[i].stop()
+						} else {
+							this.slide_shows[i].start();
+						}
+					}
+				}
+			},	
+			
+		setFadeInTime: function(id, t){ // change fade-in time for a slideshow
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).fade_in_time = t
+			},
+		setFadeOutTime: function(id, t){ // change fade-out time for a slideshow
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).fade_out_time = t
+			},
+		goto: function(id, slide_number){
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).goto(slide_number)
+			},		
+		next: function(id, reset_timer){
+				//reset_timer = reset_timer || false
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).next(reset_timer)
+			},
+		prev: function(id, reset_timer){
+				//reset_timer = reset_timer || false
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).prev(reset_timer)
+			},
+		gotoAndStop: function(id, slide_number){
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).gotoAndStop(slide_number)
+			},
+		nextAndStop: function(id){
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).nextAndStop()
+			},
+		prevAndStop: function(id){
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).prevAndStop()
+			},
+		startStop: function(id){ // toggle start stop
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).startStop()
+			},
+		startStopAll: function(){ // toggle start stop
+				for(var i=0; i<this.slide_shows.length; i++){
+					this.slide_shows[i].startStop()
+				}
+			},
+		
+		hide: function(id) {
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).hide()
+			},	
+		show: function(id) {
+				if(typeof id != 'string') id = JS.getContainerByClassName(id, 'slide-show').id
+				SlideShowManager.getSlideShowById(id).show()
+			}
+	}
+	
+	// CLASS: SlideShow 
+	function SlideShow(container_id, interval) {
+		this.main_container = $$(container_id)
+		this.main_container.slide_show_obj = this
+		SlideShowManager.add(this)
+		this.slide_width = parseFloat(JS.getProp(this.main_container, 'width')) // container-width is slide-width
+		this.slide_width_unit = (JS.getProp(this.main_container, 'width').indexOf('%') > -1)? '%' : 'px'
+		this.reset_on_resize = JS.getProp(this.main_container, 'reset-on-resize')
+		this.interval = interval || default_interval
+		this.autoplay = eval(JS.getProp(this.main_container, 'slide-show-autoplay'))
+		if(this.autoplay==undefined) this.autoplay=true // default
+		
+		this.listeners = new Listeners()
+		
+		this.parent = null
+		this.children = []
+		if(interval && typeof interval == 'object') { // parent slideshow
+			this.interval = null
+			this.parent = interval
+			this.parent.addChild(this)		
+		}
+		this.type = 'fade' // default
+		if(JS.hasClass($$(container_id), 'h-slide')) this.type = 'h-slide'
+		
+		// button container
+		// - this.button_container will be updated when new container is created inside this.button_container 
+		// ***
+		var button_containers = _$('#' + container_id + ' > .button-container')
+		this.button_container = (button_containers.length > 0)? button_containers[0] : null
+		
+		// number display - e.g. '1 of 5'
+		var slide_number_containers = _$('#' + container_id + ' > .number-container')
+		this.slide_number_container = (slide_number_containers.length > 0)? slide_number_containers[0] : null
+		//trace(slide_number_containers)
+		
+		// slides
+		this.slides = null
+		//this.container = null
+		this.slides = _$('#' + container_id + ' > .slide')
+		this.current_slide = 0
+		
+		// ERROR
+		this.error = null
+		
+		// ERROR: NO SLIDES!
+		if(this.slides.length == 0) {
+			trace('Slideshow error: No slides found (' + container_id + ')')
+			this.error = 'no slides'
+			return;
+		}
+		
+		this.arr_z = [] // z-index list
+		this.arr_x = [] // x/left coordinate list
+		
+		this.slide_count = this.slides.length
+		this.total_width = 0 // for slideing
+		
+		
+		//this.arr_x.push(-this.slide_width)
+		for(var i=0; i<this.slides.length; i++){
+			this.slides[i].slide_index = i;
+			JS.setProp(this.slides[i], 'zIndex', this.slide_count-i);
+			this.arr_z.push(this.slide_count-i) // 5,4,3,2....
+			//var w = parseFloat(JS.getProp(this.slides[i], 'width'))
+			
+			if(this.slides.length > 1) {
+				if(i+1 < this.slides.length){ // not last
+					this.slides[i].next_slide = this.slides[i+1];
+					this.slides[i].next_slide_title = JS.getProp(this.slides[i+1], 'title');	
+				} else {
+					this.slides[i].next_slide = this.slides[0];
+					this.slides[i].next_slide_title = JS.getProp(this.slides[0], 'title');
+				}	
+				
+				if(i > 0){ // not first
+					this.slides[i].prev_slide = this.slides[i-1];
+					this.slides[i].prev_slide_title = JS.getProp(this.slides[i-1], 'title');	
+				} else { // first
+					this.slides[i].prev_slide = this.slides[this.slides.length-1];
+					this.slides[i].prev_slide_title = JS.getProp(this.slides[this.slides.length-1], 'title');
+				}
+				
+			}
+			if(this.type=='fade'){
+				S(this.slides[i]).opacity = 0
+				S(this.slides[i]).width = '100%';
+			}
+			
+			if(this.type=='h-slide') {
+				S(this.slides[i]).width = this.slide_width + this.slide_width_unit;
+				S(this.slides[i]).left = '0px'
+				//S(this.slides[i]).left = (this.slide_width * i) + 'px';
+				this.arr_x.push(this.slide_width * (i-1))
+			}
+		}
+		
+		//this.init_slides = this.slides
+		
+		if(this.type=='h-slide') {
+			this.slides.forward()
+			//this.slides.setStyle('opacity', 1) 
+		}
+		//this.arr_z.forward()
+		this.render()
+		this.timer = new Timer(this.next.bind(this), this.interval)
+		if(this.slideCount() < 2) {
+			JS.addClass(this.main_container, 'static')
+			//this.slides.setStyle('opacity', 1)
+			//if(this.button_container) this.hideButtons();
+			if(this.slide_number_container) JS.hide(this.slide_number_container)
+		} else {
+			if(!this.isChild()) {
+				if(this.autoplay) this.timer.start()
+			}
+		}
+		
+		
+		setTimeout(this.onVirtualInit.bind(this), (this.fade_in_time/3) * 1000);
+		//this.listeners.call('init')
+		//this.listeners.call('slide-change')
+	}
+	
+	SlideShow.prototype = {
+		slide_buttons: [],
+		button_timeout: 0,
+		fade_out_time: default_fade_out_time, 	// fade out time
+		fade_in_time: default_fade_in_time,	// fade in time
+		addChild: function(s) { this.children.push(s) },
+		isChild: function() { return this.parent!=null; }, // dependent on parent
+		lastSlide: function() { return this.slides[this.slides.length-1]; },
+		hasButtons: function() { return this.slide_buttons.length > 0 },
+		//resetSlides: function() { this.slides = this.init_slides; },
+		currentSlide: function() { return (this.type=='h-slide')? this.slides[1] : this.slides[0]; },
+		currentSlideIndex: function() { return (this.type=='h-slide')? this.slides[1].slide_index : this.slides[0].slide_index; },
+		slideCount: function() { return this.slides.length; },
+		
+		addListener: function(type, f) { this.listeners.add(type, f, this); },
+		onVirtualInit: function(){ 
+			if(this.type=='h-slide') {
+				this.slides.setStyle('opacity', 1)
+			}
+			this.listeners.call('init')
+			this.listeners.call('slide-change')
+		},
+		
+		resize: function(){
+					if(this.type=='fade') return;
+					if(!this.reset_on_resize) return;
+					//trace('...' + this.slide_width_unit)
+					var was_timer_running = this.timer.isRunning()
+					if(was_timer_running) this.timer.stop()
+					this.slide_width = parseFloat(JS.getProp(this.main_container, 'width')) // container-width is slide-width
+					this.slide_width_unit = (JS.getProp(this.main_container, 'width').indexOf('%') > -1)? '%' : 'px'
+					this.arr_x = []
+					
+					//this.arr_x.push(-this.slide_width)
+					for(var i=0; i<this.slides.length; i++){
+						if(this.type=='fade'){
+							//S(this.slides[i]).opacity = 0
+							//S(this.slides[i]).width = '100%';
+						}
+						
+						if(this.type=='h-slide') {
+							S(this.slides[i]).width = this.slide_width + this.slide_width_unit;
+							S(this.slides[i]).left = '0px'
+							//S(this.slides[i]).left = (this.slide_width * i) + 'px';
+							
+							this.arr_x.push(this.slide_width * (i-1))
+						}
+					}
+					this.render()
+					if(was_timer_running) this.timer.start()
+				},
+		
+		render: function(is_prev){
+					if(this.slideCount() < 1) return;
+					//if(this.slide_width != parseFloat(JS.getProp(this.main_container, 'width'))) this.resize()
+					is_prev = is_prev || false
+					if(this.type=='fade') {
+						for(var i=0; i<this.slides.length; i++){
+							S(this.slides[i]).zIndex = this.arr_z[i]
+						}
+						JS.setTransition(this.slides[0], 'opacity', this.fade_in_time)
+						S(this.slides[0]).opacity = 1;
+						for(var i=1; i<this.slides.length; i++){
+							JS.setTransition(this.slides[i], 'opacity', this.fade_out_time)
+							S(this.slides[i]).opacity = 0;
+						}
+					}
+					if(this.type=='h-slide') {
+						for(var i=0; i<this.slides.length; i++){
+							S(this.slides[i]).zIndex = this.arr_z[i]
+						}
+						if(is_prev) S(this.slides[0]).zIndex = 0
+						for(var i=0; i<this.slides.length; i++){
+							S(this.slides[i]).left = this.arr_x[i] + 'px';
+						}
+					}
+					
+					// DELAYED DISPLAY UPDATE
+					//clearTimeout(this.button_timeout)
+					//if(this.hasButtons() || this.slide_number_container) {
+					//	this.button_timeout = setTimeout(this.onVirtualSlideChange.bind(this), (this.fade_in_time/3) * 1000);
+					//}
+					
+					this.listeners.call('slide-change')
+					this.onVirtualSlideChange()
+									
+				},
+		onVirtualSlideChange: function() {
+					if(this.hasButtons()) { 
+						this.slide_buttons.removeClass('active-slide-button')
+						this.slide_buttons[this.currentSlideIndex()].className = 'active-slide-button'
+					}
+					
+					if(this.slide_number_container) {
+						var str = (this.currentSlideIndex()+1) + ' of ' + this.slideCount()
+						this.slide_number_container.innerHTML = str
+					}
+				},
+		hideButtons: function(){
+					for(var i=0; i<this.slide_buttons.length; i++) {
+						trace(this.slide_buttons[i])
+						JS.hide(this.slide_buttons[i])
+					}
+				},
+				
+		startStop: function(){ this.timer.toggle(); },
+		
+		stop: function(){ this.timer.stop(); },
+		start: function(){ if(!this.timer.isRunning())this.timer.start(); },
+		hide: function() { this.stop(); JS.hide(this.main_container); },
+		show: function() { JS.show(this.main_container); this.start(); },
+		isRunning: function(){ if(this.timer){ return this.timer.isRunning() }else{ return false } },
+		
+		goto: function(slide_number){ // slide_number starts from 0
+				this.timer.stop()
+				//var ahead = (this.currentSlideIndex())
+				for(var i=0; i<this.slides.length; i++){		
+					if(this.currentSlide().slide_index==slide_number) {					
+						break;
+						//this.slides.forward()
+					}else {
+						this.slides.back()
+					}
+				}
+				this.render()
+				this.updateChildren('goto', slide_number)
+				this.timer.start()
+			},
+		next: function(reset_timer){
+				reset_timer = reset_timer || false
+				if(reset_timer && this.timer) this.timer.stop()
+				this.slides.back()
+				this.render()
+				this.updateChildren('next')
+				if(reset_timer && this.timer) this.timer.start()
+			},
+		prev: function(reset_timer){
+				reset_timer = reset_timer || false
+				if(reset_timer && this.timer) this.timer.stop()
+				this.slides.forward()
+				this.render(true)
+				this.updateChildren('prev')
+				if(reset_timer && this.timer) this.timer.start()
+			},
+		gotoAndStop: function(slide_number){
+				this.goto(slide_number)
+				this.timer.stop()
+			},	
+		nextAndStop: function(){
+				this.next(true)
+				this.timer.stop()
+			},
+		prevAndStop: function(){
+				this.prev(true)
+				this.timer.stop()
+			},
+			
+		updateChildren: function(cmd, slide_number){
+				var is_next = (cmd=='next')
+				var is_prev = (cmd=='prev')
+				var is_goto = (cmd=='goto')
+				for(var i=0; i<this.children.length; i++){
+					if(is_next) {
+						this.children[i].next()
+					}
+					if(is_prev) {
+						this.children[i].prev()
+					}
+					if(is_goto) {
+						this.children[i].goto(slide_number)
+					}
+				}
+			},
+		createSlideButtons: function(properties){
+				//if(slideCount() < 2) return;
+				// button_parent = button_parent || this.main_container
+				this.slide_buttons = []
+				//if(this.type=='h-slide') this.slides.back()
+				this.button_container = JS.addDiv(this.button_container, {'class':"slide-show-buttons"}, '')
+				for(var i=0; i<this.slides.length; i++){
+					var attr = {'href':"javascript:"}
+					attr.onclick = "SlideShowManager.gotoAndStop('" + this.main_container.id + "', " + i + ")"
+					
+					var str = (properties && properties.number)? (i+1) : ''
+					if(properties && properties.title){
+						attr.title = JS.removeTags(this.slides[i].title)
+					}
+					var a = JS.addTag(this.button_container, 'A', attr, str)
+					this.slide_buttons.push(a)
+				}
+				//if(this.type=='h-slide') this.slides.forward()
+			}
+	}
+	
+	// Manual Slide shows
+	//var slide_show_1 = new SlideShow('our_work_slide_show_1', 4000)
+	//var slide_show_2 = new SlideShow('our_work_slide_show_2', slide_show_1)
+
+	
+	// INIT Slide Shows on Load
+	//--------------------------
+	window.addEventListener('load', onLoadInitSlideShows)
+	
+	function onLoadInitSlideShows(){
+		var slide_show_divs = _$('.slide-show')
+		// set ids
+		for(var i=0; i<slide_show_divs.length; i++){
+			slide_show_divs[i].id += '_' + i
+		}
+		
+		// parent shows
+		for(var i=0; i<slide_show_divs.length; i++){
+			var is_child = JS.getProp(slide_show_divs[i], 'slide-show-parent')
+			if(!is_child){
+				// read attributes
+				var interval = JS.getProp(slide_show_divs[i], 'slide-show-interval')
+				var fade_in_time = JS.getProp(slide_show_divs[i], 'slide-show-fade-in-time')
+				var fade_out_time = JS.getProp(slide_show_divs[i], 'slide-show-fade-out-time')
+				var button_type = JS.getProp(slide_show_divs[i], 'slide-show-button-type')
+				
+				var slide_show = new SlideShow(slide_show_divs[i].id, interval) // create new slide show object
+				if(fade_in_time) slide_show.fade_in_time = fade_in_time
+				if(fade_out_time) slide_show.fade_out_time = fade_out_time
+				
+				if(!slide_show.error) {
+					if(slide_show.slideCount() > 1) {
+						if(slide_show.button_container){
+							var prop = {}
+							if(JS.hasWord('number', button_type)) prop.number = true
+							if(JS.hasWord('title', button_type)) prop.title = true
+							//var button_parent =  JS.getProp(slide_show_divs[i], 'slide-show-button-container')
+							slide_show.createSlideButtons(prop)
+						}
+					}
+					slide_show.render()
+					//trace(slide_show_divs[i].id)
+				}
+			}
+		}
+		// child shows
+		for(var i=0; i<slide_show_divs.length; i++){
+			var parent = JS.getProp(slide_show_divs[i], 'slide-show-parent')
+			if(parent){
+				parent = SlideShowManager.getSlideShowById(parent)
+				var slide_show = new SlideShow(slide_show_divs[i].id, parent) // create new
+				var fade_in_time = JS.getProp(slide_show_divs[i], 'slide-show-fade-in-time')
+				var fade_out_time = JS.getProp(slide_show_divs[i], 'slide-show-fade-out-time')
+				if(fade_in_time) slide_show.fade_in_time = fade_in_time
+				if(fade_out_time) slide_show.fade_out_time = fade_out_time
+			}
+		}
+	}
+	
+	
+	
+	window.addEventListener('resize', SlideShowManager_resize)	
+	function SlideShowManager_resize(){
+		//trace('resize!!' + Math.random())
+		SlideShowManager.resize()
+	}
+	
+	
+	
+	window.addEventListener('scroll', SlideShowManager_scroll)	
+	function SlideShowManager_scroll(){
+		SlideShowManager.scroll()
+	}
+	
+</script>
+
+
+
+
+<script src="/js/Animation.js" ></script>
+
+<style>
+	/*.slide-show { position:static; }*/
+</style>
+
+
+<script>
+	window.addEventListener('load', initReadMore)
+	
+	function initReadMore(){
+		_q('.read-more .more, .read-more .less').set('href', 'javascript:')
+		_q('.read-more .more').addEventListener('click', onReadMore)
+		_q('.read-more .less').addEventListener('click', onReadLess)
+	}
+	
+	function onReadMore(event){
+		JS.addClass(this.parentNode, 'show')
+	}
+	
+	function onReadLess(event){
+		JS.removeClass(this.parentNode, 'show')
+	}
+</script><div class="outer top-bar" onclick="location.href='/'">
+	<div class="inner" >
+		<div class="emblem"><img src="img/emblem.png"></div>
+		<div class="logo"><img src="img/logo.png"></div>
+	</div>
+</div>
+
+
+<div class="outer top-menu">
+	<div class="inner">
+		<div class="menu-button" onclick="JS.toggleClass(_q('.top-menu>.inner>ul')[0], '', 'show')"><img src="/img/mini_menu.png" /> </div>
+ 		
+    <ul>
+
+		<li>
+            <a href="/">Home</a>   
+            
+        </li>
+
+		<li>
+            <a href="/embassy.php">Embassy</a>   
+            
+    <ul>
+
+		<li>
+            <a href="/about-the-high-commission.php">About The Embassy</a>   
+            
+        </li>
+
+		<li>
+            <a href="/embassy.php#diplomats">Diplomats</a>   
+            
+        </li>
+
+		<li>
+            <a href="/vacancies.php">Vacancies</a>   
+            
+        </li>
+
+		<li>
+            <a href="/holidays.php">National Holidays</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li>
+            <a href="/about.php">About Namibia</a>   
+            
+    <ul>
+
+		<li>
+            <a href="/government.php">Government</a>   
+            
+    <ul>
+
+		<li>
+            <a href="/links.php">Links</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li>
+            <a href="/geography.php">Geography</a>   
+            
+        </li>
+
+		<li>
+            <a href="/economy.php">Economy</a>   
+            
+        </li>
+
+		<li>
+            <a href="/history.php">History</a>   
+            
+        </li>
+
+		<li>
+            <a href="/vision.php">Vision</a>   
+            
+        </li>
+
+		<li>
+            <a href="/symbols-of-the-state.php">Symbols</a>   
+            
+        </li>
+
+		<li>
+            <a href="/infrastructure.php">Infrastructure</a>   
+            
+        </li>
+
+		<li>
+            <a href="/foreign-affairs.php">Foreign Affairs</a>   
+            
+        </li>
+
+		<li>
+            <a href="/media.php">Media</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li class="ancestor">
+            <a href="/visa-consular.php">Visa &amp; Consular</a>   
+            
+    <ul>
+
+		<li class="ancestor">
+            <a href="/services-for-foreign-nationals.php">for Foreign Nationals</a>   
+            
+    <ul>
+
+		<li class="selected">
+            <a href="/fees-and-requirements.php">Visa Fees and Exemptions</a>   
+            
+        </li>
+
+		<li>
+            <a href="/perch/resources/pdf/visa-application-form.pdf">Visa Application Form</a>   
+            
+        </li>
+
+		<li>
+            <a href="/visa-requirements.php">Visa Requirements</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li>
+            <a href="/services-for-namibian-citizens.php">for Namibian Citizens</a>   
+            
+    <ul>
+
+		<li>
+            <a href="/consular-forms.php">Consular Forms</a>   
+            
+        </li>
+
+		<li>
+            <a href="/register.php">Register With Us</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li>
+            <a href="/travel-tourism.php">Travel &amp; Tourism</a>   
+            
+    <ul>
+
+		<li>
+            <a href="/national-parks.php">National Parks</a>   
+            
+        </li>
+
+		<li>
+            <a href="/travel-tips.php">Travel Tips</a>   
+            
+        </li>
+
+		<li>
+            <a href="/action-and-adventure.php">Action and Adventure</a>   
+            
+        </li>
+
+		<li>
+            <a href="/drones-for-tourism-purposes.php">Drones for Tourism Purposes</a>   
+            
+        </li>
+
+    </ul>
+
+        </li>
+
+		<li>
+            <a href="/contact.php">Contact Us</a>   
+            
+        </li>
+
+		<li>
+            <a href="/unesco.php">UNESCO</a>   
+            
+        </li>
+
+		<li>
+            <a href="/covid-19.php">COVID 19</a>   
+            
+        </li>
+
+		<li>
+            <a href="/embassyofnamibia.fr/">Embassyofnamibia.fr</a>   
+            
+        </li>
+
+    </ul>
+		<span class="flag"><img src="/img/menu_flag.png" /></span>
+ 	</div>
+</div>
+
+
+<div class="outer top-place-holder">
+</div>
+
+ 
+
+  
+    <div class="outer header-banner banner 
+	">
+	
+	
+	<div class="inner
+		
+		
+		
+	">
+		<!--
+		
+		
+		
+		-->
+		
+		
+		<!--<div class="blog">
+			<div class="bkg">
+			</div>
+			
+				<div class="content">
+				</div>
+			
+		</div>-->
+		
+		<h2 class="banner-heading v_middle">Visa Fees and Exemptions</h2>
+	</div>
+	
+	
+	<div id="slide_show"
+				class="slide-show fade"
+				slide-show-interval="5000"
+				slide-show-fade-in-time="1"
+				slide-show-fade-out-time="1"
+				>
+				
+				
+					<div class="slide" style="background-image:url(/perch/resources/banners/bannersforeignnationals.jpg)"
+							title=""
+							>
+						
+					</div>
+				
+				
+				
+				<div class="number-container"></div> 
+				
+				<div class="button-container"></div> 
+				
+				<div class="buttons">
+					<a href="javascript:" class="prev" onclick="SlideShowManager.prevAndStop(this)"><img src="/img/slideshow-left.png" /></a>
+					<a href="javascript:" class="next" onclick="SlideShowManager.nextAndStop(this)"><img src="/img/slideshow-right.png" /></a>
+				</div>
+				
+	</div>
+	
+	<img src="/img/transparent.png" class="frame-size" />
+
+	<img src="/img/tri.png" class="banner-triangle" />
+<br clear="all" />
+
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+    <div class="outer section with_1_col
+	normal
+	">
+	
+	
+	<div class="inner">
+		
+			<h2>VISAS UPON ARRIVAL IN NAMIBIA</h2>
+		
+		
+			<p>With effect from 01 April 2025, nationals of the below listed countries will be required to apply for visas to enter Namibia, at a fee of N$1600.00 (in equivalent local currencies).</p>
+
+<p>Passport holders of the below listed countries can apply for visas upon arrival at the following ports of entry (Hosea Kutako International Airport, Walvis Bay International Airport, Oshikango Border Post, Trans-KaIahari Border Post, Oranjemund Border Post, Noordoewer Border Post, Katima Mulilo Border Post, Impalila Island Border Post, Ngoma Border Post and Mohembo Border Post).</p>
+
+<p>The availability of visas upon arrival is a complementary service and does not replace the traditional process of obtaining visas from official Missions. Travelers residing in Italy, France, Spain, Portugal and Monaco, who wish to secure their visas in advance may do so by applying at the Embassy of Namibia in Paris, located at 42 Rue Boileau, 75016 Paris, France.</p>
+
+<p>Telephone Number +33 1 44 17 32 74 (<a href="https://www.embassyofnamibia.fr/">www.embassyofnamibia.fr</a>).</p>
+
+<table border="1" cellspacing="0" style="height:617px; width:807px">
+	<tbody>
+		<tr>
+			<td colspan="3" style="width:470.6pt">
+			<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; COUNTRIES BENEFITTING FROM VISAS UPON ARRIVAL FROM 01 APRIL 2025</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Armenia</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Iceland</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Norway</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Australia</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Ireland</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Portugal</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Austria</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Italy</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Spain</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Azerbaijan</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Japan</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Sweden</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Belarus</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Kazakhstan</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Switzerland</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Belgium</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Kyrgyzstan</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Tajikistan</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Canada</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Liechtenstein</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Turkmenistan</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Denmark</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Luxemburg</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Ukraine</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Finland</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Moldova</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>United Kingdom</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>France</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Netherlands</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>United States of America</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:142.8pt">
+			<p>Germany</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>New Zealand</p>
+			</td>
+			<td style="width:163.9pt">
+			<p>Uzbekistan</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Please be informed that the nationals of the below listed countries will continue to also qualify for visas on arrival to enter Namibia at a fee of N$1600.00 at these border posts only: (Hosea Kutako International Airport, Katima Mulilo Border Post, Ariamsvlei Border Post, Noordoewer Border Post, Oshikango Border Post, Trans-Kalahari Border Post and Walvis Bay International Airport.</p>
+
+<table border="1" cellspacing="0" style="height:1118px; width:809px">
+	<tbody>
+		<tr>
+			<td colspan="3" style="width:462.3pt">
+			<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AFRICAN COUNTRIES</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Benin</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Equatorial Guinea</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Niger</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Burkina Faso</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Eritrea</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Rwanda</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Burundi</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Gabon</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Sao Tome and Prineipe</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Cabo Verde</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Gambia</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Sierra Leone</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Cameroon</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Ghana</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Togo</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Central African Republic</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Guinea</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Tunisia</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Chad</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Guinea-Bissau</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Western Sahara</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Comoros</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Liberia</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Uganda</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>C&ocirc;te D&#39;Ivoire</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Madagascar</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Djibouti</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Mauritania</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:130.1pt">
+			<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OTHER COUNTRIES</strong></p>
+			</td>
+			<td style="width:155.8pt">
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Argentina</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Israel</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>South Korea</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Bulgaria</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Latvia</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Vatican/Holy See</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Cambodia</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Lithuania</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Venezuela</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Chile</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Mexico</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Vietnam</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Croatia</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Nicaragua</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Thailand</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Czech Republic</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Paraguay</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Turkey</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Estonia</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Peru</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>United Arab Emirates</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Ecuador</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Poland</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Uruguay</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Greece</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Romania</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>Singapore</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:176.4pt">
+			<p>Hungary</p>
+			</td>
+			<td style="width:130.1pt">
+			<p>Slovakia</p>
+			</td>
+			<td style="width:155.8pt">
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+		
+		
+		
+	</div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+    <div class="outer section with_1_col
+	normal
+	">
+	
+	
+	<div class="inner">
+		
+			<h2>PAYMENT OF VISA FEES</h2>
+		
+		
+			<p><strong>VISA FEE</strong></p>
+
+<p>Recommended and agreed consular fees including handling fee.</p>
+
+<p>&nbsp;</p>
+
+<table cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<th scope="col">ITEM</th>
+			<th scope="col">FEE</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>TOURISM -Single entry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>&euro; 100.00</td>
+		</tr>
+		<tr>
+			<td>TOURISM - Multiple entries</td>
+			<td>&euro; 150.00</td>
+		</tr>
+		<tr>
+			<td>BUSINESS - Single entry</td>
+			<td>&euro; 150.00</td>
+		</tr>
+		<tr>
+			<td>BUSINESS - Multiple entry</td>
+			<td>&euro; 200.00</td>
+		</tr>
+		<tr>
+			<td>TRANSIT</td>
+			<td>&euro; 50.00</td>
+		</tr>
+		<tr>
+			<td>DIPLOMATIC/OFFICIAL/SERVICE</td>
+			<td>&euro; FREE</td>
+		</tr>
+		<tr>
+			<td>EXPRESS SERVICE</td>
+			<td>&euro; 300.00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>Please note</strong>: VISA FEE IS NON-REFUNDABLE</p>
+
+<p>&nbsp;</p>
+
+<p><strong>UPDATED PAYMENT INFORMATION:</strong></p>
+
+<p>Please be informed that effective 16 December 2024, the Namibian Embassy in Paris, France will no longer accept cash or cheque payments for consular and visa services. All payments must be made via bank transfer to the following account:</p>
+
+<p><em>Name of Bank</em>: LE CREDIT LYONNAIS</p>
+
+<p><em>Account Name</em>: AMBASSADE DE LA REPUBLIQUE DE NAMIBIE</p>
+
+<p><em>Account Number</em>: 30002 00469 0000009299H 62</p>
+
+<p><em>Address</em>: 2 bis avenue Bosquet, 75007, Paris, France</p>
+
+<p><em>IBAN</em>: FR69 3000 2004 6900 0000 9299 H62</p>
+
+<p><em>BIC (SWIFT)</em>: CRLYFRPP</p>
+
+<p>&nbsp;</p>
+
+<p>Applicants are required to submit a proof of payment along with their applications.</p>
+
+<p>We appreciate your understanding and forbearance in this matter.</p>
+
+<p>All visa application fees are inclusive of postage/return of the applicant&rsquo;s passport via normal registered mail. Applicants are encouraged to make own arrangement if they wish to have their passport returned using alternative courier services (DHL, UPS, TNT).</p>
+
+<p><a href="https://embassyofnamibia.fr/perch/resources/online-visa-applications.pdf" target="_blank"><strong>Online Visa Application</strong></a></p>
+
+<ol>
+</ol>
+		
+		
+		
+	</div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+    <div class="outer section with_1_col
+	start
+	">
+	
+	
+	<div class="inner">
+		
+			<h2>Visa Exemptions</h2>
+		
+		
+			<p><strong>TRAVELS TO NAMIBIA</strong></p>
+
+<p>Applicants from countries that have exemption to Namibian can travel without a visa endorsed in passport for Tourism/ Business and Official for stays up to 90 days (3 months) per calendar year. They will be allowed to enter into Namibia upon arrival with a<strong> </strong>Visitor&rsquo;s Entry Permit (VEP) endorsement stamps at the Port of entry for the following reasons:</p>
+
+<ul>
+	<li>Holiday/Vacation;</li>
+	<li>Visiting friends or relatives;</li>
+	<li>Attending workshops (Not as Facilitator);</li>
+	<li>Attending meetings;</li>
+	<li>Exploring of business opportunities;</li>
+	<li>Medical treatment; and</li>
+	<li>Any other purpose other than employment of any kind</li>
+</ul>
+
+<p>All visitors travelling to Namibia for business to work at their subsidiary companies, for example, to give training to local staff, conduct audits of their companies, volunteer work of any kind etc., are required to apply for <strong>employment permit/work visas</strong> in terms of section 27 of Immigration Control Act <strong>regardless</strong> of whether they are citizens of countries which are exempted.</p>
+
+<p><a href="https://embassyofnamibia.fr/perch/resources/countries-to-benefit-from-visa-on-arrival-in-namibia.pdf" target="_blank"><strong>Countries to benefit from Visa on arrival in Namibia</strong></a></p>
+		
+		
+		
+	</div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+    <div class="outer section with_3_cols 
+	
+	
+	normal
+	 ">
+<!--
+	
+	
+-->
+	
+	
+	<div class="inner">
+		
+		
+		
+			<h3>Exempted Countries List</h3>
+
+<p><strong>Foreign Nationals Exempted Drom VISAS Requirements When Travelling To Namibia For Holders Of All Passports</strong></p>
+		
+		
+		<div class="table-div">
+		<div class="col-container">
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Angola</li>
+	<li>Armenia</li>
+	<li>Australia</li>
+	<li>Austria</li>
+	<li>Azerbaijan</li>
+	<li>Belarus</li>
+	<li>Belgium</li>
+	<li>Botswana</li>
+	<li>Brazil</li>
+	<li>Canada</li>
+	<li>Cuba</li>
+	<li>Denmark</li>
+	<li>Finland</li>
+	<li>France</li>
+	<li>Germany</li>
+	<li>Georgia</li>
+	<li>Hong Kong (SAR)</li>
+	<li>Iceland</li>
+	<li>Indonesia</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			
+			
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Ireland</li>
+	<li>Italy</li>
+	<li>Jamaica</li>
+	<li>Japan</li>
+	<li>Kazakhstan</li>
+	<li>Kenya</li>
+	<li>Kyrgyzstan</li>
+	<li>Liechtenstein</li>
+	<li>Lesotho</li>
+	<li>Luxembourg</li>
+	<li>Macau (SAR)</li>
+	<li>Malawi</li>
+	<li>Malaysia</li>
+	<li>Mauritius</li>
+	<li>Moldova</li>
+	<li>Mozambique</li>
+	<li>Netherlands</li>
+	<li>New Zealand</li>
+	<li>Norway</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Portugal</li>
+	<li>Russian Federation</li>
+	<li>Seychelles</li>
+	<li>Singapore</li>
+	<li>South Africa</li>
+	<li>Spain</li>
+	<li>Swaziland</li>
+	<li>Sweden</li>
+	<li>Switzerland</li>
+	<li>Tajikistan</li>
+	<li>Tanzania</li>
+	<li>Turkmenistan</li>
+	<li>Ukraine</li>
+	<li>United Kingdom</li>
+	<li>United States of America</li>
+	<li>Uzbekistan</li>
+	<li>Zambia</li>
+	<li>Zimbabwe</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>			
+		</div>
+		
+	</div>
+	
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+    <div class="outer section with_3_cols 
+	
+	
+	normal
+	 ">
+<!--
+	
+	
+-->
+	
+	
+	<div class="inner">
+		
+		
+		
+			<p><strong>Foreign Countries Exempted From Visa Requirements For Holders Of Diplomatic And Official/Service Passports Only</strong></p>
+		
+		
+		<div class="table-div">
+		<div class="col-container">
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Algeria</li>
+	<li>Benin</li>
+	<li>Burkina Faso</li>
+	<li>Cabo Verde</li>
+	<li>Cameroon</li>
+	<li>Central Africa Republic (CAR)</li>
+	<li>Chad</li>
+	<li>Comoros</li>
+	<li>Congo Brazzaville</li>
+	<li>Democratic Republic Of Congo</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			
+			
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Egypt</li>
+	<li>Equatorial Guinea</li>
+	<li>Eritria</li>
+	<li>Ethiopia</li>
+	<li>India</li>
+	<li>Gabon</li>
+	<li>Gambia</li>
+	<li>Ghana</li>
+	<li>Guinea</li>
+	<li>Liberia</li>
+	<li>Madagascar</li>
+	<li>Mauritania</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			
+			<div class="col">
+				
+				
+				
+				
+				<ul>
+	<li>Niger</li>
+	<li>Nigeria</li>
+	<li>Poland</li>
+	<li>Rwanda</li>
+	<li>Sao Tom and Principe</li>
+	<li>Sengal</li>
+	<li>Sierra Leon</li>
+	<li>Togo</li>
+	<li>Tunisia</li>
+	<li>Turkey</li>
+	<li>Uganda</li>
+	<li>Saharawi Arab Democratic Republic</li>
+	<li>Venezuela</li>
+</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>			
+		</div>
+		
+	</div>
+	
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer outer">
+	<div class="quickfind">
+		<div class="inner">
+			<h2>Site Search: </h2>
+			
+			<form action="/search.php">
+				<div class="fields">
+					<div class="col">
+					<!--<label for="q">Search:</label>-->
+					<input type="text" name="q" placeholder="Search for ..." value="" />	
+					</div>
+					<input type="submit" class="button" value="Search" />	
+				</div>
+			</form>
+			
+		</div>
+	</div>
+	
+	<div class="grey-box">
+		<div class="inner">
+			<div class="col span6">
+	<p>Embassy of Namibia in France&nbsp;<br />
+42&nbsp;rue Boileau<br />
+75016&nbsp;Paris&nbsp;<br />
+Tel : +33 (0) 1 44 17 32 65&nbsp;<br />
+Fax : +33 (0) 1 44 17 32 73<br />
+<br />
+Email : <strong><a href="mailto:namparis@embassyofnamibia.fr">namparis@embassyofnamibia.fr</a></strong></p>
+</div>
+			
+<div class="col span3">
+	<p>Find us on social media:</p>
+
+<p><a href="https://facebook.com/Embassy-of-Namibia-in-France-338720709805450/" target="_blank"><img alt="Facebook" src="/perch/resources/facebook-w640.png" style="height:30px; width:30px" /></a><a href="https://twitter.com/NamibiaUK" target="_blank"> </a></p>
+</div>
+			
+<div class="col span3">
+	
+</div>			
+		</div>
+	</div>
+</div>
+
+
+<div class="blog-holder">
+
+</div>
+
+<script>
+	function closeEventsPanel(){
+		Ajax.get('close_events_panel.php');
+		_q('.header-banner .blog').hide()
+	}
+	
+		
+	
+	// menu
+	
+	//_q('.top-menu li li>ul').parent().addClass('has-sub-menu')
+</script>
+
+
+<script src="/js/youtube.js"></script>
+<script>
+	var has_blog_entry = false;
+	
+	//window.addEventListener('load', initBannerBlogs)
+	function initBannerBlogs(){
+		if(has_blog_entry){
+			var banner_blogs = _q('.banner .blog .content,.section.blog>.inner, .news-col');
+			var html = _$('.blog-holder')[0].innerHTML
+			//trace(banner_blogs)
+			for(var i=0; i<banner_blogs.length; i++){
+				banner_blogs[i].innerHTML = html
+				trace(banner_blogs[i])
+				//trace(banner_blogs[i].innerHTML)
+			}
+		} else { // no blog
+			_q('.banner,.section.blog').removeClass('show-blog')
+		}
+	}
+
+
+	//window.addEventListener('load', updateBanners)
+	function updateBanners(){
+		var banners = _q('.banner');
+		for(var i=0; i<banners.length; i++){
+			trace(((i+1) % 2)? 'odd' : 'even')
+			JS.addClass(banners[i], ((i+1) % 2)? 'odd' : 'even')
+		}
+	}
+	
+	initBannerBlogs()	
+	updateBanners()
+	
+	// documents section
+	
+	_q('.box>h3').addEventListener('click', onDocumentTitleClick)
+	
+	function onDocumentTitleClick(event){
+		JS.toggleClass(event.target.parentNode, '', 'show')
+	}
+	
+	
+	
+	// top bar on scroll
+	
+	window.addEventListener('scroll', onScrollSetTopbar)
+	
+	function onScrollSetTopbar(){
+		var y = JS.getScrollPosition().y
+		
+		var y_val = _q('.top-bar')[0].offsetHeight
+		trace(y_val)
+		if(y > y_val){
+			_q('.top-menu').addClass('fixed')
+			_q('.top-place-holder').addClass('show')
+		} else {
+			_q('.top-menu').removeClass('fixed')
+			_q('.top-place-holder').removeClass('show')
+		}
+	}
+	
+	
+	
+	// SCROLL
+	window.addEventListener('load', updateAnchorLinks)
+	
+	function updateAnchorLinks(){
+		var arr = _q('a[name]') // all anchors
+		for(var i=0; i<arr.length; i++){
+			if(arr[i].name != ''){
+				trace('a[href="#' + arr[i].name + '"]')
+				_q('a[href="#' + arr[i].name + '"]').setAttribute('onClick', 'scrollToAnchor("' + arr[i].name + '"); return false;')
+			}
+		}
+	}
+	
+	
+	
+	function scrollToAnchor(a){
+		var time = 500
+		var y = 0
+		
+		var anc = _q('a[name=' + a + ']')[0] //_q('a[name]').nodesHaving('name', a)[0] 
+		
+		var ws = getWindowSize()
+			
+		y = JS.getOffsetTop(anc);
+		if(y > 70) y -= 43
+		
+		if(JS.browser.safari && !JS.browser.chrome) {
+			//Animation.animate(window, {'pageYOffset':y}, 500, null)
+			scrollTo(0, y)
+			return;
+		}
+		
+		var d = document.documentElement
+		//if(JS.browser.chrome) d=document.body
+		if(d){
+			Animation.animate(d, {'scrollTop':y}, time, null)
+			return;
+		}
+		if(window.pageYOffset) {
+			Animation.animate(window, {'pageYOffset':y}, time, null)
+		}
+	}
+
+</script>
+
+
+
+
+<script>
+	// video
+	var vimeo_code = '<iframe src="//player.vimeo.com/video/{id}" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+	
+	var yt_code = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/{id}" frameborder="0" allowfullscreen></iframe>'
+	
+	var first_time = true 
+	
+	function getEmbedCode(v_type, id){
+		if(v_type=='' || v_type=='youtube') return yt_code.replace('{id}', id)
+		if(v_type=='vimeo') return vimeo_code.replace('{id}', id)
+	}
+	
+	function onVideoThumbClick(v_type, id){
+		var h = getEmbedCode(v_type, id)
+		_q('.canvas .video')[0].innerHTML = h
+		// desc
+		_q('.video_descriptions .video_desc').removeClass('show')
+		_q('#video_desc_' + id).addClass('show')
+		
+		if(!first_time){
+			scrollToAnchor('gallery')
+		}
+		first_time = false
+	}
+	
+	
+	window.addEventListener('load', resizeVideo)
+	window.addEventListener('resize', resizeVideo)
+	//var youtube_aspect_ratios = {}
+	function resizeVideo(){
+		//trace(_$('.youtube_video'))
+		var yts = _$('.video')
+		//trace(yts[0].style.width)
+		for(var i=0; i<yts.length; i++){
+			var asp = yts[i].offsetWidth / yts[i].offsetHeight
+			trace(asp)
+			yts[i].style.width = '100%'
+			var w = yts[i].offsetWidth
+			yts[i].style.width = w + 'px'
+			yts[i].style.height = (w/asp)  + 'px'
+		}
+	}
+	
+	if(_q('.album .video-thumb').length > 0) _q('.album .video-thumb')[0].click() // select first
+
+</script></body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "url": "https://www.my.emb-japan.go.jp/English/visit/visafee.htm",
+  "corroborating_url": "https://www.qa.emb-japan.go.jp/itpr_ja/00_000022.html",
+  "publisher": "Embassies of Japan in Malaysia and Qatar / MOFA Japan",
+  "effective_from": "2017-08-01",
+  "fees_MYR": {
+    "IRN_single": [
+      185,
+      110
+    ],
+    "IRN_multiple": [
+      370,
+      220
+    ],
+    "IRN_transit": [
+      185,
+      25
+    ],
+    "standard_single": [
+      95,
+      110
+    ],
+    "standard_multiple": [
+      190,
+      220
+    ],
+    "standard_transit": [
+      20,
+      25
+    ]
+  },
+  "fee_order": [
+    "before",
+    "after"
+  ],
+  "facts": {
+    "iranian_special_schedule_equals_general_from": "2017-08-01",
+    "qatar_IRN_single_QAR": 100,
+    "qatar_IRN_multiple_QAR": 200,
+    "qatar_IRN_transit_QAR": 23
+  },
+  "archive_kind": "structured_factual_capture",
+  "retrieved_at": "2026-11-16",
+  "capture_method": "Both official contemporary pages opened through web search service; direct byte download403. The table establishes equal Iranian and general schedules from2017-08-01; JPY5000/10000/5000 before that date is an approximate benchmark inferred from contemporaneous ratios, not local cash."
+}

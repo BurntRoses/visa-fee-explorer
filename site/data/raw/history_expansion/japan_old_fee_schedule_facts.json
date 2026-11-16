@@ -1,0 +1,18 @@
+{
+  "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/fee.html",
+  "publisher": "Ministry of Foreign Affairs of Japan",
+  "published_at": "2026-06-29",
+  "source_locator": "Visa Fees main paragraphs",
+  "facts": {
+    "single_JPY": 3000,
+    "multiple_JPY": 6000,
+    "transit_JPY": 700,
+    "payment_required_only_if_issued": true,
+    "charged_in_mission_local_currency": true,
+    "private_agency_fee_separate": true,
+    "standard_ends_on": "2026-06-30"
+  },
+  "archive_kind": "structured_factual_capture",
+  "retrieved_at": "2026-11-16",
+  "capture_method": "Official fee page opened through web search service; factual extract, not original HTML."
+}
