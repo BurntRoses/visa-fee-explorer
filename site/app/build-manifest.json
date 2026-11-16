@@ -1,10 +1,10 @@
 {
-  "data_version": "2026.11.16-r5",
-  "ui_version": "4.1.0",
+  "data_version": "2026.11.16-r6",
+  "ui_version": "4.2.0",
   "offline_entry": "签证这笔钱-离线版.html",
-  "sha256": "ec30a913c7e1288b6ff8d654a9926b18f9906db31e1fcb91a1add76adf6e064c",
-  "bytes": 40318537,
-  "index_bytes": 8089141,
+  "sha256": "69467ec6646180d90ec711b247b00c9249d3c983fbfc6e26be3a76b2a114860a",
+  "bytes": 45856386,
+  "index_bytes": 10430555,
   "network_dependencies": [],
   "build": "React 19 / D3 7 / Vite 6; bundled JS/CSS, lazy compressed evidence"
 }
