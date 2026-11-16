@@ -1,0 +1,196 @@
+Provider browser text capture, not downloaded original HTML. Retrieved 2026-11-17.
+Requests direct HTML received HTTP403; this archive preserves browser-retrieved article text and its provider locators.
+
+Tourisme : 209.000 visas électroniques ont été délivrés depuis juillet 2022 (F. Z. Ammor) - Médias24 - Numéro un de l'information économique marocaine (https://medias24.com/2023/12/09/tourisme-209-000-visas-electroniques-ont-ete-delivres-depuis-juillet-2022-f-z-ammor/)
+【turn671314view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://medias24.com/2023/12/09/tourisme-209-000-visas-electroniques-ont-ete-delivres-depuis-juillet-2022-f-z-ammor/","lineno":null}); Total lines: 189
+L0: Se connecter
+L1: 
+L2: Email [Input: Adresse email]
+L3: 
+L4: Mot de passe [Input: Mot de passe]
+L5: 
+L6: [Input] Se rappeler de moi
+L7: 
+L8: 【0†Mot de passe oublié】
+L9: 
+L10: [Button: Annuler] [Button: Connexion]
+L11: 
+L12: Rubriques
+L13: 
+L14:   * 【1†ECONOMIE】
+L15: 
+L16:     * 【2†Agriculture】
+L17:     * 【3†Immobilier】
+L18:     * 【4†BTP】
+L19:   * 【5†BUSINESS】
+L20:   * 【6†LEBOURSIER】
+L21:   * 【7†POLITIQUE】
+L22:   * 【8†ELECTIONS 2026】
+L23:   * 【9†DROIT】
+L24:     * 【10†Connaissez vos droits】
+L25:   * 【11†Le 12/13 de Médias24】
+L26:   * 【12†SOCIETE】
+L27:   * 【13†NATION】
+L28:   * 【14†DEFENSE】
+L29:   * 【15†CULTURE】
+L30:   * 【16†EDUCATION】
+L31:   * 【17†Météo】
+L32:   * 【18†Santé】
+L33:   * 【19†OPINIONS】
+L34:   * 【20†DASHBOARD†dash.medias24.com】
+L35:   * 【21†Podcasts】
+L36:   * 【22†Guide auto】
+L37:   * 【23†A la découverte du Maroc】
+L38:   * 【24†Communication financière】
+L39:   * 【25†M24 Brand Studio】
+L40:     * 【26†Le cercle Business】
+L41:     * 【27†Une Région Une Entreprise】
+L42:     * 【28†RDV Partenaires】
+L43:     * 【29†Zone Franche】
+L44:   * 【30†Annonces légales†annonceslegales.medias24.com】
+L45:   * 【31†Annonces judiciaires†annoncesjudiciaires.medias24.com】
+L46:   * 【32†Appels d'offres】
+L47:   * 【33†Enquêtes Médias24】
+L48:   * 【34†SIAM】
+L49:   * 【35†GITEX】
+L50:   * 【36†Guide immobilier】
+L51:   * 【37†Diplomatie】
+L52: 
+L53: Publicité
+L54: # Tourisme : 209.000 visas électroniques ont été délivrés depuis juillet 2022 (F. Z. Ammor)
+L55: 
+L56: Selon la ministre du Tourisme, la délivrance de visas électroniques a augmenté de 8% au cours de la deuxième année de leur lancement. Un trend haussier qui devrait se poursuivre, notamment avec le marché indien dont la pleine croissance relance la nécessité d’ouvrir un bureau de l’ONMT en Inde.
+L57: 
+L58: 【38†Image: Tourisme : 209.000 visas électroniques ont été délivrés depuis juillet 2022 (F. Z. Ammor)】
+L59: Par 【39†Samir El Ouardighi】
+L60: 
+L61: Le 9 décembre 2023 à 15h30 | Modifié 8 décembre 2023 à 18h04
+L62: 
+L63:   * 【40†Facebook†www.facebook.com】
+L64:   * 【41†Twitter†twitter.com】
+L65:   * WhatsApp
+L66:   * 【42†E-Mail】
+L67:   * 【43†LinkedIn†www.linkedin.com】
+L68:   * Offrir cet article
+L69:   * * * *
+L70: 
+L71:   * Copier le lien
+L72: 
+L73: [Button: Mes favoris ]
+L74: "Le lancement du visa électronique en juillet 2022 représente l’une des initiatives de notre pays qui en a considérablement renforcé l’attractivité touristique", nous explique Fatim-Zahra Ammor. Elle s’appuie sur des chiffres qui démontrent que pas moins de 95% des e-visas délivrés entre juillet 2022 et novembre 2023 l’ont été pour des motifs de voyages touristiques.
+L75: 
+L76: "Le marché indien s’est hissé à la deuxième place"
+L77: Les visas électroniques ont révélé un intérêt prononcé de certains pays pour le Maroc, notamment l’Inde qui, moins d’une année après son lancement, s’est rapidement hissée à la deuxième place en termes de demandes de e-visas, représentant 12% du total, précise la ministre.
+L78: 
+L79: (Publicité)
+L80: 
+L81: (Publicité)
+L82: Elle ne cache d’ailleurs pas son optimisme sur la poursuite de la croissance indienne, expliquant que l’intérêt des touristes indiens pour le Maroc a conforté son département dans la nécessité d’ouvrir une délégation de l’Office national marocain du tourisme (ONMT) dans ce pays en 2023 afin de développer ce marché prometteur.
+L83: En mars dernier, Fatim-Zahra Ammor avait en effet constaté 【44†une adoption croissante de l’e-visa, notamment sur le marché émergent de l’Inde】, où les demandes avaient alors progressé de 347%.
+L84: 
+L85: Les visas électroniques en chiffres
+L86: Sur l’évolution de la délivrance des e-visas depuis leur lancement, la ministre révèle que 209.075 e-visas ont été octroyés sur la période juillet 2022 - novembre 2023, dont 96% e-visas tourisme contre 4% pour les hommes d’affaires souhaitant investir au Maroc, "soit 70.347 délivrés entre juillet et décembre 2022 dont 97% pour motif touristique et 138.728 entre janvier et novembre 2023 dont 95% de e-visas tourisme".
+L87: Une moyenne mensuelle de 11.725 e-visas ont été octroyés sur la période juillet-décembre 2022 contre 12.612 sur la période janvier-novembre 2023, soit une croissance de 8%.
+L88: Les chiffres montrent que 47% des e-visas ont été octroyés aux marchés israélien, indien (12%), nigérian (5%), égyptien (5%), pakistanais (4%), jordanien (4%), ukrainien (2%) et thaïlandais (2%).
+L89: 
+L90: Ce classement augure, à terme, une montée en puissance des arrivées de ces pays émergents qui peuvent s’avérer très lucratifs, même si plusieurs d’entre eux nécessitent des vols long-courriers.
+L91: Ajoutez Médias24 à vos sources préférées sur Google pour retrouver plus facilement nos articles dans vos résultats de recherche.
+L92: 
+L93: 【36†Vous avez un projet immobilier en vue ? Yakeey & Médias24 vous aident à le concrétiser!】
+L94: 
+L95: Si vous voulez que l'information se rapproche de vous 【45†Suivez la chaîne Médias24 sur WhatsApp†whatsapp.com】
+L96: © Médias24. Toute reproduction interdite, sous quelque forme que ce soit, sauf autorisation écrite de la Société des Nouveaux Médias. Ce contenu est protégé par la loi et notamment loi 88-13 relative à la presse et l’édition ainsi que les lois 66.19 et 2-00 relatives aux droits d’auteur et droits voisins.
+L97: 
+L98: Tags : 【46†Fatim Zahra Ammor】, 【47†Visas électroniques】
+L99: 
+L100: Par 【39†Samir El Ouardighi】
+L101: 
+L102: Le 9 décembre 2023 à 15h30
+L103: ## à lire aussi
+L104: 
+L105: 【48†Image: Sebta : les barrières maritimes seront étendues de 150 mètres】
+L106: 
+L107: 【49†Quoi de neuf】 【50†Sebta : les barrières maritimes seront étendues de 150 mètres】
+L108: Les travaux de renforcement des infrastructures frontalières maritimes de Sebta doivent débuter le 17 novembre 2026. Le projet prévoit le prolongement des brise-lames du Tarajal et de Benzú vers le large, ainsi que l'installation de grillages métalliques anti-escalade et de barrières flottantes. L'investissement est estimé à environ 5 millions d'euros.
+L109: 
+L110: 【51†Image: En 1.000 photos, Hassan Najibi raconte 45 ans d’histoire du Maroc】
+L111: 【49†Quoi de neuf】 【52†En 1.000 photos, Hassan Najibi raconte 45 ans d’histoire du Maroc】
+L112: 
+L113: Des grands rendez-vous politiques aux événements qui ont marqué le Royaume sous Hassan II et Mohammed VI, le photographe de presse a puisé dans ses archives pour composer un ouvrage de 428 pages, fruit de six années de recherches et de sélection.
+L114: 
+L115: 【53†Image: Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L116: 【54†La séance du jour】 【55†Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L117: 
+L118: La Bourse de Casablanca a clôturé la séance du lundi 16 novembre en baisse, avec un MASI à 17.239,53 points. Les échanges ont totalisé 511,03 MDH, tandis que Jet Energy a signé la plus forte hausse de la séance à l’occasion de sa première cotation.
+L119: 
+L120: 【56†Image: Les prévisions météo pour le mardi 17 novembre】
+L121: 
+L122: 【57†Les prévisions quotidiennes】 【58†Les prévisions météo pour le mardi 17 novembre】
+L123: Voici les prévisions météorologiques établies par la Direction générale de la météorologie pour le mardi 17 novembre 2026 : - Temps peu à passagèrement nuageux […]
+L124: 
+L125: 【59†Image: Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L126: 
+L127: 【49†Quoi de neuf】 【60†Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L128: Du 12 au 16 décembre, Nador accueillera la première édition du "Cercle des jeunes pour la paix", organisée par le Centre de la mémoire commune pour la démocratie et la paix, en partenariat avec l'UNESCO. Cette rencontre réunira 40 jeunes autour du vivre-ensemble, du dialogue et des droits humains.
+L129: 
+L130: 【61†Image: Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L131: 
+L132: 【18†Santé】 【62†Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L133: Au Maroc, le diabète touche près de 2,7 millions d'adultes, dont près de la moitié ignorent leur maladie. Au-delà des complications liées aux diagnostics tardifs, son coût économique et social est estimé à 3,8% du PIB. Face à cette double menace sanitaire et financière, le médecin Tayeb Hamdi plaide pour un changement de stratégie, avec une priorité donnée au dépistage et à la prévention.
+L134: Médias24 est un journal économique marocain en ligne qui fournit des informations orientées business, marchés, data et analyses économiques. Retrouvez en direct et en temps réel, en photos et en vidéos, toute l’actualité économique, politique, sociale, et culturelle au Maroc avec Médias24
+L135: 
+L136: Notre journal s’engage à vous livrer une information précise, originale et sans parti-pris vis à vis des opérateurs.
+L137: 
+L138: Suivez-nous:
+L139: 
+L140: Abonnez-vous à la newsletter
+L141: 
+L142: [Input: Email]
+L143: 
+L144: [Input]
+L145: 
+L146: [Button: S'abonner]
+L147: Tous droits réservés © 2026 - Médias24.
+L148: 
+L149: Toute l'actualité
+L150: 
+L151: 【55†Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L152: 
+L153: 【63†La justice italienne met Revolut sous tutelle pour ses failles anti-blanchiment(afp)】
+L154: 
+L155: 【58†Les prévisions météo pour le mardi 17 novembre】
+L156: 
+L157: 【60†Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L158: 
+L159: 【62†Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L160: 【64†La dimension sociale du projet de la loi des finances 2027: quelle traduction fiscale et budgétaire ?】
+L161: 
+L162: 【65†Marrakech accueillera le Global Summit d’Intrepid Travel en octobre 2027】
+L163: 
+L164: 【66†Football. Les salaires des internationaux marocains passés au crible】
+L165: 
+L166: 【67†Face aux cyberattaques, le Maroc veut faire émerger ses expertes】
+L167: 
+L168: 【68†Koutoubia en faillite ? Ce que l'on sait】
+L169: 
+L170: Pour accéder à vos favoris
+L171: identifiez-vous
+L172: 
+L173: [Button: S'inscrire gratuitement]
+L174: 
+L175: Vous possédez déjà un compte ?
+L176: Se connecter
+L177: ### Offrir cet article à un proche
+L178: 
+L179: Cette fonctionnalité est réservée aux abonnés de Médias24. Les abonnés peuvent offrir un article par semaine à des non-abonnés.
+L180: 
+L181: 【69†S'abonner】
+L182: 
+L183: Vous possédez déjà un abonnement ?
+L184: Se connecter
+L185: 
+L186: 【70†iframe†flipbooks.medias24.com】
+L187: 
+L188: 【71†iframe†heyzine.com】
+
+

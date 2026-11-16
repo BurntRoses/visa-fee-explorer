@@ -1,0 +1,196 @@
+Provider browser text capture, not downloaded original HTML. Retrieved 2026-11-17.
+Requests direct HTML received HTTP403; this archive preserves browser-retrieved article text and its provider locators.
+
+E-visa : le Maroc accélère sa percée en Asie et Afrique (https://medias24.com/2026/02/18/tourisme-e-visa-accelere-la-percee-du-maroc-en-asie-et-en-afrique-1630363/)
+【turn682660view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://medias24.com/2026/02/18/tourisme-e-visa-accelere-la-percee-du-maroc-en-asie-et-en-afrique-1630363/","lineno":null}); Total lines: 189
+L0: Se connecter
+L1: 
+L2: Email [Input: Adresse email]
+L3: 
+L4: Mot de passe [Input: Mot de passe]
+L5: 
+L6: [Input] Se rappeler de moi
+L7: 
+L8: 【0†Mot de passe oublié】
+L9: 
+L10: [Button: Annuler] [Button: Connexion]
+L11: 
+L12: Rubriques
+L13: 
+L14:   * 【1†ECONOMIE】
+L15: 
+L16:     * 【2†Agriculture】
+L17:     * 【3†Immobilier】
+L18:     * 【4†BTP】
+L19:   * 【5†BUSINESS】
+L20:   * 【6†LEBOURSIER】
+L21:   * 【7†POLITIQUE】
+L22:   * 【8†ELECTIONS 2026】
+L23:   * 【9†DROIT】
+L24:     * 【10†Connaissez vos droits】
+L25:   * 【11†Le 12/13 de Médias24】
+L26:   * 【12†SOCIETE】
+L27:   * 【13†NATION】
+L28:   * 【14†DEFENSE】
+L29:   * 【15†CULTURE】
+L30:   * 【16†EDUCATION】
+L31:   * 【17†Météo】
+L32:   * 【18†Santé】
+L33:   * 【19†OPINIONS】
+L34:   * 【20†DASHBOARD†dash.medias24.com】
+L35:   * 【21†Podcasts】
+L36:   * 【22†Guide auto】
+L37:   * 【23†A la découverte du Maroc】
+L38:   * 【24†Communication financière】
+L39:   * 【25†M24 Brand Studio】
+L40:     * 【26†Le cercle Business】
+L41:     * 【27†Une Région Une Entreprise】
+L42:     * 【28†RDV Partenaires】
+L43:     * 【29†Zone Franche】
+L44:   * 【30†Annonces légales†annonceslegales.medias24.com】
+L45:   * 【31†Annonces judiciaires†annoncesjudiciaires.medias24.com】
+L46:   * 【32†Appels d'offres】
+L47:   * 【33†Enquêtes Médias24】
+L48:   * 【34†SIAM】
+L49:   * 【35†GITEX】
+L50:   * 【36†Guide immobilier】
+L51:   * 【37†Diplomatie】
+L52: 
+L53: Publicité
+L54: # Tourisme : l’e-visa accélère la percée du Maroc en Asie et en Afrique
+L55: 
+L56: Trois ans et demi après son lancement, le e-visa s’impose comme un nouveau levier d’attractivité de la destination Maroc. Avec 162.000 visas délivrés en 2024 et une progression de 21% sur les dix premiers mois de 2025, cet outil digital a permis d’élargir la croissance touristique à plusieurs marchés émergents. Explications.
+L57: 
+L58: 【38†Image: E-visa】 Le e-visa, moteur de la croissance touristique au Maroc
+L59: 
+L60: Par 【39†Samir El Ouardighi】
+L61: Le 18 février 2026 à 19h14 | Modifié 19 février 2026 à 9h50
+L62: 
+L63:   * 【40†Facebook†www.facebook.com】
+L64:   * 【41†Twitter†twitter.com】
+L65:   * WhatsApp
+L66:   * 【42†E-Mail】
+L67:   * 【43†LinkedIn†www.linkedin.com】
+L68:   * * * *
+L69: 
+L70:   * Copier le lien
+L71: 
+L72: [Button: Mes favoris ]
+L73: « Dans un contexte international marqué par une concurrence accrue entre destinations, la digitalisation des procédures d’accès aux pays constitue désormais un outil stratégique au même titre que la connectivité aérienne ou la promotion internationale », a résumé une source de l’Office national marocain du tourisme (ONMT).
+L74: ## Une montée en puissance continue depuis 2022
+L75: 
+L76: 【44†Lancé le 10 juillet 2022】 via la plateforme Acces-Maroc, le e-visa, délivré en 24 heures en formule express, et en 48 à 72 heures en procédure standard – pour un séjour de 30 jours en entrée unique –, a progressivement élargi son périmètre à plus de 110 nationalités, contre seulement 50 à son démarrage.
+L77: Selon les données fournies par le ministère du Tourisme, cette évolution qui traduit une volonté de diversification des marchés émetteurs a permis d’octroyer 162.409 e-visas en 2024, soit une hausse de 6% par rapport à 2023, dont 93% concernent le tourisme et 7% pour les voyages d’affaires.
+L78: 
+L79: (Publicité)
+L80: 
+L81: (Publicité)
+L82: Avec une moyenne mensuelle de 13.534 visas et un pic de 16.207 en novembre 2024, ce dispositif qui a bénéficié en 2024 à 111 nationalités et confirme son intégration progressive dans l’écosystème du tourisme national.
+L83: 【45†Une dynamique qui se serait sensiblement intensifiée】 durant les 10 premiers mois de 2025 avec 157.560 e-visas délivrés, soit plus 21% par rapport à la même période en 2024 et une moyenne mensuelle qui grimpe à 15.756 visas (contre 13.070 un an plus tôt), avec toujours 93% des demandes à motif touristique.
+L84: ## L’Asie et l’Afrique deviennent des moteurs de la croissance
+L85: 
+L86: L’analyse des chiffres de délivrance montre une diversification des flux avec 77% des e-visas accordés à 15 nationalités et une montée en puissance de marchés comme la Côte d’Ivoire qui a réalisé une progression spectaculaire de 240%, Zimbabwe (+73%), Israël (+46%), le Nigéria (+40%) et l’Inde (29%).
+L87: Ces performances confirment la percée du Maroc sur les marchés asiatiques et africains, à forte croissance démographique et économique. Quelques marchés enregistrent une stabilisation (Jordanie, Bangladesh, Irak), traduisant un ajustement après l’effet de rattrapage post-pandémie.
+L88: ## Un outil de conquête de nouveaux marchés
+L89: 
+L90: Sollicités à leur tour, plusieurs gérants d’agences de voyages et hôteliers ont aussi tenu à saluer ce dispositif qui a totalement changé la donne pour les marchés lointains comme l’Inde et le Pakistan.
+L91: « Au-delà des volumes, sa rapidité de traitement rassure les voyageurs qui hésitaient avant et facilite la décision d’achat pour les groupes et les voyages de dernière minute », confie un professionnel, pour qui son impact dépasse la seule statistique des visas délivrés en permettant d’ouvrir de nouveaux marchés et d’irriguer toute la chaîne de valeur : hôtellerie, transport, restauration, guides.
+L92: Et de conclure qu’il agit comme un accélérateur de décision qui réduit les freins à l’achat, un outil de compétitivité internationale grâce à la simplification administrative, un levier de diversification des marchés et enfin un catalyseur aérien qui soutient les liaisons long-courrier vers l’Asie et l’Afrique.
+L93: 
+L94: Ajoutez Médias24 à vos sources préférées sur Google pour retrouver plus facilement nos articles dans vos résultats de recherche.
+L95: 【36†Vous avez un projet immobilier en vue ? Yakeey & Médias24 vous aident à le concrétiser!】
+L96: 
+L97: Si vous voulez que l'information se rapproche de vous 【46†Suivez la chaîne Médias24 sur WhatsApp†whatsapp.com】
+L98: © Médias24. Toute reproduction interdite, sous quelque forme que ce soit, sauf autorisation écrite de la Société des Nouveaux Médias. Ce contenu est protégé par la loi et notamment loi 88-13 relative à la presse et l’édition ainsi que les lois 66.19 et 2-00 relatives aux droits d’auteur et droits voisins.
+L99: 
+L100: Par 【39†Samir El Ouardighi】
+L101: 
+L102: Le 18 février 2026 à 19h14
+L103: ## à lire aussi
+L104: 
+L105: 【47†Image: Sebta : les barrières maritimes seront étendues de 150 mètres】
+L106: 
+L107: 【48†Quoi de neuf】 【49†Sebta : les barrières maritimes seront étendues de 150 mètres】
+L108: Les travaux de renforcement des infrastructures frontalières maritimes de Sebta doivent débuter le 17 novembre 2026. Le projet prévoit le prolongement des brise-lames du Tarajal et de Benzú vers le large, ainsi que l'installation de grillages métalliques anti-escalade et de barrières flottantes. L'investissement est estimé à environ 5 millions d'euros.
+L109: 
+L110: 【50†Image: En 1.000 photos, Hassan Najibi raconte 45 ans d’histoire du Maroc】
+L111: 【48†Quoi de neuf】 【51†En 1.000 photos, Hassan Najibi raconte 45 ans d’histoire du Maroc】
+L112: 
+L113: Des grands rendez-vous politiques aux événements qui ont marqué le Royaume sous Hassan II et Mohammed VI, le photographe de presse a puisé dans ses archives pour composer un ouvrage de 428 pages, fruit de six années de recherches et de sélection.
+L114: 
+L115: 【52†Image: Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L116: 【53†La séance du jour】 【54†Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L117: 
+L118: La Bourse de Casablanca a clôturé la séance du lundi 16 novembre en baisse, avec un MASI à 17.239,53 points. Les échanges ont totalisé 511,03 MDH, tandis que Jet Energy a signé la plus forte hausse de la séance à l’occasion de sa première cotation.
+L119: 
+L120: 【55†Image: Les prévisions météo pour le mardi 17 novembre】
+L121: 
+L122: 【56†Les prévisions quotidiennes】 【57†Les prévisions météo pour le mardi 17 novembre】
+L123: Voici les prévisions météorologiques établies par la Direction générale de la météorologie pour le mardi 17 novembre 2026 : - Temps peu à passagèrement nuageux […]
+L124: 
+L125: 【58†Image: Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L126: 
+L127: 【48†Quoi de neuf】 【59†Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L128: Du 12 au 16 décembre, Nador accueillera la première édition du "Cercle des jeunes pour la paix", organisée par le Centre de la mémoire commune pour la démocratie et la paix, en partenariat avec l'UNESCO. Cette rencontre réunira 40 jeunes autour du vivre-ensemble, du dialogue et des droits humains.
+L129: 
+L130: 【60†Image: Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L131: 
+L132: 【18†Santé】 【61†Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L133: Au Maroc, le diabète touche près de 2,7 millions d'adultes, dont près de la moitié ignorent leur maladie. Au-delà des complications liées aux diagnostics tardifs, son coût économique et social est estimé à 3,8% du PIB. Face à cette double menace sanitaire et financière, le médecin Tayeb Hamdi plaide pour un changement de stratégie, avec une priorité donnée au dépistage et à la prévention.
+L134: Médias24 est un journal économique marocain en ligne qui fournit des informations orientées business, marchés, data et analyses économiques. Retrouvez en direct et en temps réel, en photos et en vidéos, toute l’actualité économique, politique, sociale, et culturelle au Maroc avec Médias24
+L135: 
+L136: Notre journal s’engage à vous livrer une information précise, originale et sans parti-pris vis à vis des opérateurs.
+L137: 
+L138: Suivez-nous:
+L139: 
+L140: Abonnez-vous à la newsletter
+L141: 
+L142: [Input: Email]
+L143: 
+L144: [Input]
+L145: 
+L146: [Button: S'abonner]
+L147: Tous droits réservés © 2026 - Médias24.
+L148: 
+L149: Toute l'actualité
+L150: 
+L151: 【54†Bourse de Casablanca : le MASI recule de 0,63%, Jet Energy augmente de 19,97%】
+L152: 
+L153: 【62†La justice italienne met Revolut sous tutelle pour ses failles anti-blanchiment(afp)】
+L154: 
+L155: 【57†Les prévisions météo pour le mardi 17 novembre】
+L156: 
+L157: 【59†Nador réunit 40 jeunes du Maroc et de plusieurs pays autour de la paix】
+L158: 
+L159: 【61†Diabète. Un nouveau cas diagnostiqué toutes les 5 à 6 minutes au Maroc】
+L160: 【63†La dimension sociale du projet de la loi des finances 2027: quelle traduction fiscale et budgétaire ?】
+L161: 
+L162: 【64†Marrakech accueillera le Global Summit d’Intrepid Travel en octobre 2027】
+L163: 
+L164: 【65†Football. Les salaires des internationaux marocains passés au crible】
+L165: 
+L166: 【66†Face aux cyberattaques, le Maroc veut faire émerger ses expertes】
+L167: 
+L168: 【67†Koutoubia en faillite ? Ce que l'on sait】
+L169: 
+L170: Pour accéder à vos favoris
+L171: identifiez-vous
+L172: 
+L173: [Button: S'inscrire gratuitement]
+L174: 
+L175: Vous possédez déjà un compte ?
+L176: Se connecter
+L177: ### Offrir cet article à un proche
+L178: 
+L179: Cette fonctionnalité est réservée aux abonnés de Médias24. Les abonnés peuvent offrir un article par semaine à des non-abonnés.
+L180: 
+L181: 【68†S'abonner】
+L182: 
+L183: Vous possédez déjà un abonnement ?
+L184: Se connecter
+L185: 
+L186: 【69†iframe†flipbooks.medias24.com】
+L187: 
+L188: 【70†iframe†heyzine.com】
+
+
