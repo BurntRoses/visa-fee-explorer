@@ -1,0 +1,38 @@
+{
+  "capture_method": "search_service_indexed_excerpt",
+  "archive_kind": "fact_excerpt",
+  "original_downloaded": false,
+  "source_url": "https://www.gov.cy/media/sites/42/2026/03/%CE%9C%CE%95%CE%A1%CE%9F%CE%A3-%CE%92-5.1-%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CF%8C-%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF-%CE%95%CF%83%CF%8C%CE%B4%CF%89%CE%BD.pdf",
+  "search_reference": "turn808725search0",
+  "captured_at": "2026-11-17",
+  "document_year": 2019,
+  "title": "Cyprus Detailed Table of Revenues 2019",
+  "table": "5.1",
+  "source_excerpt": "DETAILED TABLE OF REVENUES 2019 | | --- | --- | --- ΔΕΛΤΙΟ - TABLE 5.1 Κ Υ Α ε π ρ φ ο θ / δ ρ Λεπτομέρειες Εσόδων H / ο Details of Revenues e S / a D S d v h | 2018 Πραγματικά Έσοδα Actual Revenues € | 2019 ΠραγματικάΈσοδα Προϋπολογισμός Διαφορά Actual Revenues Budget Variance € € € 0 ... Έσοδα  - Revenue ... 01373\n1701\n 2.591.010\n 4.129.571\n 4.755.775\nYΠOYPΓEIO EΞΩTEPIKΩN, \nΔΙΟΙΚΗΣΗ - MINISTRY OF \nFOREIGN AFFAIRS, \nADMINISTRATION\n 2.164.765\n 2.591.010\n 4.129.571\n 4.755.775\n170100\nΚεντρικά Γραφεία - Headquarters\n 2.164.775\n01\n 2.591.000\nΈσοδα  - Revenue\n 4.755.775\n 4.129.571\n 221.980\n 2.300.468\n 2.121.980\n 1.900.000\nΘεωρήσεις Εισόδου - Visas\n01373\n 1.674\n 6.485\n 6.674\n 5.000\n01605",
+  "normalized_facts": {
+    "currency": "EUR",
+    "ministry": "17 Ministry of Foreign Affairs",
+    "department": "1701 MFA Administration",
+    "office": "170100 Headquarters",
+    "account": "01373",
+    "label": "Θεωρήσεις Εισόδου - Visas",
+    "columns": [
+      "2018 Actual Revenues EUR",
+      "2019 Actual Revenues EUR",
+      "2019 Budget EUR",
+      "Variance EUR"
+    ],
+    "values": [
+      2300468,
+      2121980,
+      1900000,
+      221980
+    ],
+    "excluded_consular_account": "01605",
+    "excluded_consular_values": [
+      6485,
+      6674
+    ]
+  },
+  "notes": "Indexed official PDF text; locally archived facts and excerpt, not the PDF original. URL migration directory2026 is not the report year."
+}

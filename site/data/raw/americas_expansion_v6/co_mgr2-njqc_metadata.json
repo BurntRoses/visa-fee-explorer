@@ -1,0 +1,519 @@
+{
+  "id" : "mgr2-njqc",
+  "name" : "Volumen de solicitudes de visa colombiana expedidas desde 2017",
+  "assetType" : "dataset",
+  "attribution" : "Ministerio de Relaciones Exteriores - MinExterior, Bogotá D.C.",
+  "averageRating" : 0,
+  "category" : "Estadísticas Nacionales",
+  "createdAt" : 1735253929,
+  "description" : "Este conjunto de datos proporciona información sobre el número anual de solicitudes de visa expedidas por parte de la Autoridad de Visas e Inmigración, conforme con la definición establecida en la Resolución 5477 de 2022, según nacionalidad, sexo y edad del solicitante, así como, la vocación de permanencia. \nEncuesta de satisfacción https://forms.office.com/Pages/ResponsePage.aspx?id=e1S0GcQyMkymbQ9pAT9hWh3zC1ukCGtCqkYb4M6lDqdUM0Y0RjZCTTRENDdVUkI2VjNLQ0hCQkE3VSQlQCN0PWcu",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 411,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "CC_40_BY_SA",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41450207,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1752681913,
+  "publicationGroup" : 19722286,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1791568403,
+  "rowsUpdatedBy" : "c3y3-a7jq",
+  "tableId" : 19965350,
+  "totalTimesRated" : 0,
+  "viewCount" : 2105,
+  "viewLastModified" : 1779130042,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1752704294,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6973314,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1752682750,
+    "targetAudience" : "public",
+    "workflowId" : 2188,
+    "reviewer" : {
+      "id" : "r4qn-dwdd",
+      "displayName" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1752704294,
+      "failureCount" : 0,
+      "startedAt" : 1752704294,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "c3y3-a7jq",
+      "displayName" : "MINISTERIO DE RELACIONES EXTERIORES"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 613902115,
+    "name" : "Año Expedición",
+    "dataTypeName" : "number",
+    "description" : "Año en el que se expide la visa",
+    "fieldName" : "anio",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156006252,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "2026",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2017",
+        "count" : "37359"
+      }, {
+        "item" : "2018",
+        "count" : "36205"
+      }, {
+        "item" : "2024",
+        "count" : "35609"
+      }, {
+        "item" : "2019",
+        "count" : "34840"
+      }, {
+        "item" : "2023",
+        "count" : "32644"
+      }, {
+        "item" : "2022",
+        "count" : "30701"
+      }, {
+        "item" : "2025",
+        "count" : "28075"
+      }, {
+        "item" : "2021",
+        "count" : "26668"
+      }, {
+        "item" : "2020",
+        "count" : "20143"
+      }, {
+        "item" : "2026",
+        "count" : "1356"
+      } ],
+      "smallest" : "2017",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 613902121,
+    "name" : "Mes Expedición",
+    "dataTypeName" : "text",
+    "description" : "Mes de expedición de la visa",
+    "fieldName" : "mes",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160006933,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "12",
+      "null" : "0",
+      "top" : [ {
+        "item" : "09",
+        "count" : "27301"
+      }, {
+        "item" : "08",
+        "count" : "26118"
+      }, {
+        "item" : "07",
+        "count" : "25688"
+      }, {
+        "item" : "10",
+        "count" : "25178"
+      }, {
+        "item" : "02",
+        "count" : "24091"
+      }, {
+        "item" : "01",
+        "count" : "23621"
+      }, {
+        "item" : "03",
+        "count" : "23141"
+      }, {
+        "item" : "06",
+        "count" : "22895"
+      }, {
+        "item" : "05",
+        "count" : "22845"
+      }, {
+        "item" : "11",
+        "count" : "22146"
+      }, {
+        "item" : "12",
+        "count" : "20317"
+      }, {
+        "item" : "04",
+        "count" : "20259"
+      } ],
+      "smallest" : "01",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : { }
+  }, {
+    "id" : 613902116,
+    "name" : "Nacionalidad",
+    "dataTypeName" : "text",
+    "description" : "Nacionalidad registrada por el solicitante de visa y que corresponde a la del pasaporte.",
+    "fieldName" : "nacionalidad",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156006251,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "ZIMBABWE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "VENEZUELA",
+        "count" : "20074"
+      }, {
+        "item" : "ESTADOS UNIDOS",
+        "count" : "19740"
+      }, {
+        "item" : "MEXICO",
+        "count" : "13226"
+      }, {
+        "item" : "CUBA",
+        "count" : "13076"
+      }, {
+        "item" : "ESPA¥A",
+        "count" : "12224"
+      }, {
+        "item" : "ECUADOR",
+        "count" : "12010"
+      }, {
+        "item" : "BRASIL",
+        "count" : "10202"
+      }, {
+        "item" : "PERU",
+        "count" : "9707"
+      }, {
+        "item" : "CHINA",
+        "count" : "9543"
+      }, {
+        "item" : "ARGENTINA",
+        "count" : "8519"
+      }, {
+        "item" : "FRANCIA",
+        "count" : "8003"
+      }, {
+        "item" : "ITALIA",
+        "count" : "7408"
+      }, {
+        "item" : "INDIA",
+        "count" : "6994"
+      }, {
+        "item" : "NICARAGUA",
+        "count" : "6762"
+      }, {
+        "item" : "ALEMANIA",
+        "count" : "6541"
+      }, {
+        "item" : "CHILE",
+        "count" : "5935"
+      }, {
+        "item" : "CANADA",
+        "count" : "5499"
+      }, {
+        "item" : "REINO UNIDO",
+        "count" : "5415"
+      }, {
+        "item" : "SUDAFRICA",
+        "count" : "3934"
+      }, {
+        "item" : "PAISES BAJOS",
+        "count" : "3457"
+      } ],
+      "smallest" : "AFGANISTAN",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : { }
+  }, {
+    "id" : 613902117,
+    "name" : "Sexo",
+    "dataTypeName" : "text",
+    "description" : "Sexo registrado por el solicitante de visa y que corresponde al del pasaporte.",
+    "fieldName" : "sexo",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156006250,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "OTRO",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MASCULINO",
+        "count" : "174397"
+      }, {
+        "item" : "FEMENINO",
+        "count" : "109173"
+      }, {
+        "item" : "OTRO",
+        "count" : "30"
+      } ],
+      "smallest" : "FEMENINO",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : { }
+  }, {
+    "id" : 613902118,
+    "name" : "Edad",
+    "dataTypeName" : "number",
+    "description" : "Edad al momento de la expedición de la visa calculada con la fecha de nacimiento registrada por el solicitante.",
+    "fieldName" : "edad",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 157950718,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "168",
+      "null" : "0",
+      "top" : [ {
+        "item" : "30",
+        "count" : "8010"
+      }, {
+        "item" : "31",
+        "count" : "7934"
+      }, {
+        "item" : "29",
+        "count" : "7915"
+      }, {
+        "item" : "32",
+        "count" : "7853"
+      }, {
+        "item" : "28",
+        "count" : "7751"
+      }, {
+        "item" : "34",
+        "count" : "7680"
+      }, {
+        "item" : "33",
+        "count" : "7563"
+      }, {
+        "item" : "27",
+        "count" : "7544"
+      }, {
+        "item" : "35",
+        "count" : "7424"
+      }, {
+        "item" : "36",
+        "count" : "7147"
+      }, {
+        "item" : "26",
+        "count" : "7038"
+      }, {
+        "item" : "37",
+        "count" : "6943"
+      }, {
+        "item" : "38",
+        "count" : "6785"
+      }, {
+        "item" : "39",
+        "count" : "6511"
+      }, {
+        "item" : "25",
+        "count" : "6365"
+      }, {
+        "item" : "40",
+        "count" : "6300"
+      }, {
+        "item" : "41",
+        "count" : "6030"
+      }, {
+        "item" : "24",
+        "count" : "5837"
+      }, {
+        "item" : "42",
+        "count" : "5769"
+      }, {
+        "item" : "43",
+        "count" : "5588"
+      } ],
+      "smallest" : "0",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : {
+      "view" : "date_dmy"
+    }
+  }, {
+    "id" : 613902119,
+    "name" : "Tipo Documento",
+    "dataTypeName" : "text",
+    "description" : "Tipo de visa solicitada por el nacional extranjero y agrupada según la vocación de permanencia.",
+    "fieldName" : "tipo_documento",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156006248,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "TEMPORAL",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PERMANENTE",
+        "count" : "158305"
+      }, {
+        "item" : "TEMPORAL",
+        "count" : "125295"
+      } ],
+      "smallest" : "PERMANENTE",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : { }
+  }, {
+    "id" : 613902120,
+    "name" : "Número",
+    "dataTypeName" : "number",
+    "description" : "Número de Visas.",
+    "fieldName" : "cantidad",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156006247,
+    "cachedContents" : {
+      "non_null" : "283600",
+      "largest" : "61",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "187520"
+      }, {
+        "item" : "2",
+        "count" : "47096"
+      }, {
+        "item" : "3",
+        "count" : "19622"
+      }, {
+        "item" : "4",
+        "count" : "9990"
+      }, {
+        "item" : "5",
+        "count" : "5837"
+      }, {
+        "item" : "6",
+        "count" : "3766"
+      }, {
+        "item" : "7",
+        "count" : "2385"
+      }, {
+        "item" : "8",
+        "count" : "1651"
+      }, {
+        "item" : "9",
+        "count" : "1254"
+      }, {
+        "item" : "10",
+        "count" : "891"
+      }, {
+        "item" : "11",
+        "count" : "692"
+      }, {
+        "item" : "12",
+        "count" : "536"
+      }, {
+        "item" : "13",
+        "count" : "413"
+      }, {
+        "item" : "14",
+        "count" : "314"
+      }, {
+        "item" : "15",
+        "count" : "269"
+      }, {
+        "item" : "17",
+        "count" : "207"
+      }, {
+        "item" : "16",
+        "count" : "200"
+      }, {
+        "item" : "18",
+        "count" : "176"
+      }, {
+        "item" : "19",
+        "count" : "115"
+      }, {
+        "item" : "20",
+        "count" : "111"
+      } ],
+      "smallest" : "1",
+      "count" : "283600",
+      "cardinality" : "283600"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl" : "images/licenses/cc30bysa.png",
+    "termsLink" : "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "Información de la Entidad" : {
+        "Municipio" : "Bogotá D.C.",
+        "Nombre de la Entidad" : "Ministerio de Relaciones Exteriores - MinExterior, Bogotá D.C.",
+        "DIVIPOLA Municipio" : "11001",
+        "Orden" : "Nacional",
+        "Sector" : "Cooperación Internacional",
+        "Departamento" : "Bogotá D.C."
+      },
+      "Información de Datos" : {
+        "Cobertura Geográfica" : "Nacional",
+        "Idioma" : "Español",
+        "Frecuencia de Actualización" : "Mensual"
+      }
+    }
+  },
+  "owner" : {
+    "id" : "c3y3-a7jq",
+    "displayName" : "MINISTERIO DE RELACIONES EXTERIORES",
+    "profileImageUrlLarge" : "/api/users/c3y3-a7jq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/c3y3-a7jq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/c3y3-a7jq/profile_images/TINY",
+    "screenName" : "MINISTERIO DE RELACIONES EXTERIORES",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "c3y3-a7jq",
+    "displayName" : "MINISTERIO DE RELACIONES EXTERIORES",
+    "profileImageUrlLarge" : "/api/users/c3y3-a7jq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/c3y3-a7jq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/c3y3-a7jq/profile_images/TINY",
+    "screenName" : "MINISTERIO DE RELACIONES EXTERIORES",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "visas", "expedición visa", "solicitud visas" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

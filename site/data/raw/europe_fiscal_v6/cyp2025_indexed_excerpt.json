@@ -1,0 +1,39 @@
+{
+  "capture_method": "search_service_indexed_excerpt",
+  "archive_kind": "fact_excerpt",
+  "original_downloaded": false,
+  "source_url": "https://www.gov.cy/media/sites/42/2026/03/%CE%9C%CE%95%CE%A1%CE%9F%CE%A3-%CE%92-%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF-4.1-%E2%80%93-%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CF%8C-%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF-%CE%95%CF%83%CF%8C%CE%B4%CF%89%CE%BD.pdf",
+  "search_reference": "turn112201search29 / turn408627view5 L6074-L6126",
+  "captured_at": "2026-11-17",
+  "document_year": 2025,
+  "title": "Cyprus Detailed Table of Revenues 2025",
+  "table": "4.1",
+  "source_excerpt": "DETAILED TABLE OF REVENUES 2025\n1701 MINISTRY OF FOREIGN AFFAIRS, ADMINISTRATION\n170100 Headquarters\n2024 Actual Revenues € | 2025 Actual Revenues € | 2025 Budget € | Variance €\n5.127.170\n7.164.042\n9.127.170\n4.000.000\nΘεωρήσεις Εισόδου - Visas\n01373\n4.434\n34.565\n39.434\n35.000\n01605",
+  "excerpt_transcription": "Relevant indexed table text; line breaks/column separators normalized for2024, content and numbers preserved.",
+  "normalized_facts": {
+    "currency": "EUR",
+    "ministry": "17 Ministry of Foreign Affairs",
+    "department": "1701 MFA Administration",
+    "office": "170100 Headquarters",
+    "account": "01373",
+    "label": "Θεωρήσεις Εισόδου - Visas",
+    "columns": [
+      "2024 Actual Revenues EUR",
+      "2025 Actual Revenues EUR",
+      "2025 Budget EUR",
+      "Variance EUR"
+    ],
+    "values": [
+      7164042,
+      9127170,
+      4000000,
+      5127170
+    ],
+    "excluded_consular_account": "01605",
+    "excluded_consular_values": [
+      34565,
+      39434
+    ]
+  },
+  "notes": "Indexed official PDF text; locally archived facts and excerpt, not the PDF original. URL migration directory2026 is not the report year."
+}

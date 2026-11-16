@@ -1,0 +1,38 @@
+{
+  "capture_method": "search_service_indexed_excerpt",
+  "archive_kind": "fact_excerpt",
+  "original_downloaded": false,
+  "source_url": "https://www.gov.cy/media/sites/42/2026/02/%CE%9C%CE%95%CE%A1%CE%9F%CE%A3-%CE%92-%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF-4.1-%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CF%8C-%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF-%CE%95%CF%83%CF%8C%CE%B4%CF%89%CE%BD.pdf",
+  "search_reference": "turn808725search1",
+  "captured_at": "2026-11-17",
+  "document_year": 2021,
+  "title": "Cyprus Detailed Table of Revenues 2021",
+  "table": "4.1",
+  "source_excerpt": "DETAILED TABLE OF REVENUES 2021 | | --- | --- | --- ΔΕΛΤΙΟ - TABLE 4.1 Κ Υ Α ε π ρ φ ο θ / δ ρ Λεπτομέρειες Εσόδων H / ο Details of Revenues e S / a D S d v h | 2020 Πραγματικά Έσοδα Actual Revenues € | 2021 ΠραγματικάΈσοδα Προϋπολογισμός Διαφορά Actual Revenues Budget Variance € € €-10 ... Έσοδα  - Revenue ... 01373\n1701\n 2.091.020\n 1.919.161\n 2.017.459\nYΠOYPΓEIO EΞΩTEPIKΩN, \nΔΙΟΙΚΗΣΗ - MINISTRY OF FOREIGN\nAFFAIRS, ADMINISTRATION\n-73.561\n 2.091.020\n 1.919.161\n 2.017.459\n170100\nΚεντρικά Γραφεία - Headquarters\n-73.551\n01\n 2.091.010\n 1.919.161\n 2.017.459\nΈσοδα  - Revenue\n-862.570\n 576.683\n 1.037.430\n 1.900.000\nΘεωρήσεις Εισόδου - Visas\n01373\n 9.978\n 5.956\n 14.978\n 5.000\n01605",
+  "normalized_facts": {
+    "currency": "EUR",
+    "ministry": "17 Ministry of Foreign Affairs",
+    "department": "1701 MFA Administration",
+    "office": "170100 Headquarters",
+    "account": "01373",
+    "label": "Θεωρήσεις Εισόδου - Visas",
+    "columns": [
+      "2020 Actual Revenues EUR",
+      "2021 Actual Revenues EUR",
+      "2021 Budget EUR",
+      "Variance EUR"
+    ],
+    "values": [
+      576683,
+      1037430,
+      1900000,
+      -862570
+    ],
+    "excluded_consular_account": "01605",
+    "excluded_consular_values": [
+      5956,
+      14978
+    ]
+  },
+  "notes": "Indexed official PDF text; locally archived facts and excerpt, not the PDF original. URL migration directory2026 is not the report year."
+}

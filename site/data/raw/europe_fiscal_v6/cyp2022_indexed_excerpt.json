@@ -1,0 +1,38 @@
+{
+  "capture_method": "search_service_indexed_excerpt",
+  "archive_kind": "fact_excerpt",
+  "original_downloaded": false,
+  "source_url": "https://www.gov.cy/media/sites/42/2026/02/4.1-%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CF%8C-%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF-%CE%95%CF%83%CF%8C%CE%B4%CF%89%CE%BD.pdf",
+  "search_reference": "turn808725search2",
+  "captured_at": "2026-11-17",
+  "document_year": 2022,
+  "title": "Cyprus Detailed Table of Revenues 2022",
+  "table": "4.1",
+  "source_excerpt": "ΔΕΛΤΙΟ - TABLE 4.1\nΑΝΑΛΥΤΙΚΟ ΔΕΛΤΙΟ ΕΣΟΔΩΝ - DETAILED TABLE OF REVENUES 2022\n<table id=\"e1\">\n<tr>\n<th>Κ Υ Α<br>ε π ρ<br>φ ο σ<br>ο λ ο<br>δ / S /<br>h i h</th>\n<th>Λεπτομέρειες Εσόδων<br>Details of Revenues</th>\n<th>2021<br>Πραγματικά Έσοδα<br>Actual Revenues<br>€</th>\n<th>2022<br>Πραγματικά Έσοδα<br>Actual Revenues<br>€</th>\n<th>2022<br>Προϋπολογισμός<br>Budget<br>€</th>\n<th>Διαφορά<br>Variance<br>€</th>\n</tr>\nDETAILED TABLE OF REVENUES 2022 ... <td>Έσοδα - Revenue</td> ... <td>01373</td>\n1701</td>\n<td>ΥΠΟΥΡΓΕΙΟ ΕΞΩΤΕΡΙΚΩΝ, ΔΙΟΙΚΗΣΗ - MINISTRY OF FOREIGN AFFAIRS, ADMINISTRATION</td>\n<td>2.017.459</td>\n<td>2.160.224</td>\n<td>2.091.020</td>\n<td>69.204</td>\n</tr>\n<tr>\n<td>170100</td>\n<td>Κεντρικά Γραφεία - Headquarters</td>\n<td>2.017.459</td>\n<td>2.160.224</td>\n<td>2.091.020</td>\n<td>69.204</td>\n</tr>\n<tr>\n<td>01</td>\n<td>Έσοδα - Revenue</td>\n<td>2.017.459</td>\n<td>2.160.224</td>\n<td>2.091.010</td>\n<td>69.214</td>\n</tr>\n<tr>\n<td>01373</td>\n<td>Θεωρήσεις Εισόδου - Visas</td>\n<td>1.037.430</td>\n<td>1.630.231</td>\n<td>1.900.000</td>\n<td>-269.769</td>\n</tr>\n<tr>\n<td>01605",
+  "normalized_facts": {
+    "currency": "EUR",
+    "ministry": "17 Ministry of Foreign Affairs",
+    "department": "1701 MFA Administration",
+    "office": "170100 Headquarters",
+    "account": "01373",
+    "label": "Θεωρήσεις Εισόδου - Visas",
+    "columns": [
+      "2021 Actual Revenues EUR",
+      "2022 Actual Revenues EUR",
+      "2022 Budget EUR",
+      "Variance EUR"
+    ],
+    "values": [
+      1037430,
+      1630231,
+      1900000,
+      -269769
+    ],
+    "excluded_consular_account": "01605",
+    "excluded_consular_values": [
+      14978,
+      29858
+    ]
+  },
+  "notes": "Indexed official PDF text; locally archived facts and excerpt, not the PDF original. URL migration directory2026 is not the report year."
+}

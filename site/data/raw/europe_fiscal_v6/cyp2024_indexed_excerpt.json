@@ -1,0 +1,39 @@
+{
+  "capture_method": "search_service_indexed_excerpt",
+  "archive_kind": "fact_excerpt",
+  "original_downloaded": false,
+  "source_url": "https://www.gov.cy/media/sites/42/2026/02/%CE%9C%CE%95%CE%A1%CE%9F%CE%A3-%CE%92-%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF-4.1-%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CF%8C-%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF-%CE%95%CF%83%CF%8C%CE%B4%CF%89%CE%BD-1.pdf",
+  "search_reference": "turn112201search24 / turn408627view4 L3820-L3842",
+  "captured_at": "2026-11-17",
+  "document_year": 2024,
+  "title": "Cyprus Detailed Table of Revenues 2024",
+  "table": "4.1",
+  "source_excerpt": "DETAILED TABLE OF REVENUES 2024\n1701 MINISTRY OF FOREIGN AFFAIRS, ADMINISTRATION\n170100 Headquarters\n2023 Actual Revenues € | 2024 Actual Revenues € | 2024 Budget € | Variance €\n01373 Θεωρήσεις Εισόδου - Visas | 7.074.013 | 7.164.042 | 2.500.000 | 4.664.042\n01605 Προξενικά Δικαιώματα - Consular Fees | 34.537 | 34.565 | 5.000 | 29.565",
+  "excerpt_transcription": "Relevant indexed table text; line breaks/column separators normalized for2024, content and numbers preserved.",
+  "normalized_facts": {
+    "currency": "EUR",
+    "ministry": "17 Ministry of Foreign Affairs",
+    "department": "1701 MFA Administration",
+    "office": "170100 Headquarters",
+    "account": "01373",
+    "label": "Θεωρήσεις Εισόδου - Visas",
+    "columns": [
+      "2023 Actual Revenues EUR",
+      "2024 Actual Revenues EUR",
+      "2024 Budget EUR",
+      "Variance EUR"
+    ],
+    "values": [
+      7074013,
+      7164042,
+      2500000,
+      4664042
+    ],
+    "excluded_consular_account": "01605",
+    "excluded_consular_values": [
+      34537,
+      34565
+    ]
+  },
+  "notes": "Indexed official PDF text; locally archived facts and excerpt, not the PDF original. URL migration directory2026 is not the report year."
+}
