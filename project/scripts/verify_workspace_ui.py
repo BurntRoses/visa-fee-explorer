@@ -125,7 +125,7 @@ def main():
         checks['offline'] = 'global view and lazy references under file:// with networking disabled'
         deep = browser.new_page(offline=True, reduced_motion='reduce')
         deep.goto(application.as_uri()+'#countries=all&year=2018&view=compare',wait_until='domcontentloaded')
-        deep.wait_for_function('VISA_WORKBENCH.state.year===2018 && VISA_WORKBENCH.analysis.comparisonYear===2017')
+        deep.wait_for_function('window.VISA_WORKBENCH?.state.year===2018 && window.VISA_WORKBENCH?.analysis.comparisonYear===2017')
         assert deep.locator('.viz-main-svg').count()==1
         checks['offline_history'] = 'opening a shared previous-year view loads its comparison without networking'
     args.report.write_text(json.dumps(checks, ensure_ascii=False, indent=2) + '\n')

@@ -25,7 +25,8 @@ async function dataBlob(id:string,path:string):Promise<Blob>{
  }
  const response=await fetch(new URL('./data/'+path,document.baseURI),id==='boot'||id.startsWith('year-')?{signal:AbortSignal.timeout?.(20000)}:undefined);
  if(!response.ok)throw new Error(`数据载入失败 (${response.status})`);
- return response.blob();
+ // Consume preloaded data as bytes: Chromium's Blob loader can fail while the preload is in flight.
+ return id==='full'?response.blob():new Blob([await response.arrayBuffer()]);
 }
 async function unzip(blob:Blob){
  return typeof DecompressionStream==='undefined'
