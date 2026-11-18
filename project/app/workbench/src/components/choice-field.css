@@ -1,0 +1,20 @@
+.choice-field{min-width:0;display:grid;align-content:start;gap:5px}
+.choice-caption{font-size:12px;color:#4b665d}
+.choice-field .choice-trigger{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;min-width:0;min-height:36px;padding:6px 9px;line-height:1.35;text-align:left;background:#eaf1ed;color:#294d3e;border:0;border-radius:7px;font-size:13px}
+.choice-trigger > span,.choice-options li > span{min-width:0;overflow-wrap:anywhere}
+.choice-trigger svg,.choice-options li svg,.choice-search svg{flex:none}
+.choice-field .choice-trigger:hover,.choice-field .choice-trigger:focus-visible,.choice-field .choice-trigger[aria-expanded=true]{background:#dbeae1;box-shadow:none;color:#173e2e}
+.choice-trigger[aria-expanded=true] > svg{transform:rotate(180deg)}
+.choice-field small{display:block;color:#4b665a;font-size:11px;margin-top:2px}
+.choice-surface{min-width:0;padding:3px;background:#f0f5f2;border-radius:8px}
+.choice-search{display:flex;align-items:center;gap:7px;margin:2px 2px 4px;padding:0 8px;color:#416759;border-radius:5px;background:white}
+.choice-search:focus-within{background:#e0eee5}
+.choice-search input{width:100%;min-width:0;padding:6px 0;font:inherit;font-size:13px;color:inherit;background:transparent;border:0;outline:0}
+.choice-field .choice-search input:focus-visible{box-shadow:none}
+.choice-options{max-height:156px;overflow:auto;overscroll-behavior:contain;list-style:none;padding:0;margin:0;outline:0}
+.choice-options li{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:34px;padding:5px 8px;margin:0 0 2px;line-height:1.35;border-radius:5px;color:#305546;font-size:13px;cursor:pointer}
+.choice-options li:hover,.choice-options:focus li[data-active=true]{background:#e1ebe6;color:#164631}
+.choice-options li[aria-selected=true]{background:#d5e8dc;font-weight:600;color:#184d35}
+.choice-options:focus li[aria-selected=true][data-active=true]{background:#c4ded0}
+.choice-empty{margin:4px 8px 7px;font-size:12px;color:#506c61}
+@media(pointer:coarse){.choice-field .choice-trigger,.choice-options li{min-height:44px}}

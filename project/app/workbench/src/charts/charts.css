@@ -74,9 +74,8 @@
 .plot-actions{display:flex;justify-content:space-between;align-items:center;gap:8px;min-width:0;border-top:1px solid #e7eeea;color:#49655c}
 .plot-caption{display:flex;align-items:center;gap:5px;min-width:0;font-size:12px}
 .plot-caption strong{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:600}
-.plot-caption button,.plot-caption select{padding:5px 7px;font-size:12px;color:#255e47;white-space:nowrap;background:#eef6f0}
+.plot-caption button{padding:5px 7px;font-size:12px;color:#255e47;white-space:nowrap;background:#eef6f0}
 .plot-caption button:last-child[aria-label]{font-size:16px;line-height:1}
-.plot-caption select{max-width:100%}
 .visa-visualization .viz-zoom-tools{position:static;display:flex;align-items:center;gap:0;flex:none;padding:0;background:#f0f5f1;backdrop-filter:none}
 .visa-visualization .viz-zoom-tools button{width:30px;min-width:30px;min-height:30px;display:grid;place-items:center;padding:3px;color:#315c50}
 .visa-visualization .viz-zoom-tools button:disabled{opacity:.35}
@@ -84,4 +83,4 @@
 .visa-visualization .viz-tooltip{position:static;box-sizing:border-box;min-width:0;max-width:none;width:100%;padding:5px 8px;border:0;border-top:1px solid #e7eeea;border-radius:0;background:#fafcfb;backdrop-filter:none;box-shadow:none;opacity:1;transform:none;font-size:12px;line-height:1.28;transition:none;overflow:hidden}
 .viz-tooltip strong,.viz-tooltip small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 .viz-tooltip>div{min-width:0}.viz-tooltip b{font-size:13px}.plot-readout-idle{color:#586f65}
-@media(max-width:600px){.viz-tooltip strong,.viz-tooltip small{font-size:11px}.plot-caption{font-size:11px}.plot-caption button,.plot-caption select{font-size:11px}.plot-caption strong{max-width:120px}}
+@media(max-width:600px){.viz-tooltip strong,.viz-tooltip small{font-size:11px}.plot-caption{font-size:11px}.plot-caption button{font-size:11px}.plot-caption strong{max-width:120px}}

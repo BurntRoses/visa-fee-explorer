@@ -1,0 +1,7 @@
+{
+  "1440": "global summary, four chart modes, directional square heatmap, unallocated fees and sources, choice controls, zoom/drag/reset, country and route",
+  "390": "global summary, four chart modes, directional square heatmap, unallocated fees and sources, choice controls, zoom/drag/reset, country and route",
+  "320": "global summary, four chart modes, directional square heatmap, unallocated fees and sources, choice controls, zoom/drag/reset, country and route",
+  "offline": "global view and lazy references under file:// with networking disabled",
+  "offline_history": "opening a shared previous-year view loads its comparison without networking"
+}

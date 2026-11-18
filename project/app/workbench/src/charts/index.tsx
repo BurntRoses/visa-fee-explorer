@@ -6,20 +6,20 @@ import {SinglePlot} from './Single';
 import {SankeyPlot} from './Sankey';
 import {ComparePlot,type CompareOrder} from './Compare';
 import {HeatmapPlot} from './Heatmap';
-import {globalSankeyGraph,globalHeatmapGraph} from './bilateral';
+import {globalSankeyGraph,globalHeatmapGraph,type BilateralGraph} from './bilateral';
 import {useCamera} from './Camera';
 import {Tooltip,type ChartEvents,type MarkHint} from './common';
 import {aggregateRegions,countryColor,graphData,money,nameMap,OTHER,singleCountryGraph,unknown,viewNodeCap} from './helpers';
 import './charts.css';
 
-export function WorkbenchChart(originalProps:ChartProps){
+export function WorkbenchChart(originalProps:ChartProps&{compareOrder?:CompareOrder}){
  const regional=originalProps.state.spatialScale==='region'&&originalProps.state.view!=='single';
  const analysis=useMemo(()=>regional?aggregateRegions(originalProps.analysis):originalProps.analysis,[regional,originalProps.analysis]);
  const props=regional?{...originalProps,analysis,state:{...originalProps.state,countries:analysis.nodes.map(n=>n.code)}}:originalProps;
  const width=Math.max(260,props.width),height=Math.max(235,props.height-92),{view,year,flowScope,focusCountry,singleMode,spatialScale}=props.state;
  const selection=props.state.countries.join('|'),resetKey=[view,flowScope,selection,focusCountry,singleMode,spatialScale].join(':');
  const camera=useCamera(width,height,resetKey);
- const [hover,setHover]=useState<string|null>(null),[locked,setLocked]=useState<string|null>(null),[hint,setHint]=useState<MarkHint|null>(null),[order,setOrder]=useState<CompareOrder>('total');
+ const [hover,setHover]=useState<string|null>(null),[locked,setLocked]=useState<string|null>(null),[hint,setHint]=useState<MarkHint|null>(null);
  useEffect(()=>{setHover(null);setLocked(null);setHint(null);},[resetKey,year]);
  const graph=useMemo(()=>view==='single'?singleCountryGraph(props.analysis,props.state,width,height):view==='sankey'?globalSankeyGraph(props.analysis,props.state,width,height):view==='heatmap'?globalHeatmapGraph(props.analysis,props.state,width,height):graphData(props.analysis,{...props.state,maxNodes:viewNodeCap(view,width,height,props.state.maxNodes)},width),[props.analysis,view,singleMode,spatialScale,selection,focusCountry,props.state.maxNodes,props.state.minAmount,props.state.showFree,width,height]);
  const clear=()=>{setLocked(null);setHover(null);setHint(null);};
@@ -27,7 +27,7 @@ export function WorkbenchChart(originalProps:ChartProps){
  const focus=(code:string)=>{if(code===OTHER){expand();return;}setLocked(old=>old===code?null:code);setHover(null);if(unknown(code))setHint({title:'国籍未分配',detail:'金额已计入收款政府；付款人的国籍尚未识别。',color:countryColor(code)});};
  const events:ChartEvents={highlight:camera.dragging?null:hover||locked,selected:locked,setHighlight:setHover,hint:setHint,focus,route:props.onRoute,expand};
  const names=useMemo(()=>nameMap(originalProps.analysis),[originalProps.analysis]);
- const Plot=view==='chord'?ChordPlot:view==='single'?SinglePlot:view==='sankey'?SankeyPlot:view==='compare'?ComparePlot:HeatmapPlot;
+ const Plot=view==='chord'?ChordPlot:view==='single'?SinglePlot:view==='sankey'?SankeyPlot:ComparePlot;
  const {scale,x,y}=camera.pose;
  return <div className={'visa-visualization'+(props.reducedMotion?' reduce-motion':'')+(props.state.motionMode==='presentation'?' presentation':'')} data-view={view} data-graph-total={graph.displayed} data-analysis-total={props.analysis.total} onKeyDown={e=>{if(e.key==='Escape'&&locked){e.preventDefault();clear();}}}>
   <div className="plot-viewport" ref={camera.frame} data-scale={scale} data-x={x} data-y={y}
@@ -43,14 +43,14 @@ export function WorkbenchChart(originalProps:ChartProps){
     else if(scale>1&&['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();camera.position({scale,x:x+(e.key==='ArrowLeft'?35:e.key==='ArrowRight'?-35:0),y:y+(e.key==='ArrowUp'?35:e.key==='ArrowDown'?-35:0)});}
    }}>
    <div className="plot-world" style={{transform:scale===1?undefined:`translate(${x}px,${y}px) scale(${scale})`}}>
-    <Plot {...props} graph={graph} width={width} height={height} events={events} order={order}/>
+    {view==='heatmap'?<HeatmapPlot {...props} graph={graph as BilateralGraph} width={width} height={height} events={events}/>
+     :<Plot {...props} graph={graph} width={width} height={height} events={events} order={props.compareOrder}/>}
    </div>
   </div>
   <div className="plot-actions">
    <div className="plot-caption">
     {locked?<><span className="plot-locked" style={{color:countryColor(locked)}}>●</span><strong>{names.get(locked)||locked}</strong>{!unknown(locked)&&!locked.startsWith('REG_')&&!(view==='single'&&focusCountry===locked)&&<button onClick={()=>props.onFocus(locked)}>单国查看</button>}<button aria-label="清除国家高亮" onClick={clear}>×</button></>
-    :view==='compare'?<select aria-label="国家对照排序" value={order} onChange={e=>setOrder(e.target.value as CompareOrder)}><option value="total">按往来额排序</option><option value="in">按收到排序</option><option value="out">按付出排序</option><option value="net">按差额排序</option></select>
-    :graph.others>0?<button onClick={()=>expand()}>查看其余 {graph.others} 项</button>:<span>{scale>1?'拖动图形查看细节':'可放大查看路线'}</span>}
+    :view!=='compare'&&graph.others>0?<button onClick={()=>expand()}>查看其余 {graph.others} 项</button>:<span>{scale>1?'拖动图形查看细节':'可放大查看路线'}</span>}
    </div>
    <div className="viz-zoom-tools" role="group" aria-label="画布缩放">
     <button aria-label="缩小" disabled={scale<=1} onClick={()=>camera.zoom(.8)}><Minus size={16}/></button>
