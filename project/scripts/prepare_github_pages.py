@@ -9,6 +9,7 @@ import shutil
 
 from build_github_source_archive import application_paths, copy_verified, prepare_sources, DEFAULT_REPO, MIB
 from sanitize_source_archives import KEY
+from workbench_payloads import workbench_payloads
 
 ROOT = Path(__file__).resolve().parents[1]
 DEPLOY = ROOT / 'deploy/github-pages'
@@ -22,6 +23,7 @@ def main():
     parser.add_argument('--source-assets-dir', type=Path)
     parser.add_argument('--site-budget-mib', type=int, default=850)
     parser.add_argument('--source-pack-mib', type=int, default=256)
+    parser.add_argument('--preserve-source-placement', type=Path, help='Keep Pages and Release source placement for an unchanged data version.')
     args = parser.parse_args()
     index = json.loads((ROOT / 'app/data/index.json').read_text())
     manifest = json.loads((ROOT / 'app/build-manifest.json').read_text())
@@ -32,7 +34,8 @@ def main():
                               base_site_bytes=sum((ROOT/p).stat().st_size for p in paths),
                               repo=args.source_release_repo, tag=args.source_release_tag,
                               budget_bytes=args.site_budget_mib*MIB,
-                              pack_bytes=args.source_pack_mib*MIB)
+                              pack_bytes=args.source_pack_mib*MIB,
+                              placement_manifest=json.loads(args.preserve_source_placement.read_text()) if args.preserve_source_placement else None)
     # Keep the offline HTML and every canonical source record untouched. Only
     # the staged online index points large-file archive links at Release.
     source_paths = archive['source_paths']
@@ -44,6 +47,7 @@ def main():
     extras = archive['extra_site_files']
     online_index_gzip = gzip.compress(archive['index_bytes'], compresslevel=9, mtime=0)
     extras['app/data/index.json.gz'] = online_index_gzip
+    extras.update({f'app/data/{name}': raw for name,raw in workbench_payloads(json.loads(archive['index_bytes'])).items()})
     expected = paths | set(extras) | {'index.html', '.nojekyll', 'deployment.json'}
     for previous in SITE.rglob('*'):
         if previous.is_file() and str(previous.relative_to(SITE)) not in expected:
@@ -57,8 +61,6 @@ def main():
     for relative, raw in extras.items():
         (SITE/relative).write_bytes(raw)
     (SITE/'app/data/index.json').write_bytes(archive['index_bytes'])
-    # Current loadIndex fetches index.json. Keep a compressed sibling aligned
-    # when a build supplies one, so alternate static loaders cannot get old URLs.
     html = (ROOT / 'app/index.html').read_text()
     (SITE / 'index.html').write_text(html.replace('<head>', '<head><base href="./app/">', 1))
     (SITE / '.nojekyll').touch()
@@ -70,6 +72,7 @@ def main():
         'index_bytes': (SITE/'app/data/index.json').stat().st_size,
         'index_gzip_sha256': hashlib.sha256((SITE/'app/data/index.json.gz').read_bytes()).hexdigest(),
         'index_gzip_bytes': (SITE/'app/data/index.json.gz').stat().st_size,
+        'boot_bytes': (SITE/f'app/data/boot-{index["meta"]["ui_version"]}.json.gz').stat().st_size,
         'source_archives': len(source_paths),
         'pages_source_files': len(source_paths-archive['release_paths']),
         'release_source_files': len(archive['release_paths']),

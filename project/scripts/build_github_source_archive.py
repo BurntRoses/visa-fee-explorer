@@ -130,7 +130,7 @@ def router_html():
 
 
 def prepare_sources(index, root, output, *, base_site_bytes, repo=DEFAULT_REPO, tag=None,
-                    budget_bytes=850*MIB, pack_bytes=256*MIB):
+                    budget_bytes=850*MIB, pack_bytes=256*MIB, placement_manifest=None):
     version = index['meta']['version']
     token = re.sub(r'[^A-Za-z0-9._-]', '-', version)
     tag = tag or 'source-archives-' + token
@@ -146,11 +146,18 @@ def prepare_sources(index, root, output, *, base_site_bytes, repo=DEFAULT_REPO, 
                for relative, ids in sorted(refs.items())}
     release_paths = set()
     projected = base_site_bytes + sum(row['bytes'] for row in records.values()) + 2*MIB
-    for row in sorted(records.values(), key=lambda r: (-r['bytes'], r['path'])):
-        # GitHub's regular repository-file limit is independent of Pages size.
-        if projected > budget_bytes or row['bytes'] >= 100*MIB:
-            release_paths.add(row['path'])
-            projected -= row['bytes']
+    if placement_manifest:
+        assert placement_manifest['version'] == version
+        previous = {row['path']: row for row in placement_manifest['files']}
+        assert {key: row['sha256'] for key,row in previous.items()} == {key: row['sha256'] for key,row in records.items()}
+        release_paths = {key for key,row in previous.items() if row['location'] == 'github_release'}
+        projected -= sum(records[key]['bytes'] for key in release_paths)
+    else:
+        for row in sorted(records.values(), key=lambda r: (-r['bytes'], r['path'])):
+            # GitHub's regular repository-file limit is independent of Pages size.
+            if projected > budget_bytes or row['bytes'] >= 100*MIB:
+                release_paths.add(row['path'])
+                projected -= row['bytes']
     assert projected <= budget_bytes
     asset_rows = []
     direct = {}

@@ -16,7 +16,7 @@ export interface AnalysisResult {
  total:number;globalTotal:number;year:number;categoryTotals:CategoryTotal[];coverage:CoverageRecord[];
  totals:{internal:number;externalIn:number;externalOut:number;unallocated:number;amount:number;rowCount:number;edgeCount:number;};
 }
-export interface ChartProps {analysis:AnalysisResult;state:WorkbenchState;width:number;height:number;onFocus:(code:string)=>void;onRoute:(origin:string,destination:string)=>void;onState:(patch:Partial<WorkbenchState>)=>void;reducedMotion:boolean;}
+export interface ChartProps {analysis:AnalysisResult;state:WorkbenchState;width:number;height:number;onFocus:(code:string)=>void;onRoute:(origin:string,destination:string)=>void;onMembers:(codes:string[])=>void;onState:(patch:Partial<WorkbenchState>)=>void;reducedMotion:boolean;}
 export type IndexTuple=[number,number,number,number,number,number,number];
 export interface EventBenchmark {label:string;basis:string;quantity:number;amount_cny:number;fee_per_event_cny:number;amount_share:number|null;rows:number;notes:string;source_ids:string[];}
 export interface ProfileDirection {amount_bases?:{key:string;label:string;amount_cny:number;rows:number}[];amount_cny:number|null;counterparts:number;top_code:string|null;top_amount_cny:number|null;unallocated_cny:number;benchmark:EventBenchmark|null;source_ids:string[];}

@@ -4,7 +4,8 @@ export const IN='#4d877d', OUT='#ad7c60', UNKNOWN='#83939a';
 const palette=['#548b83','#6a8aab','#9b88a2','#bc9573','#819887'];
 export const unknown=(code:string)=>/^(UNK|UNALLOCATED|OTHER|RAW_|WORLD|TOTAL)/i.test(code);
 export function countryColor(code:string){if(code===OTHER)return '#9aa9af';if(unknown(code))return UNKNOWN;let h=0;for(const c of code)h=(h*31+c.charCodeAt(0))>>>0;return palette[h%palette.length];}
-export const fmt=(value:number,d=2)=>new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d}).format(value);
+const formats=new Map<number,Intl.NumberFormat>();
+export const fmt=(value:number,d=2)=>{if(!formats.has(d))formats.set(d,new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d}));return formats.get(d)!.format(value);};
 export function money(value:number){return !Number.isFinite(value)?'未识别':Math.abs(value)>=1e8?`${fmt(value/1e8)}亿元`:Math.abs(value)>=1e4?`${fmt(value/1e4)}万元`:`${fmt(value)}元`;}
 export const shortMoney=(value:number)=>Math.abs(value)>=1e8?`${fmt(value/1e8)}亿`:Math.abs(value)>=1e4?`${fmt(value/1e4)}万`:fmt(value);
 export function nameMap(a:AnalysisResult){const m=new Map(a.entities.map(n=>[n.code,n.name]));a.nodes.forEach(n=>m.set(n.code,n.name));m.set('SCH','申根整体');m.set(OTHER,'其余国家／地区');m.set('UNK','国籍未分配');return m;}
