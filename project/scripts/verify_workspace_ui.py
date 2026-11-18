@@ -4,6 +4,7 @@ import argparse
 import json
 import math
 from pathlib import Path
+from release_config import UI_VERSION
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +28,7 @@ def main():
             page.on('request', lambda request: requested.append(request.url))
             page.goto(args.url, wait_until='domcontentloaded')
             page.locator('.viz-main-svg').wait_for()
-            page.wait_for_function("window.VISA_WORKBENCH?.index.meta.ui_version==='4.7.0'")
+            page.wait_for_function('version=>window.VISA_WORKBENCH?.index.meta.ui_version===version',arg=UI_VERSION)
             state = lambda: page.evaluate('VISA_WORKBENCH.state')
             totals = lambda: page.evaluate('[VISA_WORKBENCH.analysis.total,VISA_WORKBENCH.analysis.globalTotal]')
             initial = state()
@@ -35,8 +36,9 @@ def main():
             assert initial['flowScope'] == 'connected' and initial['year'] == 2025 and initial['view'] == 'chord'
             assert len(initial['countries']) > 200 and not initial['flowLight'] and math.isclose(amount, global_amount)
             assert 'countries=all' in page.url
+            assert page.evaluate('VISA_WORKBENCH.index.records.every(row=>row[0]===2025)')
             data_requests = [url for url in requested if '/data/' in url]
-            assert [url.rsplit('/', 1)[-1] for url in data_requests] == ['boot-4.7.0.json.gz'], data_requests
+            assert [url.rsplit('/', 1)[-1] for url in data_requests] == [f'boot-{UI_VERSION}.json.gz'], data_requests
             assert page.evaluate('document.scrollingElement.scrollWidth===innerWidth')
             viewport = page.locator('.plot-viewport')
             if args.screenshots:
@@ -49,6 +51,15 @@ def main():
                 page.locator(f'[data-view="{view}"] .viz-main-svg').wait_for()
                 assert math.isclose(totals()[0], amount)
                 assert math.isclose(float(page.locator('[data-view]').first.get_attribute('data-graph-total')), amount)
+                if view == 'compare':
+                    page.wait_for_function('VISA_WORKBENCH.analysis.comparisonYear===2024')
+                    assert page.evaluate('VISA_WORKBENCH.analysis.previousNodes.length>0')
+            if width == 1440:
+                page.get_by_role('group',name='年份',exact=True).get_by_role('button',name='2018',exact=True).click()
+                page.wait_for_function('VISA_WORKBENCH.state.year===2018 && document.querySelector(".chart-stage").getAttribute("aria-busy")==="false"')
+                assert math.isclose(totals()[0],page.evaluate('VISA_WORKBENCH.index.globalTrend.find(y=>y.year===2018).total'))
+                page.get_by_role('group',name='年份',exact=True).get_by_role('button',name='2025',exact=True).click()
+                page.locator('.viz-main-svg').wait_for()
             page.get_by_role('button', name='放大', exact=True).click()
             assert float(viewport.get_attribute('data-scale')) > 1
             box = viewport.bounding_box()
@@ -108,10 +119,15 @@ def main():
         application = ROOT / 'app/签证这笔钱-离线版.html'
         page.goto(application.as_uri(), wait_until='domcontentloaded')
         page.locator('.viz-main-svg').wait_for()
-        assert page.evaluate("VISA_WORKBENCH.state.countries.length>200 && VISA_WORKBENCH.index.meta.ui_version==='4.7.0'")
+        assert page.evaluate('version=>VISA_WORKBENCH.state.countries.length>200 && VISA_WORKBENCH.index.meta.ui_version===version',UI_VERSION)
         page.evaluate("VISA_WORKBENCH.openSources(['spx_ae_tourist_fee'])")
         page.get_by_role('link', name='脱敏归档').wait_for()
         checks['offline'] = 'global view and lazy references under file:// with networking disabled'
+        deep = browser.new_page(offline=True, reduced_motion='reduce')
+        deep.goto(application.as_uri()+'#countries=all&year=2018&view=compare',wait_until='domcontentloaded')
+        deep.wait_for_function('VISA_WORKBENCH.state.year===2018 && VISA_WORKBENCH.analysis.comparisonYear===2017')
+        assert deep.locator('.viz-main-svg').count()==1
+        checks['offline_history'] = 'opening a shared previous-year view loads its comparison without networking'
     args.report.write_text(json.dumps(checks, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(checks, ensure_ascii=False))
 

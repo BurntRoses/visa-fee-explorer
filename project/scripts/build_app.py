@@ -18,6 +18,7 @@ index_text=(B/'data/index.json').read_text()
 index=json.loads(index_text)
 preload=f'<link rel="preload" href="./data/boot-{index["meta"]["ui_version"]}.json.gz" as="fetch" crossorigin>'
 html=html.replace('</head>',preload+'</head>',1)
+html=html.replace('<link rel="stylesheet" crossorigin', '<link id="workspace-style" rel="stylesheet" media="print" onload="this.media=\'all\'" crossorigin',1)
 parts=workbench_payloads(index)
 for name,payload in parts.items():(B/'data'/name).write_bytes(payload)
 legacy=A/'legacy-r2'
@@ -40,11 +41,12 @@ for match in list(re.finditer(r'<script[^>]+src="(\./assets/[^"]+\.js)"[^>]*></s
  # One inline module has no imports; it can execute under file://.
  script=(B/match.group(1)).read_text().replace('</script','<\\/script')
  standalone=standalone.replace(match.group(0),'')
+ standalone=re.sub(r'(?m)^[ \t]+\n','',standalone)
  standalone=standalone.replace('</body>','<script type="module">'+script+'</script></body>')
 # Non-executable data blocks do not create a huge JS object at startup.
 blocks=[]
 for name in parts:
- blocks.append((name.split('-',1)[0],B/'data'/name))
+ blocks.append((name.removesuffix(f'-{index["meta"]["ui_version"]}.json.gz'),B/'data'/name))
 for kind,folder in [('chunk','chunks'),('context','context')]:
  for p in sorted((B/'data'/folder).glob('*.json.gz')):
   blocks.append((kind+'-'+p.name.removesuffix('.json.gz'),p))

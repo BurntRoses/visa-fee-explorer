@@ -1,6 +1,6 @@
 import {gunzipSync} from 'fflate';
 import {version as uiVersion} from '../package.json';
-import type {WorkbenchIndex,WorkbenchState,AnalysisResult,AnalysisEdge,AnalysisNode,VisaGroup,CountryContextData} from './types';
+import type {WorkbenchIndex,WorkbenchState,AnalysisResult,AnalysisEdge,AnalysisNode,VisaGroup,CountryContextData,IndexTuple,YearSummary} from './types';
 export const groupNames:Record<VisaGroup,string>={visitor:'访客',student:'学生',work:'工作',family:'家庭',other:'其他类别',unclassified:'类别未细分'};
 export const allGroups=Object.keys(groupNames) as VisaGroup[];
 export const unknown=(c:string)=>!c||/^(UNK|RAW_|OTHER|WORLD|TOTAL|UNALLOCATED)/.test(c);
@@ -23,7 +23,7 @@ async function dataBlob(id:string,path:string):Promise<Blob>{
   }
   return new Blob(parts);
  }
- const response=await fetch(new URL('./data/'+path,document.baseURI));
+ const response=await fetch(new URL('./data/'+path,document.baseURI),id==='boot'||id.startsWith('year-')?{signal:AbortSignal.timeout?.(20000)}:undefined);
  if(!response.ok)throw new Error(`数据载入失败 (${response.status})`);
  return response.blob();
 }
@@ -52,7 +52,29 @@ function byYear(index:WorkbenchIndex){
  }
  return grouped;
 }
-export function availableYears(index:WorkbenchIndex):number[]{return byYear(index).years;}
+export function availableYears(index:WorkbenchIndex):number[]{return index.meta.years||byYear(index).years;}
+export function hasYear(index:WorkbenchIndex,year:number){return byYear(index).records.has(year);}
+export function previousYear(index:WorkbenchIndex,year:number){
+ const years=availableYears(index),position=years.indexOf(year);return years[position>0?position-1:1];
+}
+const yearParts=new Map<number,Promise<IndexTuple[]>>();
+export function loadYear(index:WorkbenchIndex,year:number):Promise<IndexTuple[]>{
+ const current=byYear(index).records.get(year);
+ if(current)return Promise.resolve(current);
+ if(!availableYears(index).includes(year))return Promise.reject(new Error('该年份不在范围内'));
+ if(!yearParts.has(year)){
+  const request=payload('year-'+year,`year-${year}-${uiVersion}.json.gz`).then(rows=>{
+   if(!Array.isArray(rows)||!rows.length||rows.some((row:IndexTuple)=>row[0]!==year))throw new Error('年度图表数据不完整');
+   return rows as IndexTuple[];
+  }).catch(error=>{yearParts.delete(year);throw error;});
+  yearParts.set(year,request);
+ }
+ return yearParts.get(year)!;
+}
+export function withYearRows(index:WorkbenchIndex,...parts:IndexTuple[][]):WorkbenchIndex{
+ const next=parts.filter(rows=>rows.length&&!hasYear(index,rows[0][0]));
+ return next.length?{...index,records:[...index.records,...next.flat()]}:index;
+}
 export function normalizeSelection(countries:string[],mode:WorkbenchState['regionMode'],members:string[]){const set=new Set(countries.filter(c=>!unknown(c)));if(mode==='aggregate'){if([...set].some(c=>members.includes(c))){members.forEach(c=>set.delete(c));set.add('SCH');}}else if(set.has('SCH')){set.delete('SCH');members.forEach(c=>set.add(c));}return [...set];}
 export const globalCountries=(index:WorkbenchIndex)=>normalizeSelection(index.entities.filter(e=>e.kind!=='unallocated').map(e=>e.code),'aggregate',index.schengenMembers);
 export function hydrateState(index:WorkbenchIndex):WorkbenchState{
@@ -80,10 +102,10 @@ function displayCode(index:WorkbenchIndex,state:WorkbenchState){
  const members=new Set(index.schengenMembers);
  return (code:string)=>unknown(code)?'UNK':state.regionMode==='aggregate'&&members.has(code)?'SCH':code;
 }
-export function selectionTrend(index:WorkbenchIndex,state:WorkbenchState){
+export function selectionTrend(index:WorkbenchIndex,state:WorkbenchState):YearSummary[]{
  const rename=displayCode(index,state),selected=new Set(normalizeSelection(state.countries,state.regionMode,index.schengenMembers));
  const focus=state.focusCountry||state.countries[0],groups=new Set(state.visaGroups);
- return availableYears(index).map(year=>{
+ return byYear(index).years.map(year=>{
   const receivers=new Set<string>();let total=0;
   for(const [,oi,di,gi,amount] of byYear(index).records.get(year)||[]){
    if(!groups.has(index.groups[gi]))continue;
@@ -120,7 +142,7 @@ export function analyzeSelection(index:WorkbenchIndex,state:WorkbenchState,inclu
  const categoryTotals=allGroups.map(group=>({group,name:groupNames[group],incoming:rr.filter(e=>e.destination===state.focusCountry).reduce((s,e)=>s+(e.groups[group]||0),0),outgoing:rr.filter(e=>e.origin===state.focusCountry).reduce((s,e)=>s+(e.groups[group]||0),0)}));
  const coverCodes=new Set([...selected].flatMap(c=>c==='SCH'?index.schengenMembers:[c]));
  const result:AnalysisResult={edges:rr,nodes:[...displayNodes.values()],entities:index.entities,countryTotals:[...selected].map(node),total:rr.reduce((s,e)=>s+e.amount,0),globalTotal,year:state.year,categoryTotals,coverage:(byYear(index).coverage.get(state.year)||[]).filter(r=>coverCodes.has(r.code)&&state.visaGroups.includes(r.visa_group as VisaGroup)),totals:{internal,externalIn,externalOut,unallocated,amount:rr.reduce((s,e)=>s+e.amount,0),rowCount,edgeCount:rr.length}};
- if(includePrevious){const years=availableYears(index),position=years.indexOf(state.year),otherYear=years[position>0?position-1:1];if(otherYear!==undefined){result.previousNodes=analyzeSelection(index,{...state,year:otherYear},false).nodes;result.comparisonYear=otherYear;}}
+ if(includePrevious){const otherYear=previousYear(index,state.year);if(otherYear!==undefined&&hasYear(index,otherYear)){result.previousNodes=analyzeSelection(index,{...state,year:otherYear},false).nodes;result.comparisonYear=otherYear;}}
  return result;
 }
 const chunkCache=new Map<string,Promise<any[]>>();

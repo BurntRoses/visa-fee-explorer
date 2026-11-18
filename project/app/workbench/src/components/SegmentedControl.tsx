@@ -1,5 +1,4 @@
-import { useId,useState, type ReactNode } from 'react';
-import {LayoutGroup} from 'motion/react';
+import { useState, type ReactNode } from 'react';
 import {SelectionPill} from './SelectionPill';
 
 type Choice<T extends string> = { id: T; label: string; content?: ReactNode; title?: string };
@@ -13,12 +12,11 @@ export function SegmentedControl<T extends string>({ label, value, options, onCh
   onReselect?: (value: T) => void;
 }) {
   const [focusedValue, setFocusedValue] = useState<T | null>(null);
-  const groupId=useId();
   const selectedIndex = options.findIndex(option => option.id === value);
   const focusedIndex = options.findIndex(option => option.id === focusedValue);
   const tabStopIndex = focusedIndex >= 0 ? focusedIndex : Math.max(0, selectedIndex);
 
-  return <LayoutGroup id={groupId}><div
+  return <div
     className={'segmented-control ' + className}
     role="group"
     aria-label={label}
@@ -55,5 +53,5 @@ export function SegmentedControl<T extends string>({ label, value, options, onCh
       if (value === option.id) onReselect?.(option.id);
       else onChange(option.id);
     }}
-  >{value===option.id&&<SelectionPill/>}<span className="segment-content">{option.content ?? option.label}</span></button>)}</div></LayoutGroup>;
+  >{value===option.id&&<SelectionPill/>}<span className="segment-content">{option.content ?? option.label}</span></button>)}</div>;
 }

@@ -1,8 +1,8 @@
-import {useState,useEffect,useMemo,useRef,useCallback,type ReactNode} from 'react';
+import {useState,useEffect,useLayoutEffect,useMemo,useRef,useCallback,type ReactNode} from 'react';
 import {useSystemReducedMotion} from './hooks/useSystemReducedMotion';
 import {ArrowUpRight,ArrowDownLeft,ArrowLeftRight,Search,Plus,X,SlidersHorizontal,ChevronDown,ChevronRight,ChevronLeft,Maximize2,Minimize2,Download,Share2,Waves,Play,Pause,RotateCcw,Info,ExternalLink,Globe2,Network,ChartNoAxesCombined,Grid3X3,GitFork,PanelLeftClose,PanelLeftOpen,Check,Database,FileText,Image,Layers} from 'lucide-react';
-import type {WorkbenchIndex,WorkbenchState,View,VisaGroup} from './types';
-import {groupNames,allGroups,hydrateState,globalCountries,loadDetails,normalizeSelection,analyzeSelection,availableYears,selectionTrend,saveState,money,number,selectedRows,download,csv,completeDataFile,unknown} from './data';
+import type {WorkbenchIndex,WorkbenchState,View,VisaGroup,IndexTuple} from './types';
+import {groupNames,allGroups,hydrateState,globalCountries,loadDetails,loadYear,hasYear,previousYear,withYearRows,normalizeSelection,analyzeSelection,availableYears,selectionTrend,saveState,money,number,selectedRows,download,csv,completeDataFile,unknown} from './data';
 import {ActionButton} from './components/ActionButton';
 import {SegmentedControl} from './components/SegmentedControl';
 import {WorkbenchChart} from './charts';
@@ -42,17 +42,16 @@ export default function Workbench({index:initialIndex}:{index:WorkbenchIndex}){
  const [drawer,setDrawer]=useState<'sources'|'route'|'data'|'coverage'|'export'|'help'|'focus'|'profile'|'members'|null>(null),[route,setRoute]=useState<{origin:string;destination:string}|null>(null),[sourceIds,setSourceIds]=useState<string[]|null>(null);
  const [memberCodes,setMemberCodes]=useState<string[]>([]),[memberQuery,setMemberQuery]=useState('');
  const [partError,setPartError]=useState(''),[retry,setRetry]=useState(0);
+ const [yearError,setYearError]=useState(''),[yearRetry,setYearRetry]=useState(0);
  const [rows,setRows]=useState<any[]>([]),[loading,setLoading]=useState(false),[error,setError]=useState(''),[detailQuery,setDetailQuery]=useState(''),[limit,setLimit]=useState(12),[sourceLimit,setSourceLimit]=useState(24),[toast,setToast]=useState('');
  const canvasRef=useRef<HTMLDivElement>(null),[size,setSize]=useState({width:0,height:0}),reduced=useSystemReducedMotion();
  const names=useMemo(()=>new Map(index.entities.map(e=>[e.code,e.name])),[index]);const name=(c:string)=>c==='SCH'?'申根':names.get(c)||c;
  const update=useCallback((patch:Partial<WorkbenchState>)=>setState(s=>{const next={...s,...patch,regionMode:'aggregate' as const,visaGroups:[...allGroups],minAmount:0,showFree:true};next.countries=normalizeSelection(next.countries,next.regionMode,index.schengenMembers);if(!next.countries.includes(next.focusCountry)&&next.countries.length)next.focusCountry=next.countries[0];return next;}),[index]);
  const analysis=useMemo(()=>analyzeSelection(index,state,state.view==='compare'),[index,state.countries.join(','),state.year,state.visaGroups.join(','),state.flowScope,state.regionMode,state.focusCountry,state.view==='compare']);
  const years=useMemo(()=>availableYears(index),[index]);
- const yearCoverage=useMemo(()=>{const members=new Set(index.schengenMembers),rows=new Map<number,Set<string>>();for(const [year,,di] of index.records){const code=index.entities[di].code,receiver=members.has(code)?'SCH':code;if(!rows.has(year))rows.set(year,new Set());rows.get(year)!.add(receiver);}return rows;},[index]);
- const latestYear=years.at(-1)||2025,yearReceivers=yearCoverage.get(state.year)||new Set<string>(),onlySchengen=yearReceivers.size===1&&yearReceivers.has('SCH'),limitedYear=yearReceivers.size<(yearCoverage.get(latestYear)?.size||0);
- const originalReceivers=index.meta.year_coverage?.find((item:{year:number})=>item.year===state.year)?.receivers?.length||yearReceivers.size;
- const chronology=useMemo(()=>selectionTrend(index,state),[index,years,state.countries.join(','),state.flowScope,state.view,state.focusCountry,state.singleMode]);
- const currentCoverage=chronology.find(y=>y.year===state.year);
+ const yearCoverage=useMemo(()=>new Map((index.globalTrend||[]).map(row=>[row.year,row])),[index.globalTrend]);
+ const latestYear=years.at(-1)||2025,yearReceivers=yearCoverage.get(state.year)?.receivers||0,onlySchengen=!!yearCoverage.get(state.year)?.onlySchengen,limitedYear=yearReceivers<(yearCoverage.get(latestYear)?.receivers||0);
+ const originalReceivers=index.meta.year_coverage?.find((item:{year:number})=>item.year===state.year)?.receivers?.length||yearReceivers;
  const countryProfile=index.countryProfiles?.[state.focusCountry]?.[String(state.year)];
  const focus=analysis.countryTotals.find(n=>n.code===state.focusCountry),focusView=analysis.nodes.find(n=>n.code===state.focusCountry);
  const singleLabel=state.singleMode==='origins'?'收到':state.singleMode==='destinations'?'付出':'双向';
@@ -60,6 +59,16 @@ export default function Workbench({index:initialIndex}:{index:WorkbenchIndex}){
  const allCountries=useMemo(()=>globalCountries(initialIndex),[initialIndex]);
  const selected=useMemo(()=>new Set(state.countries),[state.countries]);
  const globalSelection=state.view!=='single'&&selected.size===allCountries.length&&allCountries.every(c=>selected.has(c));
+ const yearReady=hasYear(index,state.year);
+ const comparisonYear=state.view==='compare'?previousYear(index,state.year):undefined;
+ const compareReady=comparisonYear===undefined||hasYear(index,comparisonYear);
+ const chronology=useMemo(()=>{
+  if(globalSelection&&index.globalTrend)return index.globalTrend;
+  const calculated=new Map(selectionTrend(index,state).map(row=>[row.year,row]));
+  return years.map(year=>calculated.get(year)||{year,total:0,receivers:0});
+ },[globalSelection,index,years,state.countries.join(','),state.flowScope,state.view==='single',state.focusCountry,state.singleMode]);
+ const timelineMax=Math.max(1,...chronology.map(row=>row.total));
+ const currentCoverage=chronology.find(y=>y.year===state.year);
  const mode=state.view==='single'?'country':globalSelection?'global':'selection';
  const networkView=useRef<Exclude<View,'single'>>(state.view==='single'?'chord':state.view);
  if(state.view!=='single')networkView.current=state.view;
@@ -70,6 +79,30 @@ export default function Workbench({index:initialIndex}:{index:WorkbenchIndex}){
  const showPicker=(kind:'selection'|'country')=>{setDrawer(null);setPicker(picker===kind?null:kind);};
  const showDrawer=(kind:typeof drawer)=>{setPicker(null);setDrawer(kind);};
  const showGlobal=()=>{setPicker(null);setDrawer(null);update({countries:allCountries,view:networkView.current,flowScope:'connected',playing:false});};
+ useEffect(()=>{
+  setYearError('');
+  let canceled=false;
+  const required=[state.year,...(comparisonYear===undefined?[]:[comparisonYear])].filter(year=>!hasYear(index,year));
+  if(required.length)Promise.all(required.map(year=>loadYear(index,year))).then(rows=>{
+   if(!canceled)setIndex(current=>withYearRows(current,...rows));
+  }).catch(()=>{if(!canceled)setYearError('该年度暂时无法读取');});
+  return()=>{canceled=true;};
+ },[index,state.year,comparisonYear,yearRetry]);
+ useEffect(()=>{
+  if(globalSelection||!yearReady)return;
+  let canceled=false;
+  // Filtered trend amounts are optional; give the selected year priority.
+  const pending=years.filter(year=>!hasYear(index,year));
+  if(pending.length)void (async()=>{
+   const loaded:IndexTuple[][]=[];
+   for(let i=0;i<pending.length&&!canceled;i+=3){
+    const results=await Promise.allSettled(pending.slice(i,i+3).map(year=>loadYear(index,year)));
+    for(const result of results)if(result.status==='fulfilled')loaded.push(result.value);
+   }
+   if(!canceled&&loaded.length)setIndex(current=>withYearRows(current,...loaded));
+  })();
+  return()=>{canceled=true;};
+ },[globalSelection,yearReady,index,years]);
  const needed=drawer==='coverage'?'coverage':drawer==='route'||drawer==='sources'||drawer==='profile'?'references':null;
  useEffect(()=>{
   setPartError('');
@@ -86,8 +119,17 @@ export default function Workbench({index:initialIndex}:{index:WorkbenchIndex}){
  useEffect(()=>{if(menu)requestAnimationFrame(()=>document.querySelector<HTMLButtonElement>('.utility-menu button')?.focus());},[menu]);
  const notify=(text:string)=>{setToast(text);setTimeout(()=>setToast(''),2400);};
  useEffect(()=>{saveState(state,globalSelection);},[state,globalSelection]);
- useEffect(()=>{const box=canvasRef.current;if(!box)return;const observer=new ResizeObserver(([e])=>{const width=Math.round(e.contentRect.width),height=Math.round(e.contentRect.height);setSize(old=>old.width===width&&old.height===height?old:{width,height});});observer.observe(box);return()=>observer.disconnect();},[]);
- useEffect(()=>{if(!state.playing||state.motionMode!=='presentation'||reduced)return;const position=years.indexOf(state.year);if(position>=years.length-1){update({playing:false});return;}const id=setTimeout(()=>update({year:years[position+1]}),state.playbackSpeed||3500);return()=>clearTimeout(id);},[state.playing,state.motionMode,state.year,state.playbackSpeed,reduced,years]);
+ useLayoutEffect(()=>{
+  const box=canvasRef.current;if(!box)return;
+  const measure=({width,height}:{width:number;height:number})=>{
+   const next={width:Math.round(width),height:Math.round(height)};
+   setSize(old=>old.width===next.width&&old.height===next.height?old:next);
+  };
+  measure(box.getBoundingClientRect());
+  const observer=new ResizeObserver(([e])=>measure(e.contentRect));observer.observe(box);
+  return()=>observer.disconnect();
+ },[]);
+ useEffect(()=>{if(!state.playing||state.motionMode!=='presentation'||reduced||!yearReady)return;const position=years.indexOf(state.year);if(position>=years.length-1){update({playing:false});return;}const next=years[position+1];void loadYear(index,next).catch(()=>{});const id=setTimeout(()=>update({year:next}),state.playbackSpeed||3500);return()=>clearTimeout(id);},[state.playing,state.motionMode,state.year,state.playbackSpeed,reduced,years,yearReady,index]);
  useEffect(()=>{if(reduced&&state.playing)update({playing:false});},[reduced,state.playing]);
  useEffect(()=>{if(drawer!=='route'&&drawer!=='data')return;let cancelled=false;setLoading(true);setError('');setRows([]);setLimit(12);setDetailQuery('');selectedRows(index,state,drawer==='route'?route||undefined:undefined).then(r=>{if(!cancelled)setRows(r);}).catch(e=>{if(!cancelled)setError(String(e.message));}).finally(()=>{if(!cancelled)setLoading(false);});return()=>{cancelled=true;};},[drawer,route,state.year,state.visaGroups.join(','),state.countries.join(','),state.flowScope,state.regionMode]);
  const focusCountry=(code:string)=>{if(unknown(code))return;setPicker(null);setDrawer(null);update({countries:[code],focusCountry:code,flowScope:'connected',spatialScale:'country',view:'single',playing:false});};
@@ -134,13 +176,15 @@ export default function Workbench({index:initialIndex}:{index:WorkbenchIndex}){
      {mode==='global'?<span className="scope-caption">全部已识别路线 · 含未分配国籍</span>:mode==='country'?<span className="scope-caption">{selectionLabel}与全球的往来</span>:<SegmentedControl label="往来范围" value={state.flowScope} options={scopes} onChange={flowScope=>update({flowScope,playing:false})}/>}
      {mode!=='country'&&<SegmentedControl label="空间尺度" className="spatial-scale" value={state.spatialScale} options={[{id:'country',label:'国家'},{id:'region',label:'大区'}]} onChange={spatialScale=>update({spatialScale})}/>}
     </div>
-    <div className="result-amount"><span>{state.year}</span><strong title="当前范围的已建模政府费用">{money(plotEdges.length?plotTotal:null)}</strong></div>
+    <div className="result-amount"><span>{state.year}</span><strong title="当前范围的已建模政府费用">{yearReady?money(plotEdges.length?plotTotal:null):'—'}</strong></div>
    </div>
-   <div className={'year-coverage'+(limitedYear?' limited':'')} data-testid="year-coverage" data-year={state.year} data-receivers={yearReceivers.size}><div><strong>{onlySchengen?`${state.year} 年仅有申根短期费用数据`:`${state.year} 年有金额记录：${originalReceivers} 个收款政府`}</strong><span>{onlySchengen?'更换来源国，仍只会显示流向申根的已知费用。':`申根合并统计后，当前范围显示 ${currentCoverage?.receivers||0} 个收款方`}</span></div>{limitedYear?<button onClick={()=>update({year:latestYear,playing:false})}>查看 {latestYear} 多国数据<ChevronRight size={14}/></button>:<button onClick={()=>showDrawer('coverage')}>查看覆盖<ChevronRight size={14}/></button>}</div>
+   <div className={'year-coverage'+(limitedYear?' limited':'')} data-testid="year-coverage" data-year={state.year} data-receivers={yearReceivers}><div><strong>{onlySchengen?`${state.year} 年仅有申根短期费用数据`:`${state.year} 年有金额记录：${originalReceivers} 个收款政府`}</strong><span>{onlySchengen?'更换来源国，仍只会显示流向申根的已知费用。':`申根合并统计后，当前范围显示 ${currentCoverage?.receivers||0} 个收款方`}</span></div>{limitedYear?<button onClick={()=>update({year:latestYear,playing:false})}>查看 {latestYear} 多国数据<ChevronRight size={14}/></button>:<button onClick={()=>showDrawer('coverage')}>查看覆盖<ChevronRight size={14}/></button>}</div>
    {state.view==='single'&&index.countryContext&&<CountrySummary profile={countryProfile} name={name(state.focusCountry)} mode={state.singleMode} onOpen={()=>showDrawer('profile')}/>}
-   <div className="chart-stage" ref={canvasRef} data-testid="chart-stage">{!state.countries.length?<div className="canvas-empty"><h2>选择国家</h2><button className="primary" onClick={()=>showPicker('selection')}>选择国家</button></div>:analysis.edges.length===0?<div className="canvas-empty"><h2>{state.countries.length===1&&state.flowScope==='internal'?'查看全球往来':'暂无费用记录'}</h2>{state.flowScope==='internal'?<button className="primary" onClick={()=>update({flowScope:'connected'})}>查看全球往来</button>:<button className="primary" onClick={()=>showPicker('selection')}>更换国家／地区</button>}</div>:size.width>0&&<WorkbenchChart analysis={analysis} state={state} width={size.width} height={size.height} onFocus={focusCountry} onRoute={openRoute} onMembers={openMembers} onState={update} reducedMotion={reduced}/>}</div>
-   <div className="timeline"><div className="timeline-actions"><IconButton label={state.playing?'暂停播放':'播放时间变化'} active={state.playing} disabled={reduced||years.length<2} onClick={()=>update({motionMode:'presentation',year:!state.playing&&state.year===latestYear?years[Math.max(0,years.length-2)]:state.year,playing:!state.playing})}>{state.playing?<Pause size={18}/>:<Play size={18}/>}</IconButton><button className="speed-button" aria-label="播放速度" title="切换播放速度" onClick={()=>update({playbackSpeed:state.playbackSpeed===3500?1800:state.playbackSpeed===1800?6000:3500})}>{state.playbackSpeed===1800?'2×':state.playbackSpeed===6000?'0.5×':'1×'}</button></div><SegmentedControl label="年份" className="year-rail" value={String(state.year)} options={chronology.map(y=>({id:String(y.year),label:String(y.year),title:`${y.year} · 全库${yearCoverage.get(y.year)?.size||0}个收款方 · 当前筛选${y.receivers}个 · ${money(y.total)}`,content:<><span className="year-bar" style={{height:Math.max(2,y.total/Math.max(...chronology.map(v=>v.total),1)*24)}}/><span className="full-year">{y.year}</span><span className="short-year">{String(y.year).slice(2)}</span><small className="year-coverage-label">{yearCoverage.get(y.year)?.size===1?'仅申根':`${yearCoverage.get(y.year)?.size||0}收款方`}</small></>}))} onChange={year=>update({year:Number(year),playing:false})}/><div className="timeline-compact"><button aria-label="上一年" disabled={years.indexOf(state.year)===0} onClick={()=>update({year:years[years.indexOf(state.year)-1],playing:false})}><ChevronLeft size={18}/></button><div><output>{state.year}</output><input aria-label="年份滑块" type="range" min="0" max={years.length-1} step="1" value={Math.max(0,years.indexOf(state.year))} onChange={e=>update({year:years[Number(e.target.value)],playing:false})}/><span>{years[0]}<i/>{years.at(-1)}</span></div><button aria-label="下一年" disabled={years.indexOf(state.year)===years.length-1} onClick={()=>update({year:years[years.indexOf(state.year)+1],playing:false})}><ChevronRight size={18}/></button></div></div>
-   <footer className="canvas-footer"><span>人民币 · {state.view==='single'?new Set(plotEdges.map(e=>e.destination)).size:currentCoverage?.receivers||0}个已建模收款方</span>{state.view==='single'&&<button onClick={()=>showDrawer('focus')}>收到 {money(focusView?.incomingKnown?focusView.incoming:null)}<span className="footer-separator"/>付出 {money(focusView?.outgoingKnown?focusView.outgoing:null)}<ChevronRight size={15}/></button>}</footer>
+   <div className="chart-stage" ref={canvasRef} data-testid="chart-stage" aria-busy={!yearReady||!compareReady}>{!yearReady?<div className="canvas-empty">{yearError?<><h2>{yearError}</h2><button className="primary" onClick={()=>setYearRetry(n=>n+1)}>重新载入</button></>:<div className="year-placeholder" role="status"><span aria-hidden="true"/><p>读取 {state.year} 年</p></div>}</div>:!state.countries.length?<div className="canvas-empty"><h2>选择国家</h2><button className="primary" onClick={()=>showPicker('selection')}>选择国家</button></div>:analysis.edges.length===0?<div className="canvas-empty"><h2>{state.countries.length===1&&state.flowScope==='internal'?'查看全球往来':'暂无费用记录'}</h2>{state.flowScope==='internal'?<button className="primary" onClick={()=>update({flowScope:'connected'})}>查看全球往来</button>:<button className="primary" onClick={()=>showPicker('selection')}>更换国家／地区</button>}</div>:size.width>0&&<WorkbenchChart analysis={analysis} state={state} width={size.width} height={size.height} onFocus={focusCountry} onRoute={openRoute} onMembers={openMembers} onState={update} reducedMotion={reduced}/>}
+
+   </div>
+   <div className="timeline"><div className="timeline-actions"><IconButton label={state.playing?'暂停播放':'播放时间变化'} active={state.playing} disabled={reduced||years.length<2} onClick={()=>update({motionMode:'presentation',year:!state.playing&&state.year===latestYear?years[Math.max(0,years.length-2)]:state.year,playing:!state.playing})}>{state.playing?<Pause size={18}/>:<Play size={18}/>}</IconButton><button className="speed-button" aria-label="播放速度" title="切换播放速度" onClick={()=>update({playbackSpeed:state.playbackSpeed===3500?1800:state.playbackSpeed===1800?6000:3500})}>{state.playbackSpeed===1800?'2×':state.playbackSpeed===6000?'0.5×':'1×'}</button></div><SegmentedControl label="年份" className="year-rail" value={String(state.year)} options={chronology.map(y=>({id:String(y.year),label:String(y.year),title:`${y.year} · 全库${yearCoverage.get(y.year)?.receivers||0}个收款方 · 当前筛选${globalSelection||hasYear(index,y.year)?y.receivers+"个":"—"} ${globalSelection||hasYear(index,y.year)?money(y.total):"点击查看"}`,content:<><span className="year-bar" style={{height:Math.max(2,y.total/timelineMax*24)}}/><span className="full-year">{y.year}</span><span className="short-year">{String(y.year).slice(2)}</span><small className="year-coverage-label">{yearCoverage.get(y.year)?.receivers===1?'仅申根':`${yearCoverage.get(y.year)?.receivers||0}收款方`}</small></>}))} onChange={year=>update({year:Number(year),playing:false})}/><div className="timeline-compact"><button aria-label="上一年" disabled={years.indexOf(state.year)===0} onClick={()=>update({year:years[years.indexOf(state.year)-1],playing:false})}><ChevronLeft size={18}/></button><div><output>{state.year}</output><input aria-label="年份滑块" type="range" min="0" max={years.length-1} step="1" value={Math.max(0,years.indexOf(state.year))} onChange={e=>update({year:years[Number(e.target.value)],playing:false})}/><span>{years[0]}<i/>{years.at(-1)}</span></div><button aria-label="下一年" disabled={years.indexOf(state.year)===years.length-1} onClick={()=>update({year:years[years.indexOf(state.year)+1],playing:false})}><ChevronRight size={18}/></button></div></div>
+   <footer className="canvas-footer"><span>人民币 · {state.view==='single'?new Set(plotEdges.map(e=>e.destination)).size:currentCoverage?.receivers||0}个已建模收款方</span>{state.view==='single'&&<button onClick={()=>showDrawer('focus')}>收到 {money(focusView?.incomingKnown?focusView.incoming:null)}<span className="footer-separator"/>付出 {money(focusView?.outgoingKnown?focusView.outgoing:null)}<ChevronRight size={15}/></button>}{yearReady&&!compareReady&&<div className="comparison-status" role="status">{yearError?<>{comparisonYear} 年对照暂不可用 <button onClick={()=>setYearRetry(n=>n+1)}>重试</button></>:<>读取 {comparisonYear} 年对照</>}</div>}</footer>
   </main>
   {drawer==='members'&&<Dialog title="聚合成员" subtitle={`${memberRows.length} 个国家／地区 · 当前范围`} onClose={()=>setDrawer(null)}>
    <label className="search-field"><Search size={16}/><input aria-label="搜索聚合成员" placeholder="搜索国家或代码" value={memberQuery} onChange={e=>setMemberQuery(e.target.value)}/></label>

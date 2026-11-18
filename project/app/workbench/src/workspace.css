@@ -63,3 +63,7 @@
  .modern-workbench .result-toolbar{min-height:48px}
  .modern-workbench .result-context{gap:4px 7px}
 }
+.year-placeholder{display:grid;justify-items:center;gap:12px;color:#536e65;font-size:13px}
+.year-placeholder>span{width:74px;height:74px;border:4px dashed #e5eee8;border-radius:50%}
+.comparison-status{padding:4px 7px;font-size:11px;color:#536e65;background:#f8faf9;border-radius:5px}
+.comparison-status button{color:#235c42;text-decoration:underline}

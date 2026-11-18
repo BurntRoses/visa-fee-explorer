@@ -1,4 +1,20 @@
 import {createRoot} from 'react-dom/client';
 import Workbench from './Workbench';
-import {loadIndex} from './data';
-loadIndex().then(index=>createRoot(document.getElementById('root')!).render(<Workbench index={index}/>)).catch(error=>{const root=document.getElementById('root')!;root.replaceChildren();const h=document.createElement('h2');h.textContent='工作台未能载入';const p=document.createElement('p');p.textContent=String(error.message);const b=document.createElement('button');b.textContent='重新载入';b.onclick=()=>location.reload();root.style.cssText='padding:40px;font:14px system-ui;color:#253a46';root.append(h,p,b);});
+import {hydrateState,loadIndex,loadYear,withYearRows} from './data';
+
+function stylesReady(){
+ const link=document.getElementById('workspace-style') as HTMLLinkElement|null;
+ if(!link||link.media==='all')return Promise.resolve();
+ return new Promise<void>((resolve,reject)=>{
+  const timer=setTimeout(()=>reject(new Error('样式暂时无法读取')),20000);
+  link.addEventListener('load',()=>{clearTimeout(timer);link.media='all';resolve();},{once:true});
+  link.addEventListener('error',()=>{clearTimeout(timer);reject(new Error('样式暂时无法读取'));},{once:true});
+ });
+}
+async function start(){
+ const style=stylesReady();
+ const [index]=await Promise.all([loadIndex(),style]),state=hydrateState(index);
+ const requested=state.year===index.initialYear?index:withYearRows(index,await loadYear(index,state.year));
+ createRoot(document.getElementById('root')!).render(<Workbench index={requested}/>);
+}
+start().catch(()=>{(window as Window&{showBootError?:()=>void}).showBootError?.();});

@@ -1,12 +1,12 @@
 {
   "version": "2026.11.18-r12",
-  "ui_version": "4.7.0",
-  "offline_sha256": "214aebc42f255e18ddefd4d444f62f4418e1d782ad710036e698398d1316ef40",
-  "index_sha256": "7c064c534af11fcd757c999791b5aabab5c7cacc4c898fbf8fe88f06903c42a0",
+  "ui_version": "4.7.1",
+  "offline_sha256": "45cb1f5d9a5758e2600c1e725f2809812cbe5186dd366e4acf0044d0f565e813",
+  "index_sha256": "d990c0c3657deed7ed6a692da09c8bd6e47ae082e990de6188e415157a140687",
   "index_bytes": 17299666,
-  "index_gzip_sha256": "c6e41e0c54d22b2db622c5743f781339e6677e73d445ad01caeec7c2358b2e36",
-  "index_gzip_bytes": 1016523,
-  "boot_bytes": 352745,
+  "index_gzip_sha256": "e0604c11dcb233f0d7569a069a2ddff5682c9d7958fad74cbcb57c13e8514c20",
+  "index_gzip_bytes": 1016522,
+  "boot_bytes": 67464,
   "source_archives": 589,
   "pages_source_files": 571,
   "release_source_files": 18,
@@ -16,5 +16,5 @@
   "source_archive_manifest": "source-archives.json",
   "source_release_upload_plan": "deliverables/source-archives-2026.11.18-r12/upload-plan.json",
   "site_budget_bytes": 891289600,
-  "site_files": 1380
+  "site_files": 1394
 }

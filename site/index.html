@@ -1,3 +1,74 @@
-<!doctype html><html lang="zh-CN"><head><base href="./app/"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f9fa"><meta name="description" content="多国签证费用可视化工作台。环形流向、单国辐射、桑基、收付比较与交叉热图。"><title>签证费用流向 · 可视化工作台</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c3441'/%3E%3Cpath d='M9 23L23 9M12 9h11v11' stroke='%23fff' stroke-width='3' fill='none'/%3E%3C/svg%3E">  <script type="module" crossorigin src="./assets/index-BFHsjUBO.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/style-BbjJt6aJ.css">
-<link rel="preload" href="./data/boot-4.7.0.json.gz" as="fetch" crossorigin></head><body><div id="root"><div style="padding:40px;font:14px system-ui;color:#52616b">正在载入签证费用工作台…</div></div></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head><base href="./app/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="探索各国签证费流向、估算与来源。">
+<title>签证费用流向 · 可视化工作台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c3441'/%3E%3Cpath d='M9 23L23 9M12 9h11v11' stroke='%23fff' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<style>
+.boot-page{margin:0;background:#fff;font:15px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#274852}
+.boot-frame,.boot-frame *{box-sizing:border-box}
+.boot-head{height:54px;border-bottom:1px solid #e0e9e7;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(16px,3vw,48px)}
+.boot-head h1{font-size:20px;font-weight:600;letter-spacing:-.4px;margin:0}
+.boot-main{display:grid;grid-template-rows:44px 54px 38px minmax(300px,1fr) 91px 82px 31px;min-height:690px;height:calc(100dvh - 54px);max-width:1984px;margin:0 auto;padding:12px clamp(16px,3vw,42px) 0}
+.boot-tools,.boot-totals{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.boot-block{display:block;border-radius:7px;background:#f0f5f2}
+.boot-tools .boot-block:first-child{width:218px;height:42px}.boot-tools .boot-block:last-child{width:282px;height:42px}
+.boot-totals .boot-block:first-child{width:min(27%,170px);height:20px}.boot-totals .boot-block:last-child{width:min(38%,145px);height:25px}
+.boot-context{min-width:0;height:36px}
+.boot-plot{display:grid;place-items:center;min-height:0}
+.startup-chart{display:block;width:min(66%,330px);height:min(80%,330px);overflow:visible;color:#eaf1ed;opacity:.9}
+.boot-bottom{border-top:1px solid #e9efeb;display:grid;grid-template-rows:38px 1fr;padding-top:3px;gap:6px}
+.boot-bottom .boot-block:first-child{width:126px;height:24px;justify-self:end}
+.boot-bottom .boot-block:last-child{height:36px;background:#f6f9f7}
+.boot-timeline{align-self:center;display:flex;justify-content:space-evenly;align-items:end;gap:14px;height:35px;padding:0 6%}
+.boot-timeline i{width:5%;height:13px;border-radius:4px 4px 0 0;background:#edf3ef}.boot-timeline i:nth-child(2n){height:19px}.boot-timeline i:nth-child(3n){height:24px}
+.boot-error{max-width:380px;text-align:center;padding:20px;color:#335449}
+.boot-error h2{margin:0 0 8px;font-size:19px}
+.boot-error p{margin:0 0 16px}
+.boot-error button{font:inherit;color:#fff;background:#246d56;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+.boot-frame:not([data-failed]) .boot-error,.boot-frame[data-failed] .startup-chart{display:none}
+.boot-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:800px){.boot-timeline{height:6px;border-radius:4px;background:#edf3ef;margin:0 12%}.boot-timeline i{display:none}}
+@media(max-width:600px){
+ .boot-main{grid-template-rows:94px 53px 43px minmax(275px,1fr) 91px 74px 25px;min-height:660px;padding:10px 11px 0}
+ .boot-tools{flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:7px}.boot-tools .boot-block:first-child{width:199px;height:38px}.boot-tools .boot-block:last-child{width:100%;height:42px}
+ .startup-chart{width:56%;height:min(76%,220px)}
+}
+</style>
+  <script type="module" crossorigin src="./assets/index-GvkUpwqY.js"></script>
+  <link id="workspace-style" rel="stylesheet" media="print" onload="this.media='all'" crossorigin href="./assets/style-kD5JyXsI.css">
+<link rel="preload" href="./data/boot-4.7.1.json.gz" as="fetch" crossorigin></head>
+<body class="boot-page">
+<div id="root">
+ <div class="boot-frame" aria-labelledby="boot-title">
+  <header class="boot-head"><h1 id="boot-title">签证费用</h1></header>
+  <main class="boot-main" aria-busy="true">
+   <span class="boot-sr" role="status">正在准备图表</span>
+   <div class="boot-tools" aria-hidden="true"><span class="boot-block"></span><span class="boot-block"></span></div>
+   <div class="boot-totals" aria-hidden="true"><span class="boot-block"></span><span class="boot-block"></span></div>
+   <div class="boot-block boot-context" aria-hidden="true"></div>
+   <div class="boot-plot">
+    <svg class="startup-chart" aria-hidden="true" viewBox="0 0 240 240" fill="none" stroke="currentColor"><circle cx="120" cy="120" r="105" stroke-width="7" stroke-dasharray="89 8 127 7 161 8 141 8 111"/><path stroke-width="4" d="M28 72Q120 119 210 66M16 108Q118 142 203 186M79 23Q125 123 132 224M87 219Q116 122 179 33"/></svg>
+    <div class="boot-error" role="alert"><h2>图表暂时没能打开</h2><p>请重新载入，继续查看签证费用。</p><button type="button" onclick="location.reload()">重新载入</button></div>
+    <noscript>请启用 JavaScript 后查看图表。</noscript>
+   </div>
+   <div class="boot-bottom" aria-hidden="true"><span class="boot-block"></span><span class="boot-block"></span></div>
+   <div class="boot-timeline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </main>
+ </div>
+</div>
+<script>
+function showBootError(){
+ const frame=document.querySelector('.boot-frame');
+ if(!frame)return;
+ frame.dataset.failed='';
+ frame.querySelector('main').setAttribute('aria-busy','false');
+ frame.querySelector('.boot-sr').hidden=true;
+}
+window.addEventListener('error',event=>{if(event.target instanceof HTMLScriptElement||event.target?.id==='workspace-style')showBootError()},true);
+</script>
+</body>
+</html>
