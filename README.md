@@ -1,11 +1,13 @@
-# Visa fee explorer
+# 签证费用流向工作台
 
-Published: https://burntroses.github.io/visa-fee-explorer/
+[打开工作台](https://burntroses.github.io/visa-fee-explorer/) · [R12 来源与发布资源](https://github.com/BurntRoses/visa-fee-explorer/releases/tag/source-archives-2026.11.18-r12) · [资料索引](https://burntroses.github.io/visa-fee-explorer/source-archives.json)
 
-Data `2026.11.17-r11`, UI `4.5.2`. 618 source records, 465,528 observations, 80,443 fee rows, and 129 model descriptions. Country context includes 200 jurisdictions, 1,018 series and 195,045 points. Fee estimates cover 2011–2025; some context series reach September2026.
+数据 `2026.11.18-r12` · 界面 `4.6.0`。568,161 条观察、80,456 条费用分项、132 个模型、622 条来源登记。费用时间轴 2011–2025，部分背景至 2026-09。金额包括公开实收和标明的参数估算，未知国籍保持未分配。
 
-This static distribution contains the workbench, self-contained offline HTML and evidence chunks. It stages 567 source files on Pages. 18 larger files and six complete source ZIP packs are in the matching [source archive release](https://github.com/BurntRoses/visa-fee-explorer/releases/tag/source-archives-2026.11.17-r11); `site/source-archives.json` records original paths, sizes and SHA-256 hashes. Online source links use `source-archive.html` when a large original is served from Release. Offline relative source paths are preserved.
+- `site/`：GitHub Pages 部署产物，含离线 HTML、按需读取的路线和国家背景。
+- `project/`：前端与研究复算源码、依赖锁、方法和数据来源登记。
+- Release 含 589 份可用归档的 ZIP 分卷及 SHA-256 清单。较大原件也单独提供，便于路线来源直接查阅。完整的冻结输入和保留图片、研究过程资料位于本地工程备份。
 
-Each payment is counted once. Actual fiscal receipts, fiscal-to-calendar estimates, budgets, standard-fee values and visa/mobility activity retain separate definitions. Unidentified payer nationalities stay unallocated. Mainland China, Hong Kong, Macao and Taiwan labels follow the project's one-China statistical note.
+[数据与方法](project/docs/研究结论与模型.md) · [归档脱敏记录](project/docs/归档脱敏与安全.md)
 
-Source preparation and research scripts remain in the original local project. The main branch publishes `site/` through GitHub Pages.
+GitHub Actions 将 `main` 的 `site/` 发布到 Pages。
