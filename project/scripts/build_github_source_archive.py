@@ -107,7 +107,7 @@ def router_html():
 <title>来源归档 · 签证费用</title>
 <style>body{font:16px/1.7 system-ui,sans-serif;color:#203b3b;background:#f8faf8;margin:0}main{max-width:700px;margin:12vh auto;padding:28px}h1{font-size:24px;font-weight:550}code{overflow-wrap:anywhere;font-size:12px}a{color:#167268}dt{color:#70817b;font-size:13px}dd{margin:0 0 14px;overflow-wrap:anywhere}.links{display:flex;gap:24px;flex-wrap:wrap}#error{color:#8f503f}</style>
 <main><h1 id="title">正在打开来源原件</h1><p id="status">归档由同版本 GitHub Release 提供。</p>
-<dl id="details" hidden><dt>原始文件路径</dt><dd id="path"></dd><dt>SHA-256</dt><dd><code id="hash"></code></dd><dt>大小</dt><dd id="size"></dd></dl>
+<dl id="details" hidden><dt>原始文件路径</dt><dd id="path"></dd><dt>归档原件 SHA-256</dt><dd><code id="hash"></code></dd><dt>大小</dt><dd id="size"></dd></dl>
 <p class="links"><a id="original" hidden>打开原件</a><a id="pack" hidden>下载所在来源分卷</a></p><p id="error" role="status"></p>
 <noscript>请启用 JavaScript，或在 <a href="source-archives.json">来源归档清单</a> 中按原始路径查找原件和 ZIP 分卷链接。</noscript></main>
 <script>

@@ -1,0 +1,749 @@
+{
+  "version": "2026.11.18-r12",
+  "files": {
+    "data/raw/africa_visa_issuance_v5/mar_portal2024.html": {
+      "sha256": "27adaa5c657bce183c732931d020ba9929ffff7362d2f5b3601216afefdc31f7",
+      "bytes": 59081
+    },
+    "data/raw/americas_expansion_v6/do_2024_haiti_policy.html": {
+      "sha256": "fcb29b3dde13545fcb981ff21f6ebd94fa4877661ffa14a0350c2fb04c4fc3eb",
+      "bytes": 358284
+    },
+    "data/raw/americas_expansion_v6/do_visas_index.html": {
+      "sha256": "5ace1bc16e7c68d11938da7922880ee8ed9a71b0af7e2abd4add1f05e66c194b",
+      "bytes": 371067
+    },
+    "data/raw/asia_expansion_v3/fiji_budget_process.html": {
+      "sha256": "b233f4097c8bf9a296b0e7ee2e4825f5514624ff7d0b33a9892a99741c448441",
+      "bytes": 237327
+    },
+    "data/raw/asia_expansion_v6/idn_2022_dec28_receipts_jogja.html": {
+      "sha256": "a35623f7eda56ae5c6b9f2aa645e2b7ed9440dc2afec8f244f74c640c746df93",
+      "bytes": 144761
+    },
+    "data/raw/asia_expansion_v6/idn_2022_partial_receipts_jogja.html": {
+      "sha256": "43650020fb46fa80c473592d91be446d5c8556ad6379447489bb748d8a1fd70c",
+      "bytes": 141834
+    },
+    "data/raw/asia_expansion_v6/idn_2023_receipts_bengkalis.html": {
+      "sha256": "4cdf4267f63fc37b5e3805c42ec0a7dbe1a598a9022c63436ffed33835ce559b",
+      "bytes": 716093
+    },
+    "data/raw/asia_expansion_v6/idn_2026_h1_bengkalis.html": {
+      "sha256": "a3aa5b0265b9f999c286af81f810a7d0a7ab617951cae251ef3cdc61dfa06a83",
+      "bytes": 721634
+    },
+    "data/raw/asia_expansion_v6/idn_2026_oct_receipts_jogja.html": {
+      "sha256": "8d636be1cecd072658a33d090120d4e601feb7bf6fd35b413863edaf3c7d47a7",
+      "bytes": 141338
+    },
+    "data/raw/australia/refund.html": {
+      "sha256": "6852101d1501d5a98516f0d8b52991a95e2c7286c9bceccfb2ff2a03e237cf20",
+      "bytes": 1329700
+    },
+    "data/raw/australia_recent_v6/annual-reports-index.html": {
+      "sha256": "9a79b9b5551f3f158f2cf1fd24344f1d539502004177eea21c42afe2b90d8239",
+      "bytes": 1389405
+    },
+    "data/raw/canada/ca_annual2025.html": {
+      "sha256": "b790fdad13731fe43b93164f096ae1ee6f9aa5b9b7b06c4915452452e01733c3",
+      "bytes": 177556
+    },
+    "data/raw/canada/ca_annual2026.html": {
+      "sha256": "2a0b87d173640c4bbf3f896f1c02f2a11be5afa8e3ee7f2c20a9690fedf7889d",
+      "bytes": 230311
+    },
+    "data/raw/canada/ca_bio_reuse.html": {
+      "sha256": "c1eb58d4867c23106e7a732af77600a120702961513682afe358ac23feee3501",
+      "bytes": 356376
+    },
+    "data/raw/canada/ca_biometrics.html": {
+      "sha256": "6932988859dbbc15629e0613c4144b7011bca715196799acdeb1a9de8e601672",
+      "bytes": 27603
+    },
+    "data/raw/canada/ca_comprehensive_2026.html": {
+      "sha256": "19fde6aab419d79deaec96bc65b6ddff5c940edf99947c5d6400bacaf8165f07",
+      "bytes": 139704
+    },
+    "data/raw/canada/ca_fees_2024_25.html": {
+      "sha256": "b1f8aa753a5834e54573720311f284843f81b6588e944e1a2e87cc607675ea44",
+      "bytes": 183953
+    },
+    "data/raw/canada/ca_fees_2025_26.html": {
+      "sha256": "349eade66547126ca9e306a58718c26963a07fd5588f505620c4756364c50557",
+      "bytes": 87290
+    },
+    "data/raw/canada/ca_fees_list.html": {
+      "sha256": "74fb5561c44d83a8cef2ff517ed43e5762f621fa1746683c4da0dbc4058d201b",
+      "bytes": 69602
+    },
+    "data/raw/canada/ca_guide5256.html": {
+      "sha256": "3f3de89cbb419d6f15bdb9bfaa1dbe6dc6a9e42da0dc61cac8e23284c5ac3a29",
+      "bytes": 124728
+    },
+    "data/raw/canada/ca_refund.html": {
+      "sha256": "8e70d881bb7a34efe92acd3ee405e55989c9dad9a1c55072b29c6c765db532d8",
+      "bytes": 37248
+    },
+    "data/raw/canada/ca_refusal_2025.html": {
+      "sha256": "43594a823c12ab7b4980c38365b7cb8187b0a89ada460de206c8535ab7628493",
+      "bytes": 32588
+    },
+    "data/raw/canada/ca_study_s32.html": {
+      "sha256": "2cb4f477bd22833052b43e6df69bfa7d48dc6d47d780b92bff162b5c9ae42889",
+      "bytes": 38111
+    },
+    "data/raw/canada/ca_summary_2024_25.html": {
+      "sha256": "433be7ba1952054adcf308ee06232cf712ade93c4c8820c029f70575f7fe178c",
+      "bytes": 28649
+    },
+    "data/raw/canada/ca_work_refunds.html": {
+      "sha256": "bb303a9ef93029b3e61d2e5c6d3f0c55cf23efd45326a88b0e055479f3b7411c",
+      "bytes": 106341
+    },
+    "data/raw/canada_history_v4/ca_pa_2023_ircc.html": {
+      "sha256": "e9273bc97960bbbbfddaefa32a378194743337c33f4143e8d254cfb6802bbf21",
+      "bytes": 53383
+    },
+    "data/raw/canada_history_v4/ca_pa_2024_ircc.html": {
+      "sha256": "fc29cfcc598a4437de0705c701e1ed3a280698cb3a6e54c3859c808bbcabd019",
+      "bytes": 43975
+    },
+    "data/raw/china/discount-2024.html": {
+      "sha256": "b8bfbd4b8de9a468e514977979e0a4de2b5d05df25d022bf08123c82ae02776d",
+      "bytes": 32228
+    },
+    "data/raw/china/discount-2025.html": {
+      "sha256": "9f1f94f52b4418a00518edc1fc7abc3f776c59d077b64ce067bcb5f3e63656a2",
+      "bytes": 54524
+    },
+    "data/raw/china/india-visa-issuance-2024.html": {
+      "sha256": "81516e456e0f0a89a85d5d9b2c502cb79ad198a81fa2d3a93ce6b9d3d4617f54",
+      "bytes": 31901
+    },
+    "data/raw/china/mumbai-fee-2024.html": {
+      "sha256": "984fc8bf638982daa9b8195220f7493f20b9e0522aa466b00b717f8dc7c4679a",
+      "bytes": 65836
+    },
+    "data/raw/china/nbs-2024.html": {
+      "sha256": "8c7ada6be25c6d95b7be959d5c91b47460e85599120587f3a88a176155efeb2d",
+      "bytes": 1132064
+    },
+    "data/raw/china/nbs-2025.html": {
+      "sha256": "5de8ef7f128109d65011a3524a2345d36e4e37e56cf2a5f32286b0f68ee2dd9c",
+      "bytes": 1119039
+    },
+    "data/raw/china/newyork-fee-2024.html": {
+      "sha256": "ff8fc7ade9281e43cdfca67a67a8dc3ba710864eed9f3c651ec06b0d8ea9761d",
+      "bytes": 14980
+    },
+    "data/raw/china/nia-2024.html": {
+      "sha256": "5887231e741b12ce125c6555df56e4514f911d525722cdc46dd0ecf0ea166e57",
+      "bytes": 56025
+    },
+    "data/raw/china/nia-2025.html": {
+      "sha256": "da4f36930486cb1c8056c04e39bf450c0d0ee7b02e6fffea69f72b0a9370cb43",
+      "bytes": 45884
+    },
+    "data/raw/china_visa_context_v4/india_2023_kolkata.html": {
+      "sha256": "8fa90d90ef46cb3408812221b768bb352ed6a7ce3338633874f0375e14e1c8b6",
+      "bytes": 35973
+    },
+    "data/raw/china_visa_context_v4/india_2024_mcci.html": {
+      "sha256": "f41f1f8ce4ad9dbee663c8b580bd177a27370b1ce30fbc6ad26592bd89efe031",
+      "bytes": 33036
+    },
+    "data/raw/china_visa_context_v4/india_2025_apr21.html": {
+      "sha256": "a29a375af09a523fd044d95634bdc9dae763fceec3ee1a6d9d6053ab87b9b522",
+      "bytes": 28731
+    },
+    "data/raw/china_visa_context_v4/india_2025_q1_mfa.html": {
+      "sha256": "ab06b1fa933b37fc3ebf56ea522ce192e879459bdef08f28715d16d03eb83a2f",
+      "bytes": 33031
+    },
+    "data/raw/china_visa_context_v4/india_2025_sep22_mfa.html": {
+      "sha256": "0f770f72149d4a655046c1848199f0793cae11ff84a7e19f1609e69019ec311f",
+      "bytes": 26444
+    },
+    "data/raw/china_visa_context_v4/india_2025_sep9_mfa.html": {
+      "sha256": "1bf0f3387970902982eba633fbb1d8b9e44eb910dcbb0c5cc1ff69040a6f43c2",
+      "bytes": 32202
+    },
+    "data/raw/china_visa_context_v4/jordan_2024_reception.html": {
+      "sha256": "7dcd433a4a1b4da5fbafab65ba4ba2f6ca818d60dbd71af3bbdff5e732909cc3",
+      "bytes": 25975
+    },
+    "data/raw/china_visa_context_v4/saudi_2024_jeddah_mfa.html": {
+      "sha256": "87e3a4702b3d38a5569397ebe0a72e2c8df11a2ef94c7325b4e0ea5a5e8ccf1e",
+      "bytes": 61918
+    },
+    "data/raw/china_visa_context_v4/saudi_2024_riyadh_mfa.html": {
+      "sha256": "13cc55260b57941afcb66005c65780784cb82ffb81e7288bee952261643ccae1",
+      "bytes": 62396
+    },
+    "data/raw/demographic_context/china_taiwan_population_dec2025.html": {
+      "sha256": "2341f8201eac752eb9cdb0c4f31b78c12e0104828f1ccdece9aff2bb485ebb97",
+      "bytes": 90175
+    },
+    "data/raw/europe_expansion_v4/deu_residence_ordinance.html": {
+      "sha256": "13d9c6a37041b9dc7479c734b556df082f6833348d591863a075520341feaaba",
+      "bytes": 438852
+    },
+    "data/raw/europe_expansion_v4/deu_statistics_landing.html": {
+      "sha256": "970c410bb3442f02fca591b5314a252be6623bde8f96a344e48898814b6942e6",
+      "bytes": 90181
+    },
+    "data/raw/europe_expansion_v4/deu_visa_fee_exemptions.html": {
+      "sha256": "13236e55bd94b43e5980a7a05a1719bb4a76ed8a85b60aad0313495d6d1b0dd4",
+      "bytes": 137523
+    },
+    "data/raw/europe_expansion_v4/irl_month_resource.html": {
+      "sha256": "9900ed91793a9641d3af35938342f72792855d4c7f152779dc1cf54f52b59482",
+      "bytes": 36326
+    },
+    "data/raw/europe_expansion_v4/irl_nationality_resource.html": {
+      "sha256": "9233690fd7cbd2282cfd6b7b399e3d72686b1cb9d636915ca8434239a4f19329",
+      "bytes": 36491
+    },
+    "data/raw/evidence_refinement/schengen/denmark_agreements.html": {
+      "sha256": "0073ff84714a820bac8d27946b81e706bedf9615d76b38cddb237a73a0b4a894",
+      "bytes": 19887
+    },
+    "data/raw/evidence_refinement/schengen/denmark_rus_suspension2022.html": {
+      "sha256": "3d179e64fb7b350d66b08e7869a50c515cad79d44206f36692fb72364f19ca9d",
+      "bytes": 26167
+    },
+    "data/raw/evidence_refinement/schengen/norway_agreements.html": {
+      "sha256": "7d6831d0a7826775718eebc25cd4de0fb0338df417eec21e21edbf460f6793e9",
+      "bytes": 43874
+    },
+    "data/raw/evidence_refinement/schengen/norway_aze_treaty.html": {
+      "sha256": "751bd776228e81642b9733158323636cfeacb19f19234136f23aab41088b80c0",
+      "bytes": 92988
+    },
+    "data/raw/evidence_refinement/schengen/norway_rus_suspension.html": {
+      "sha256": "306a8e16e66cc8c1622612bb0e7dc31124ddb58d1d5252c8bf6791e85ac6279f",
+      "bytes": 46428
+    },
+    "data/raw/evidence_refinement/schengen/swiss_agreements.html": {
+      "sha256": "9bfc17388f991b7764dcc4c5763c39906c69e091bfb40f40e3ab3f1d4f95bc80",
+      "bytes": 206746
+    },
+    "data/raw/evidence_refinement/schengen/swiss_rus_chronology2022.html": {
+      "sha256": "837522ad2b38dd0eb1900987be45b8ed6d9f5f1a97938031daf1f756f9c9c7ae",
+      "bytes": 59604
+    },
+    "data/raw/evidence_refinement/uk_canada/ca_public_accounts_2025.html": {
+      "sha256": "3d030925d7f14c11f0620a365b656c7e35771c11b59c206a56c058ca7a4bac55",
+      "bytes": 43691
+    },
+    "data/raw/evidence_refinement/uk_canada/ca_public_accounts_2025_intro.html": {
+      "sha256": "5d19d11dd7a21b0551cd07a3f5564a7ba4afe5918c397db3147899126a984638",
+      "bytes": 22282
+    },
+    "data/raw/evidence_refinement/uk_canada/ca_public_accounts_2026.html": {
+      "sha256": "51de510c1ea1c7cc71019497d9823e73f29f09b6280f4301c122527ea940cc44",
+      "bytes": 43579
+    },
+    "data/raw/evidence_refinement/uk_canada/ca_public_accounts_2026_intro.html": {
+      "sha256": "59973faa6fb7c9d42742a202807f257d363881d885e352a856e65c8b008ca90d",
+      "bytes": 21477
+    },
+    "data/raw/france/senate-visa-report-20250924.html": {
+      "sha256": "252288f27627f6f91b2fb411aec1b56bbb5e1198f658f873d6a0d18a86906420",
+      "bytes": 545712
+    },
+    "data/raw/fx/fed-g5a-20260105.html": {
+      "sha256": "96cefedba26105283824a58215ef505218e7acfd6482c75d1482b669840261db",
+      "bytes": 83729
+    },
+    "data/raw/global_americas_africa/ar_student.html": {
+      "sha256": "c36090db3b80ede166d747f2d43cd8ec27be8b0860f7112525bec73f15b9b9a9",
+      "bytes": 56099
+    },
+    "data/raw/global_americas_africa/ar_tourist.html": {
+      "sha256": "336f792e2c04ff5566008d861fabf6d9c34c4327b045e69130589e9dbadca6ab",
+      "bytes": 53165
+    },
+    "data/raw/global_americas_africa/ar_work.html": {
+      "sha256": "4dc2158dee46bf4f8073bd25784a6080a3cfa4f8cb2bd5d1622b7453c01d3e2d",
+      "bytes": 55200
+    },
+    "data/raw/global_americas_africa/br_consolidated2026.html": {
+      "sha256": "80b57113f5530be6105d8420b742e608e4097a84699fb21cd73da477fa1804ee",
+      "bytes": 391991
+    },
+    "data/raw/global_americas_africa/br_fees2025_legal.html": {
+      "sha256": "468c44af76ac89738f86f717e39afa1e1b9c642065148f4f58886d35209595a4",
+      "bytes": 102334
+    },
+    "data/raw/global_americas_africa/br_mre_index.html": {
+      "sha256": "92b68ece0277c8dee8aee378c2c5bfc77e133d35dcbd4e604ca06ac69ed7bbab",
+      "bytes": 328841
+    },
+    "data/raw/global_americas_africa/cl_fee_index.html": {
+      "sha256": "45f8f1bca566404124f78e27403ef57e1d6bae0281fb105f241b96312f91affa",
+      "bytes": 84842
+    },
+    "data/raw/global_americas_africa/cl_visa.html": {
+      "sha256": "8328565823fbafa1e80cf15f245424d7143bf563cc97f587dac2a96f413d74e9",
+      "bytes": 93923
+    },
+    "data/raw/global_americas_africa/do_fees.html": {
+      "sha256": "4333b00bf4a50a7da91b199efa5562b71c0271fd109c7b7fd28f4cd590c1fed7",
+      "bytes": 297786
+    },
+    "data/raw/global_americas_africa/eg_faq.html": {
+      "sha256": "1159154bf3aa38162495735a7e77b6a428801a6059d6179dc8dbf4327df3b2b0",
+      "bytes": 27549
+    },
+    "data/raw/global_americas_africa/et_tourist.html": {
+      "sha256": "4ba5e8391f80cf07b801a6bc2438522f402159b2127d311df456078587870fd8",
+      "bytes": 1072
+    },
+    "data/raw/global_americas_africa/ke_eta.html": {
+      "sha256": "ddf9a70b029e334218bf345dbb783e0a7dc541d92fca23d5ff840e38d5dbec7b",
+      "bytes": 52839
+    },
+    "data/raw/global_americas_africa/ma_formalities.html": {
+      "sha256": "af831c3c68d9726ab1d9d110877577ddd8cae0705e38547896bf51dfe61f16ad",
+      "bytes": 142771
+    },
+    "data/raw/global_americas_africa/mx_sre_report_index.html": {
+      "sha256": "930740590bfb88a129d5ecfa188bc625e2cc9b02b1e43e256d163e2395819124",
+      "bytes": 61102
+    },
+    "data/raw/global_americas_africa/pe_tourist.html": {
+      "sha256": "9362536df84ff59ed4d546d6066604763b7bb47900063f540aee8b261fc8e199",
+      "bytes": 87607
+    },
+    "data/raw/global_americas_africa/tz_guidelines.html": {
+      "sha256": "1b00d0ce3ab4becaff0c78553c2ff1ab825ec0c5f4161b1bb0c504a6690b79c3",
+      "bytes": 48975
+    },
+    "data/raw/global_americas_africa/tz_mof.html": {
+      "sha256": "a717754beb39a012d9b10dc169f22e2581f95dfc00edb40232349a3b1b2e8b16",
+      "bytes": 280086
+    },
+    "data/raw/global_americas_africa/ug_visa_fees.html": {
+      "sha256": "9355b8404c53e762dd34cf9b20190f530a0f881fae7c9792c08440990cd24575",
+      "bytes": 74188
+    },
+    "data/raw/global_asia_me_europe/arm_fees.html": {
+      "sha256": "a7804fd4679e5f5e4589dce52acdb0a8c997ca1ae6b0bc3e04476ddc4bac7956",
+      "bytes": 52166
+    },
+    "data/raw/global_asia_me_europe/cyp_fees2024.html": {
+      "sha256": "23138c173c9e354931b80f12da86f61e04fdebd71337cba0dee575765b47e1b3",
+      "bytes": 60121
+    },
+    "data/raw/global_asia_me_europe/geo_fees.html": {
+      "sha256": "db6a6426f490f9decbbf0ccba52facf4c4472eb50173acb61fb1b5661fc935c5",
+      "bytes": 24476
+    },
+    "data/raw/global_asia_me_europe/idn_2024.html": {
+      "sha256": "3cc3111ab6862dca9a8750e4b5b8fb2358da72a57bf1450a48d7994160ddb71b",
+      "bytes": 725404
+    },
+    "data/raw/global_asia_me_europe/idn_2025.html": {
+      "sha256": "6705870dac11aba08e73464528f8ff2eb3fc9b7a0b957f3fc0d7c7087f46badf",
+      "bytes": 49344
+    },
+    "data/raw/global_asia_me_europe/idn_fee_2024.html": {
+      "sha256": "421df725a8479781aa51576fa6da6383c1ad0e5df6594a04338b4f7550bb147f",
+      "bytes": 238827
+    },
+    "data/raw/global_asia_me_europe/irl_fees.html": {
+      "sha256": "0c492e9995e423278aa0dfc283b4130e73e5d33862169cd56bac3fa3993f03bd",
+      "bytes": 1792647
+    },
+    "data/raw/global_asia_me_europe/npl_china_policy.html": {
+      "sha256": "2bad5a93a261052932701d0507168026c3d686360b2b93f84510ff08de9006df",
+      "bytes": 285795
+    },
+    "data/raw/global_asia_me_europe/npl_cn_fees.html": {
+      "sha256": "47ea65ad0dd01e44c79dcf71279a56d43b2951cb8d2a13e310b963f6a6d43703",
+      "bytes": 150659
+    },
+    "data/raw/global_asia_me_europe/npl_fees.html": {
+      "sha256": "b6a2f0f6f7c5a4d13327b09ca434c6b138a4aa1a88c90a49b841cf9a4ba186d8",
+      "bytes": 74314
+    },
+    "data/raw/global_asia_me_europe/omn_fees.html": {
+      "sha256": "77787cf136768a3f8d713b8755669786e41df277e7c105545823dd5a5421db5d",
+      "bytes": 39205
+    },
+    "data/raw/global_asia_me_europe/phl_fees.html": {
+      "sha256": "e93eb01ff93cb78e3de73fb986d93d21cf6d1ec86b9ac7dc9a7019fc02a15b53",
+      "bytes": 145314
+    },
+    "data/raw/global_asia_me_europe/qat_fees.html": {
+      "sha256": "467f672c206b7afc0460c40913e0b2ba6eb0b5e7fd0b163ce5870e3034f4bc85",
+      "bytes": 490154
+    },
+    "data/raw/global_asia_me_europe/srb_fees.html": {
+      "sha256": "636f9fe77ec7161b6b9ee93e3aa1b7be9b53b2045fbe0f166cde59af32c6c3b8",
+      "bytes": 56121
+    },
+    "data/raw/global_asia_me_europe/uzb_fees.html": {
+      "sha256": "e444d15e3a9fe8c2648d24adb4035e624ade11aa643b055b46c52f61ebb23af4",
+      "bytes": 303669
+    },
+    "data/raw/global_recent_mobility_v4/eurostat_tourism_metadata.html": {
+      "sha256": "aa7875adfc8368d1296f1f09671ccca444068c65dc2c28403ecd9aad279beeff",
+      "bytes": 233794
+    },
+    "data/raw/history/eu_belarus_fee.html": {
+      "sha256": "e6323f4c61bff0095d4c72c9ddebe7731a70750d4719f6d82b1b19e3907b2b83",
+      "bytes": 78972
+    },
+    "data/raw/history/eu_eastern_visa.html": {
+      "sha256": "8d24501d3d5b61bf5084d32fe8fb4490ecc7815d4daf0828a5b52682e9a3deb1",
+      "bytes": 321762
+    },
+    "data/raw/history/eu_russia_measures.html": {
+      "sha256": "edf56b88f5489c6cd0973bf904080606aafe5fce64e6e77b0546e50a1afded39",
+      "bytes": 161429
+    },
+    "data/raw/history/eu_ukraine_fee.html": {
+      "sha256": "b33df4de110a6a35a01a6eb46d5ba4927a9419dca00e32596f468c2d5a3999d9",
+      "bytes": 110090
+    },
+    "data/raw/history/eu_visa_policy.html": {
+      "sha256": "611a57d6c30e542f212cba733652682f13a00b12e07d9e8af503d00a4813541b",
+      "bytes": 338555
+    },
+    "data/raw/history/fed_g5a_20190102.html": {
+      "sha256": "0a0a72f6206764632f43b98ab0567a04b21a45fc42871f628ca464918c69360a",
+      "bytes": 80212
+    },
+    "data/raw/history/fed_g5a_20220103.html": {
+      "sha256": "84c1fbbcd733a0353aa3c6bc1bf4ad3aabc654a8c5d789897827d5f4f03e698f",
+      "bytes": 88885
+    },
+    "data/raw/history/uk_fees2020.html": {
+      "sha256": "9fed0892b8376019c864b122717d466a0ef40e7c319e64c3230f08441c058f76",
+      "bytes": 675231
+    },
+    "data/raw/history/uk_fees2023_news.html": {
+      "sha256": "3426c52028f0700d3e0921680cbae2aae436c9760fe35182f04bde1136324d49",
+      "bytes": 71151
+    },
+    "data/raw/history_expansion/fx_2013.html": {
+      "sha256": "9a4b20597d3e96943bee68f7f6af509c484ec0986fcb6549c0f6a6eae43557c8",
+      "bytes": 19642
+    },
+    "data/raw/history_expansion/fx_2016.html": {
+      "sha256": "39e67cb442e6a9cb2190ca5a60cffacdeb1fcd156c6184ff76e72af70d4b7c92",
+      "bytes": 19601
+    },
+    "data/raw/history_expansion/fx_2019.html": {
+      "sha256": "9abf2821668584d4ae5369259d9bd8cfc22d444deafb6a417fc6b67bf414109e",
+      "bytes": 80212
+    },
+    "data/raw/history_expansion/fx_2022.html": {
+      "sha256": "9967ee23bc100a7a2c9833b2f74cee3980416ed02569c1d2f414766c35c0950e",
+      "bytes": 88885
+    },
+    "data/raw/history_expansion/fx_2026.html": {
+      "sha256": "12a6c1489afceebcca01ef36a1675d1a0f036b9cb3296c145fddc8a8021d9ea8",
+      "bytes": 83729
+    },
+    "data/raw/history_expansion/korea_fee2014.html": {
+      "sha256": "33126b9b7ce84fdf13183f1ceb4687409801e589a76fa22536d1c549d8818c89",
+      "bytes": 72547
+    },
+    "data/raw/india/beijing_fees.html": {
+      "sha256": "00aaf91bdc39d63e1dd6c49b4e0be8ffa0382e909ba2cb04f1437aeaec797ae6",
+      "bytes": 183800
+    },
+    "data/raw/japan/estat-2024.html": {
+      "sha256": "097ad7440660374cc1a65bbaaaf69041f6a6043fa276b2304e2a17272ababa26",
+      "bytes": 147828
+    },
+    "data/raw/japan/estat-2025.html": {
+      "sha256": "a241ba8567fe4d4fe9ef0c12fabb1fb57c1d59c9171b8b0c1122d06d4913b956",
+      "bytes": 147687
+    },
+    "data/raw/korea/moj2024_accounts_index.html": {
+      "sha256": "a829a3a77f01b0d58d767bf7a1ff5905980fe0a64ce28e5668d1f28934b2f16d",
+      "bytes": 24939
+    },
+    "data/raw/korea/visa_fee_chicago.html": {
+      "sha256": "b787e016975dd10ebf480cb9106873d1351756d6e779b607319e2279bab27a3e",
+      "bytes": 75360
+    },
+    "data/raw/korea/visa_portal_fees.html": {
+      "sha256": "cd75667eefe34fa48f03b4c1580e8c76435199cf6411d3db9ddd6eac86ac120b",
+      "bytes": 51826
+    },
+    "data/raw/korea/yearbook2024_index.html": {
+      "sha256": "97350bcd08a408c15683a6c67bee48b35664284731e4405f564fb11e0d410190",
+      "bytes": 26636
+    },
+    "data/raw/korea/yearbook2025_index.html": {
+      "sha256": "830dd67ab47211a3be69b93becc4af12322f8439a731aed8003c9bc5e3aacf2c",
+      "bytes": 27690
+    },
+    "data/raw/malaysia/waiver-2025.html": {
+      "sha256": "6dd9f013267df32deef35690fe83d5bb3aa5f800eca7d2b030aa3b01268b37e8",
+      "bytes": 7515
+    },
+    "data/raw/middleeast_europe_v7/arm_draft_6855_justification.html": {
+      "sha256": "f857aff9d919b79fb3e5b0c648a08608bf249a9b50f37eb1e5cdb48007d8cf7e",
+      "bytes": 39948
+    },
+    "data/raw/middleeast_europe_v7/arm_state_duty_2023_consolidated.html": {
+      "sha256": "7aa4abf7c669f8aeac08df6fade61bcced930550225911fcee45f6e7614f6143",
+      "bytes": 544414
+    },
+    "data/raw/mobility_context_v4/eurostat_metadata.html": {
+      "sha256": "1537d1f462b08cc2316f6e032c57652ab27224314b4f583f387c635de1726fc2",
+      "bytes": 240668
+    },
+    "data/raw/mobility_context_v4/nia_2019.html": {
+      "sha256": "131b268a14a3e89483b23845df634dc8c8e8d68c964985381500360bd57a1cdb",
+      "bytes": 29772
+    },
+    "data/raw/mobility_context_v4/nia_2021.html": {
+      "sha256": "b7b721abe5e39a26e998ea9fdbbbff87bf3aecab6900e8c7bc8181535b0f06d4",
+      "bytes": 43819
+    },
+    "data/raw/mobility_context_v4/nia_2022.html": {
+      "sha256": "421ba9901316f84f83ab0f5b6c4a0432059802d4fa88484f24d72f805e87a3eb",
+      "bytes": 37975
+    },
+    "data/raw/mobility_context_v4/nia_2023.html": {
+      "sha256": "0ebcbc706603baf787c25ea97546f80a6ef621f6bb285b8373971d5aed99086d",
+      "bytes": 41641
+    },
+    "data/raw/newzealand/fee-change-2024.html": {
+      "sha256": "8e1516b2b8451f59d1632f0f3f9a56ff79839cf9253e6706d9cd14a918018dff",
+      "bytes": 671880
+    },
+    "data/raw/newzealand/refund.html": {
+      "sha256": "d83474326bf67537ca835d282240a5f960a32623ec3b9291aa8349c9b60a9859",
+      "bytes": 673429
+    },
+    "data/raw/philippines_expansion_v7/transparency_seal.html": {
+      "sha256": "74203c1c97e75cdd41f13c939c0fe2987f3a0b48fb2753e3447036eccdbf45f7",
+      "bytes": 578707
+    },
+    "data/raw/schengen/applying.html": {
+      "sha256": "c2b10897f85bbfdc9f4497562b84c8a23c744e949cf4deaf4d8d42975c7f1a0f",
+      "bytes": 324923
+    },
+    "data/raw/schengen/fee-change-2024.html": {
+      "sha256": "8f990b89afcfd4d6798a474c20218b8362d74e6e3d1dbaab2857c7893913fd0f",
+      "bytes": 310514
+    },
+    "data/raw/schengen/statistics-landing.html": {
+      "sha256": "618a816b31ff5bc6a735525fc151a13d3ec9c966f25a5659b83deda38f3fa1ea",
+      "bytes": 316530
+    },
+    "data/raw/singapore/waiver-2024.html": {
+      "sha256": "ec08fce8fb9c116e1f068704b4abbfae9340760be55685f29639deec6557030a",
+      "bytes": 301926
+    },
+    "data/raw/south_asia_expansion_v7/npl_doi_publication_index.html": {
+      "sha256": "d4da8d92cbbb3852d80faab8b55ea6d4ad16cd2df59f3365fcf5ecd9318f50a8",
+      "bytes": 73210
+    },
+    "data/raw/south_asia_expansion_v7/npl_fcgo_english_index.html": {
+      "sha256": "7219b38b0f6b8ae240c8fde8c4ba68c635d7ee054f84f2bf4a4d66317f7f80d7",
+      "bytes": 151289
+    },
+    "data/raw/spatial_expansion_v2/aze_state_fee.html": {
+      "sha256": "4eaa33db95f9a1fc428de66827cd7f6928f2c9b316da10272f66eada27a2f85f",
+      "bytes": 55631
+    },
+    "data/raw/spatial_expansion_v2/mng_2023.html": {
+      "sha256": "09ffdb18e629d8dde7493c760eeed33c2e3fb9b0b7310f405549394881429b48",
+      "bytes": 30853
+    },
+    "data/raw/spatial_expansion_v2/mng_2024.html": {
+      "sha256": "c34209513aa1f27b42aa0f2dad3910a59f62ee518d20d7a2f0ad9b5ef621099e",
+      "bytes": 31070
+    },
+    "data/raw/spatial_expansion_v2/mng_2024_conflict.html": {
+      "sha256": "91e25dd1d496dbb0ad7d0b17a975c3652d6422dbd175b55e689452a7180bcf3b",
+      "bytes": 30058
+    },
+    "data/raw/spatial_expansion_v2/mng_2024_nationality.html": {
+      "sha256": "ebd5d7fd2179a91d7d2a82baf30399a6707137f3a2edb38ac4aa5e41a04c17e5",
+      "bytes": 28560
+    },
+    "data/raw/spatial_expansion_v2/mng_2025_ikon.html": {
+      "sha256": "1418192ebae93aa67ac89e90cac673efe58c419eaf6ee68ca19c2af6164df8f5",
+      "bytes": 54413
+    },
+    "data/raw/spatial_expansion_v2/nam_central_bank_peg.html": {
+      "sha256": "79fabb77ccd90a5a2d5a17dcfd354fc6577f53c2cb76b0992c43649695f9795f",
+      "bytes": 132380
+    },
+    "data/raw/spatial_expansion_v2/nam_fee2025.html": {
+      "sha256": "f88fbf361d62ce825060fccbcc0829645bce9153113501f83d90eae3170cb1e6",
+      "bytes": 55472
+    },
+    "data/raw/spatial_expansion_v2/nam_nbc2026.html": {
+      "sha256": "178ca10d59e8ed3131b33e0330e5c80fe027ab2436cf50bd568632450d1894d1",
+      "bytes": 43235
+    },
+    "data/raw/spatial_extension/ae_tourist_single.html": {
+      "sha256": "8a020d84173e0cf0bc387cc087868b79c0d1f32bf39ab6b44e79a47d73e84d35",
+      "bytes": 247779
+    },
+    "data/raw/spatial_extension/sa_pep2025.html": {
+      "sha256": "77c99d590509b0ad9234d4768fa64a92789e1db1465f59b8f79fef73e98c59d6",
+      "bytes": 44395
+    },
+    "data/raw/spatial_extension/vn_mps_circular2023.html": {
+      "sha256": "be1e5ca9779b0565cdd01f08b7a89b13b46c5d29eab128e9a9e008364bd367b4",
+      "bytes": 331314
+    },
+    "data/raw/spatial_extension/vn_vna2024_original.html": {
+      "sha256": "00280076f31f736bb283e4d6ea4368cbb8521003271516670affdece4a2878ba",
+      "bytes": 52019
+    },
+    "data/raw/spatial_extension/vn_vna2025.html": {
+      "sha256": "c73f8b72feb83eebd4357b6d36e255aebb2d28258f25d4ec3885576500f344d0",
+      "bytes": 130779
+    },
+    "data/raw/thailand/waiver-2023.html": {
+      "sha256": "a4a42352c78e1fd7768d86170d67288e6e010bfaf5f8e0bae0eef8b7cdad6834",
+      "bytes": 60614
+    },
+    "data/raw/time_space/fed_g5a_20150102.html": {
+      "sha256": "dd813129f02ab842a8cb501ad34930caca89fb2cbb755b8ca1a06b2a581abade",
+      "bytes": 20222
+    },
+    "data/raw/time_space/visa_code2009.html": {
+      "sha256": "ac3718f777f786d532156c0d06fb43bd8670d76e771bbcae39d330a97e623aab",
+      "bytes": 7414
+    },
+    "data/raw/turkey_russia_saudi/ru_china_embassy_extension.html": {
+      "sha256": "31e461e1de1790b9479db0684f4662c6a8f22d971736aec866a9a741df752641",
+      "bytes": 36964
+    },
+    "data/raw/turkey_russia_saudi/ru_evisa_faq.html": {
+      "sha256": "392e5d7383dcc61b848f53c222cd6600fb154675618a2461fdc72dd52fc4e9e7",
+      "bytes": 118015
+    },
+    "data/raw/turkey_russia_saudi/ru_evisa_instructions.html": {
+      "sha256": "4d3c49636eb8cd1cbf6efd4b2408f9a2dc3291cca6db90f1fffb12b3289ad18d",
+      "bytes": 134319
+    },
+    "data/raw/turkey_russia_saudi/ru_evisa_meta_good.html": {
+      "sha256": "bec3502edd2b41c6d74b28dfd533acd2135be7d6a7b1dcef1e01de97a93027d4",
+      "bytes": 197118
+    },
+    "data/raw/turkey_russia_saudi/ru_fee_law.html": {
+      "sha256": "b1e66cac74cf0124e7ada9cb35926125270ce86ed20dc69be03c02a2370ecf85",
+      "bytes": 35570
+    },
+    "data/raw/turkey_russia_saudi/ru_waiver_extended.html": {
+      "sha256": "9345c38cbe37c58041a0093d3bf865c3ee011f61a52d4daafdf6b357c59f03ec",
+      "bytes": 106664
+    },
+    "data/raw/turkey_russia_saudi/ru_waiver_original.html": {
+      "sha256": "cc2ef18c24c6a5662f1ef390b6bb959a34f911db91d1267b6d3129705e2496c7",
+      "bytes": 109898
+    },
+    "data/raw/turkey_russia_saudi/sa_umrah_2025.html": {
+      "sha256": "59f799f6d6e8657e31b673b33c6bbf62220e3a4b498e60a4ba2a3a2001e4d977",
+      "bytes": 169584
+    },
+    "data/raw/turkey_russia_saudi/tr_beijing_2024.html": {
+      "sha256": "9592fb17af44d678928c31ac4186319885a4d36006ef02378ec9c230e5aee302",
+      "bytes": 42229
+    },
+    "data/raw/turkey_russia_saudi/tr_fee_historic.html": {
+      "sha256": "a96fa434dc19578f0916804d2d9e14b5519d077ed29e5294b7ee46fc64524223",
+      "bytes": 25245
+    },
+    "data/raw/turkey_russia_saudi/tr_fee_wise2025.html": {
+      "sha256": "5057c87a71dad541b33d1c7cdeb117f4b19facaa2160c61bd036088f226be710",
+      "bytes": 352853
+    },
+    "data/raw/uk/data-tables.html": {
+      "sha256": "9bcfa4c82dd626486974a4df944589d1cedbd959f529a9ed4eef30f8330f1064",
+      "bytes": 177396
+    },
+    "data/raw/uk/uk_fees_apr2024.html": {
+      "sha256": "b6a41b0cefe43822cc67fad28a80f23ef3ad98b3e627415800951ae8b9172146",
+      "bytes": 181062
+    },
+    "data/raw/uk/uk_fees_apr2025.html": {
+      "sha256": "63289e96fc6c47204274fc62bfc12565655b41e814b742acb07c896b2fd01802",
+      "bytes": 203293
+    },
+    "data/raw/uk/uk_fees_apr2026.html": {
+      "sha256": "6dd03f886bb4a223316bccf4bf9e8e8afa68ea280026c28c7f4d626513e6f0d4",
+      "bytes": 198085
+    },
+    "data/raw/uk/uk_fees_oct2023.html": {
+      "sha256": "710e41f297519383085cc3f784b01307007d871c13a6856b8dcc6923f0403717",
+      "bytes": 127183
+    },
+    "data/raw/uk/uk_fees_oct2024.html": {
+      "sha256": "49c64c1d9280b28149045659ebd34adc36effca763c98bbe351ca08a9ced9422",
+      "bytes": 193191
+    },
+    "data/raw/uk/uk_ihs.html": {
+      "sha256": "7d1379c9b0c703b6da674ca1166e1b1d1eeef6526821ccac01a040196ad862c2",
+      "bytes": 73119
+    },
+    "data/raw/uk/uk_ihs_guidance.html": {
+      "sha256": "463353e0303b2a0902637cc3c0c83e64ef2ae79702bd2b7e2095e01bc4dce965",
+      "bytes": 253038
+    },
+    "data/raw/uk/uk_ihs_refunds.html": {
+      "sha256": "854d67015317dbd38844af97b03250bad39b6a429ef0948acc4a19ecdeeb4536",
+      "bytes": 82830
+    },
+    "data/raw/uk/uk_refund.html": {
+      "sha256": "b68102817aad8d24adfe85ceaaded941863c8e4ef4f18f18c7e4d63a08e59992",
+      "bytes": 79667
+    },
+    "data/raw/uk/uk_refund_policy.html": {
+      "sha256": "85fa8cbe601520b354f6c63a45eca8773e216ead1a09a442210b0b3462cc3c76",
+      "bytes": 146000
+    },
+    "data/raw/uk/uk_visitor_apply.html": {
+      "sha256": "136f402bda1fdbc5a578435b33bfc737fd722f5d3aed24dec593777832efabea",
+      "bytes": 92739
+    },
+    "data/raw/uk_history_v2/china_two_year2016.html": {
+      "sha256": "8b5f773adc92b835c1ef141aad933ef9fd5192f2ff88eeb9a5e271c3dd2da29a",
+      "bytes": 68380
+    },
+    "data/raw/us/us_uscis2024_fee_rule.html": {
+      "sha256": "0ef7060356d30f11fbde4dbfcb3b1229af61442758f3e024c08899f64b730d38",
+      "bytes": 1130407
+    },
+    "data/raw/us_history_v4/omb2021_state.html": {
+      "sha256": "e807534269140a16a0080823f29482153ba00da0719dbb9f781bf1e0ad03d228",
+      "bytes": 3141447
+    },
+    "data/raw/us_recent_v6/gao_26_107902.html": {
+      "sha256": "1a67b4250013e867727e212b100c9df6f3401bc8c01f5c23de4fcf6b9f6297dd",
+      "bytes": 171533
+    },
+    "data/raw/vietnam/evisa-rules.html": {
+      "sha256": "759869005f80f6cf1e5a2d830f9586d9bcf70de624db624b977d933488bc3665",
+      "bytes": 24170
+    },
+    "data/raw/vietnam/faq.html": {
+      "sha256": "93255b7053f991eb4c763a0a815f784fb179336ae18450851b4bc77a57a48ee7",
+      "bytes": 79066
+    },
+    "data/raw/vietnam/fees-official-2025.html": {
+      "sha256": "733b80788c3c4ab964f433bae871dfc1429a8e78400578b6f622d7d4d3eecb2e",
+      "bytes": 64753
+    },
+    "data/raw/world_inventory/un_m49.html": {
+      "sha256": "767c10df5862c78f51070df51251ca48712d626044864be83556a5dccffe6cd1",
+      "bytes": 1721765
+    }
+  }
+}

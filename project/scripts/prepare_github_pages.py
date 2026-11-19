@@ -9,6 +9,7 @@ import shutil
 
 from build_github_source_archive import application_paths, copy_verified, prepare_sources, DEFAULT_REPO, MIB
 from sanitize_source_archives import KEY
+from freeze_pages_snapshots import freeze
 from workbench_payloads import workbench_payloads
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -48,7 +49,7 @@ def main():
     online_index_gzip = gzip.compress(archive['index_bytes'], compresslevel=9, mtime=0)
     extras['app/data/index.json.gz'] = online_index_gzip
     extras.update({f'app/data/{name}': raw for name,raw in workbench_payloads(json.loads(archive['index_bytes'])).items()})
-    expected = paths | set(extras) | {'index.html', '.nojekyll', 'deployment.json'}
+    expected = paths | set(extras) | {'index.html', '.nojekyll', 'deployment.json', 'source-pages-snapshots.json'}
     for previous in SITE.rglob('*'):
         if previous.is_file() and str(previous.relative_to(SITE)) not in expected:
             previous.unlink()
@@ -60,6 +61,7 @@ def main():
         copy_verified(src, dest, archive['source_hashes'].get(relative))
     for relative, raw in extras.items():
         (SITE/relative).write_bytes(raw)
+    freeze(SITE)
     (SITE/'app/data/index.json').write_bytes(archive['index_bytes'])
     html = (ROOT / 'app/index.html').read_text()
     (SITE / 'index.html').write_text(html.replace('<head>', '<head><base href="./app/">', 1))

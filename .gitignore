@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+project/app/workbench/node_modules/
+project/app/workbench/build/
+project/app/assets/
+project/app/data/
+project/app/dist/
+project/app/index.html
+project/app/build-manifest.json
+project/app/签证这笔钱-离线版.html
